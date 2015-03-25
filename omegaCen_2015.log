@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.25)  24 MAR 2015 14:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  25 MAR 2015 11:12
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Durbin_paper_vsedit.tex
-(./Durbin_paper_vsedit.tex
+**omegaCen_2015.tex
+(./omegaCen_2015.tex
 LaTeX2e <2014/05/01>
-Babel <3.9k> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/aastex/aastex.cls
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/Users/vs/Library/texmf/tex/latex/aastex52/aastex.cls
 Document Class: aastex 2005/06/22 5.2/AAS markup document class
 Class aastex Info: Original \LaTeX2.09 style by Chris Biemesderfer (chris@seago
 at.com). Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com) on input line 83.
@@ -77,11 +77,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
+(/Users/vs/Library/texmf/tex/latex/aastex52/natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
 \bibhang=\skip43
 \bibsep=\skip44
-LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \cite on input line 518.
 \c@NAT@ctr=\count88
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/tools/verbatim.sty
@@ -174,8 +174,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(./Durbin_paper_vsedit.aux)
-\openout1 = `Durbin_paper_vsedit.aux'.
+(./omegaCen_2015.aux)
+\openout1 = `omegaCen_2015.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
@@ -278,110 +278,110 @@ e 61.
 
 [3] [4] [5] [6]
 Missing character: There is no Õ in font cmr10!
- [7] (./Durbin_paper_vsedit.bbl [8]) [9]
+ [7] (./omegaCen_2015.bbl [8]) [9]
 Page 1 of table 2 has been set to width 205.34285pt with 36 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 135--139
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 138--142
  [][][] 
  []
 
 Page 1 of table 3 has been set to width 335.11876pt with 36 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 148--154
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 151--157
  [][][] 
  []
 
 Page 1 of table 4 has been set to width 208.38454pt with 36 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 163--167
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 166--170
  [][][] 
  []
 
 Page 1 of table 5 has been set to width 208.38454pt with 36 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 176--180
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 179--183
  [][][] 
  []
 
 Page 1 of table 6 has been set to width 208.38454pt with 36 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 189--193
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 192--196
  [][][] 
  []
 
 Page 1 of table 7 has been set to width 464.47722pt with 44 lines per page 
 
-LaTeX Warning: Float too large for page by 13.62924pt on input line 257.
+LaTeX Warning: Float too large for page by 13.62924pt on input line 260.
 
 [10] [11]
 Page 2 of table 7 has been set to width 464.47722pt with 44 lines per page 
 
-Overfull \hbox (469.75499pt too wide) in paragraph at lines 257--265
+Overfull \hbox (469.75499pt too wide) in paragraph at lines 260--268
  [][][] 
  []
 
 Plottwo included the files PL_3p6.eps PL_4p5.eps
 Package epstopdf Info: Source file: <PL_3p6.eps>
-(epstopdf)                    date: 2014-06-16 18:42:18
+(epstopdf)                    date: 2015-03-25 10:59:43
 (epstopdf)                    size: 56515 bytes
 (epstopdf)             Output file: <PL_3p6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-24 10:19:30
+(epstopdf)                    date: 2015-03-25 10:59:43
 (epstopdf)                    size: 42604 bytes
-(epstopdf)             Command: <epstopdf --outfile=PL_3p6-eps-converted-to.pdf
- PL_3p6.eps>
-(epstopdf)             \includegraphics on input line 270.
+(epstopdf)             Command: <repstopdf --outfile=PL_3p6-eps-converted-to.pd
+f PL_3p6.eps>
+(epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 <PL_3p6-eps-converted-to.pdf, id=52, 433.62pt x 361.35pt>
 File: PL_3p6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PL_3p6-eps-converted-to.pdf>
-Package pdftex.def Info: PL_3p6-eps-converted-to.pdf used on input line 270.
+Package pdftex.def Info: PL_3p6-eps-converted-to.pdf used on input line 273.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 Package epstopdf Info: Source file: <PL_4p5.eps>
-(epstopdf)                    date: 2014-06-16 18:42:07
+(epstopdf)                    date: 2015-03-25 10:59:43
 (epstopdf)                    size: 56828 bytes
 (epstopdf)             Output file: <PL_4p5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-24 10:19:30
+(epstopdf)                    date: 2015-03-25 10:59:43
 (epstopdf)                    size: 42737 bytes
-(epstopdf)             Command: <epstopdf --outfile=PL_4p5-eps-converted-to.pdf
- PL_4p5.eps>
-(epstopdf)             \includegraphics on input line 270.
+(epstopdf)             Command: <repstopdf --outfile=PL_4p5-eps-converted-to.pd
+f PL_4p5.eps>
+(epstopdf)             \includegraphics on input line 273.
 Package epstopdf Info: Output file is already uptodate.
 
 <PL_4p5-eps-converted-to.pdf, id=53, 433.62pt x 361.35pt>
 File: PL_4p5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PL_4p5-eps-converted-to.pdf>
-Package pdftex.def Info: PL_4p5-eps-converted-to.pdf used on input line 270.
+Package pdftex.def Info: PL_4p5-eps-converted-to.pdf used on input line 273.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 
 Plottwo included the files Metallicity_3p6_Rey.eps Metallicity_4p5_Rey.eps
 Package epstopdf Info: Source file: <Metallicity_3p6_Rey.eps>
-(epstopdf)                    date: 2014-06-16 18:13:22
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 46892 bytes
 (epstopdf)             Output file: <Metallicity_3p6_Rey-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-24 10:19:31
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 29886 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6_Rey-eps-con
-verted-to.pdf Metallicity_3p6_Rey.eps>
-(epstopdf)             \includegraphics on input line 278.
+(epstopdf)             Command: <repstopdf --outfile=Metallicity_3p6_Rey-eps-co
+nverted-to.pdf Metallicity_3p6_Rey.eps>
+(epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
 <Metallicity_3p6_Rey-eps-converted-to.pdf, id=54, 433.62pt x 361.35pt>
 File: Metallicity_3p6_Rey-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_3p6_Rey-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_3p6_Rey-eps-converted-to.pdf used on input
- line 278.
+ line 281.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 Package epstopdf Info: Source file: <Metallicity_4p5_Rey.eps>
-(epstopdf)                    date: 2014-06-16 18:13:23
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 46945 bytes
 (epstopdf)             Output file: <Metallicity_4p5_Rey-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-24 10:19:31
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 29903 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5_Rey-eps-con
-verted-to.pdf Metallicity_4p5_Rey.eps>
-(epstopdf)             \includegraphics on input line 278.
+(epstopdf)             Command: <repstopdf --outfile=Metallicity_4p5_Rey-eps-co
+nverted-to.pdf Metallicity_4p5_Rey.eps>
+(epstopdf)             \includegraphics on input line 281.
 Package epstopdf Info: Output file is already uptodate.
 
 <Metallicity_4p5_Rey-eps-converted-to.pdf, id=55, 433.62pt x 361.35pt>
@@ -389,39 +389,39 @@ File: Metallicity_4p5_Rey-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_4p5_Rey-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_4p5_Rey-eps-converted-to.pdf used on input
- line 278.
+ line 281.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 
 Plottwo included the files Metallicity_3p6_Sollima.eps Metallicity_4p5_Sollima.
 eps
 Package epstopdf Info: Source file: <Metallicity_3p6_Sollima.eps>
-(epstopdf)                    date: 2014-06-16 18:13:18
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 43245 bytes
 (epstopdf)             Output file: <Metallicity_3p6_Sollima-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-03-24 10:19:31
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 27737 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6_Sollima-eps
--converted-to.pdf Metallicity_3p6_Sollima.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             Command: <repstopdf --outfile=Metallicity_3p6_Sollima-ep
+s-converted-to.pdf Metallicity_3p6_Sollima.eps>
+(epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 <Metallicity_3p6_Sollima-eps-converted-to.pdf, id=56, 433.62pt x 361.35pt>
 File: Metallicity_3p6_Sollima-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_3p6_Sollima-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_3p6_Sollima-eps-converted-to.pdf used on i
-nput line 286.
+nput line 289.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 Package epstopdf Info: Source file: <Metallicity_4p5_Sollima.eps>
-(epstopdf)                    date: 2014-06-16 18:13:18
+(epstopdf)                    date: 2015-03-25 10:59:43
 (epstopdf)                    size: 41496 bytes
 (epstopdf)             Output file: <Metallicity_4p5_Sollima-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-03-24 10:19:32
+(epstopdf)                    date: 2015-03-25 11:10:24
 (epstopdf)                    size: 26609 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5_Sollima-eps
--converted-to.pdf Metallicity_4p5_Sollima.eps>
-(epstopdf)             \includegraphics on input line 286.
+(epstopdf)             Command: <repstopdf --outfile=Metallicity_4p5_Sollima-ep
+s-converted-to.pdf Metallicity_4p5_Sollima.eps>
+(epstopdf)             \includegraphics on input line 289.
 Package epstopdf Info: Output file is already uptodate.
 
 <Metallicity_4p5_Sollima-eps-converted-to.pdf, id=57, 433.62pt x 361.35pt>
@@ -429,36 +429,36 @@ File: Metallicity_4p5_Sollima-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_4p5_Sollima-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_4p5_Sollima-eps-converted-to.pdf used on i
-nput line 286.
+nput line 289.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 
 Plottwo included the files Metallicity_3p6.eps Metallicity_4p5.eps
 Package epstopdf Info: Source file: <Metallicity_3p6.eps>
-(epstopdf)                    date: 2014-06-13 10:41:34
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 48659 bytes
 (epstopdf)             Output file: <Metallicity_3p6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-24 10:19:32
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 31422 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6-eps-convert
-ed-to.pdf Metallicity_3p6.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             Command: <repstopdf --outfile=Metallicity_3p6-eps-conver
+ted-to.pdf Metallicity_3p6.eps>
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 <Metallicity_3p6-eps-converted-to.pdf, id=58, 433.62pt x 361.35pt>
 File: Metallicity_3p6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_3p6-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_3p6-eps-converted-to.pdf used on input lin
-e 294.
+e 297.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
 Package epstopdf Info: Source file: <Metallicity_4p5.eps>
-(epstopdf)                    date: 2014-06-13 10:41:37
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 48453 bytes
 (epstopdf)             Output file: <Metallicity_4p5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-24 10:19:33
+(epstopdf)                    date: 2015-03-25 10:59:42
 (epstopdf)                    size: 31175 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5-eps-convert
-ed-to.pdf Metallicity_4p5.eps>
-(epstopdf)             \includegraphics on input line 294.
+(epstopdf)             Command: <repstopdf --outfile=Metallicity_4p5-eps-conver
+ted-to.pdf Metallicity_4p5.eps>
+(epstopdf)             \includegraphics on input line 297.
 Package epstopdf Info: Output file is already uptodate.
 
 <Metallicity_4p5-eps-converted-to.pdf, id=59, 433.62pt x 361.35pt>
@@ -466,26 +466,29 @@ File: Metallicity_4p5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_4p5-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_4p5-eps-converted-to.pdf used on input lin
-e 294.
+e 297.
 (pdftex.def)             Requested size: 232.52841pt x 193.77522pt.
  [12 <./PL_3p6-eps-converted-to.pdf> <./PL_4p5-eps-converted-to.pdf>] [13 <./Me
 tallicity_3p6_Rey-eps-converted-to.pdf> <./Metallicity_4p5_Rey-eps-converted-to
 .pdf> <./Metallicity_3p6_Sollima-eps-converted-to.pdf> <./Metallicity_4p5_Solli
 ma-eps-converted-to.pdf>] [14 <./Metallicity_3p6-eps-converted-to.pdf> <./Metal
 licity_4p5-eps-converted-to.pdf>]
-(./Durbin_paper_vsedit.aux)
+(./omegaCen_2015.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 3443 strings out of 493108
- 45961 string characters out of 6134847
- 144256 words of memory out of 5000000
- 6843 multiletter control sequences out of 15000+600000
+ 3306 strings out of 493117
+ 43280 string characters out of 6135433
+ 142727 words of memory out of 5000000
+ 6706 multiletter control sequences out of 15000+600000
  12568 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,28p,1688b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,28p,1682b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -501,7 +504,7 @@ e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
 4/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Durbin_paper_vsedit.pdf (14 pages, 434751 bytes).
+Output written on omegaCen_2015.pdf (14 pages, 434758 bytes).
 PDF statistics:
  492 PDF objects out of 1000 (max. 8388607)
  158 compressed objects within 2 object streams
