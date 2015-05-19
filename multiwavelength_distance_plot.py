@@ -66,11 +66,13 @@ for i in range(10):
     dmod_out = leastsq(fitfunc, dmod_prior, args=(pl_param[i], per, feh, mag), full_output=True)
     dmod_new = dmod_out[0][0]
     dmod_err = dmod_out[1][0][0]
-    print 'Band:', bands[j].ljust(5), '  Distance:', np.round(dmod_new, decimals=2), '+/-',     np.round(dmod_err, decimals=2), '  Mode:', pl_param[i,3], '  Number of RR Lyrae:', len(per)
+    print 'Band:', bands[j].ljust(5), '  Distance:', np.round(dmod_new, decimals=2), '+/-', \
+    np.round(dmod_err, decimals=2), '  Mode:', pl_param[i,3], '  Number of RR Lyrae:', len(per)
     xspace = np.linspace(np.min(per) - 0.03, np.max(per) + 0.03, 100)
     fehspace = np.linspace(np.min(feh), np.max(feh), 100)
     linfit = pl_param[i,1]*xspace + pl_param[i,0] + pl_param[i,2]*fehspace + dmod_new
-    ppl.errorbar(np.log10(data[7]), data[1] - mag_offset[j],                 yerr=data[2], color=plot_colors[j], fmt='o', alpha=0.7)
+    ppl.errorbar(np.log10(data[7]), data[1] - mag_offset[j], \
+    yerr=data[2], color=plot_colors[j], fmt='o', alpha=0.7)
     ppl.plot(xspace, linfit - mag_offset[j], 'k--')
     if i % 2 == 0:
         ppl.errorbar([],[],yerr=[],color=plot_colors[j],fmt='o',
