@@ -3,8 +3,8 @@
 
 # In[1]:
 
-get_ipython().magic(u'matplotlib inline')
-get_ipython().magic(u"config InlineBackend.figure_format='retina'")
+#get_ipython().magic(u'matplotlib inline')
+#get_ipython().magic(u"config InlineBackend.figure_format='retina'")
 import numpy as np
 import prettyplotlib as ppl
 from scipy.optimize import leastsq
@@ -52,6 +52,8 @@ plot_colors = [(0.718, 0, 0.718), (0.316, 0.316, 0.991),
 mag_offset = [9, 6.5, 4, 2, 0]
 mode = [0,1,0,1,0,1,0,1,0,1]
 
+plt.close()
+
 fig = plt.figure(figsize=(7,8))
 ax = fig.add_subplot(1,1,1)
 for i in range(10):
@@ -71,20 +73,21 @@ for i in range(10):
     xspace = np.linspace(np.min(per) - 0.03, np.max(per) + 0.03, 100)
     fehspace = np.linspace(np.min(feh), np.max(feh), 100)
     linfit = pl_param[i,1]*xspace + pl_param[i,0] + pl_param[i,2]*fehspace + dmod_new
-    ppl.errorbar(np.log10(data[7]), data[1] - mag_offset[j], \
+    plt.errorbar(np.log10(data[7]), data[1] - mag_offset[j], \
     yerr=data[2], color=plot_colors[j], fmt='o', alpha=0.7)
-    ppl.plot(xspace, linfit - mag_offset[j], 'k--')
+    plt.plot(xspace, linfit - mag_offset[j], 'k--')
     if i % 2 == 0:
-        ppl.errorbar([],[],yerr=[],color=plot_colors[j],fmt='o',
-                     label='${} - {}$'.format(bands[j], mag_offset[j]))
+        plt.errorbar([],[],yerr=[],color=plot_colors[j],fmt='o',
+                   label='${} - {}$'.format(bands[j], mag_offset[j]))
 ax.set_ylim(15.9, 2.4)
-ppl.legend(loc=4, prop={'size':14}, handlelength=1, numpoints=1, ncol=2)
+plt.legend(loc=4, prop={'size':14}, handlelength=1, numpoints=1, ncol=2)
 ax.set_ylabel('Magnitude')
 ax.set_xlabel('log P')
 ax.set_title(r'Multiwavelength $\omega$ Cen PL relations', fontsize=15)
 fig.tight_layout()
-fig.savefig('multiwavelength_PL.pdf')
+#fig.savefig('multiwavelength_PL.pdf')
 
+plt.show()
 
 # In[ ]:
 

@@ -1,52 +1,144 @@
+% mnras_template.tex
+%
+% LaTeX template for creating an MNRAS paper
+%
+% v3.0 released 14 May 2015
+% (version numbers match those of mnras.cls)
+%
+% Copyright (C) Royal Astronomical Society 2015
+% Authors:
+% Keith T. Smith (Royal Astronomical Society)
+
+% Change log
+%
+% v3.0 May 2015
+%    Renamed to match the new package name
+%    Version number matches mnras.cls
+%    A few minor tweaks to wording
+% v1.0 September 2013
+%    Beta testing only - never publicly released
+%    First version: a simple (ish) template for creating an MNRAS paper
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Basic setup. Most papers should leave these options alone.
 \documentclass[a4paper,fleqn,usenatbib]{mnras}
-%\usepackage{fixltx2e}
-\usepackage{deluxetable}
+
+% MNRAS is set in Times font. If you don't have this installed (most LaTeX
+% installations will be fine) or prefer the old Computer Modern fonts, comment
+% out the following line
 \usepackage{newtxtext,newtxmath}
-\usepackage{amsmath}
-\usepackage{natbib}
+% Depending on your LaTeX fonts installation, you might get better results with one of these:
+%\usepackage{mathptmx}
+%\usepackage{txfonts}
+
+% Use vector fonts, so it zooms properly in on-screen viewing software
+% Don't change these lines unless you know what you are doing
 \usepackage[T1]{fontenc}
 \usepackage{ae,aecompl}
 
-%\usepackage{verbatim}
-\bibliographystyle{mn2e}
-\begin{document}
-%\shorttitle{The RR Lyrae PL Relation in IRAC Ch. 1 \& 2}
-%\shortauthors{Durbin et al.}
-\title{The Carnegie RR Lyrae Program: The Mid--Infrared RR Lyrae Period-Luminosity Relation in omega Centuri}
-\author{Victoria Scowcroft$^{1}$\thanks{E-mail: vs@obs.carnegiescience.edu} ,Meredith Durbin$^{2, 3}$, Wendy Freedman$^{4}$, Gurtina Besla$^{5}$, Giuseppe Bono$^{6, 7}$, Maria--Rosa Cioni$^{8, 9, 10}$, Gisella Glementini$^{11}$, Kathryn Johnston$^{12}$, Nitya Kallivayalil$^{13}$, Juna Kollmeier$^{1}$, David Law$^{3}$, Barry Madore$^{1}$, Steve Majewski$^{13}$, Roeland van der Marel$^{3}$, Massimo Marengo$^{14}$, Andrew~J.~Monson$^{1}$, David Nidever$^{15}$ S.~E.~Persson$^{1}$, Grzegorz Pietrzynski$^{16, 17}$, George Preston$^{1}$, Mark Seibert$^{1}$, Horace Smith$^{18}$, Igor Soszynski$^{16}$, Ian Thompson$^{1}$, Andrzej Udalski$^{16}$
+
+%%%%% AUTHORS - PLACE YOUR OWN PACKAGES HERE %%%%%
+
+% Only include extra packages if you really need them. Common packages are:
+\usepackage{graphicx}	% Including figure files
+\usepackage{amsmath}	% Advanced maths commands
+\usepackage{amssymb}	% Extra maths symbols
+\usepackage{deluxetable}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% AUTHORS - PLACE YOUR OWN COMMANDS HERE %%%%%
+
+% Please keep new commands to a minimum, and use \newcommand not \def to avoid
+% overwriting existing commands. Example:
+%\newcommand{\pcm}{\,cm$^{-2}$}	% per cm-squared
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%
+
+% Title of the paper, and the short title which is used in the headers.
+% Keep the title short and informative.
+\title[Mid--IR RR Lyrae PL Relation in $\omega$ Cen]{The Carnegie RR Lyrae Program: The Mid--Infrared RR Lyrae Period-Luminosity Relation in $\omega$ Centuri}
+
+% The list of authors, and the short list which is used in the headers.
+% If you need two or more lines of authors, add an extra line using \newauthor
+\author[V. Scowcroft et al.]{
+Victoria Scowcroft$^{1}$\thanks{E-mail: vs@obs.carnegiescience.edu}
+Meredith Durbin$^{2, 3}$
+Wendy Freedman$^{4}$
+Gurtina Besla$^{5}$ 
+\newauthor Giuseppe Bono$^{6, 7}$
+Maria--Rosa Cioni$^{8, 9, 10}$
+Gisella Glementini$^{11}$
+Kathryn Johnston$^{12}$
+\newauthor Nitya Kallivayalil$^{13}$
+Juna Kollmeier$^{1}$
+David Law$^{3}$
+Barry Madore$^{1}$
+Steve Majewski$^{13}$
+\newauthor Roeland van der Marel$^{3}$
+Massimo Marengo$^{14}$
+Andrew~J.~Monson$^{1}$
+David Nidever$^{15}$ 
+\newauthor S.~E.~Persson$^{1}$
+Grzegorz Pietrzynski$^{16, 17}$
+George Preston$^{1}$
+Mark Seibert$^{1}$
+Horace Smith$^{18}$
+\newauthor Igor Soszynski$^{16}$
+Ian Thompson$^{1}$
+Andrzej Udalski$^{16}$
+\\
+% List of institutions
+$^1$Observatories of the Carnegie Institution of Washington, 813 Santa Barbara St., Pasadena, CA 91101, USA \\
+$^2$Pomona College, Claremont, CA 91711, USA \\
+$^3$ Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA \\
+$^4$ Department of Astronomy and Astrophysics, University of Chicago, 5640 S Ellis Ave, Chicago, IL 60637, USA \\
+$^5$ Department of Astronomy and Steward Observatory, University of Arizona, 933 North Cherry Avenue,   Tucson, AZ 85721, USA \\
+$^6$ Univ. Roma ``Tor Vergata", Via della Ricerca Scientifica, 1 Ð 00133, Roma, Italy \\
+$^7$ INAFÐOAR, via Frascati 33 Ð 00040, Monte Porzio Catone (RM), Italy \\
+$^8$ Universtat Potsdam, Institut fur Physik und Astronomie, Karl-Liebknecht-Str. 24/25, 14476 Potsdam, Germany \\
+$^9$ Leibniz-Institut fur Astrophysik Potsdam, An der Sternwarte 16, 14482 Potsdam, Germany \\
+$^{10}$ University of Hertfordshire, Physics, Astronomy and Mathematics, College Lane, Hatfield AL10 9AB, United Kingdom \\
+$^{11}$ INAF - Osservatorio Astronomico, Via Ranzani n. 1, 40127 Bologna, Italy \\
+$^{12}$ Department of Astronomy, Columbia University, New York, NY 10027, USA  \\
+$^{13}$ Department of Astronomy, University of Virginia, Charlottesville, VA 22904-0818, USA \\
+$^{14}$ Department of Physics and Astronomy, Iowa State University, Ames, IA, USA \\
+$^{15}$ Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA \\
+$^{16}$ Warsaw University Observatory Al. Ujazdowskie 4, 00-478 Warszawa, Poland \\
+$^{17}$ Departamento de Astronomia, Universidad de Concepcion, Casilla 160-C, Chile \\
+$^{18}$ Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA 48824 \\
 }
-{$^1$Observatories of the Carnegie Institution of Washington, 813 Santa Barbara St., Pasadena, CA 91101, USA}
-{$^2$Pomona College, Claremont, CA 91711, USA}
-{$^3$ Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA}
-{$^4$ Department of Astronomy and Astrophysics, University of Chicago, 5640 S Ellis Ave, Chicago, IL 60637, USA}
-{$^5$ Department of Astronomy and Steward Observatory, University of Arizona, 933 North Cherry Avenue,  
-Tucson, AZ 85721, USA}
-{$^6$ Univ. Roma ``Tor Vergata", Via della Ricerca Scientifica, 1 Ð 00133, Roma, Italy} 
-{$^7$ INAFÐOAR, via Frascati 33 Ð 00040, Monte Porzio Catone (RM), Italy}
-{$^8$ Universtat Potsdam, Institut fur Physik und Astronomie, Karl-Liebknecht-Str. 24/25, 14476 Potsdam, Germany}
-{$^9$ Leibniz-Institut fur Astrophysik Potsdam, An der Sternwarte 16, 14482 Potsdam, Germany}
-{$^{10}$ University of Hertfordshire, Physics, Astronomy and Mathematics, College Lane, Hatfield AL10 9AB, United Kingdom}
-{$^{11}$ INAF - Osservatorio Astronomico, Via Ranzani n. 1, 40127 Bologna, Italy}
-{$^{12}$ Department of Astronomy, Columbia University, New York, NY 10027, USA} 
-{$^{13}$ Department of Astronomy, University of Virginia, Charlottesville, VA 22904-0818, USA }
-{$^{14}$ Department of Physics and Astronomy, Iowa State University, Ames, IA, USA }
-{$^{15}$ Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA}
-{$^{16}$ Warsaw University Observatory Al. Ujazdowskie 4, 00-478 Warszawa, Poland}
-{$^{17}$ Departamento de Astronomia, Universidad de Concepcion, Casilla 160-C, Chile}
-{$^{18}$ Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA 48824}
 
+% These dates will be filled out by the publisher
+\date{Accepted XXX. Received YYY; in original form ZZZ}
 
+% Enter the current year, for the copyright statements etc.
+\pubyear{2015}
 
+% Don't change these lines
+\begin{document}
+\label{firstpage}
+\pagerange{\pageref{firstpage}--\pageref{lastpage}}
+\maketitle
+
+% Abstract of the paper
 \begin{abstract}
-We present new period-luminosity relations for RR Lyrae variables in 3.6 and 4.5 \micron\ derived from time-resolved IRAC data of $\omega$ Centauri. The sample consists of 36 RR Lyrae in 3.6 \micron\ and 37 in 4.5 \micron, 22 of which appear in both channels and have literature values for metallicities. We find no compelling evidence for a metallicity correlation in the residuals, based on a spread of 1.2 dex in [Fe/H].
-\end{abstract}
+We present new period-luminosity relations for RR Lyrae variables in 3.6 and 4.5 \micron\ derived from time-resolved IRAC data of $\omega$ Centauri. The sample consists of 36 RR Lyrae in 3.6 \micron\ and 37 in 4.5 \micron, 22 of which appear in both channels and have literature values for metallicities. We find no compelling evidence for a metallicity correlation in the residuals, based on a spread of 1.2 dex in [Fe/H].\end{abstract}
 
-\keywords{stars: variables: other --- stars: horizontal-branch ---
-infrared: stars --- RR Lyrae variables --- globular clusters: individual({$\omega$ Centauri}, {NGC 5139})}
+% Select between one and six entries from the list of approved keywords.
+% Don't make up new ones.
+\begin{keywords}
+keyword1 -- keyword2 -- keyword3
+\end{keywords}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% BODY OF PAPER %%%%%%%%%%%%%%%%%%
 
 \section{Introduction}
-\label{sec:intro}
-
 The Carnegie Hubble Program (CHP) is a Warm \textit{Spitzer} program with the aim of measuring $H_{0}$ to a systematic uncertainty of 3\%, eventually reducing that uncertainty to 2\% using \textit{JWST}. The first part of the CHP used Cepheids as the primary distance indicator, using parallax measurements of Cepheids from \textit{HST} \citep{2007AJ....133.1810B} to calibrate the zero--point of the Cepheid Period--Luminosity (PL) relation (also known as the Leavit Law, or LL), leading out to Cepheid measurements in the Milky Way \citep[MW,][]{2012ApJ...759..146M} and Large Magallanic Cloud \citep[LMC,][]{2011ApJ...743...76S}. An initial recalibration of $H_{0}$ from CHP was presented in \citet{2012ApJ...758...24F}.
 
 The CHP removed many systematics from the $H_{0}$ measurement by moving to the mid--infrared (extinction is reduced by a factor of 16 to 20, amplitude of Cepheid pulsation is reduced, intrinsic width of LL is reduced) and by using a single instrument (no effects from ground--to--space transformation, for example) but there are some effects that cannot be accounted for without further tests. By only using a single distance indicator (i.e. Cepheids) for the zero--point measurement, we have no understanding of the intrinsic accuracy of our measurement. With recent measurements from cosmic microwave background (CMB) experiements such as Planck \citep{	
@@ -87,6 +179,8 @@ The paper is set out as follows: Section~\ref{sec:observations} details the obse
 The observations for this work were taken as part of the Warm~\textit{Spitzer} mission as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen, their positions and the positions of known RR Lyrae are shown in Figure~\ref{fig:omegaCen_fields} (\textbf{VS make this figure}). To obtain optimal RRL light curves we chose to observe each field twelve times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected to observe in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artifacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
 
 The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the corrected BCDs (cBCDs) then mosaicking them at 0.6 arcsec pixel scale using the drizle algorithm. Mosaicked location--correction images were created at the same time. 
+
+
 
 PSF photometry was performed in PyRAF 2.0 using the \textsc{daophot} package. Initial aperture photometry was performed with an aperture radius of 3.6\arcsec and annulus radius of 4.8\arcsec, whereas the standard IRAC aperture is 6\arcsec; a correction factor of 1.12841 and 1.12738 for 3.6 and 4.5 \micron\ respectively was applied to the instrumental magnitudes. We also calibrate the magnitudes from images in counts (required for \textsc{daophot}) back to flux magnitudes by performing aperture photometry on a set of bright, isolated stars in the flux images, finding the mean difference between the aperture flux magnitudes and PSF counts magnitudes of the same stars, and subtracting said difference from all PSF magnitudes. We also correct for location in the frame using the mosaicked correction images created by \textsc{mopex}
 
@@ -147,12 +241,32 @@ For the immediate future, the next steps are to continue doing work of this type
 
 It is expected that the observations of GAIA and JWST will provide the next phase of this project; parallaxes from GAIA will increase the number of calibrators for the absolute PL relations, and JWST will be able to observe RR Lyrae in galaxies more distant than previously possible.
 
-\section{Acknowledgements}
+\section*{Acknowledgements}
 \label{sec:acknowledgements}
 This work is based on observations made with the Spitzer Space Telescope, which is operated by the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA. Support for this work was provided by NASA through an award issued by JPL/Caltech.
 
-\bibliography{omegaCen_2015}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%
+
+% The best way to enter references is to use BibTeX:
+
+\bibliographystyle{mnras}
+\bibliography{omegaCen_2015}
+ % if your bibtex file is called example.bib
+
+
+% Alternatively you could enter them by hand, like this:
+% This method is tedious and prone to error if you have lots of references
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%% APPENDICES %%%%%%%%%%%%%%%%%%%%%
+
+\appendix
+
+\section{Some extra material}
 \clearpage
 
 \begin{deluxetable}{cccccc}
@@ -295,34 +409,55 @@ $\sigma_s$: spectroscopic metallicity error.
 \end{deluxetable}
 
 \begin{figure}
-\figurenum{1}
-\epsscale{1.1}
-\plottwo{PL_3p6.eps}{PL_4p5.eps}
+\begin{center}$
+\begin{array}{cc}
+\includegraphics[width=80mm]{PL_3p6.eps} &
+\includegraphics[width=80mm]{PL_4p5.eps} \\
+\end{array}$
 \caption{The RR Lyrae period-luminosity relation for $\omega$ Cen in [3.6] and [4.5]. The blue data points are RRab's, the green are RRc's with fundamentalized periods, and the flanking lines are 1 and 2$\sigma$.}
+\label{fig:pl_relations}
+\end{center}
 \end{figure}
 
 \begin{figure}
-\centering
-\figurenum{2}
-\epsscale{1.1}
-\plottwo{Metallicity_3p6_Rey.eps}{Metallicity_4p5_Rey.eps}
+\begin{center}$
+\begin{array}{cc}
+\includegraphics[width=80mm]{Metallicity_3p6_Rey.eps} &
+\includegraphics[width=80mm]{Metallicity_4p5_Rey.eps}\\
+\end{array}$
 \caption{Metallicity vs. PL residuals for $\omega$ Cen in [3.6] and [4.5] using photometric metallicities from Rey et al. (2000). The flanking lines are 1 and 2 standard deviations.}
+\label{fig:phot_metal_residuals}
+\end{center}
 \end{figure}
 
 \begin{figure}
-\centering
-\figurenum{3}
-\epsscale{1.1}
-\plottwo{Metallicity_3p6_Sollima.eps}{Metallicity_4p5_Sollima.eps}
+\begin{center}$
+\begin{array}{cc}
+\includegraphics[width=80mm]{Metallicity_3p6_Sollima.eps} &
+\includegraphics[width=80mm]{Metallicity_4p5_Sollima.eps} \\
+\end{array}$
 \caption{Metallicity vs. PL residuals for $\omega$ Cen in [3.6] and [4.5] using spectroscopic metallicities from Sollima et al. (2006). The flanking lines are 1 and 2 standard deviations.}
+\label{fig:spec_metal_residuals}
+\end{center}
 \end{figure}
 
 \begin{figure}
-\centering
-\figurenum{4}
-\epsscale{1.1}
-\plottwo{Metallicity_3p6.eps}{Metallicity_4p5.eps}
+\begin{center}$
+\begin{array}{cc}
+\includegraphics[width=80mm]{Metallicity_3p6.eps}& 
+\includegraphics[width=80mm]{Metallicity_4p5.eps}\\
+\end{array}$
 \caption{Metallicity vs. PL residuals for $\omega$ Cen in [3.6] and [4.5] using combined metallicity catalogs, favoring spectroscopic when both are available. The flanking lines are 1 and 2 standard deviations.}
+\label{fig:metal_vs_residuls}
+\end{center}
 \end{figure}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Don't change these lines
+\bsp	% typesetting comment
+\label{lastpage}
 \end{document}
+
+% End of mnras_template.tex
