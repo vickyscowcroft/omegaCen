@@ -176,7 +176,16 @@ The paper is set out as follows: Section~\ref{sec:observations} details the obse
 
 \section{Observations \& Data Reduction}
 \label{sec:observations}
-The observations for this work were taken as part of the Warm~\textit{Spitzer} mission as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen, their positions and the positions of known RR Lyrae are shown in Figure~\ref{fig:omegaCen_fields} (\textbf{VS make this figure}). To obtain optimal RRL light curves we chose to observe each field twelve times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected to observe in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artifacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
+The observations for this work were taken as part of the Warm~\textit{Spitzer} mission as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen, their positions and the positions of known RR Lyrae are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we chose to observe each field twelve times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected to observe in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artifacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{omegaCen_figure.pdf}
+\caption{DSS2 infra--red image of $\omega$~Cen with the three {\it Spitzer} fields overplotted. The cyan and magenta lines indicate the 3.6~$\mu$m and 4.5~$\mu$m observations respectively. The fields have approximately $1/3$ coverage with at both wavelengths due to the design of the IRAC camera.}
+\label{fig:omegaCen_fields}
+\end{center}
+\end{figure}
+
 
 The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the corrected BCDs (cBCDs) then mosaicking them at 0.6 arcsec pixel scale using the drizle algorithm. Mosaicked location--correction images were created at the same time. 
 
