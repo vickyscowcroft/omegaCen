@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2015 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  25 JUN 2015 01:17
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **omegaCen_mnras_2015.tex
 (./omegaCen_mnras_2015.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/Users/vs/Library/texmf/tex/mnras.cls
+(/Users/mdurbin/Library/texmf/tex/mnras.cls
 Document Class: mnras 2015/05/22\ v3.0\ LaTeX2e MNRAS document class
 MNRAS document style v3.0, released 2015/05/22
 
@@ -731,7 +731,7 @@ LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 )
-(/Users/vs/Library/texmf/tex/deluxetable.sty
+(./deluxetable.sty
 Package: deluxetable 
 \pt@box=\box28
 \pt@width=\dimen127
@@ -743,59 +743,59 @@ Package: deluxetable
 \pt@tmpcapwidth=\dimen128
 )
 LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 12
-2.
+1.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 122.
+(Font)              scaled to size 9.0pt on input line 121.
 
 (./omegaCen_mnras_2015.aux)
 \openout1 = `omegaCen_mnras_2015.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 122.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 121.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 12
-2.
+1.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 122.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 121.
 LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 12
-2.
+1.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 122.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 122
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 121
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 122.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 122.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 122.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 122.
-LaTeX Font Info:    ... okay on input line 122.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -840,7 +840,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 122.
+Package hyperref Info: Link coloring ON on input line 121.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -850,9 +850,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 122.
-LaTeX Info: Redefining \pageref on input line 122.
-LaTeX Info: Redefining \nameref on input line 122.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 
 (./omegaCen_mnras_2015.out) (./omegaCen_mnras_2015.out)
 \@outlinefile=\write3
@@ -890,163 +890,156 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 125.
+(Font)              scaled to size 17.28pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 125.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 125.
+(Font)              scaled to size 17.28pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.5pt on input line 125.
+(Font)              scaled to size 12.5pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.4pt on input line 125.
+(Font)              scaled to size 9.4pt on input line 124.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <12.5> not available
-(Font)              size <12> substituted on input line 125.
+(Font)              size <12> substituted on input line 124.
 
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 125
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 124
 .
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 125
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 124
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 125
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 124
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 125.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 125.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 125.
+(Font)              scaled to size 14.4pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 125.
+(Font)              scaled to size 10.5pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 125.
+(Font)              scaled to size 7.9pt on input line 124.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 125.
+(Font)              size <10.95> substituted on input line 124.
 
 LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 1
-25.
+24.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 14.4pt on input line 125.
+(Font)              scaled to size 14.4pt on input line 124.
 
-Overfull \hbox (3.78226pt too wide) in paragraph at lines 125--125
+Overfull \hbox (400.0136pt too wide) in paragraph at lines 124--124
 [][]  
  []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 125.
+(Font)              scaled to size 8.0pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 125.
+(Font)              scaled to size 8.0pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 125.
+(Font)              scaled to size 6.2pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 125.
+(Font)              scaled to size 5.5pt on input line 124.
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 125.
+(Font)              size <5> substituted on input line 124.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 128.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 127.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 128.
+(Font)              scaled to size 9.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 128.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 129.
+(Font)              scaled to size 10.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 133.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 134.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 133.
+(Font)              scaled to size 10.0pt on input line 134.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 9.0pt on input line 142.
+(Font)              scaled to size 9.0pt on input line 144.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 7.3pt on input line 144.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 146.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 151.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 146.
+(Font)              scaled to size 8.0pt on input line 151.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-46.
+51.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 146.
+(Font)              scaled to size 8.0pt on input line 151.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \hbox (badness 1394) in paragraph at lines 155--156
-[]\T1/ntxtlf/m/n/9 In the mid--infrared RRL ex-hibit sim-i-lar prop-er-ties to
+Underfull \hbox (badness 1616) in paragraph at lines 154--155
+[]\T1/ntxtlf/m/n/9 In the mid-infrared RRL ex-hibit sim-i-lar prop-er-ties to
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-LaTeX Warning: Reference `sec:pl_relation' on page 2 undefined on input line 17
-4.
-
-
-Underfull \hbox (badness 1092) in paragraph at lines 179--180
+Underfull \hbox (badness 1092) in paragraph at lines 173--174
 \T1/ntxtlf/m/n/9 The ob-ser-va-tions for this work were taken as part of the
  []
 
-<omegaCen_figure.pdf, id=90, 614.71564pt x 564.93732pt>
-File: omegaCen_figure.pdf Graphic file (type pdf)
-
-<use omegaCen_figure.pdf>
-Package pdftex.def Info: omegaCen_figure.pdf used on input line 183.
-(pdftex.def)             Requested size: 227.62204pt x 209.18732pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 190.
+(Font)              scaled to size 9.0pt on input line 175.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 191.
+(Font)              scaled to size 12.0pt on input line 179.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 191.
- [2]
-Underfull \vbox (badness 1102) has occurred while \output is active []
+(Font)              scaled to size 12.0pt on input line 179.
+[2] <final_plots/omegacen_coverage_map.pdf, id=112, 433.62pt x 343.2825pt>
+File: final_plots/omegacen_coverage_map.pdf Graphic file (type pdf)
 
+<use final_plots/omegacen_coverage_map.pdf>
+Package pdftex.def Info: final_plots/omegacen_coverage_map.pdf used on input li
+ne 182.
+(pdftex.def)             Requested size: 227.62204pt x 180.19981pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 225.
+(Font)              scaled to size 8.8pt on input line 231.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 225.
+(Font)              scaled to size 6.6pt on input line 231.
  [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.225 ...al relations of the form \begin{equation}
-                                                  \Delta m_\lambda = \alpha_...
- <./omegaCen_figure.pdf>] (./omegaCen_mnras_2015.bbl [4]
+l.231 A
+       lternative explanations for the increased scatter relative to M4 incl...
+ <./final_plots/omegacen_coverage_map.pdf>] (./omegaCen_mnras_2015.bbl
 
 Package hyperref Warning: Suppressing empty link on input line 106.
 
@@ -1054,309 +1047,241 @@ LaTeX Font Info:    Try loading font information for T1+aett on input line 107.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)) [5
+))
+<final_plots/multiwavelength_PL_samestars_spect.pdf, id=213, 505.89pt x 578.16p
+t>
+File: final_plots/multiwavelength_PL_samestars_spect.pdf Graphic file (type pdf
+)
+ <use final_plots/multiwavelength_PL_samestars_spect.pdf>
+Package pdftex.def Info: final_plots/multiwavelength_PL_samestars_spect.pdf use
+d on input line 263.
+(pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 
-]
-Overfull \hbox (264.0pt too wide) in paragraph at lines 288--288
- []$ 
- []
+<final_plots/multiwavelength_PL_samestars_phot.pdf, id=214, 505.89pt x 578.16pt
+>
+File: final_plots/multiwavelength_PL_samestars_phot.pdf Graphic file (type pdf)
 
-Table A1 has been set to width 185.01363pt
+ <use final_plots/multiwavelength_PL_samestars_phot.pdf>
+Package pdftex.def Info: final_plots/multiwavelength_PL_samestars_phot.pdf used
+ on input line 271.
+(pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 301--301
- []$ 
- []
+<final_plots/metallicity_comparison_all.pdf, id=215, 433.62pt x 433.62pt>
+File: final_plots/metallicity_comparison_all.pdf Graphic file (type pdf)
 
-Table A2 has been set to width 277.7979pt
+<use final_plots/metallicity_comparison_all.pdf>
+Package pdftex.def Info: final_plots/metallicity_comparison_all.pdf used on inp
+ut line 280.
+(pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 
-Overfull \hbox (37.7979pt too wide) in paragraph at lines 301--307
- [][] 
- []
+<final_plots/metallicity_comparison_samestars.pdf, id=216, 433.62pt x 433.62pt>
+File: final_plots/metallicity_comparison_samestars.pdf Graphic file (type pdf)
+<use final_plots/metallicity_comparison_samestars.pdf>
+Package pdftex.def Info: final_plots/metallicity_comparison_samestars.pdf used 
+on input line 281.
+(pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 
-
-Overfull \hbox (264.0pt too wide) in paragraph at lines 316--316
- []$ 
- []
-
-Table A3 has been set to width 186.5346pt
-
-Overfull \hbox (264.0pt too wide) in paragraph at lines 329--329
- []$ 
- []
-
-Table A4 has been set to width 186.5346pt
-
-Overfull \hbox (264.0pt too wide) in paragraph at lines 342--342
- []$ 
- []
-
-Table A5 has been set to width 186.5346pt
-
-Overfull \hbox (264.0pt too wide) in paragraph at lines 368--368
- []$ 
- []
-
-Table A6 has been set to width 422.06425pt
-
-Overfull \hbox (182.06425pt too wide) in paragraph at lines 368--418
- [][] 
- []
-
-Package epstopdf Info: Source file: <PL_3p6.eps>
-(epstopdf)                    date: 2015-03-25 13:59:43
-(epstopdf)                    size: 56515 bytes
-(epstopdf)             Output file: <PL_3p6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-25 13:59:43
-(epstopdf)                    size: 42604 bytes
-(epstopdf)             Command: <epstopdf --outfile=PL_3p6-eps-converted-to.pdf
- PL_3p6.eps>
-(epstopdf)             \includegraphics on input line 423.
-Package epstopdf Info: Output file is already uptodate.
-<PL_3p6-eps-converted-to.pdf, id=274, 433.62pt x 361.35pt>
-File: PL_3p6-eps-converted-to.pdf Graphic file (type pdf)
-
-<use PL_3p6-eps-converted-to.pdf>
-Package pdftex.def Info: PL_3p6-eps-converted-to.pdf used on input line 423.
-(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
-Package epstopdf Info: Source file: <PL_4p5.eps>
-(epstopdf)                    date: 2015-03-25 13:59:43
-(epstopdf)                    size: 56828 bytes
-(epstopdf)             Output file: <PL_4p5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-25 13:59:43
-(epstopdf)                    size: 42737 bytes
-(epstopdf)             Command: <epstopdf --outfile=PL_4p5-eps-converted-to.pdf
- PL_4p5.eps>
-(epstopdf)             \includegraphics on input line 424.
-Package epstopdf Info: Output file is already uptodate.
-
-<PL_4p5-eps-converted-to.pdf, id=275, 433.62pt x 361.35pt>
-File: PL_4p5-eps-converted-to.pdf Graphic file (type pdf)
-
-<use PL_4p5-eps-converted-to.pdf>
-Package pdftex.def Info: PL_4p5-eps-converted-to.pdf used on input line 424.
+<final_plots/multiwavelength_distance_samestars_phot.pdf, id=217, 433.62pt x 36
+1.35pt>
+File: final_plots/multiwavelength_distance_samestars_phot.pdf Graphic file (typ
+e pdf)
+ <use final_plots/multiwavelength_distance_samestars_phot.pdf>
+Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_phot.pd
+f used on input line 289.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 421--426
- []$ 
- []
-
-Package epstopdf Info: Source file: <Metallicity_3p6_Rey.eps>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 46892 bytes
-(epstopdf)             Output file: <Metallicity_3p6_Rey-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 29886 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6_Rey-eps-con
-verted-to.pdf Metallicity_3p6_Rey.eps>
-(epstopdf)             \includegraphics on input line 434.
-Package epstopdf Info: Output file is already uptodate.
-<Metallicity_3p6_Rey-eps-converted-to.pdf, id=276, 433.62pt x 361.35pt>
-File: Metallicity_3p6_Rey-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Metallicity_3p6_Rey-eps-converted-to.pdf>
-Package pdftex.def Info: Metallicity_3p6_Rey-eps-converted-to.pdf used on input
- line 434.
-(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
-Package epstopdf Info: Source file: <Metallicity_4p5_Rey.eps>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 46945 bytes
-(epstopdf)             Output file: <Metallicity_4p5_Rey-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 29903 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5_Rey-eps-con
-verted-to.pdf Metallicity_4p5_Rey.eps>
-(epstopdf)             \includegraphics on input line 435.
-Package epstopdf Info: Output file is already uptodate.
-
-<Metallicity_4p5_Rey-eps-converted-to.pdf, id=277, 433.62pt x 361.35pt>
-File: Metallicity_4p5_Rey-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Metallicity_4p5_Rey-eps-converted-to.pdf>
-Package pdftex.def Info: Metallicity_4p5_Rey-eps-converted-to.pdf used on input
- line 435.
+<final_plots/multiwavelength_distance_samestars_spect.pdf, id=218, 433.62pt x 3
+61.35pt>
+File: final_plots/multiwavelength_distance_samestars_spect.pdf Graphic file (ty
+pe pdf)
+ <use final_plots/multiwavelength_distance_samestars_spect.pdf>
+Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_spect.p
+df used on input line 297.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 432--437
- []$ 
- []
+<final_plots/deltadelta_3p6_4p5_spect.pdf, id=219, 361.35pt x 361.35pt>
+File: final_plots/deltadelta_3p6_4p5_spect.pdf Graphic file (type pdf)
 
-Package epstopdf Info: Source file: <Metallicity_3p6_Sollima.eps>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 43245 bytes
-(epstopdf)             Output file: <Metallicity_3p6_Sollima-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 27737 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6_Sollima-eps
--converted-to.pdf Metallicity_3p6_Sollima.eps>
-(epstopdf)             \includegraphics on input line 445.
-Package epstopdf Info: Output file is already uptodate.
-<Metallicity_3p6_Sollima-eps-converted-to.pdf, id=278, 433.62pt x 361.35pt>
-File: Metallicity_3p6_Sollima-eps-converted-to.pdf Graphic file (type pdf)
+<use final_plots/deltadelta_3p6_4p5_spect.pdf>
+Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_spect.pdf used on input
+ line 305.
+(pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
 
-<use Metallicity_3p6_Sollima-eps-converted-to.pdf>
-Package pdftex.def Info: Metallicity_3p6_Sollima-eps-converted-to.pdf used on i
-nput line 445.
-(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
-Package epstopdf Info: Source file: <Metallicity_4p5_Sollima.eps>
-(epstopdf)                    date: 2015-03-25 13:59:43
-(epstopdf)                    size: 41496 bytes
-(epstopdf)             Output file: <Metallicity_4p5_Sollima-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-03-25 14:10:24
-(epstopdf)                    size: 26609 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5_Sollima-eps
--converted-to.pdf Metallicity_4p5_Sollima.eps>
-(epstopdf)             \includegraphics on input line 446.
-Package epstopdf Info: Output file is already uptodate.
+<final_plots/delta_feh_3p6_phot.pdf, id=220, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_3p6_phot.pdf Graphic file (type pdf)
 
-<Metallicity_4p5_Sollima-eps-converted-to.pdf, id=279, 433.62pt x 361.35pt>
-File: Metallicity_4p5_Sollima-eps-converted-to.pdf Graphic file (type pdf)
+<use final_plots/delta_feh_3p6_phot.pdf>
+Package pdftex.def Info: final_plots/delta_feh_3p6_phot.pdf used on input line 
+314.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-<use Metallicity_4p5_Sollima-eps-converted-to.pdf>
-Package pdftex.def Info: Metallicity_4p5_Sollima-eps-converted-to.pdf used on i
-nput line 446.
-(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
+<final_plots/deltadelta_3p6_4p5_phot.pdf, id=221, 361.35pt x 361.35pt>
+File: final_plots/deltadelta_3p6_4p5_phot.pdf Graphic file (type pdf)
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 443--448
- []$ 
- []
+<use final_plots/deltadelta_3p6_4p5_phot.pdf>
+Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_phot.pdf used on input 
+line 322.
+(pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
 
-Package epstopdf Info: Source file: <Metallicity_3p6.eps>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 48659 bytes
-(epstopdf)             Output file: <Metallicity_3p6-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 31422 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6-eps-convert
-ed-to.pdf Metallicity_3p6.eps>
-(epstopdf)             \includegraphics on input line 456.
-Package epstopdf Info: Output file is already uptodate.
-<Metallicity_3p6-eps-converted-to.pdf, id=280, 433.62pt x 361.35pt>
-File: Metallicity_3p6-eps-converted-to.pdf Graphic file (type pdf)
+<final_plots/delta_feh_3p6_spect.pdf, id=222, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_3p6_spect.pdf Graphic file (type pdf)
 
-<use Metallicity_3p6-eps-converted-to.pdf>
-Package pdftex.def Info: Metallicity_3p6-eps-converted-to.pdf used on input lin
-e 456.
-(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
-Package epstopdf Info: Source file: <Metallicity_4p5.eps>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 48453 bytes
-(epstopdf)             Output file: <Metallicity_4p5-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-03-25 13:59:42
-(epstopdf)                    size: 31175 bytes
-(epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5-eps-convert
-ed-to.pdf Metallicity_4p5.eps>
-(epstopdf)             \includegraphics on input line 457.
-Package epstopdf Info: Output file is already uptodate.
+<use final_plots/delta_feh_3p6_spect.pdf>
+Package pdftex.def Info: final_plots/delta_feh_3p6_spect.pdf used on input line
+ 330.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-<Metallicity_4p5-eps-converted-to.pdf, id=281, 433.62pt x 361.35pt>
-File: Metallicity_4p5-eps-converted-to.pdf Graphic file (type pdf)
+<final_plots/delta_feh_4p5_phot.pdf, id=223, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_4p5_phot.pdf Graphic file (type pdf)
 
-<use Metallicity_4p5-eps-converted-to.pdf>
-Package pdftex.def Info: Metallicity_4p5-eps-converted-to.pdf used on input lin
-e 457.
-(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
+<use final_plots/delta_feh_4p5_phot.pdf>
+Package pdftex.def Info: final_plots/delta_feh_4p5_phot.pdf used on input line 
+338.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 454--459
- []$ 
- []
+<final_plots/delta_feh_4p5_spect.pdf, id=224, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_4p5_spect.pdf Graphic file (type pdf)
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
-[6pdfTeX warning (ext4): destination with the same identifier (name{table.A1.1}
-) has been already used, duplicate ignored
+<use final_plots/delta_feh_4p5_spect.pdf>
+Package pdftex.def Info: final_plots/delta_feh_4p5_spect.pdf used on input line
+ 346.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 359.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.A1.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.A1.3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.A1.4}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    
-
-pdfTeX warning (ext4): destination with the same identifier (name{table.A1.5}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{table.A1.6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.A1.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                     <./final_plots/multiwavelength_PL_samestars_spect.pdf> <./
+final_plots/multiwavelength_PL_samestars_phot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_PL_sam
+estars_phot.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                     <./final_plots/metallicity_comparison_all.pdf> <./final_pl
+ots/metallicity_comparison_samestars.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/metallicity_comparison
+_samestars.pdf): PDF inclusion: multiple pdfs with page group included in a sin
+gle page
+> <./final_plots/multiwavelength_distance_samestars_phot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
+ce_samestars_phot.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./final_plots/multiwavelength_distance_samestars_spect.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
+ce_samestars_spect.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.359 \end{document}
+                     <./final_plots/deltadelta_3p6_4p5_spect.pdf> <./final_plot
+s/delta_feh_3p6_phot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_3p6_phot.pdf
+): PDF inclusion: multiple pdfs with page group included in a single page
+> <./final_plots/deltadelta_3p6_4p5_phot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/deltadelta_3p6_4p5_pho
+t.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./final_plots/delta_feh_3p6_spect.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_3p6_spect.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>] [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.359 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
- (name{figure.A1.2}) has been already used, duplicate ignored
+ (name{figure.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.A1.3}) has been already used, duplicate ignored
+l.359 \end{document}
+                    
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.A1.4}) has been already used, duplicate ignored
+ <./final_plots/delta_feh_4p5_phot.pdf> <./final_plots/delta_feh_4p5_spect.pdf
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.470 \end{document}
-                     <./PL_3p6-eps-converted-to.pdf> <./PL_4p5-eps-converted-to
-.pdf> <./Metallicity_3p6_Rey-eps-converted-to.pdf> <./Metallicity_4p5_Rey-eps-c
-onverted-to.pdf> <./Metallicity_3p6_Sollima-eps-converted-to.pdf> <./Metallicit
-y_4p5_Sollima-eps-converted-to.pdf> <./Metallicity_3p6-eps-converted-to.pdf> <.
-/Metallicity_4p5-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_4p5_spect.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 359.
  (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 359.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 359.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
-(rerunfilecheck)             Checksum: 223A6B76A4C1F96B2412855BC0CF71AE;418.
+(rerunfilecheck)             Checksum: F587D2EF592DAA736F8D8A00C1BDDF5A;363.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 359.
  ) 
 Here is how much of TeX's memory you used:
- 9777 strings out of 493089
- 139341 string characters out of 6134842
- 271345 words of memory out of 5000000
- 12971 multiletter control sequences out of 15000+600000
- 144377 words of font info for 243 fonts, out of 8000000 for 9000
+ 9779 strings out of 493089
+ 140392 string characters out of 6134842
+ 240643 words of memory out of 5000000
+ 12977 multiletter control sequences out of 15000+600000
+ 137829 words of font info for 225 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,35p,1697b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,35p,1684b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1364,30 +1289,30 @@ st, replaced by a fixed one
 live/2015/texmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf-sc.enc}{/usr/local/texliv
 e/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/local/texlive/2015/t
 exmf-dist/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}</usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/p
 ublic/tex-gyre/qtmb.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
 tex-gyre/qtmr.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/tex-gy
 re/qtmri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rntxm
-i5.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rntxmi7.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi5.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (7 pages, 3457042 bytes).
+i7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi5.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/urw/times/utmri8a.pfb>
+Output written on omegaCen_mnras_2015.pdf (7 pages, 1203682 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
+ 1128 PDF objects out of 1200 (max. 8388607)
+ 432 compressed objects within 5 object streams
  54 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
