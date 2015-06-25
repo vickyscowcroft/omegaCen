@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 JUN 2015 19:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 JUN 2015 11:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1020,7 +1020,11 @@ Underfull \hbox (badness 1092) in paragraph at lines 179--180
 \T1/ntxtlf/m/n/9 The ob-ser-va-tions for this work were taken as part of the
  []
 
-<omegaCen_figure.pdf, id=90, 614.71564pt x 564.93732pt>
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 12.0pt on input line 180.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 180.
+[2] <omegaCen_figure.pdf, id=109, 614.71564pt x 564.93732pt>
 File: omegaCen_figure.pdf Graphic file (type pdf)
 
 <use omegaCen_figure.pdf>
@@ -1029,24 +1033,16 @@ Package pdftex.def Info: omegaCen_figure.pdf used on input line 183.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 190.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 191.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 191.
- [2]
-Underfull \vbox (badness 1102) has occurred while \output is active []
-
+(Font)              scaled to size 8.8pt on input line 220.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 225.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 225.
+(Font)              scaled to size 6.6pt on input line 220.
  [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.225 ...al relations of the form \begin{equation}
-                                                  \Delta m_\lambda = \alpha_...
- <./omegaCen_figure.pdf>] (./omegaCen_mnras_2015.bbl [4]
+l.220 
+       <./omegaCen_figure.pdf>] [4] (./omegaCen_mnras_2015.bbl
 
 Package hyperref Warning: Suppressing empty link on input line 106.
 
@@ -1057,48 +1053,48 @@ File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )) [5
 
 ]
-Overfull \hbox (264.0pt too wide) in paragraph at lines 288--288
+Overfull \hbox (264.0pt too wide) in paragraph at lines 290--290
  []$ 
  []
 
 Table A1 has been set to width 185.01363pt
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 301--301
+Overfull \hbox (264.0pt too wide) in paragraph at lines 303--303
  []$ 
  []
 
 Table A2 has been set to width 277.7979pt
 
-Overfull \hbox (37.7979pt too wide) in paragraph at lines 301--307
+Overfull \hbox (37.7979pt too wide) in paragraph at lines 303--309
  [][] 
  []
 
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 316--316
+Overfull \hbox (264.0pt too wide) in paragraph at lines 318--318
  []$ 
  []
 
 Table A3 has been set to width 186.5346pt
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 329--329
+Overfull \hbox (264.0pt too wide) in paragraph at lines 331--331
  []$ 
  []
 
 Table A4 has been set to width 186.5346pt
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 342--342
+Overfull \hbox (264.0pt too wide) in paragraph at lines 344--344
  []$ 
  []
 
 Table A5 has been set to width 186.5346pt
 
-Overfull \hbox (264.0pt too wide) in paragraph at lines 368--368
+Overfull \hbox (264.0pt too wide) in paragraph at lines 370--370
  []$ 
  []
 
 Table A6 has been set to width 422.06425pt
 
-Overfull \hbox (182.06425pt too wide) in paragraph at lines 368--418
+Overfull \hbox (182.06425pt too wide) in paragraph at lines 370--420
  [][] 
  []
 
@@ -1110,13 +1106,13 @@ Package epstopdf Info: Source file: <PL_3p6.eps>
 (epstopdf)                    size: 42604 bytes
 (epstopdf)             Command: <epstopdf --outfile=PL_3p6-eps-converted-to.pdf
  PL_3p6.eps>
-(epstopdf)             \includegraphics on input line 423.
+(epstopdf)             \includegraphics on input line 425.
 Package epstopdf Info: Output file is already uptodate.
-<PL_3p6-eps-converted-to.pdf, id=274, 433.62pt x 361.35pt>
+<PL_3p6-eps-converted-to.pdf, id=283, 433.62pt x 361.35pt>
 File: PL_3p6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PL_3p6-eps-converted-to.pdf>
-Package pdftex.def Info: PL_3p6-eps-converted-to.pdf used on input line 423.
+Package pdftex.def Info: PL_3p6-eps-converted-to.pdf used on input line 425.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 Package epstopdf Info: Source file: <PL_4p5.eps>
 (epstopdf)                    date: 2015-03-25 13:59:43
@@ -1126,17 +1122,17 @@ Package epstopdf Info: Source file: <PL_4p5.eps>
 (epstopdf)                    size: 42737 bytes
 (epstopdf)             Command: <epstopdf --outfile=PL_4p5-eps-converted-to.pdf
  PL_4p5.eps>
-(epstopdf)             \includegraphics on input line 424.
+(epstopdf)             \includegraphics on input line 426.
 Package epstopdf Info: Output file is already uptodate.
 
-<PL_4p5-eps-converted-to.pdf, id=275, 433.62pt x 361.35pt>
+<PL_4p5-eps-converted-to.pdf, id=284, 433.62pt x 361.35pt>
 File: PL_4p5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use PL_4p5-eps-converted-to.pdf>
-Package pdftex.def Info: PL_4p5-eps-converted-to.pdf used on input line 424.
+Package pdftex.def Info: PL_4p5-eps-converted-to.pdf used on input line 426.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 421--426
+Overfull \hbox (235.24408pt too wide) in paragraph at lines 423--428
  []$ 
  []
 
@@ -1148,14 +1144,14 @@ Package epstopdf Info: Source file: <Metallicity_3p6_Rey.eps>
 (epstopdf)                    size: 29886 bytes
 (epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6_Rey-eps-con
 verted-to.pdf Metallicity_3p6_Rey.eps>
-(epstopdf)             \includegraphics on input line 434.
+(epstopdf)             \includegraphics on input line 436.
 Package epstopdf Info: Output file is already uptodate.
-<Metallicity_3p6_Rey-eps-converted-to.pdf, id=276, 433.62pt x 361.35pt>
+<Metallicity_3p6_Rey-eps-converted-to.pdf, id=285, 433.62pt x 361.35pt>
 File: Metallicity_3p6_Rey-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_3p6_Rey-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_3p6_Rey-eps-converted-to.pdf used on input
- line 434.
+ line 436.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 Package epstopdf Info: Source file: <Metallicity_4p5_Rey.eps>
 (epstopdf)                    date: 2015-03-25 13:59:42
@@ -1165,18 +1161,18 @@ Package epstopdf Info: Source file: <Metallicity_4p5_Rey.eps>
 (epstopdf)                    size: 29903 bytes
 (epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5_Rey-eps-con
 verted-to.pdf Metallicity_4p5_Rey.eps>
-(epstopdf)             \includegraphics on input line 435.
+(epstopdf)             \includegraphics on input line 437.
 Package epstopdf Info: Output file is already uptodate.
 
-<Metallicity_4p5_Rey-eps-converted-to.pdf, id=277, 433.62pt x 361.35pt>
+<Metallicity_4p5_Rey-eps-converted-to.pdf, id=286, 433.62pt x 361.35pt>
 File: Metallicity_4p5_Rey-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_4p5_Rey-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_4p5_Rey-eps-converted-to.pdf used on input
- line 435.
+ line 437.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 432--437
+Overfull \hbox (235.24408pt too wide) in paragraph at lines 434--439
  []$ 
  []
 
@@ -1189,14 +1185,14 @@ df>
 (epstopdf)                    size: 27737 bytes
 (epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6_Sollima-eps
 -converted-to.pdf Metallicity_3p6_Sollima.eps>
-(epstopdf)             \includegraphics on input line 445.
+(epstopdf)             \includegraphics on input line 447.
 Package epstopdf Info: Output file is already uptodate.
-<Metallicity_3p6_Sollima-eps-converted-to.pdf, id=278, 433.62pt x 361.35pt>
+<Metallicity_3p6_Sollima-eps-converted-to.pdf, id=287, 433.62pt x 361.35pt>
 File: Metallicity_3p6_Sollima-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_3p6_Sollima-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_3p6_Sollima-eps-converted-to.pdf used on i
-nput line 445.
+nput line 447.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 Package epstopdf Info: Source file: <Metallicity_4p5_Sollima.eps>
 (epstopdf)                    date: 2015-03-25 13:59:43
@@ -1207,18 +1203,18 @@ df>
 (epstopdf)                    size: 26609 bytes
 (epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5_Sollima-eps
 -converted-to.pdf Metallicity_4p5_Sollima.eps>
-(epstopdf)             \includegraphics on input line 446.
+(epstopdf)             \includegraphics on input line 448.
 Package epstopdf Info: Output file is already uptodate.
 
-<Metallicity_4p5_Sollima-eps-converted-to.pdf, id=279, 433.62pt x 361.35pt>
+<Metallicity_4p5_Sollima-eps-converted-to.pdf, id=288, 433.62pt x 361.35pt>
 File: Metallicity_4p5_Sollima-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_4p5_Sollima-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_4p5_Sollima-eps-converted-to.pdf used on i
-nput line 446.
+nput line 448.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 443--448
+Overfull \hbox (235.24408pt too wide) in paragraph at lines 445--450
  []$ 
  []
 
@@ -1230,14 +1226,14 @@ Package epstopdf Info: Source file: <Metallicity_3p6.eps>
 (epstopdf)                    size: 31422 bytes
 (epstopdf)             Command: <epstopdf --outfile=Metallicity_3p6-eps-convert
 ed-to.pdf Metallicity_3p6.eps>
-(epstopdf)             \includegraphics on input line 456.
+(epstopdf)             \includegraphics on input line 458.
 Package epstopdf Info: Output file is already uptodate.
-<Metallicity_3p6-eps-converted-to.pdf, id=280, 433.62pt x 361.35pt>
+<Metallicity_3p6-eps-converted-to.pdf, id=289, 433.62pt x 361.35pt>
 File: Metallicity_3p6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_3p6-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_3p6-eps-converted-to.pdf used on input lin
-e 456.
+e 458.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 Package epstopdf Info: Source file: <Metallicity_4p5.eps>
 (epstopdf)                    date: 2015-03-25 13:59:42
@@ -1247,46 +1243,46 @@ Package epstopdf Info: Source file: <Metallicity_4p5.eps>
 (epstopdf)                    size: 31175 bytes
 (epstopdf)             Command: <epstopdf --outfile=Metallicity_4p5-eps-convert
 ed-to.pdf Metallicity_4p5.eps>
-(epstopdf)             \includegraphics on input line 457.
+(epstopdf)             \includegraphics on input line 459.
 Package epstopdf Info: Output file is already uptodate.
 
-<Metallicity_4p5-eps-converted-to.pdf, id=281, 433.62pt x 361.35pt>
+<Metallicity_4p5-eps-converted-to.pdf, id=290, 433.62pt x 361.35pt>
 File: Metallicity_4p5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Metallicity_4p5-eps-converted-to.pdf>
 Package pdftex.def Info: Metallicity_4p5-eps-converted-to.pdf used on input lin
-e 457.
+e 459.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-Overfull \hbox (235.24408pt too wide) in paragraph at lines 454--459
+Overfull \hbox (235.24408pt too wide) in paragraph at lines 456--461
  []$ 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 472.
 [6pdfTeX warning (ext4): destination with the same identifier (name{table.A1.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.A1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.A1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.A1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.A1.5}) 
@@ -1294,13 +1290,13 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{table.A1.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1309,34 +1305,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.A1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.A1.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.A1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.470 \end{document}
+l.472 \end{document}
                      <./PL_3p6-eps-converted-to.pdf> <./PL_4p5-eps-converted-to
 .pdf> <./Metallicity_3p6_Rey-eps-converted-to.pdf> <./Metallicity_4p5_Rey-eps-c
 onverted-to.pdf> <./Metallicity_3p6_Sollima-eps-converted-to.pdf> <./Metallicit
 y_4p5_Sollima-eps-converted-to.pdf> <./Metallicity_3p6-eps-converted-to.pdf> <.
 /Metallicity_4p5-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 472.
  (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 472.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 472.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: 223A6B76A4C1F96B2412855BC0CF71AE;418.
 
@@ -1347,16 +1343,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 472.
  ) 
 Here is how much of TeX's memory you used:
- 9777 strings out of 493089
- 139341 string characters out of 6134842
- 271345 words of memory out of 5000000
- 12971 multiletter control sequences out of 15000+600000
+ 9785 strings out of 493089
+ 139551 string characters out of 6134842
+ 271421 words of memory out of 5000000
+ 12977 multiletter control sequences out of 15000+600000
  144377 words of font info for 243 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,35p,1697b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,35p,1697b,402s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1384,10 +1380,10 @@ exmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (7 pages, 3457042 bytes).
+Output written on omegaCen_mnras_2015.pdf (7 pages, 3458626 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 410 compressed objects within 5 object streams
- 54 named destinations out of 1000 (max. 500000)
+ 758 PDF objects out of 1000 (max. 8388607)
+ 420 compressed objects within 5 object streams
+ 56 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 

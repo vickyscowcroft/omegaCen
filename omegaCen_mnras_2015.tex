@@ -176,7 +176,7 @@ The paper is set out as follows: Section~\ref{sec:observations} details the obse
 
 \section{Observations \& Data Reduction}
 \label{sec:observations}
-The observations for this work were taken as part of the Warm~\textit{Spitzer} mission as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen, their positions and the positions of known RR Lyrae are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we chose to observe each field twelve times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected to observe in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artifacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
+The observations for this work were taken as part of the Warm~\textit{Spitzer} mission as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen, their positions and the positions of known RR Lyrae are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we chose to observe each field twelve times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected to observe in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artifacts. Data was collected in both the 3.6 and 4.5~$\mu$m channels. Each field has approximately $1/3$ coverage with colour information. The small overlap region is by design. When IRAC observes with the [3.6] channel the [4.5] data in the adjecent channel is collected for free, and vice versa. We are using the non--overlapping fields to maximise the number of RR~Lyrae in our final sample, rather than throw away ``free'' data that does not have colour information. 
 
 \begin{figure}
 \begin{center}
@@ -189,7 +189,9 @@ The observations for this work were taken as part of the Warm~\textit{Spitzer} m
 
 The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the corrected BCDs (cBCDs) then mosaicking them at 0.6 arcsec pixel scale using the drizle algorithm. Mosaicked location--correction images were created at the same time. 
 
+PSF photometry was performed using the {\sc daophot} and {\sc allframe} \citep{1987PASP...99..191S, 1994PASP..106..250S}. The PSF model was created for each field/filter combination using the first epoch data. This was then applied to each other epoch. As the observations were taken so close together the effects of telescope rotation between epochs on the mosaicked PSF were minimal, so making a single good PSF model for each field/filter combination was much more efficient than creating one for every epoch. 
 
+Master star lists for {\sc allframe} were created for each filter/field combination using a median moscaiked image created by {\sc mopex}. We did not use a single master star list for both filters as only a small proportion ($1/3$) of the 3.6~$\mu$m and 4.5~$\mu$m fields overlap each other. 
 
 PSF photometry was performed in PyRAF 2.0 using the \textsc{daophot} package. Initial aperture photometry was performed with an aperture radius of 3.6\arcsec and annulus radius of 4.8\arcsec, whereas the standard IRAC aperture is 6\arcsec; a correction factor of 1.12841 and 1.12738 for 3.6 and 4.5 \micron\ respectively was applied to the instrumental magnitudes. We also calibrate the magnitudes from images in counts (required for \textsc{daophot}) back to flux magnitudes by performing aperture photometry on a set of bright, isolated stars in the flux images, finding the mean difference between the aperture flux magnitudes and PSF counts magnitudes of the same stars, and subtracting said difference from all PSF magnitudes. We also correct for location in the frame using the mosaicked correction images created by \textsc{mopex}
 
@@ -262,7 +264,7 @@ This work is based on observations made with the Spitzer Space Telescope, which 
 % The best way to enter references is to use BibTeX:
 
 \bibliographystyle{mnras}
-\bibliography{omegaCen_2015}
+\bibliography{omegaCen_mnras_2015}
  % if your bibtex file is called example.bib
 
 

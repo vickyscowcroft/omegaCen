@@ -1,0 +1,15 @@
+delta_feh_3p6_phot.pdf
+ -- if you remove the high outlier at [Fe/H] = -2.0, how does the slope change?
+ 
+delta_feh_4p5_phot.pdf
+ -- Same as above -- this star may be dominating the slope. What does it look like if you remove it?
+ 
+ metallicity_comparison_all.pdf
+ -- What is the standard deviation of these points? 
+ -- Instead of just plotting a 1-1 line, can you fit a line both ways (use phot as the x variable, then spec as the x variable), then plot them both on the same plot. This should give you information about whether it's they're actually well-correlated or not. This fitting has a proper name but I don't remember what it is.
+ 
+slope_interecept_params
+-- Can you add an extra column with standard deviation of the points around the fit please?
+
+multiwavelength_distance_samestars_phot.pdf and spec
+-- Can you plot the reddening law on here too please?
