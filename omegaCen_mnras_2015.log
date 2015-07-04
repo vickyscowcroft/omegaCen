@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JUN 2015 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  4 JUL 2015 00:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,71 +731,95 @@ LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 261.
 LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
 LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 265.
 )
-(./deluxetable.sty
-Package: deluxetable 
-\pt@box=\box28
-\pt@width=\dimen127
-\pt@line=\count116
-\pt@column=\count117
-\pt@nlines=\count118
-\pt@ncol=\count119
-\pt@page=\count120
-\pt@tmpcapwidth=\dimen128
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count116
+\LTcapwidth=\dimen127
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
+\LT@p@ftn=\toks24
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 12
-0.
+1.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 120.
+(Font)              scaled to size 9.0pt on input line 121.
 
-(./omegaCen_mnras_2015.aux)
+(./omegaCen_mnras_2015.aux
+
+LaTeX Warning: Label `fig:delta_3p6_phot' multiply defined.
+
+
+LaTeX Warning: Label `fig:delta_4p5_phot' multiply defined.
+
+)
 \openout1 = `omegaCen_mnras_2015.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 120.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 121.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 12
-0.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
+1.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 121.
 LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 12
-0.
+1.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 120.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 120
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 121
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 120.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -831,7 +855,7 @@ LaTeX Font Info:    ... okay on input line 120.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box32
 (/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
@@ -840,7 +864,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 120.
+Package hyperref Info: Link coloring ON on input line 121.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -850,9 +874,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 
 (./omegaCen_mnras_2015.out) (./omegaCen_mnras_2015.out)
 \@outlinefile=\write3
@@ -864,16 +888,16 @@ LaTeX Info: Redefining \nameref on input line 120.
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count124
-\scratchdimen=\dimen129
-\scratchbox=\box30
+\scratchdimen=\dimen128
+\scratchbox=\box33
 \nofMPsegments=\count125
 \nofMParguments=\count126
-\everyMPshowfont=\toks24
+\everyMPshowfont=\toks25
 \MPscratchCnt=\count127
-\MPscratchDim=\dimen130
+\MPscratchDim=\dimen129
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks25
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -890,160 +914,139 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 123.
+(Font)              scaled to size 17.28pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 123.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 124.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 123.
+(Font)              scaled to size 17.28pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.5pt on input line 123.
+(Font)              scaled to size 12.5pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.4pt on input line 123.
+(Font)              scaled to size 9.4pt on input line 124.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <12.5> not available
-(Font)              size <12> substituted on input line 123.
+(Font)              size <12> substituted on input line 124.
 
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 123
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 124
 .
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 123
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 124
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 123
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 124
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 123.
+LaTeX Font Info:    Try loading font information for U+msa on input line 124.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 123.
+LaTeX Font Info:    Try loading font information for U+msb on input line 124.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 123.
+(Font)              scaled to size 14.4pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 123.
+(Font)              scaled to size 10.5pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 123.
+(Font)              scaled to size 7.9pt on input line 124.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 123.
+(Font)              size <10.95> substituted on input line 124.
 
 LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 1
-23.
+24.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 14.4pt on input line 123.
+(Font)              scaled to size 14.4pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 123.
+(Font)              scaled to size 8.0pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 123.
+(Font)              scaled to size 8.0pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 123.
+(Font)              scaled to size 6.2pt on input line 124.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 123.
+(Font)              scaled to size 5.5pt on input line 124.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 123.
+(Font)              size <5> substituted on input line 124.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 126.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 127.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 126.
+(Font)              scaled to size 9.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 126.
+(Font)              scaled to size 10.0pt on input line 127.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 133.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 134.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 133.
+(Font)              scaled to size 10.0pt on input line 134.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 9.0pt on input line 154.
+(Font)              scaled to size 9.0pt on input line 156.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 154.
+(Font)              scaled to size 7.3pt on input line 156.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 159.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 161.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 159.
+(Font)              scaled to size 8.0pt on input line 161.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-59.
+61.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 159.
+(Font)              scaled to size 8.0pt on input line 161.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
 Underfull \vbox (badness 6380) has occurred while \output is active []
 
-
-Underfull \hbox (badness 1092) in paragraph at lines 183--186
-\T1/ntxtlf/m/n/9 The ob-ser-va-tions for this work were taken as part of the
- []
-
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 187.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 191.
+(Font)              scaled to size 12.0pt on input line 198.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 191.
-[2] <final_plots/omegacen_coverage_map.pdf, id=126, 433.62pt x 343.2825pt>
+(Font)              scaled to size 12.0pt on input line 198.
+ [2]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 199.
+
+<final_plots/omegacen_coverage_map.pdf, id=151, 433.62pt x 343.2825pt>
 File: final_plots/omegacen_coverage_map.pdf Graphic file (type pdf)
 
 <use final_plots/omegacen_coverage_map.pdf>
 Package pdftex.def Info: final_plots/omegacen_coverage_map.pdf used on input li
-ne 196.
+ne 208.
 (pdftex.def)             Requested size: 227.62204pt x 180.19981pt.
 
-Underfull \vbox (badness 1603) has occurred while \output is active []
-
-
-<final_plots/multiwavelength_PL_allstars_phot.pdf, id=138, 505.89pt x 578.16pt>
+<final_plots/multiwavelength_PL_allstars_phot.pdf, id=162, 505.89pt x 578.16pt>
 File: final_plots/multiwavelength_PL_allstars_phot.pdf Graphic file (type pdf)
 <use final_plots/multiwavelength_PL_allstars_phot.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_PL_allstars_phot.pdf used 
-on input line 229.
+on input line 242.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
-
-<final_plots/metallicity_comparison_all.pdf, id=148, 433.62pt x 433.62pt>
-File: final_plots/metallicity_comparison_all.pdf Graphic file (type pdf)
-
-<use final_plots/metallicity_comparison_all.pdf>
-Package pdftex.def Info: final_plots/metallicity_comparison_all.pdf used on inp
-ut line 242.
-(pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
-
-<final_plots/metallicity_comparison_samestars.pdf, id=149, 433.62pt x 433.62pt>
-File: final_plots/metallicity_comparison_samestars.pdf Graphic file (type pdf)
-<use final_plots/metallicity_comparison_samestars.pdf>
-Package pdftex.def Info: final_plots/metallicity_comparison_samestars.pdf used 
-on input line 243.
-(pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 8.8pt on input line 251.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
@@ -1053,394 +1056,66 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 ...times\log P + c\times[Fe/H]\end{equation}
-                                                  pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.2}) has been already used, duplicat
-e ignored
+l.251 N
+       ot all stars in our sample have known metallicity values, so we use a...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.251 ...times\log P + c\times[Fe/H]\end{equation}
-                                                   <./final_plots/omegacen_cove
-rage_map.pdf> <./final_plots/multiwavelength_PL_allstars_phot.pdf>]
-./omegaCen_mnras_2015.tex:275: Undefined control sequence.
-\@halignto ->\@to 
-                  \pt@width 
-l.275 \startdata
-                
-? s
-OK, entering \scrollmode...
-./omegaCen_mnras_2015.tex:275: Missing { inserted.
-<to be read again> 
-                   \pt@width 
-l.275 \startdata
-                
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+l.251 N
+       ot all stars in our sample have known metallicity values, so we use a...
+ <./final_plots/omegacen_coverage_map.pdf> <./final_plots/multiwavelength_PL_al
+lstars_phot.pdf>]
+<final_plots/metallicity_comparison_all.pdf, id=617, 433.62pt x 433.62pt>
+File: final_plots/metallicity_comparison_all.pdf Graphic file (type pdf)
 
-./omegaCen_mnras_2015.tex:275: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.275 \startdata
-                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+<use final_plots/metallicity_comparison_all.pdf>
+Package pdftex.def Info: final_plots/metallicity_comparison_all.pdf used on inp
+ut line 255.
+(pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 
-./omegaCen_mnras_2015.tex:275: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.275 \startdata
-                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
+<final_plots/metallicity_comparison_samestars.pdf, id=618, 433.62pt x 433.62pt>
+File: final_plots/metallicity_comparison_samestars.pdf Graphic file (type pdf)
+<use final_plots/metallicity_comparison_samestars.pdf>
+Package pdftex.def Info: final_plots/metallicity_comparison_samestars.pdf used 
+on input line 256.
+(pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 
-./omegaCen_mnras_2015.tex:275: Missing } inserted.
-<inserted text> 
-                }
-l.275 \startdata
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:275: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.275 \startdata
-                
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:275: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.275 \startdata
-                
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:275: Missing } inserted.
-<inserted text> 
-                }
-l.275 \startdata
-                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:277: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.277 $
-       [3.6]$ & FO & $-1.584$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:277: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.277 $
-       [3.6]$ & FO & $-1.584$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:277: Missing } inserted.
-<inserted text> 
-                }
-l.277 $[3.6]$ &
-                FO & $-1.584$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:278: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.278             &
-                    FO & $-1.677$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:278: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.278             &
-                    FO & $-1.677$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:278: Missing } inserted.
-<inserted text> 
-                }
-l.278             &
-                    FO & $-1.677$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:279: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.279             &
-                    FU & $-1.584$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:279: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.279             &
-                    FU & $-1.584$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:279: Missing } inserted.
-<inserted text> 
-                }
-l.279             &
-                    FU & $-1.584$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:280: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.280             &
-                    FU & $-1.677$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:280: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.280             &
-                    FU & $-1.677$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:280: Missing } inserted.
-<inserted text> 
-                }
-l.280             &
-                    FU & $-1.677$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:281: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.281 $
-       [4.5]$ & FO & $-1.584$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:281: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.281 $
-       [4.5]$ & FO & $-1.584$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:281: Missing } inserted.
-<inserted text> 
-                }
-l.281 $[4.5]$ &
-                FO & $-1.584$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:282: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.282             &
-                    FO & $-1.677$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:282: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.282             &
-                    FO & $-1.677$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:282: Missing } inserted.
-<inserted text> 
-                }
-l.282             &
-                    FO & $-1.677$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:283: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.283             &
-                    FU & $-1.584$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:283: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.283             &
-                    FU & $-1.584$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:283: Missing } inserted.
-<inserted text> 
-                }
-l.283             &
-                    FU & $-1.584$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:284: Missing number, treated as zero.
-<to be read again> 
-                   \bgroup 
-l.284             &
-                    FU & $-1.677$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-./omegaCen_mnras_2015.tex:284: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \bgroup 
-l.284             &
-                    FU & $-1.677$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-./omegaCen_mnras_2015.tex:284: Missing } inserted.
-<inserted text> 
-                }
-l.284             &
-                    FU & $-1.677$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Table 1 has been set to width 243.90294pt
-
-Overfull \hbox (3.90294pt too wide) in paragraph at lines 275--287
- [][] 
- []
-
-
-<final_plots/multiwavelength_PL_samestars_phot.pdf, id=604, 505.89pt x 578.16pt
+<final_plots/multiwavelength_PL_samestars_phot.pdf, id=622, 505.89pt x 578.16pt
 >
 File: final_plots/multiwavelength_PL_samestars_phot.pdf Graphic file (type pdf)
 
  <use final_plots/multiwavelength_PL_samestars_phot.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_PL_samestars_phot.pdf used
- on input line 291.
+ on input line 290.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 
-<final_plots/multiwavelength_PL_samestars_spect.pdf, id=609, 505.89pt x 578.16p
+<final_plots/multiwavelength_PL_samestars_spect.pdf, id=627, 505.89pt x 578.16p
 t>
 File: final_plots/multiwavelength_PL_samestars_spect.pdf Graphic file (type pdf
 )
  <use final_plots/multiwavelength_PL_samestars_spect.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_PL_samestars_spect.pdf use
-d on input line 299.
+d on input line 298.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 
-<final_plots/multiwavelength_distance_samestars_phot.pdf, id=620, 433.62pt x 36
+<final_plots/multiwavelength_distance_samestars_phot.pdf, id=638, 433.62pt x 36
 1.35pt>
 File: final_plots/multiwavelength_distance_samestars_phot.pdf Graphic file (typ
 e pdf)
  <use final_plots/multiwavelength_distance_samestars_phot.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_phot.pd
-f used on input line 315.
+f used on input line 314.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-<final_plots/multiwavelength_distance_samestars_spect.pdf, id=625, 433.62pt x 3
+<final_plots/multiwavelength_distance_samestars_spect.pdf, id=643, 433.62pt x 3
 61.35pt>
 File: final_plots/multiwavelength_distance_samestars_spect.pdf Graphic file (ty
 pe pdf)
  <use final_plots/multiwavelength_distance_samestars_spect.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_spect.p
-df used on input line 323.
+df used on input line 322.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
 [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
@@ -1448,19 +1123,19 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.331 
+l.330 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.330 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.331 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.331 
+l.330 
        <./final_plots/metallicity_comparison_all.pdf> <./final_plots/metallicit
 y_comparison_samestars.pdf
 
@@ -1472,20 +1147,43 @@ gle page
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_PL_sam
 estars_phot.pdf): PDF inclusion: multiple pdfs with page group included in a si
 ngle page
-> <./final_plots/multiwavelength_PL_samestars_spect.pdf
-
-pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_PL_sam
-estars_spect.pdf): PDF inclusion: multiple pdfs with page group included in a s
-ingle page
->] <final_plots/delta_feh_3p6_phot.pdf, id=1094, 361.35pt x 289.08pt>
+>] <final_plots/delta_feh_3p6_phot.pdf, id=986, 361.35pt x 289.08pt>
 File: final_plots/delta_feh_3p6_phot.pdf Graphic file (type pdf)
 
 <use final_plots/delta_feh_3p6_phot.pdf>
 Package pdftex.def Info: final_plots/delta_feh_3p6_phot.pdf used on input line 
 366.
 (pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+ has been already used, duplicate ignored
 
-<final_plots/delta_feh_3p6_spect.pdf, id=1095, 361.35pt x 289.08pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.370 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.370 \end{figure}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{figure.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.370 \end{figure}
+                   <./final_plots/multiwavelength_PL_samestars_spect.pdf> <./fi
+nal_plots/multiwavelength_distance_samestars_phot.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
+ce_samestars_phot.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+> <./final_plots/multiwavelength_distance_samestars_spect.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
+ce_samestars_spect.pdf): PDF inclusion: multiple pdfs with page group included 
+in a single page
+>] <final_plots/delta_feh_3p6_spect.pdf, id=1204, 361.35pt x 289.08pt>
 File: final_plots/delta_feh_3p6_spect.pdf Graphic file (type pdf)
 
 <use final_plots/delta_feh_3p6_spect.pdf>
@@ -1493,7 +1191,7 @@ Package pdftex.def Info: final_plots/delta_feh_3p6_spect.pdf used on input line
  374.
 (pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-<final_plots/delta_feh_4p5_phot.pdf, id=1096, 361.35pt x 289.08pt>
+<final_plots/delta_feh_4p5_phot.pdf, id=1205, 361.35pt x 289.08pt>
 File: final_plots/delta_feh_4p5_phot.pdf Graphic file (type pdf)
 
 <use final_plots/delta_feh_4p5_phot.pdf>
@@ -1501,86 +1199,64 @@ Package pdftex.def Info: final_plots/delta_feh_4p5_phot.pdf used on input line
 382.
 (pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-<final_plots/delta_feh_4p5_spect.pdf, id=1097, 361.35pt x 289.08pt>
+<final_plots/delta_feh_4p5_spect.pdf, id=1206, 361.35pt x 289.08pt>
 File: final_plots/delta_feh_4p5_spect.pdf Graphic file (type pdf)
 
 <use final_plots/delta_feh_4p5_spect.pdf>
 Package pdftex.def Info: final_plots/delta_feh_4p5_spect.pdf used on input line
  390.
 (pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
-has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.416 T
-       his work is based on observations made with the Spitzer Space Telesco...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
+<final_plots/delta_feh_3p6_phot_no_outlier.pdf, id=1207, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_3p6_phot_no_outlier.pdf Graphic file (type pdf)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.416 T
-       his work is based on observations made with the Spitzer Space Telesco...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
+<use final_plots/delta_feh_3p6_phot_no_outlier.pdf>
+Package pdftex.def Info: final_plots/delta_feh_3p6_phot_no_outlier.pdf used on 
+input line 398.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.416 T
-       his work is based on observations made with the Spitzer Space Telesco...
- <./final_plots/multiwavelength_distance_samestars_phot.pdf> <./final_plots/mul
-tiwavelength_distance_samestars_spect.pdf
+<final_plots/delta_feh_4p5_phot_no_outlier.pdf, id=1208, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_4p5_phot_no_outlier.pdf Graphic file (type pdf)
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
-ce_samestars_spect.pdf): PDF inclusion: multiple pdfs with page group included 
-in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-(./omegaCen_mnras_2015.bbl
-
-Package hyperref Warning: Suppressing empty link on input line 106.
-
-LaTeX Font Info:    Try loading font information for T1+aett on input line 107.
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-
-Package hyperref Warning: Suppressing empty link on input line 117.
-
-
-Package hyperref Warning: Suppressing empty link on input line 144.
-
+<use final_plots/delta_feh_4p5_phot_no_outlier.pdf>
+Package pdftex.def Info: final_plots/delta_feh_4p5_phot_no_outlier.pdf used on 
+input line 406.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+ (./omegaCen_mnras_2015.bbl
 [6pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.160 ...}}{{Stetson}}{1987}]{1987PASP...99..191S}
+l.26 ...{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.9}) has been already used, duplicat
 e ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.160 ...}}{{Stetson}}{1987}]{1987PASP...99..191S}
+l.26 ...{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.10}) has been already used, duplica
 te ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.160 ...}}{{Stetson}}{1987}]{1987PASP...99..191S}
+l.26 ...{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
                                                   pdfTeX warning (ext4): destin
 ation with the same identifier (name{figure.11}) has been already used, duplica
 te ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.160 ...}}{{Stetson}}{1987}]{1987PASP...99..191S}
+l.26 ...{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
+                                                  pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.12}) has been already used, duplica
+te ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.26 ...{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
                                                    <./final_plots/delta_feh_3p6
 _phot.pdf> <./final_plots/delta_feh_3p6_spect.pdf
 
@@ -1594,157 +1270,91 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_4p5_phot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_4p5_spect.pd
 f): PDF inclusion: multiple pdfs with page group included in a single page
->]) [7
+> <./final_plots/delta_feh_3p6_phot_no_outlier.pdf
 
-]
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 469.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.5pt on input line 469.
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_3p6_phot_no_
+outlier.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+>]
+
+Package hyperref Warning: Suppressing empty link on input line 119.
+
+LaTeX Font Info:    Try loading font information for T1+aett on input line 120.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+
+Package hyperref Warning: Suppressing empty link on input line 130.
 
 
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 469.
+Package hyperref Warning: Suppressing empty link on input line 167.
 
-Page 1 of table 1 has been set to width 584.02075pt with 56 lines per page 
-
-Overfull \hbox (248.7825pt too wide) in paragraph at lines 524--524
-[][] 
- []
-
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.A0.1}
-) has been already used, duplicate ignored
+) [7pdfTeX warning (ext4): destination with the same identifier (name{figure.13
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.524 7
-       9 & 13:28:24.99 & -47:29:25.2 & 13.382 & 0.036 & 13.162 & 0.055 & 13....
+l.449 \clearpage
+                 <./final_plots/delta_feh_4p5_phot_no_outlier.pdf>] [8
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{table.A0.1})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.524 7
-       9 & 13:28:24.99 & -47:29:25.2 & 13.382 & 0.036 & 13.162 & 0.055 & 13....
-Table 1 has been set to width 0.0pt
-./omegaCen_mnras_2015.tex:572: Missing } inserted.
-<inserted text> 
-                }
-l.572 \end{deluxetable}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:572: Missing } inserted.
-<inserted text> 
-                }
-l.572 \end{deluxetable}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:572: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.572 \end{deluxetable}
-                       
-I'm guessing that you meant to end an alignment here.
-
-./omegaCen_mnras_2015.tex:572: Missing { inserted.
-<inserted text> 
-                {
-l.572 \end{deluxetable}
-                       
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-./omegaCen_mnras_2015.tex:572: Missing $ inserted.
-<inserted text> 
-                $
-l.572 \end{deluxetable}
-                       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./omegaCen_mnras_2015.tex:572: Missing } inserted.
-<inserted text> 
-                }
-l.572 \end{deluxetable}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./omegaCen_mnras_2015.tex:572: Missing } inserted.
-<inserted text> 
-                }
-l.572 \end{deluxetable}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+]
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 463.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.5pt on input line 465.
 
 
-Overfull \hbox (200.56996pt too wide) in paragraph at lines 572--572
-[][] 
- []
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 465.
 
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 6.0pt on input line 471.
 [9
 
 
-] <final_plots/deltadelta_3p6_4p5_spect.pdf, id=1429, 361.35pt x 361.35pt>
+] [10]
+<final_plots/deltadelta_3p6_4p5_spect.pdf, id=1603, 361.35pt x 361.35pt>
 File: final_plots/deltadelta_3p6_4p5_spect.pdf Graphic file (type pdf)
 
 <use final_plots/deltadelta_3p6_4p5_spect.pdf>
 Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_spect.pdf used on input
- line 577.
+ line 586.
 (pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
 
-<final_plots/deltadelta_3p6_4p5_phot.pdf, id=1430, 361.35pt x 361.35pt>
+<final_plots/deltadelta_3p6_4p5_phot.pdf, id=1604, 361.35pt x 361.35pt>
 File: final_plots/deltadelta_3p6_4p5_phot.pdf Graphic file (type pdf)
 
 <use final_plots/deltadelta_3p6_4p5_phot.pdf>
 Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_phot.pdf used on input 
-line 586.
+line 594.
 (pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 600.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 608.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.600 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{figure.A0.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.600 \end{document}
+l.608 \end{document}
                     
 
 
- <./final_plots/deltadelta_3p6_4p5_spect.pdf> <./final_plots/deltadelta_3p6_4p5
-_phot.pdf
+ <./final_plots/deltadelta_3p6_4p5_spect.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/deltadelta_3p6_4p5_pho
-t.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 600.
- (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 600.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 600.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
+.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.608 \end{document}
+                     <./final_plots/deltadelta_3p6_4p5_phot.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 608.
+
+(./omegaCen_mnras_2015.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 608.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 608.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: BCC71F7ED57BCAC3640555B6A6E27138;408.
 
@@ -1752,16 +1362,19 @@ Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 600.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 608.
  ) 
 Here is how much of TeX's memory you used:
- 9835 strings out of 493089
- 141522 string characters out of 6134842
- 295302 words of memory out of 5000000
- 13013 multiletter control sequences out of 15000+600000
- 149090 words of font info for 243 fonts, out of 8000000 for 9000
+ 9892 strings out of 493089
+ 143239 string characters out of 6134842
+ 342754 words of memory out of 5000000
+ 13047 multiletter control sequences out of 15000+600000
+ 152168 words of font info for 245 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,35p,1761b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,35p,1717b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1789,10 +1402,10 @@ texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive
 exmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (10 pages, 1348294 bytes).
+Output written on omegaCen_mnras_2015.pdf (12 pages, 1398687 bytes).
 PDF statistics:
- 1634 PDF objects out of 1728 (max. 8388607)
- 542 compressed objects within 6 object streams
- 66 named destinations out of 1000 (max. 500000)
- 135 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1823 PDF objects out of 2073 (max. 8388607)
+ 622 compressed objects within 7 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 

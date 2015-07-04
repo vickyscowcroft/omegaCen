@@ -18,11 +18,6 @@
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
 \bibitem[\protect\citeauthoryear{{Benedict} et~al.,}{{Benedict}
-  et~al.}{2007}]{2007AJ....133.1810B}
-{Benedict} G.~F.,  et~al., 2007, \mn@doi [\aj] {10.1086/511980}, \href
-  {http://adsabs.harvard.edu/abs/2007AJ....133.1810B} {133, 1810}
-
-\bibitem[\protect\citeauthoryear{{Benedict} et~al.,}{{Benedict}
   et~al.}{2011}]{2011AJ....142..187B}
 {Benedict} G.~F.,  et~al., 2011, \mn@doi [\aj] {10.1088/0004-6256/142/6/187},
   \href {http://adsabs.harvard.edu/abs/2011AJ....142..187B} {142, 187}
@@ -50,10 +45,19 @@
 {Del Principe} M.,  et~al., 2006, \mn@doi [\apj] {10.1086/508136}, \href
   {http://adsabs.harvard.edu/abs/2006ApJ...652..362D} {652, 362}
 
+\bibitem[\protect\citeauthoryear{{Efstathiou}}{{Efstathiou}}{2014}]{2014MNRAS.440.1138E}
+{Efstathiou} G.,  2014, \mn@doi [\mnras] {10.1093/mnras/stu278}, \href
+  {http://adsabs.harvard.edu/abs/2014MNRAS.440.1138E} {440, 1138}
+
 \bibitem[\protect\citeauthoryear{{Fazio} et~al.,}{{Fazio}
   et~al.}{2004}]{2004ApJS..154...10F}
 {Fazio} G.~G.,  et~al., 2004, \mn@doi [\apjs] {10.1086/422843}, \href
   {http://adsabs.harvard.edu/abs/2004ApJS..154...10F} {154, 10}
+
+\bibitem[\protect\citeauthoryear{{Freedman} et~al.,}{{Freedman}
+  et~al.}{2011}]{2011AJ....142..192F}
+{Freedman} W.~L.,  et~al., 2011, \mn@doi [\aj] {10.1088/0004-6256/142/6/192},
+  \href {http://adsabs.harvard.edu/abs/2011AJ....142..192F} {142, 192}
 
 \bibitem[\protect\citeauthoryear{{Freedman}, {Madore}, {Scowcroft}, {Burns},
   {Monson}, {Persson}, {Seibert}  \& {Rigby}}{{Freedman}
@@ -62,6 +66,11 @@
   {Persson} S.~E.,  {Seibert} M.,   {Rigby} J.,  2012, \mn@doi [\apj]
   {10.1088/0004-637X/758/1/24}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...758...24F} {758, 24}
+
+\bibitem[\protect\citeauthoryear{{Freeman} \& {Rodgers}}{{Freeman} \&
+  {Rodgers}}{1975}]{1975ApJ...201L..71F}
+{Freeman} K.~C.,  {Rodgers} A.~W.,  1975, \mn@doi [\apjl] {10.1086/181945},
+  \href {http://adsabs.harvard.edu/abs/1975ApJ...201L..71F} {201, L71}
 
 \bibitem[\protect\citeauthoryear{{Indebetouw} et~al.,}{{Indebetouw}
   et~al.}{2005}]{2005ApJ...619..931I}
@@ -91,6 +100,10 @@
 {Makovoz} D.,  {Roby} T.,  {Khan} I.,   {Booth} H.,  2006, in Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series. p.~0,
   \mn@doi{10.1117/12.672536}
+
+\bibitem[\protect\citeauthoryear{{Sollima}, {Cacciari}  \&
+  {Valenti}}{Mon}{}]{Monson2015}
+
 
 \bibitem[\protect\citeauthoryear{{Monson}, {Freedman}, {Madore}, {Persson},
   {Scowcroft}, {Seibert}  \& {Rigby}}{{Monson}
@@ -127,6 +140,16 @@
 {Rey} S.-C.,  {Lee} Y.-W.,  {Joo} J.-M.,  {Walker} A.,   {Baird} S.,  2000,
   \mn@doi [\aj] {10.1086/301304}, \href
   {http://adsabs.harvard.edu/abs/2000AJ....119.1824R} {119, 1824}
+
+\bibitem[\protect\citeauthoryear{{Riess} et~al.,}{{Riess}
+  et~al.}{2011}]{2011ApJ...730..119R}
+{Riess} A.~G.,  et~al., 2011, \mn@doi [\apj] {10.1088/0004-637X/730/2/119},
+  \href {http://adsabs.harvard.edu/abs/2011ApJ...730..119R} {730, 119}
+
+\bibitem[\protect\citeauthoryear{{Rigault} et~al.,}{{Rigault}
+  et~al.}{2015}]{2015ApJ...802...20R}
+{Rigault} M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/802/1/20}, \href
+  {http://adsabs.harvard.edu/abs/2015ApJ...802...20R} {802, 20}
 
 \bibitem[\protect\citeauthoryear{{Scowcroft}, {Freedman}, {Madore}, {Monson},
   {Persson}, {Seibert}, {Rigby}  \& {Sturch}}{{Scowcroft}
@@ -172,6 +195,17 @@
   {Paczy{\'n}ski} B.,  {Persson} S.~E.,   {Preston} G.~W.,  2001, \mn@doi [\aj]
   {10.1086/321084}, \href {http://adsabs.harvard.edu/abs/2001AJ....121.3089T}
   {121, 3089}
+
+\bibitem[\protect\citeauthoryear{{Villanova} et~al.,}{{Villanova}
+  et~al.}{2007}]{2007ApJ...663..296V}
+{Villanova} S.,  et~al., 2007, \mn@doi [\apj] {10.1086/517905}, \href
+  {http://adsabs.harvard.edu/abs/2007ApJ...663..296V} {663, 296}
+
+\bibitem[\protect\citeauthoryear{{Villanova}, {Geisler}, {Gratton}  \&
+  {Cassisi}}{{Villanova} et~al.}{2014}]{2014ApJ...791..107V}
+{Villanova} S.,  {Geisler} D.,  {Gratton} R.~G.,   {Cassisi} S.,  2014, \mn@doi
+  [\apj] {10.1088/0004-637X/791/2/107}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...791..107V} {791, 107}
 
 \bibitem[\protect\citeauthoryear{{Watkins}, {van de Ven}, {den Brok}  \& {van
   den Bosch}}{{Watkins} et~al.}{2013}]{2013MNRAS.436.2598W}
