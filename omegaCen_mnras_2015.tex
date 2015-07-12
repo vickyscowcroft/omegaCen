@@ -233,9 +233,9 @@ The average magnitudes are calculated by first converting the individual values 
 
 %The absolute zero--point of the CRRP distance ladder is currently tied to HST fine guidance sensor (FGS) parallax measurements of 5 Galactic RR Lyrae measured by \citet{2011AJ....142..187B}. The {\it Spitzer} observations of these stars, plus an additional 45 Galactic RR Lyrae that will also have their parallaxes measured by {\it Gaia} will be presented in \citet{Monson2015} {\bf REF TO MONSON2015 IN PREP}. 
 
-Our full, uncrowded RR Lyrae sample consists of 96 stars in $J$ and $H$, 98 in $K$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. The PL fits to this sample are shown in Figure~\ref{fig:omegaCen_pl_allstars}.
+Our full, uncrowded RR Lyrae sample consists of 96 stars in $J$ and $H$, 98 in $K$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. The PL fits to this sample are shown in Figure~\ref{fig:omegaCen_pl_allstars}, and the distance moduli and reddening values obtained from these fits are shown in Figure {\bf get correct plot for this—got overwritten with wrong data}.
 
-For the final PL relations, we use only the stars for which we have photometry in all five bandpasses. Our final RRL sample consists of 25 RRL (12 fundamental mode and 13 first overtone). While this final sample is sparse, it reduces sampling bias by ensuring that the same range of periods and metallicities are sampled for each wavelength. We do not need to be concerned that cutting the sample introduces other types of bias. As previously mentioned, the intrinsic PL width of RR Lyrae variables in the mid--IR is half that of Cepheids (0.05~mag vs. 0.10~mag); based on the scatter of the PL residuals, the cut samples encompass the full width at all wavelengths. Similarly, the ratio of $\omega$~Cen's diameter to its distance is approximately 0.01 ({\bf wikipedia'd, will find ref if needed}), so we can make the simplifying assumption that all the RRL are at the same distance and thus do not need to concern ourselves with sampling a range of distances.
+For the final PL relations, we use only the stars for which we have photometry in all five bandpasses. Our final RRL sample consists of 25 RRL (12 fundamental mode and 13 first overtone). While this final sample is sparse, it reduces sampling bias by ensuring that the same range of periods and metallicities are sampled for each wavelength. We do not need to be concerned that cutting the sample introduces other types of bias. As previously mentioned, the intrinsic PL width of RR Lyrae variables in the mid--IR is half that of Cepheids (0.05~mag vs. 0.10~mag); based on the scatter of the PL residuals, the cut samples encompass the full width at all wavelengths. Similarly, the ratio of $\omega$~Cen's diameter to its distance is approximately 1\% ({\bf wikipedia'd, will find ref if needed}), so we can make the simplifying assumption that all the RRL are at the same distance and thus do not need to concern ourselves with sampling a range of distances.
 
 \begin{figure}
 \begin{center}
@@ -305,9 +305,7 @@ $[4.5]$ & FO & $-1.584$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
 \section{Distance Moduli}
 \label{sec:distance_moduli}
 
-We can combine the uncorrected distance moduli from each bandpass to obtain a mean reddening--corrected distance modulus. We fit the near--infrared reddening law from \citet{1989ApJ...345..245C} and mid--infrared law from \citet{2005ApJ...619..931I} simultaneously, assuming the ratio of total to selective absorption $R_V = 3.1$. The resulting fits are shown in Figures~\ref{fig:omegaCen_dist_phot} and \ref{fig:omegaCen_dist_spect}.
-
-%The five bands for which distance moduli are available can be combined to produce an estimate of the mean $E(B - V)$ and mean reddening--corrected distance modulus of the galaxy. We assume the ratio of total to selective absorption, $R_V = 3.1$, and fit three reddening laws simultaneously. For the near--infrared bands we use the appropriate relation from Cardelli et al. (1989) and for the mid--infrared we use the relation from Indebetouw et al. (2005). The relations are fit by minimising the dispersion of the distance moduli around the values predicted by the reddening law. The resulting fits are shown in Figures~\ref{fig:omegaCen_dist_phot} and \ref{fig:omegaCen_dist_spect}.
+We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening--corrected distance modulus. We fit the near--infrared reddening law from \citet{1989ApJ...345..245C} and mid--infrared law from \citet{2005ApJ...619..931I} simultaneously, assuming the ratio of total to selective absorption $R_V = 3.1$. The resulting fits are shown in Figures~\ref{fig:omegaCen_dist_phot} and \ref{fig:omegaCen_dist_spect}.
 
 \begin{figure}
 \begin{center}
@@ -453,10 +451,6 @@ This work is based on observations made with the Spitzer Space Telescope, which 
 
 {\bf Table needs updating, M will do soon}
 
-%% Updating this table to use the longtable and pdflscape packages instead of deluxetable as deluxetable can't be used outside of aastex. 
-%% Here's some documentation about longtable: http://texblog.org/2011/05/15/multi-page-tables-using-longtable/
-%% Have to switch to onecolumn mode to use longtable
-%% Note from VS: I've changed the column headers in this table. M_K etc. is incorrect as that would imply the absolute magnitude of the stars, whereas you're reporting the apparent magnitudes of the stars. 
 \onecolumn
 \begin{landscape}
 \begin{center}
