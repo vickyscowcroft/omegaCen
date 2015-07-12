@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2015 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 JUL 2015 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,65 +1294,63 @@ Package hyperref Warning: Suppressing empty link on input line 167.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.447 \clearpage
-                 <./final_plots/delta_feh_4p5_phot_no_outlier.pdf>] [8
-
-
-]
+                 <./final_plots/delta_feh_4p5_phot_no_outlier.pdf>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 457.
+(Font)              scaled to size 6.0pt on input line 455.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.5pt on input line 459.
+(Font)              scaled to size 6.5pt on input line 457.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 459.
+(Font)              size <6> substituted on input line 457.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.0pt on input line 465.
-[9
+(Font)              scaled to size 6.0pt on input line 463.
+[8
 
 
-] [10]
-<final_plots/deltadelta_3p6_4p5_spect.pdf, id=1603, 361.35pt x 361.35pt>
+
+] [9]
+<final_plots/deltadelta_3p6_4p5_spect.pdf, id=1597, 361.35pt x 361.35pt>
 File: final_plots/deltadelta_3p6_4p5_spect.pdf Graphic file (type pdf)
 
 <use final_plots/deltadelta_3p6_4p5_spect.pdf>
 Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_spect.pdf used on input
- line 580.
+ line 578.
 (pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
 
-<final_plots/deltadelta_3p6_4p5_phot.pdf, id=1604, 361.35pt x 361.35pt>
+<final_plots/deltadelta_3p6_4p5_phot.pdf, id=1598, 361.35pt x 361.35pt>
 File: final_plots/deltadelta_3p6_4p5_phot.pdf Graphic file (type pdf)
 
 <use final_plots/deltadelta_3p6_4p5_phot.pdf>
 Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_phot.pdf used on input 
-line 588.
+line 586.
 (pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 602.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 600.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.602 \end{document}
+l.600 \end{document}
                     
 
 
  <./final_plots/deltadelta_3p6_4p5_spect.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.602 \end{document}
+l.600 \end{document}
                      <./final_plots/deltadelta_3p6_4p5_phot.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 602.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 600.
 
 (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 602.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 602.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 600.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 600.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: BCC71F7ED57BCAC3640555B6A6E27138;408.
 
@@ -1363,11 +1361,11 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 602.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 600.
  ) 
 Here is how much of TeX's memory you used:
- 9892 strings out of 493089
- 143239 string characters out of 6134842
+ 9891 strings out of 493089
+ 143232 string characters out of 6134842
  342754 words of memory out of 5000000
  13047 multiletter control sequences out of 15000+600000
  152168 words of font info for 245 fonts, out of 8000000 for 9000
@@ -1400,10 +1398,10 @@ texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive
 exmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (12 pages, 1399232 bytes).
+Output written on omegaCen_mnras_2015.pdf (11 pages, 1400055 bytes).
 PDF statistics:
- 1823 PDF objects out of 2073 (max. 8388607)
- 622 compressed objects within 7 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 1817 PDF objects out of 2073 (max. 8388607)
+ 617 compressed objects within 7 object streams
+ 76 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
