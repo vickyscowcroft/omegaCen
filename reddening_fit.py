@@ -3,18 +3,19 @@
 
 # In[1]:
 
-get_ipython().magic(u'matplotlib inline')
-get_ipython().magic(u"config InlineBackend.figure_format='retina'")
+#get_ipython().magic(u'matplotlib inline')
+#get_ipython().magic(u"config InlineBackend.figure_format='retina'")
 import numpy as np
-from matplotlib import pyplot as plt
-from matplotlib import rc
+#import matplotlib.pyplot as plt
+#from matplotlib import pyplot as plt
+#from matplotlib import rc
 import glob
 #import brewer2mpl
 #set2 = brewer2mpl.get_map('Dark2', 'qualitative', 8).mpl_colors
 from reddening_laws import *
-import prettyplotlib as ppl
-rc('font', **{'family': 'serif', 'serif': ['Computer Modern Roman'], 'size':14})
-rc('text', usetex=True)
+#import prettyplotlib as ppl
+#rc('font', **{'family': 'serif', 'serif': ['Computer Modern Roman'], 'size':14})
+#rc('text', usetex=True)
 #mycolors = ['red', 'gold', 'green', 'blue', 'purple']
 #rc('axes', color_cycle=mycolors)
 #from scipy.optimize import leastsq
@@ -22,7 +23,7 @@ rc('text', usetex=True)
 
 # In[2]:
 
-f = open('final_data_files/distances_samestars_phot')
+f = open('final_data_files/distances_samestars_m4')
 distances = np.loadtxt(f)
 f.close()
 
@@ -43,14 +44,17 @@ err_mean = np.sqrt((dist_ab[:,2] * len(dist_ab)/len_all)**2 +
 dist_mean_all = np.concatenate(([0,0,0,0], dist_mean))
 err_mean_all = np.concatenate(([0,0,0,0], err_mean))
 
+fit_reddening_args = np.asarray(list(dist_mean_all) + list(err_mean_all))
+
 
 # In[5]:
 
-reddening_stuff = fit_reddening(*dist_mean_all)
+reddening_stuff = fit_reddening(*fit_reddening_args)
 print reddening_stuff
 tru_dist = reddening_stuff[0]
 tru_dist_stdev = reddening_stuff[2]
 Av = reddening_stuff[1]
+Av_err = reddening_stuff[3]
 
 
 # In[6]:
@@ -66,7 +70,7 @@ midir_y = indebetouw_ir(midir_x) * Ak
 
 
 # In[7]:
-
+'''
 fig = plt.figure(figsize=(6,5))
 ax = fig.add_subplot(1,1,1)
 ax2 = ax.twiny()
@@ -92,9 +96,9 @@ ax.text(ax.get_xlim()[1]-0.025,ax.get_ylim()[1]-0.03,
 ax.set_xlabel(r'$1/\lambda\ (\mu\mathrm{m}^{-1})$')
 ax.set_ylabel(r'$\mu$')
 fig.tight_layout()
-fig.savefig('final_plots/multiwavelength_distance_samestars_phot.pdf', dpi=300)
+#fig.savefig('final_plots/multiwavelength_distance_samestars_phot.pdf', dpi=300)
 
-
+'''
 # In[ ]:
 
 

@@ -28,6 +28,11 @@
   \mn@doi [\mnras] {10.1046/j.1365-8711.2001.04655.x}, \href
   {http://adsabs.harvard.edu/abs/2001MNRAS.326.1183B} {326, 1183}
 
+\bibitem[\protect\citeauthoryear{{Braga} et~al.,}{{Braga}
+  et~al.}{2015}]{2015ApJ...799..165B}
+{Braga} V.~F.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/799/2/165},
+  \href {http://adsabs.harvard.edu/abs/2015ApJ...799..165B} {799, 165}
+
 \bibitem[\protect\citeauthoryear{{Cardelli}, {Clayton}  \& {Mathis}}{{Cardelli}
   et~al.}{1989}]{1989ApJ...345..245C}
 {Cardelli} J.~A.,  {Clayton} G.~C.,   {Mathis} J.~S.,  1989, \mn@doi [\apj]
@@ -85,6 +90,11 @@
   {10.1051/0004-6361:20047137}, \href
   {http://adsabs.harvard.edu/abs/2004A%26A...424.1101K} {424, 1101}
 
+\bibitem[\protect\citeauthoryear{{Lub}}{{Lub}}{2002}]{2002ASPC..265...95L}
+{Lub} J.,  2002, in {van Leeuwen} F.,  {Hughes} J.~D.,   {Piotto} G.,  eds,
+  Astronomical Society of the Pacific Conference Series Vol. 265, Omega
+  Centauri, A Unique Window into Astrophysics. p.~95
+
 \bibitem[\protect\citeauthoryear{{Madore} \& {Freedman}}{{Madore} \&
   {Freedman}}{1991}]{1991PASP..103..933M}
 {Madore} B.~F.,  {Freedman} W.~L.,  1991, \mn@doi [\pasp] {10.1086/132911},
@@ -100,10 +110,6 @@
 {Makovoz} D.,  {Roby} T.,  {Khan} I.,   {Booth} H.,  2006, in Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series. p.~0,
   \mn@doi{10.1117/12.672536}
-
-\bibitem[\protect\citeauthoryear{{Sollima}, {Cacciari}  \&
-  {Valenti}}{Mon}{}]{Monson2015}
-
 
 \bibitem[\protect\citeauthoryear{{Monson}, {Freedman}, {Madore}, {Persson},
   {Scowcroft}, {Seibert}  \& {Rigby}}{{Monson}
@@ -167,17 +173,11 @@
   {http://adsabs.harvard.edu/abs/2015arXiv150206995S} {} (\mn@eprint {arXiv}
   {1502.06995})
 
-\bibitem[\protect\citeauthoryear{{Sollima}, {Cacciari}  \& {Valenti}}{{Sollima}
-  et~al.}{2006a}]{2006MNRAS.372.1675S}
-{Sollima} A.,  {Cacciari} C.,   {Valenti} E.,  2006a, \mn@doi [\mnras]
-  {10.1111/j.1365-2966.2006.10962.x}, \href
-  {http://adsabs.harvard.edu/abs/2006MNRAS.372.1675S} {372, 1675}
-
 \bibitem[\protect\citeauthoryear{{Sollima}, {Borissova}, {Catelan}, {Smith},
   {Minniti}, {Cacciari}  \& {Ferraro}}{{Sollima}
-  et~al.}{2006b}]{2006ApJ...640L..43S}
+  et~al.}{2006}]{2006ApJ...640L..43S}
 {Sollima} A.,  {Borissova} J.,  {Catelan} M.,  {Smith} H.~A.,  {Minniti} D.,
-  {Cacciari} C.,   {Ferraro} F.~R.,  2006b, \mn@doi [\apjl] {10.1086/503099},
+  {Cacciari} C.,   {Ferraro} F.~R.,  2006, \mn@doi [\apjl] {10.1086/503099},
   \href {http://adsabs.harvard.edu/abs/2006ApJ...640L..43S} {640, L43}
 
 \bibitem[\protect\citeauthoryear{{Stetson}}{{Stetson}}{1987}]{1987PASP...99..191S}
