@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 AUG 2015 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 AUG 2015 18:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -760,60 +760,66 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks25
+\verbatim@line=\toks26
+\verbatim@in@stream=\read1
+)
 LaTeX Font Info:    Try loading font information for T1+ntxtlf on input line 12
-1.
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/t1ntxtlf.fd
 File: t1ntxtlf.fd 2015/01/17 v1.0 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.0pt on input line 121.
+(Font)              scaled to size 9.0pt on input line 123.
 
 (./omegaCen_mnras_2015.aux)
 \openout1 = `omegaCen_mnras_2015.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 121.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 123.
 LaTeX Font Info:    Try loading font information for OML+ntxmi on input line 12
-1.
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omlntxmi.fd
 File: omlntxmi.fd 2012/03/22 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/ntxsy/m/n on input line 123.
 LaTeX Font Info:    Try loading font information for OMS+ntxsy on input line 12
-1.
+3.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/omsntxsy.fd
 File: omsntxsy.fd 2012/11/14 Fontinst v1.933 font definitions for OMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 121.
-LaTeX Font Info:    Try loading font information for U+ntxexa on input line 121
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 123.
+LaTeX Font Info:    Try loading font information for U+ntxexa on input line 123
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 121.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 121.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 123.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 121.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 121.
-LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -858,7 +864,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 142.
 )
-Package hyperref Info: Link coloring ON on input line 121.
+Package hyperref Info: Link coloring ON on input line 123.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -868,9 +874,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 121.
-LaTeX Info: Redefining \pageref on input line 121.
-LaTeX Info: Redefining \nameref on input line 121.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
 
 (./omegaCen_mnras_2015.out) (./omegaCen_mnras_2015.out)
 \@outlinefile=\write3
@@ -886,12 +892,12 @@ LaTeX Info: Redefining \nameref on input line 121.
 \scratchbox=\box33
 \nofMPsegments=\count125
 \nofMParguments=\count126
-\everyMPshowfont=\toks25
+\everyMPshowfont=\toks27
 \MPscratchCnt=\count127
 \MPscratchDim=\dimen129
 \MPnumerator=\count128
 \makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks26
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -908,189 +914,192 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 124.
+(Font)              scaled to size 17.28pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 124.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 126.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 124.
+(Font)              scaled to size 17.28pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.5pt on input line 124.
+(Font)              scaled to size 12.5pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 9.4pt on input line 124.
+(Font)              scaled to size 9.4pt on input line 126.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <12.5> not available
-(Font)              size <12> substituted on input line 124.
+(Font)              size <12> substituted on input line 126.
 
-LaTeX Font Info:    Try loading font information for U+ntxmia on input line 124
+LaTeX Font Info:    Try loading font information for U+ntxmia on input line 126
 .
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxmia.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsym on input line 124
+LaTeX Font Info:    Try loading font information for U+ntxsym on input line 126
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
-LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 124
+LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 126
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 124.
+LaTeX Font Info:    Try loading font information for U+msa on input line 126.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 124.
+LaTeX Font Info:    Try loading font information for U+msb on input line 126.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 14.4pt on input line 124.
+(Font)              scaled to size 14.4pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.5pt on input line 124.
+(Font)              scaled to size 10.5pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.9pt on input line 124.
+(Font)              scaled to size 7.9pt on input line 126.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <10.5> not available
-(Font)              size <10.95> substituted on input line 124.
+(Font)              size <10.95> substituted on input line 126.
 
 LaTeX Font Info:    Try loading font information for T1+ntxsups on input line 1
-24.
+26.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/t1ntxsups.fd
 File: t1ntxsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/ntxsups/m/n' will be
-(Font)              scaled to size 14.4pt on input line 124.
+(Font)              scaled to size 14.4pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 124.
+(Font)              scaled to size 8.0pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 8.0pt on input line 124.
+(Font)              scaled to size 8.0pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.2pt on input line 124.
+(Font)              scaled to size 6.2pt on input line 126.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 5.5pt on input line 124.
+(Font)              scaled to size 5.5pt on input line 126.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 124.
+(Font)              size <5> substituted on input line 126.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <9> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 127.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 129.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 9.0pt on input line 127.
+(Font)              scaled to size 9.0pt on input line 129.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.0pt on input line 127.
+(Font)              scaled to size 10.0pt on input line 129.
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <10> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 134.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 136.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 10.0pt on input line 134.
+(Font)              scaled to size 10.0pt on input line 136.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 9.0pt on input line 156.
+(Font)              scaled to size 9.0pt on input line 158.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 7.3pt on input line 156.
+(Font)              scaled to size 7.3pt on input line 158.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 161.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 163.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 161.
+(Font)              scaled to size 8.0pt on input line 163.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-61.
+63.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 161.
+(Font)              scaled to size 8.0pt on input line 163.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6380) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 197.
+(Font)              scaled to size 9.0pt on input line 191.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 198.
+(Font)              scaled to size 12.0pt on input line 194.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 12.0pt on input line 198.
+(Font)              scaled to size 12.0pt on input line 194.
  [2]
-<final_plots/omegacen_coverage_map.pdf, id=150, 433.62pt x 343.2825pt>
+<final_plots/omegacen_coverage_map.pdf, id=165, 433.62pt x 343.2825pt>
 File: final_plots/omegacen_coverage_map.pdf Graphic file (type pdf)
 
 <use final_plots/omegacen_coverage_map.pdf>
 Package pdftex.def Info: final_plots/omegacen_coverage_map.pdf used on input li
-ne 206.
+ne 200.
 (pdftex.def)             Requested size: 227.62204pt x 180.19981pt.
 
-<final_plots/metallicity_comparison_all.pdf, id=167, 433.62pt x 433.62pt>
+<final_plots/metallicity_comparison_all.pdf, id=186, 433.62pt x 433.62pt>
 File: final_plots/metallicity_comparison_all.pdf Graphic file (type pdf)
 
 <use final_plots/metallicity_comparison_all.pdf>
 Package pdftex.def Info: final_plots/metallicity_comparison_all.pdf used on inp
-ut line 244.
+ut line 239.
 (pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 
-<final_plots/metallicity_comparison_samestars.pdf, id=168, 433.62pt x 433.62pt>
+<final_plots/metallicity_comparison_samestars.pdf, id=187, 433.62pt x 433.62pt>
 File: final_plots/metallicity_comparison_samestars.pdf Graphic file (type pdf)
 <use final_plots/metallicity_comparison_samestars.pdf>
 Package pdftex.def Info: final_plots/metallicity_comparison_samestars.pdf used 
-on input line 245.
+on input line 240.
 (pdftex.def)             Requested size: 227.62204pt x 227.62082pt.
 
-<final_plots/multiwavelength_PL_allstars_phot.pdf, id=179, 505.89pt x 578.16pt>
+<final_plots/multiwavelength_PL_allstars_phot.pdf, id=204, 505.89pt x 578.16pt>
 File: final_plots/multiwavelength_PL_allstars_phot.pdf Graphic file (type pdf)
 <use final_plots/multiwavelength_PL_allstars_phot.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_PL_allstars_phot.pdf used 
-on input line 298.
+on input line 297.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 
-<final_plots/multiwavelength_PL_samestars_phot_unweighted.pdf, id=184, 505.89pt
+<final_plots/multiwavelength_PL_samestars_phot_unweighted.pdf, id=209, 505.89pt
  x 578.16pt>
 File: final_plots/multiwavelength_PL_samestars_phot_unweighted.pdf Graphic file
  (type pdf)
 
 <use final_plots/multiwavelength_PL_samestars_phot_unweighted.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_PL_samestars_phot_unweight
-ed.pdf used on input line 306.
+ed.pdf used on input line 305.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 
-<final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf, id=189, 505.89p
+<final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf, id=214, 505.89p
 t x 578.16pt>
 File: final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf Graphic fil
 e (type pdf)
 
 <use final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_PL_samestars_spect_unweigh
-ted.pdf used on input line 314.
+ted.pdf used on input line 313.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
+
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 325.
+(Font)              scaled to size 8.8pt on input line 324.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 325.
+(Font)              scaled to size 6.6pt on input line 324.
  [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.324 
       pdfTeX warning (ext4): destination with the same identifier (name{table.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.324 
        <./final_plots/omegacen_coverage_map.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1099,25 +1108,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.324 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.324 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.324 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.325 
+l.324 
        <./final_plots/metallicity_comparison_all.pdf> <./final_plots/metallicit
 y_comparison_samestars.pdf
 
@@ -1135,51 +1144,51 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_PL_sam
 estars_phot_unweighted.pdf): PDF inclusion: multiple pdfs with page group inclu
 ded in a single page
 >]
-<final_plots/multiwavelength_distance_allstars_phot.pdf, id=954, 433.62pt x 361
+<final_plots/multiwavelength_distance_allstars_phot.pdf, id=977, 433.62pt x 361
 .35pt>
 File: final_plots/multiwavelength_distance_allstars_phot.pdf Graphic file (type
  pdf)
  <use final_plots/multiwavelength_distance_allstars_phot.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_allstars_phot.pdf
- used on input line 328.
+ used on input line 327.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-<final_plots/multiwavelength_distance_samestars_phot_unweighted.pdf, id=959, 43
+<final_plots/multiwavelength_distance_samestars_phot_unweighted.pdf, id=982, 43
 3.62pt x 361.35pt>
 File: final_plots/multiwavelength_distance_samestars_phot_unweighted.pdf Graphi
 c file (type pdf)
 
 <use final_plots/multiwavelength_distance_samestars_phot_unweighted.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_phot_un
-weighted.pdf used on input line 336.
+weighted.pdf used on input line 335.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-<final_plots/multiwavelength_distance_samestars_spect_unweighted.pdf, id=964, 4
+<final_plots/multiwavelength_distance_samestars_spect_unweighted.pdf, id=987, 4
 33.62pt x 361.35pt>
 File: final_plots/multiwavelength_distance_samestars_spect_unweighted.pdf Graph
 ic file (type pdf)
 
 <use final_plots/multiwavelength_distance_samestars_spect_unweighted.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_spect_u
-nweighted.pdf used on input line 344.
+nweighted.pdf used on input line 343.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-<final_plots/multiwavelength_distance_samestars_m4.pdf, id=969, 433.62pt x 361.
+<final_plots/multiwavelength_distance_samestars_m4.pdf, id=992, 433.62pt x 361.
 35pt>
 File: final_plots/multiwavelength_distance_samestars_m4.pdf Graphic file (type 
 pdf)
  <use final_plots/multiwavelength_distance_samestars_m4.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_m4.pdf 
-used on input line 352.
+used on input line 351.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-<final_plots/multiwavelength_distance_samestars_m4_4p5ab.pdf, id=974, 433.62pt 
+<final_plots/multiwavelength_distance_samestars_m4_4p5ab.pdf, id=997, 433.62pt 
 x 361.35pt>
 File: final_plots/multiwavelength_distance_samestars_m4_4p5ab.pdf Graphic file 
 (type pdf)
  <use final_plots/multiwavelength_distance_samestars_m4_4p5ab.pdf>
 Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_m4_4p5a
-b.pdf used on input line 360.
+b.pdf used on input line 359.
 (pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
@@ -1187,31 +1196,27 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.374 U
-       sing the empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m and the...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
-s been already used, duplicate ignored
+l.372 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.374 U
-       sing the empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m and the...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
+l.372 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.374 U
-       sing the empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m and the...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) ha
-s been already used, duplicate ignored
+l.372 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.374 U
-       sing the empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m and the...
- <./final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf> <./final_plo
-ts/multiwavelength_distance_allstars_phot.pdf
+l.372 
+       <./final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf> <./fin
+al_plots/multiwavelength_distance_allstars_phot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
 ce_allstars_phot.pdf): PDF inclusion: multiple pdfs with page group included in
@@ -1226,121 +1231,138 @@ ce_samestars_phot_unweighted.pdf): PDF inclusion: multiple pdfs with page group
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
 ce_samestars_spect_unweighted.pdf): PDF inclusion: multiple pdfs with page grou
 p included in a single page
->] <final_plots/delta_feh_3p6_phot.pdf, id=1264, 361.35pt x 289.08pt>
-File: final_plots/delta_feh_3p6_phot.pdf Graphic file (type pdf)
+>]
 
-<use final_plots/delta_feh_3p6_phot.pdf>
-Package pdftex.def Info: final_plots/delta_feh_3p6_phot.pdf used on input line 
-410.
-(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+LaTeX Warning: Reference `fig:period-color' on page 6 undefined on input line 3
+79.
 
-<final_plots/delta_feh_3p6_spect.pdf, id=1265, 361.35pt x 289.08pt>
-File: final_plots/delta_feh_3p6_spect.pdf Graphic file (type pdf)
 
-<use final_plots/delta_feh_3p6_spect.pdf>
-Package pdftex.def Info: final_plots/delta_feh_3p6_spect.pdf used on input line
- 418.
-(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+<final_plots/multiwavelength_distance_samestars_4p5trimmed.pdf, id=1261, 433.62
+pt x 361.35pt>
+File: final_plots/multiwavelength_distance_samestars_4p5trimmed.pdf Graphic fil
+e (type pdf)
 
-<final_plots/delta_feh_4p5_phot.pdf, id=1266, 361.35pt x 289.08pt>
-File: final_plots/delta_feh_4p5_phot.pdf Graphic file (type pdf)
+<use final_plots/multiwavelength_distance_samestars_4p5trimmed.pdf>
+Package pdftex.def Info: final_plots/multiwavelength_distance_samestars_4p5trim
+med.pdf used on input line 385.
+(pdftex.def)             Requested size: 227.62204pt x 189.68402pt.
 
-<use final_plots/delta_feh_4p5_phot.pdf>
-Package pdftex.def Info: final_plots/delta_feh_4p5_phot.pdf used on input line 
-426.
-(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-<final_plots/delta_feh_4p5_spect.pdf, id=1267, 361.35pt x 289.08pt>
-File: final_plots/delta_feh_4p5_spect.pdf Graphic file (type pdf)
+Package natbib Warning: Citation `1971PASP...83..697I' on page 6 undefined on i
+nput line 416.
 
-<use final_plots/delta_feh_4p5_spect.pdf>
-Package pdftex.def Info: final_plots/delta_feh_4p5_spect.pdf used on input line
- 434.
-(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
-
-<final_plots/delta_feh_3p6_phot_no_outlier.pdf, id=1268, 361.35pt x 289.08pt>
-File: final_plots/delta_feh_3p6_phot_no_outlier.pdf Graphic file (type pdf)
-
-<use final_plots/delta_feh_3p6_phot_no_outlier.pdf>
-Package pdftex.def Info: final_plots/delta_feh_3p6_phot_no_outlier.pdf used on 
-input line 442.
-(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
-
-<final_plots/delta_feh_4p5_phot_no_outlier.pdf, id=1269, 361.35pt x 289.08pt>
-File: final_plots/delta_feh_4p5_phot_no_outlier.pdf Graphic file (type pdf)
-
-<use final_plots/delta_feh_4p5_phot_no_outlier.pdf>
-Package pdftex.def Info: final_plots/delta_feh_4p5_phot_no_outlier.pdf used on 
-input line 450.
-(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
- has been already used, duplicate ignored
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.464 \section
-              {Conclusions}pdfTeX warning (ext4): destination with the same ide
-ntifier (name{figure.10}) has been already used, duplicate ignored
+l.419 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.464 \section
-              {Conclusions}pdfTeX warning (ext4): destination with the same ide
-ntifier (name{figure.11}) has been already used, duplicate ignored
+l.419 \begin{equation}
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.11}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.464 \section
-              {Conclusions} <./final_plots/multiwavelength_distance_samestars_m
-4.pdf> <./final_plots/multiwavelength_distance_samestars_m4_4p5ab.pdf
+l.419 \begin{equation}
+                       <./final_plots/multiwavelength_distance_samestars_m4.pdf
+> <./final_plots/multiwavelength_distance_samestars_m4_4p5ab.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
 ce_samestars_m4_4p5ab.pdf): PDF inclusion: multiple pdfs with page group includ
 ed in a single page
-> <./final_plots/delta_feh_3p6_phot.pdf
+> <./final_plots/multiwavelength_distance_samestars_4p5trimmed.pdf
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_3p6_phot.pdf
-): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/multiwavelength_distan
+ce_samestars_4p5trimmed.pdf): PDF inclusion: multiple pdfs with page group incl
+uded in a single page
+>] <final_plots/delta_feh_3p6_phot.pdf, id=1383, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_3p6_phot.pdf Graphic file (type pdf)
 
+<use final_plots/delta_feh_3p6_phot.pdf>
+Package pdftex.def Info: final_plots/delta_feh_3p6_phot.pdf used on input line 
+427.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
 
-(./omegaCen_mnras_2015.bbl [7pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.12}) has been already used, duplicate ignored
+<final_plots/delta_feh_3p6_spect.pdf, id=1384, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_3p6_spect.pdf Graphic file (type pdf)
+
+<use final_plots/delta_feh_3p6_spect.pdf>
+Package pdftex.def Info: final_plots/delta_feh_3p6_spect.pdf used on input line
+ 435.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+
+<final_plots/delta_feh_4p5_phot.pdf, id=1385, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_4p5_phot.pdf Graphic file (type pdf)
+
+<use final_plots/delta_feh_4p5_phot.pdf>
+Package pdftex.def Info: final_plots/delta_feh_4p5_phot.pdf used on input line 
+443.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+
+<final_plots/delta_feh_4p5_spect.pdf, id=1386, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_4p5_spect.pdf Graphic file (type pdf)
+
+<use final_plots/delta_feh_4p5_spect.pdf>
+Package pdftex.def Info: final_plots/delta_feh_4p5_spect.pdf used on input line
+ 451.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+
+<final_plots/delta_feh_3p6_phot_no_outlier.pdf, id=1387, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_3p6_phot_no_outlier.pdf Graphic file (type pdf)
+
+<use final_plots/delta_feh_3p6_phot_no_outlier.pdf>
+Package pdftex.def Info: final_plots/delta_feh_3p6_phot_no_outlier.pdf used on 
+input line 459.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+
+<final_plots/delta_feh_4p5_phot_no_outlier.pdf, id=1388, 361.35pt x 289.08pt>
+File: final_plots/delta_feh_4p5_phot_no_outlier.pdf Graphic file (type pdf)
+
+<use final_plots/delta_feh_4p5_phot_no_outlier.pdf>
+Package pdftex.def Info: final_plots/delta_feh_4p5_phot_no_outlier.pdf used on 
+input line 467.
+(pdftex.def)             Requested size: 227.62204pt x 182.0993pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37   et~al.}{1989}]{1989ApJ...345..245C}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.13}) has been already used, duplicate ignor
-ed
+l.480 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37   et~al.}{1989}]{1989ApJ...345..245C}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.14}) has been already used, duplicate ignor
-ed
+l.480 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37   et~al.}{1989}]{1989ApJ...345..245C}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.15}) has been already used, duplicate ignor
-ed
+l.480 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37   et~al.}{1989}]{1989ApJ...345..245C}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.16}) has been already used, duplicate ignor
-ed
+l.480 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.37   et~al.}{1989}]{1989ApJ...345..245C}
-                                           <./final_plots/delta_feh_3p6_spect.p
-df> <./final_plots/delta_feh_4p5_phot.pdf
+l.480 
+       <./final_plots/delta_feh_3p6_phot.pdf> <./final_plots/delta_feh_3p6_spec
+t.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_3p6_spect.pd
+f): PDF inclusion: multiple pdfs with page group included in a single page
+> <./final_plots/delta_feh_4p5_phot.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_4p5_phot.pdf
 ): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1353,85 +1375,56 @@ f): PDF inclusion: multiple pdfs with page group included in a single page
 pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_3p6_phot_no_
 outlier.pdf): PDF inclusion: multiple pdfs with page group included in a single
  page
-> <./final_plots/delta_feh_4p5_phot_no_outlier.pdf
+>] (./omegaCen_mnras_2015.bbl
 
-pdfTeX warning: /usr/texbin/pdflatex (file ./final_plots/delta_feh_4p5_phot_no_
-outlier.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
->]
+Package hyperref Warning: Suppressing empty link on input line 145.
 
-Package hyperref Warning: Suppressing empty link on input line 125.
-
-LaTeX Font Info:    Try loading font information for T1+aett on input line 126.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 146.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 
-Package hyperref Warning: Suppressing empty link on input line 136.
+Package hyperref Warning: Suppressing empty link on input line 162.
 
 
-Package hyperref Warning: Suppressing empty link on input line 173.
+Package hyperref Warning: Suppressing empty link on input line 211.
 
-) [8
+) [8pdfTeX warning (ext4): destination with the same identifier (name{figure.17
+}) has been already used, duplicate ignored
 
-]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.514 \clearpage
+                 <./final_plots/delta_feh_4p5_phot_no_outlier.pdf>]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 501.
+(Font)              scaled to size 6.0pt on input line 522.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.5pt on input line 503.
+(Font)              scaled to size 6.5pt on input line 524.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 503.
+(Font)              size <6> substituted on input line 524.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.0pt on input line 509.
+(Font)              scaled to size 6.0pt on input line 530.
 [9
 
 
 
 ] [10]
-<final_plots/deltadelta_3p6_4p5_spect.pdf, id=1724, 361.35pt x 361.35pt>
-File: final_plots/deltadelta_3p6_4p5_spect.pdf Graphic file (type pdf)
 
-<use final_plots/deltadelta_3p6_4p5_spect.pdf>
-Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_spect.pdf used on input
- line 624.
-(pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
+Package natbib Warning: There were undefined citations.
 
-<final_plots/deltadelta_3p6_4p5_phot.pdf, id=1725, 361.35pt x 361.35pt>
-File: final_plots/deltadelta_3p6_4p5_phot.pdf Graphic file (type pdf)
-
-<use final_plots/deltadelta_3p6_4p5_phot.pdf>
-Package pdftex.def Info: final_plots/deltadelta_3p6_4p5_phot.pdf used on input 
-line 632.
-(pdftex.def)             Requested size: 227.62204pt x 227.62413pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 646.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
-.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.646 \end{document}
-                    
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 668.
+[11
 
 
- <./final_plots/deltadelta_3p6_4p5_spect.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.A0
-.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.646 \end{document}
-                     <./final_plots/deltadelta_3p6_4p5_phot.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
-
-(./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 646.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 668.
+ (./omegaCen_mnras_2015.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 668.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 668.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: BCC71F7ED57BCAC3640555B6A6E27138;408.
 
@@ -1440,18 +1433,18 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 646.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 668.
  ) 
 Here is how much of TeX's memory you used:
- 9917 strings out of 493089
- 144457 string characters out of 6134842
- 343804 words of memory out of 5000000
- 13065 multiletter control sequences out of 15000+600000
+ 9967 strings out of 493089
+ 145601 string characters out of 6134842
+ 346817 words of memory out of 5000000
+ 13109 multiletter control sequences out of 15000+600000
  152168 words of font info for 245 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,35p,1661b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,35p,1662b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1480,10 +1473,10 @@ exmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-d
 ist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (12 pages, 1429034 bytes).
+Output written on omegaCen_mnras_2015.pdf (11 pages, 1405121 bytes).
 PDF statistics:
- 1948 PDF objects out of 2073 (max. 8388607)
- 713 compressed objects within 8 object streams
- 82 named destinations out of 1000 (max. 500000)
- 160 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1889 PDF objects out of 2073 (max. 8388607)
+ 753 compressed objects within 8 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 

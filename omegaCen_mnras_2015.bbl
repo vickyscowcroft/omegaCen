@@ -45,6 +45,11 @@
   {10.1086/422916}, \href {http://adsabs.harvard.edu/abs/2004ApJS..154..633C}
   {154, 633}
 
+\bibitem[\protect\citeauthoryear{{Cusano} et~al.,}{{Cusano}
+  et~al.}{2015}]{2015ApJ...806..200C}
+{Cusano} F.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/806/2/200}, \href
+  {http://adsabs.harvard.edu/abs/2015ApJ...806..200C} {806, 200}
+
 \bibitem[\protect\citeauthoryear{{Del Principe} et~al.,}{{Del Principe}
   et~al.}{2006}]{2006ApJ...652..362D}
 {Del Principe} M.,  et~al., 2006, \mn@doi [\apj] {10.1086/508136}, \href
@@ -77,10 +82,20 @@
 {Freeman} K.~C.,  {Rodgers} A.~W.,  1975, \mn@doi [\apjl] {10.1086/181945},
   \href {http://adsabs.harvard.edu/abs/1975ApJ...201L..71F} {201, L71}
 
+\bibitem[\protect\citeauthoryear{{Garofalo} et~al.,}{{Garofalo}
+  et~al.}{2013}]{2013ApJ...767...62G}
+{Garofalo} A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/767/1/62},
+  \href {http://adsabs.harvard.edu/abs/2013ApJ...767...62G} {767, 62}
+
 \bibitem[\protect\citeauthoryear{{Indebetouw} et~al.,}{{Indebetouw}
   et~al.}{2005}]{2005ApJ...619..931I}
 {Indebetouw} R.,  et~al., 2005, \mn@doi [\apj] {10.1086/426679}, \href
   {http://adsabs.harvard.edu/abs/2005ApJ...619..931I} {619, 931}
+
+\bibitem[\protect\citeauthoryear{{Kains} et~al.,}{{Kains}
+  et~al.}{2015}]{2015A&A...578A.128K}
+{Kains} N.,  et~al., 2015, \mn@doi [\aap] {10.1051/0004-6361/201424600}, \href
+  {http://adsabs.harvard.edu/abs/2015A%26A...578A.128K} {578, A128}
 
 \bibitem[\protect\citeauthoryear{{Kaluzny}, {Olech}, {Thompson}, {Pych},
   {Krzemi{\'n}ski}  \& {Schwarzenberg-Czerny}}{{Kaluzny}
@@ -111,6 +126,11 @@
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series. p.~0,
   \mn@doi{10.1117/12.672536}
 
+\bibitem[\protect\citeauthoryear{{Marconi} et~al.,}{{Marconi}
+  et~al.}{2015}]{2015ApJ...808...50M}
+{Marconi} M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/50}, \href
+  {http://adsabs.harvard.edu/abs/2015ApJ...808...50M} {808, 50}
+
 \bibitem[\protect\citeauthoryear{{Monson}, {Freedman}, {Madore}, {Persson},
   {Scowcroft}, {Seibert}  \& {Rigby}}{{Monson}
   et~al.}{2012}]{2012ApJ...759..146M}
@@ -124,6 +144,12 @@
 {Neeley} J.~R.,  et~al., 2015, preprint, \href
   {http://adsabs.harvard.edu/abs/2015arXiv150507858N} {} (\mn@eprint {arXiv}
   {1505.07858})
+
+\bibitem[\protect\citeauthoryear{{Ordo{\~n}ez}, {Yang}  \&
+  {Sarajedini}}{{Ordo{\~n}ez} et~al.}{2014}]{2014ApJ...786..147O}
+{Ordo{\~n}ez} A.~J.,  {Yang} S.-C.,   {Sarajedini} A.,  2014, \mn@doi [\apj]
+  {10.1088/0004-637X/786/2/147}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...786..147O} {786, 147}
 
 \bibitem[\protect\citeauthoryear{{Persson} et~al.,}{{Persson}
   et~al.}{2013}]{2013PASP..125..654P}
@@ -156,6 +182,18 @@
   et~al.}{2015}]{2015ApJ...802...20R}
 {Rigault} M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/802/1/20}, \href
   {http://adsabs.harvard.edu/abs/2015ApJ...802...20R} {802, 20}
+
+\bibitem[\protect\citeauthoryear{{Schlafly} \& {Finkbeiner}}{{Schlafly} \&
+  {Finkbeiner}}{2011}]{2011ApJ...737..103S}
+{Schlafly} E.~F.,  {Finkbeiner} D.~P.,  2011, \mn@doi [\apj]
+  {10.1088/0004-637X/737/2/103}, \href
+  {http://adsabs.harvard.edu/abs/2011ApJ...737..103S} {737, 103}
+
+\bibitem[\protect\citeauthoryear{{Schlegel}, {Finkbeiner}  \&
+  {Davis}}{{Schlegel} et~al.}{1998}]{1998ApJ...500..525S}
+{Schlegel} D.~J.,  {Finkbeiner} D.~P.,   {Davis} M.,  1998, \mn@doi [\apj]
+  {10.1086/305772}, \href {http://adsabs.harvard.edu/abs/1998ApJ...500..525S}
+  {500, 525}
 
 \bibitem[\protect\citeauthoryear{{Scowcroft}, {Freedman}, {Madore}, {Monson},
   {Persson}, {Seibert}, {Rigby}  \& {Sturch}}{{Scowcroft}

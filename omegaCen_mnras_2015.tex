@@ -45,6 +45,7 @@
 \usepackage{longtable}
 \usepackage{pdflscape}
 \usepackage{xspace}
+\usepackage{verbatim}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -79,16 +80,16 @@ David Law$^{2}$
 Steve Majewski$^{13}$
 \newauthor Roeland van der Marel$^{2}$
 Massimo Marengo$^{14}$
-Andrew~J.~Monson$^{3}$
-David Nidever$^{15}$ 
+Andrew~J.~Monson$^{15}$
+David Nidever$^{16}$ 
 \newauthor
-Grzegorz Pietrzynski$^{16, 17}$
+Grzegorz Pietrzynski$^{17, 18}$
 George Preston$^{3}$
 Mark Seibert$^{3}$
-Horace Smith$^{18}$
-\newauthor Igor Soszynski$^{16}$
+Horace Smith$^{19}$
+\newauthor Igor Soszynski$^{17}$
 Ian Thompson$^{3}$
-Andrzej Udalski$^{16}$
+Andrzej Udalski$^{17}$
 \\
 % List of institutions
 $^1$ Pomona College, Claremont, CA 91711, USA \\
@@ -105,10 +106,11 @@ $^{11}$ INAF - Osservatorio Astronomico, Via Ranzani n. 1, 40127 Bologna, Italy 
 $^{12}$ Department of Astronomy, Columbia University, New York, NY 10027, USA  \\
 $^{13}$ Department of Astronomy, University of Virginia, Charlottesville, VA 22904-0818, USA \\
 $^{14}$ Department of Physics and Astronomy, Iowa State University, Ames, IA, USA \\
-$^{15}$ Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA \\
-$^{16}$ Warsaw University Observatory Al. Ujazdowskie 4, 00-478 Warszawa, Poland \\
-$^{17}$ Departamento de Astronomia, Universidad de Concepcion, Casilla 160-C, Chile \\
-$^{18}$ Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA 48824 \\
+$^{15}$ Department of Astronomy and Astrophysics, The Pennsylvania State University, 403 Davey Lab, University Park, PA, 16802, USA \\
+$^{16}$ Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA \\
+$^{17}$ Warsaw University Observatory Al. Ujazdowskie 4, 00-478 Warszawa, Poland \\
+$^{18}$ Departamento de Astronomia, Universidad de Concepcion, Casilla 160-C, Chile \\
+$^{19}$ Department of Physics and Astronomy, Michigan State University, East Lansing, MI, USA 48824 \\
 }
 
 % These dates will be filled out by the publisher
@@ -161,40 +163,32 @@ There have been several recent works that have investigated possible sources of 
 
 The CRRP assess a systematic that was unreachable in the original CHP --- the intrinsic accuracy of the mid--IR Cepheid standard candle distance scale when compared to the standard ruler distance scale of CMB and Baryon Acoustic Oscillation (BAO) measurements. With only one ``test candle'' it is impossible to make any assessment of this accuracy. However, when we have two standard candles with similar precision we can make meaningful comparisons and assess their systematic accuracy.
 
-In this work we focus on the effect of metallicity on the RR Lyrae PL relation. Several Galactic Globular Clusters are being observed as part of CRRP, but $\omega$~Cen is unique in that it exhibits a measureable spread in metallicity \citep{1975ApJ...201L..71F, 2007ApJ...663..296V, 2014ApJ...791..107V}.
+RR Lyrae variables are intrinsically fainter than Cepheids, and in the optical follow a much shallower, even horizontal, PL relation. Determining an accurate distance to an RRL in the $V$ band requires knowledge of its metallicity. However, in more recent years near-- and mid--IR observations have shown the true power of RRL as precision distance indicators. In a similar vein to Cepheids, \textit{HST} parallaxes were obtained for several Galactic RRL calibrators \citep{2011AJ....142..187B} and several groups have been studying the populations of RRL in globular clusters and nearby dwarf spheroidal galaxies \citep[e.g.][and references therein]{2013ApJ...767...62G, 2014ApJ...786..147O, 2015ApJ...806..200C, 2015A&A...578A.128K}
 
-There are very few metallic or molecular transition lines in the mid--IR at typical RR Lyrae temperatures, so the effects of metallicity on luminosity should be minimised. However, $\omega$~Cen provides the ideal test bed for any effect that we may not have predicted. Such an effect is not out of the realm of possibility; for example, the CO band head at 4.5~$\mu$m has been found to have a significant dependence on metallicity, and has such prevented the IRAC 4.5~$\mu$m Cepheid observations from being used for distance measurements in the CHP. \citep{2011ApJ...743...76S, 2012ApJ...759..146M, 2015arXiv150206995S}. As our concern in this program is systematic precision, we must ensure that similar effects do not plague the RRL distance scale.  
+In the mid--infrared RRL exhibit similar properties to Cepheids \citep{2013ApJ...776..135M}. At the wavelengths observed by Warm \textit{Spitzer} (3.6 and 4.5~$\mu$m) we do not see photospheric effects, but only the effects of temperature driving the pulsation. Essentially, the mid--infrared light curve is tracing the change in radius of the star over a pulsation cycle. A by--product of this effect is that the intrinsic width of the RRL PL relation is also minimised in the mid--infrared (mid--IR). The PL relation for pulsational variables can be thought of as a two--dimensional projection of the three--dimensional period--luminosity--colour relation (see figure 3 of \citet{1991PASP..103..933M} for a graphical representation). As the colour--width decreases in the mid--IR, the width of the PL naturally decreases. As one moves from the optical to the mid--IR, the slope of the PL relation steepens and its dispersion dramatically decreases; this phenomenon has been demonstrated in simulations by \citet{2004ApJS..154..633C}, and by several observational efforts, as illustrated in fig. 4 of \citet{2013ApJ...776..135M}. The slope should asymptotically approach the predicted slope of the period--radius relation, resulting in a slope between $-2.4$ and $-2.8$. Through this decrease in dispersion we have found that the intrinsic width of the mid--IR PL for RRL is in fact smaller than for Cepheids -- 0.05~mag compared to 0.10~mag (Monson et al. 2015, in prep), \citep{2015arXiv150507858N}. This translates to an uncertainty on an individual RR Lyrae star of 2\%, compared to 4\% for Cepheids. 
 
-%% Edited to here
+In this work we focus on the effect of metallicity on the RR Lyrae (RRL) PL relation. Several Galactic Globular Clusters are being observed as part of CRRP, but $\omega$~Cen is unique in that it exhibits a measureable spread in metallicity \citep{1975ApJ...201L..71F, 2007ApJ...663..296V, 2014ApJ...791..107V}.
 
-RR Lyrae variables are intrinsically fainter, and in the optical follow a much shallower, even horizontal, PL relation. Determining an accurate distance to an RR Lyrae (RRL) in the $V$ band requires knowledge of its metallicity. However, in more recent years near-- and mid--IR observations have shown the true power of RRL as precision distance indicators. In a similar vein to Cepheids, \textit{HST} parallaxes were obtained for several Galactic RRL calibrators \citet{2011AJ....142..187B} and several groups have been studying the populations of RRL in globular clusters and nearby dwarf spheroidal galaxies (NEED REFS). 
+There are very few metallic or molecular transition lines in the mid--IR at typical RRL temperatures, so the effects of metallicity on luminosity should be minimised. However, $\omega$~Cen provides the ideal test bed for any effect that we may not have predicted. Such an effect is not out of the realm of possibility; for example, the strength of the CO band head at 4.5~$\mu$m has been found to have a significant dependence on metallicity, and has such prevented the IRAC 4.5~$\mu$m Cepheid observations from being used for distance measurements in the CHP. \citep{2011ApJ...743...76S, 2012ApJ...759..146M, 2015arXiv150206995S}. As our concern in this program is systematic precision, we must ensure that similar effects do not plague the RRL distance scale.  
 
+$\omega$ Cen is ideal for calibrating the RR Lyrae period--luminosity--metallicity relation, as it contains 192 known RR Lyrae \citep{2004A&A...424.1101K} with a range of metallicities spanning over 1.5 dex (Bono 2013, priv. comm.); a metallicity spread this wide is not found in any other GGC. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. We have measured the intrinsic dispersion of the RRL PL from other clusters (e.g. M4, \citet{2015arXiv150507858N}), and our photometric uncertainties are well understood, so the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
 
-In the mid--infrared RRL exhibit similar properties to Cepheids \citep{2013ApJ...776..135M}. At the wavelengths observed by Warm \textit{Spitzer} (3.6 and 4.5~$\mu$m) we do not see photospheric effects, but only the effects of temperature driving the pulsation. Essentially, the mid--infrared light curve is tracing the change in radius of the star over a pulsation cycle. A by--product of this effect is that the intrinsic width of the RRL PL relation is also minimised in the mid--infrared (mid--IR). The PL relation for pulsational variables can be thought of as a two--dimensional projection of the three--dimensional period--luminosity--colour relation (see figure 3 of \citet{1991PASP..103..933M} for a graphical representation). As the colour--width decreases in the mid--IR, the width of the PL naturally decreases. As one moves from the optical to the mid--IR, the slope of the PL relation steepens and its dispersion dramatically decreases; this phenomenon has been demonstrated in simulations by \citet{2004ApJS..154..633C}, and by several observational efforts, as illustrated in fig. 4 of \citet{2013ApJ...776..135M}. The slope should asymptotically approach the predicted slope of the period--radius relation, resulting in a slope between $-2.4$ and $-2.8$. Through this decrease in dispersion we have found that the intrinsic width of the mid--IR PL for RRL is in fact smaller than for Cepheids -- 0.05~mag compared to 0.10~mag ([{\bf Monson et al. 2015}], \citep{2015arXiv150507858N}). This translates to an uncertainty on an individual RR Lyrae star of 2\%, compared to 4\% for Cepheids. 
-
-
-In this work we present the mid--IR PL relation for the RRL in the $\omega$~Cen Galactic Globular Cluster (GGC). 
-Here we present a mid--infrared of the RR Lyrae period--luminosity (PL) relation in the IRAC channels 1 and 2 centred on 3.6 and 4.5 \micron\ respectively, as well as a preliminary investigation into metallicity effects on the PL relation.
-
-
-$\omega$ Cen in particular is ideal for calibrating the RR Lyrae period--luminosity--metallicity relation, as it contains 192 known RR Lyrae \citep{2004A&A...424.1101K} with a range of metallicities spanning over 1.5 dex (Bono 2013, priv. comm.); a metallicity spread this wide is not found in any other GGC. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. We have measured the intrinsic dispersion of the RRL PL from other clusters (e.g. M4, \citet{2015arXiv150507858N}), and our photometric uncertainties are a well defined \textbf{constraint, value?? what is the correct word?}, so the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. We are lucky with $\omega$~Cen that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such a unique object, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities available. As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for the GGC, where 
+ $\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities available. As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for the GGC, where 
 \begin{equation} \label{eqn:gamma}
-\gamma = \dfrac {\Delta \text{mag}} {[Fe/H]}\text{,}
+\gamma = \dfrac {\Delta \text{mag}} {[\text{Fe/H}]}\text{,}
 \end{equation}
 
 similar to $\gamma$ used to quantify the effect of metallicity on the zero--point of the Cepheid PL relation. 
 
-The paper is set out as follows: Section~\ref{sec:observations} details the observations and data reduction. Section~\ref{sec:pl_relation} describes the mid--IR PL relations and Section~\ref{sec:distance_moduli} discusses the application of these to a distance measurement of  $\omega$~Cen. Section~\ref{sec:metallicity} and Section~\ref{sec:discussion} examine the effect of metallicity on mid--IR observations of RR Lyrae variables and its implications for distance measurements and the extragalactic distance scale. In Section~\ref{sec:conclusions} we present our conclusions.
-
-
+The paper is set out as follows: Section~\ref{sec:observations} details the observations and data reduction. Section~\ref{sec:results} presents the photometry of the $\omega$~Cen RRL. Section~\ref{sec:pl_relation} describes the mid--IR PL relations and Section~\ref{sec:distance_moduli} discusses the application of these to a distance measurement of  $\omega$~Cen. Section~\ref{sec:metallicity} and Section~\ref{sec:discussion} examine the effect of metallicity on mid--IR observations of RR Lyrae variables and its implications for distance measurements and the extragalactic distance scale. In Section~\ref{sec:conclusions} we present our conclusions.
 
 \section{Observations \& Data Reduction}
 \label{sec:observations}
-The Warm~\textit{Spitzer} observations for this work were taken as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen; their positions and the positions of known RR Lyrae are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using {\it Spitzer} IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
+The Warm~\textit{Spitzer} observations for this work were taken as part of the Carnegie RR Lyrae Program (PI W. Freedman, PID 90002). Three fields in $\omega$~Cen were chosen; their positions and the positions of known $\omega$~Cen RR Lyrae variables are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using {\it Spitzer} IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
 %% VS added info about field shapes and missing colour information.
-The elongated field shapes (seen in Figure~\ref{fig:omegaCen_fields}) come from the design of IRAC; while the [3.6] channel is collecting on--target data, the [4.5] channel collects off target data ``for free'', and vice versa. We chose to include these off--target fields to maximise the number of RRL in our final sample. 
+The elongated field shapes (seen in Figure~\ref{fig:omegaCen_fields}) come from the design of IRAC; while the [3.6] channel is collecting on--target data, the [4.5] channel collects off target data ``for free'', and vice versa. We chose to include these off--target fields to maximise the number of RRL in our final sample and to increase the legacy value of our data set to the community. 
 
-The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the basic calibrated data (BCDs) then mosaicking them at 0.6 arcsec pixel scale using the drizzle algorithm. Mosaicked location--correction images were created at the same time. 
+The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the basic calibrated data (cBCDs) then mosaicking them at 0.6 arcsec pixel scale using the drizzle algorithm. Mosaicked location--correction images were created at the same time. 
 
 %% VS updated the photometry procedure text
 PSF photometry was performed using the {\sc daophot} and {\sc allframe} \citep{1987PASP...99..191S, 1994PASP..106..250S}. The PSF model was created for each field/filter combination using the first epoch data. This was then applied to each other epoch. As the observations were taken so close together the effects of telescope rotation between epochs on the mosaicked PSF were minimal, so making a single good PSF model for each field/filter combination was much more efficient than creating one for every epoch. 
@@ -212,10 +206,11 @@ Master star lists for {\sc allframe} were created for each filter/field combinat
 The primary limiting factor in this data is crowding: 77 RR Lyrae variables out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding. We compared the {\it Spitzer} images to a $K$--band image from the FourStar infrared camera on Magellan \citep{2013PASP..125..654P}, with a resolution of 0.159 arcsec. This enabled us to see which stars were significantly contaminated. 
 
 \section{Results}
+\label{sec:results}
 
 Our final photometry catalog, including magnitudes and errors for $J\!H\!K$, 3.6~$\mu$m, and 4.5~$\mu$m is presented in Table~\ref{tab:phot}.
 
-The average magnitudes are calculated by first converting the individual values into fluxes, then taking the mean value. The photometric errors of the time series data are added in quadrature and divided by the square root of the total number of observations to obtain the final error value.
+The average magnitudes are calculated by first converting the individual values into fluxes, then taking the mean flux and converting that back to a magnitude. The photometric errors of the time series data are added in quadrature and divided by the square root of the total number of observations to obtain the final error value.
 
 \section{Period--Luminosity Relations}
 \label{sec:pl_relation}
@@ -235,7 +230,7 @@ For the final PL relations, we use only the stars for which we have photometry i
 
 Our full, uncrowded RR Lyrae sample consists of 96 stars in $J$ and $H$, 98 in $K$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. The PL fits to this sample are shown in Figure~\ref{fig:omegaCen_pl_allstars}, and the distance moduli and reddening values obtained from these fits are shown in Figure~\ref{fig:omegaCen_dist_phot_allstar}.
 
-We use the near-- and mid--infrared PL relation parameters presented in {\bf VS CHECK REF FOR BRAGA PAPER} as fiducial in our initial PL fitting. With the use of the theoretical PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least--squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
+We use the near-- and mid--infrared PL relation parameters presented in \citet{2015ApJ...808...50M} and Braga et al. (in prep.) as fiducial in our initial PL fitting. We also use empirical PL relation parameters derived from photometry of RR Lyrae variables in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for comparison. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least--squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
 
 Not all stars in our sample have known metallicity values, so we use an average [Fe/H] value for all RR Lyrae variables in the cluster. We use both photometric \citep{2000AJ....119.1824R} and spectroscopic \citep{2006ApJ...640L..43S} metallicities for comparison. We find that there is little correspondence between individual metallicity measurements for stars which have both spectroscopic and photometric metallicity values, as shown in Figure~\ref{fig:metallicity_comparison}, and that the average metallicities of the spectroscopic and photometric catalogs differ by nearly 0.1 dex. We use a mean photometric [Fe/H] of  $-1.584$ and a spectroscopic [Fe/H] of $-1.677$.
 
@@ -255,40 +250,44 @@ where $a$, $b$, and $c$ are theoretically derived coefficients.
 
 \begin{table}
 \centering
-\caption{Theoretical mid--IR RR Lyrae period--luminosity relations for $\omega$ Cen [REF].} 
+\caption{Theoretical near-- and mid--IR RR Lyrae period--luminosity relations for $\omega$ Cen; NIR parameters are from \citet{2015ApJ...808...50M} and MIR parameters are from Braga et al. (in prep.)}
 \label{tab:pl_table_theo}
-\begin{tabular}{l|c|c|c|c|c|r} 
-\hline \hline
-Band & Mode  & [Fe/H]  & $a$   & $b$   & $c$   & $\sigma$ \\
-\hline
-$[3.6]$ & FO & $-1.584$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-            & FO & $-1.677$ & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
-            & FU & $-1.584$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-            & FU & $-1.677$ & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
-$[4.5]$ & FO & $-1.584$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\         
-            & FO & $-1.677$ & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\         
-            & FU & $-1.584$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-            & FU & $-1.677$ & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
-            \hline
-\end{tabular}
-\end{table}
-
-The empirical RRL PL relations from \citet{2015arXiv150507858N} are described in Table~\ref{tab:pl_table_theo}. The relations take the form
-\begin{equation}M = a + b\times\log P \end{equation}
-where $a$, $b$, and $c$ are empirically derived coefficients. {\bf I had to do some arithmetic to get the equations into a non-annoying format and it's on my other computer and I'm too lazy to do it again right now }
-
-\begin{table}
-\centering
-\caption{**PLACEHOLDER TABLE** Empirical mid--IR RR Lyrae period--luminosity relations for $\omega$ Cen from \citet{2015arXiv150507858N}.} 
-\label{tab:pl_table_m4}
-\begin{tabular}{l|c|c|c|c|c|r} 
+\begin{tabular}{l||c|c|c|c|r} 
 \hline \hline
 Band & Mode & $a$   & $b$   & $c$   & $\sigma$ \\
 \hline
+$J$ & FO & $-1.070$ & $-2.460$ & $0.150$ & $0.040$ \\
+       & FU & $-0.510$ & $-1.980$ & $0.170$ & $0.060$ \\
+$H$ & FO & $-1.310$ & $-2.700$ & $0.160$ & $0.020$\\
+       & FU & $-0.760$ & $-2.240$ & $0.190$ & $0.040$\\
+$K$ & FO & $-1.370$ & $-2.720$ & $0.150$ & $0.020$ \\
+       & FU & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 $[3.6]$ & FO & $-1.344$ & $-2.718$ & $0.152$ & $0.021$ \\
             & FU & $-0.786$ & $-2.276$ & $0.184$ & $0.035$ \\
 $[4.5]$ & FO & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\         
             & FU & $-0.775$ & $-2.262$ & $0.190$ & $0.036$ \\
+            \hline
+\end{tabular}
+\end{table}
+
+We also use empirical PL relations derived from photometry of RR Lyrae variables in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for comparison. {\bf M4 }
+
+The empirical RRL PL relations from \citet{2015arXiv150507858N} are described in Table~\ref{tab:pl_table_theo}. The relations take the form
+\begin{equation}M = a + b\times\log P \end{equation}
+where $a$ and $b$ are empirically derived coefficients. {\bf will change rest of parameters once MJD back at ST }
+
+\begin{table}
+\centering
+\caption{Empirical mid--IR RR Lyrae period--luminosity relations for $\omega$ Cen from \citet{2015arXiv150507858N}.} 
+\label{tab:pl_table_m4}
+\begin{tabular}{l||c|c|c|c|r} 
+\hline \hline
+Band & Mode & $a$   & $b$  & $\sigma$ \\
+\hline
+$[3.6]$ & FO & $-1.344$ & $-2.658$ & $0.021$ \\
+            & FU & $-0.786$ & $-2.370$ & $0.035$ \\
+$[4.5]$ & FO & $-1.348$ & $-2.979$ & $0.021$ \\         
+            & FU & $-0.775$ & $-2.355$ & $0.036$ \\
             \hline
 \end{tabular}
 \end{table}
@@ -321,7 +320,7 @@ $[4.5]$ & FO & $-1.348$ & $-2.720$ & $0.153$ & $0.021$ \\
 \section{Distance Moduli}
 \label{sec:distance_moduli}
 
-We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening--corrected distance modulus. We fit the near--infrared reddening law from \citet{1989ApJ...345..245C} and mid--infrared law from \citet{2005ApJ...619..931I} simultaneously, assuming the ratio of total to selective absorption $R_V = 3.1$. The resulting fits are shown in Figures~\ref{fig:omegaCen_dist_phot} and \ref{fig:omegaCen_dist_spect}.
+We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening--corrected distance modulus. We fit the near--infrared reddening law from \citet{1989ApJ...345..245C} and mid--infrared law from \citet{2005ApJ...619..931I} simultaneously, assuming the ratio of total to selective absorption $R_V = 3.1$. (We tested a value of $R_V = 3.23$ as well, and it change the results by less than 1\%.) The resulting fits are shown in Figures~\ref{fig:omegaCen_dist_phot} and \ref{fig:omegaCen_dist_spect}.
 
 \begin{figure}
 \begin{center}
@@ -363,17 +362,33 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 \end{center}
 \end{figure}
 
-Using photometric metallicities we obtain a mean reddening--corrected distance modulus of $\mu_0 = 13.678 \pm 0.053$, and with spectroscopic metallicities we obtain $\mu_0 = 13.694 \pm 0.053$.
-The difference between the two distance moduli is less than 0.02 mag, well within the $\pm 0.053$ mag errors. The fact that the two distance moduli are indistinguishable is the first indication that the infrared RRL PL relations are not sensitive to metallicity effects.
+Using photometric metallicities we obtain a mean reddening--corrected distance modulus of $\mu_0 = 13.720 \pm 0.037$, and with spectroscopic metallicities we obtain $\mu_0 = 13.736 \pm 0.037$.
+The difference between the two distance moduli is less than 0.02 mag, well within the $\pm 0.037$ mag errors. The fact that the two distance moduli are indistinguishable is the first indication that the infrared RRL PL relations are not sensitive to metallicity effects.
 
-We average these distance moduli (thus essentially averaging the metallicities as well) to find a true mean distance modulus of $\mu_0 = 13.686 \pm 0.053$, which is in excellent agreement with prior measurements using near--infrared RR Lyrae period--luminosity relations \citep{2006ApJ...652..362D} and and the eclipsing binary OGLEGC17 \citep{2001AJ....121.3089T}, but significantly higher than the distances measured by dynamical modelling \citep{2006A&A...445..513V,
+We average these distance moduli (thus essentially averaging the metallicities as well) to find a true mean distance modulus of $\mu_0 = 13.728 \pm 0.037$, which is in excellent agreement with prior measurements using near--infrared RR Lyrae period--luminosity relations \citep{2006ApJ...652..362D}, slightly higher than the distance modulus measured using the eclipsing binary OGLEGC17 \citep{2001AJ....121.3089T}, and significantly higher than the distance moduli measured by dynamical modelling \citep{2006A&A...445..513V,
 2013MNRAS.436.2598W}.
 
-However, the reddening we derive from these fits is a factor of two higher than the accepted value of $E(B-V) = 0.11$ \citep{2002ASPC..265...95L}, and it is apparent from Figures~\ref{fig:omegaCen_dist_phot_allstar}, \ref{fig:omegaCen_dist_phot}, and \ref{fig:omegaCen_dist_spect} that the derived distance moduli do not conform well to the fitted extinction curve. We therefore turn to the PL relations derived for RR Lyrae variables in the globular cluster M4 by \citet{2015arXiv150507858N} and \citet{2015ApJ...799..165B}. {\bf The plot using all M4 PLs didn't get pushed to github, will put in asap when I'm back}
+The extinction value we derive from these fits, $E(B-V) = 0.148 \pm 0.055$ is slightly high but within error of the values of $E(B-V) = 0.11$ and $E(B-V) = 0.1212 \pm 0.0021$ derived by \citet{2002ASPC..265...95L} and \citet{2011ApJ...737..103S} respectively, and in good agreement with the $E(B-V) = 0.1410 \pm 0.0024$ value derived by \citet{1998ApJ...500..525S}.
+
+However, it is apparent from Figures~\ref{fig:omegaCen_dist_phot_allstar}, \ref{fig:omegaCen_dist_phot}, and \ref{fig:omegaCen_dist_spect} that the derived distance moduli do not conform well to the fitted extinction curve. We therefore turn to the empirical PL relations derived by \citet{2015arXiv150507858N} and \citet{2015ApJ...799..165B}. {\bf The plot using all M4 PLs needs tweaking, will put in when MJD back at ST}
 
 Using the empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m and the theoretical PL relations for $J\!H\!K$, we derive a true dereddened distance modulus of $\mu_0 = 13.777 \pm 0.011$ and an $E(B-V)$ of $0.075 \pm $(something), as shown in Figure~\ref{fig:omegaCen_dist_m4}.
 
-The anomalously high distance for 4.5~$\mu$m in Figure~\ref{fig:omegaCen_dist_m4} is caused exclusively by the first overtone pulsators, which are the lowest signal-to-noise measurements and most vulnerable to crowding-induced photometric errors. If we remove the first overtone pulsators from the 4.5~$\mu$m data, the derived distance for 4.5~$\mu$m decreases substantially, as shown in Figure~\ref{fig:omegaCen_dist_m4_4p5ab}, resulting in an excellent fit of all points to the reddening curve. From this we derive a distance modulus of $\mu_0 = 13.770 \pm 0.005$ and $E(B-V) = 0.084 \pm$(something).
+The anomalously high distance modulus for 4.5~$\mu$m in Figure~\ref{fig:omegaCen_dist_m4} is caused exclusively by the first overtone pulsators, which have the lowest signal-to-noise measurements and are therefore most vulnerable to crowding effects. If we remove the first overtone pulsators from the 4.5~$\mu$m data, the derived distance modulus for 4.5~$\mu$m decreases substantially, as shown in Figure~\ref{fig:omegaCen_dist_m4_4p5ab}, resulting in an excellent fit of all points to the reddening curve. From these distance moduli we derive a distance modulus of $\mu_0 = 13.770 \pm 0.005$ and $E(B-V) = 0.084 \pm$(something).
+
+We also examine the period-([3.6] - [4.5]) relation for our sample (Figure~\ref{fig:period-color}), and find 6 stars with anomalously blue colors in these bandpasses, which may indicate a problem with the 4.5~$\mu$m photometry for these stars. We redo the distance modulus fitting with these stars excluded (Figure~\ref{fig:omegaCen_dist_m4_trimmed}), and find a true distance modulus of ??? {\bf do for both m4 and theo PLs}
+
+{\bf period-color plots here}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{final_plots/multiwavelength_distance_samestars_4p5trimmed.pdf}
+\caption{Distance moduli for the cut sample of $J\!H\!K$, 3.6~$\mu$m, and 4.5~$\mu$m photometry with 6 stars excluded {\bf needs to be redone with weighted fit} %, using the average photometric metallicity from \citet{2006ApJ...640L..43S} and theoretical PL relations for $J\!H\!K$ and empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m, excluding the first overtone pulsators in 4.5~$\mu$m
+}
+\label{fig:omegaCen_dist_m4_trimmed}
+\end{center}
+\end{figure}
+
 
 \section{Metallicity}
 \label{sec:metallicity}
@@ -396,13 +411,15 @@ The anomalously high distance for 4.5~$\mu$m in Figure~\ref{fig:omegaCen_dist_m4
 
 %\noindent\rule[0.5ex]{\linewidth}{1pt}
 
-Theoretical models suggest that the metallicity dependence of the RR Lyrae PL relation should decrease monotonically from the optical to the near-infrared \citep{2004ApJS..154..633C, 2001MNRAS.326.1183B}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}. In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that in the 4.5~$\mu$m bandpass there is absorption due to a CO bandhead at 4.65~$\mu$m, which strengthens the metallicity dependence of the PL relation in this bandpass. However, this effect is due to the low temperature of Cepheid atmospheres and disappears in the hottest, shortest-period Cepheids, as the CO dissociates at temperatures above 6000 K \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000 K [{\bf ref?}], we expect to see no such CO absorption in the 4.5~$\mu$m PL relation. If there are any other unanticipated metallicity effects, they must be smaller than the dispersion of the PL relations themselves.
+Theoretical models suggest that the metallicity dependence of the RR Lyrae PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
+
+In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that in the 4.5~$\mu$m bandpass there is absorption due to a CO bandhead at 4.65~$\mu$m, which strengthens the metallicity dependence of the PL relation in this bandpass. However, this effect is due to the low temperature of Cepheid atmospheres and disappears in the hottest, shortest-period Cepheids, as the CO dissociates at temperatures above 6000 K \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000 K \citep{1971PASP...83..697I}, we expect to see no such CO absorption in the 4.5~$\mu$m PL relation. If there are any other unanticipated metallicity effects, they must be smaller than the dispersion of the PL relations themselves.
 
 If there is any correlation between [Fe/H] and the PL residuals, we expect it to be a linear one, consistent with the theoretical metallicity terms in the PL relation, $c\times[Fe/H]$; we fit a relation of the form
 \begin{equation}
-\Delta\text{mag} = \gamma \times[Fe/H] + d
+\Delta\text{mag} = \gamma \times[\text{Fe/H}] + d
 \end{equation}
-to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figures~\ref{fig:delta_3p6_phot}, \ref{fig:delta_3p6_spect}, \ref{fig:delta_4p5_phot}, and \ref{fig:delta_4p5_spect}. We find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N} {\bf can't find Inno+ 2014 ref}, there is no evidence that it is due to metallicity. When we examine [Fe/H] vs. $\Delta$3.6~$\mu$m and $\Delta$4.5~$\mu$m, $\gamma$ is within $2\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals. When the outlier at [Fe/H] = $-2.0$ in Figures~\ref{fig:delta_3p6_phot} and \ref{fig:delta_4p5_phot} is removed, $\gamma$ moves within $1\sigma$ of zero for all [Fe/H] vs. residual fits, as seen in Figures~\ref{fig:delta_3p6_phot_nooutlier} and \ref{fig:delta_4p5_phot_nooutlier}.
+to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figures~\ref{fig:delta_3p6_phot}, \ref{fig:delta_3p6_spect}, \ref{fig:delta_4p5_phot}, and \ref{fig:delta_4p5_spect}. We find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N, 2015ApJ...799..165B}, there is no evidence that it is due to metallicity. When we examine [Fe/H] vs. $\Delta$3.6~$\mu$m and $\Delta$4.5~$\mu$m, $\gamma$ is within $2\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals. When the outlier at [Fe/H] = $-2.0$ in Figures~\ref{fig:delta_3p6_phot} and \ref{fig:delta_4p5_phot} is removed, $\gamma$ moves within $1\sigma$ of zero for all [Fe/H] vs. residual fits, as seen in Figures~\ref{fig:delta_3p6_phot_nooutlier} and \ref{fig:delta_4p5_phot_nooutlier}.
 
 
 \begin{figure}
@@ -457,9 +474,11 @@ to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars w
 \section{Discussion}
 \label{sec:discussion}
 
-{\bf This section we can work on once you've worked on the others. I think it will write a lot of itself after you've done the other bits.}
+%Alternative explanations for the increased scatter relative to M4
 
-Alternative explanations for the increased scatter relative to M4 include crowding and [other things here].
+The metallicity terms in the theoretical mid--infrared relations are comparable to the metallicity terms in the near--infrared (see Table~\ref{tab:pl_table_theo}), which is counter to previous predictions that the metallicity dependence should decrease with increasing wavelength \citep{2004ApJS..154..633C, 2001MNRAS.326.1183B}. This may be one reason for the $\sim\!\!0.1$~mag discrepancy between the distance moduli for 3.6~$\mu$m and 4.5~$\mu$m derived using the theoretical parameters vs. the empirical parameters.
+
+Our investigation into the metallicity effects in the mid--infrared is limited primarily by the quality of the metallicity measurements of individual stars. {\bf Did someone say Eric Persson was working on this at some point...? Should I say we can expect a better dataset at some point?}
 
 \section{Conclusions}
 \label{sec:conclusions}
@@ -469,6 +488,8 @@ Alternative explanations for the increased scatter relative to M4 include crowdi
 
 We thank Eric Persson for his many contributions to this project.
 
+This research has made use of the NASA/IPAC Extragalactic Database (NED), which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.
+ 
 This work is based on observations made with the Spitzer Space Telescope, which is operated by the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA. Support for this work was provided by NASA through an award issued by JPL/Caltech.
 
 
@@ -515,110 +536,111 @@ ID & RA (J2000) & Dec (J2000)  & $J$  & $\sigma_{J}$ & $H$   & $\sigma_{H}$   & 
 \endfoot
 \hline
 \endlastfoot
-3 & 13:25:56.15 & -47:25:53.8 & 13.247 & 0.017 & 12.982 & 0.018 & 12.882 & 0.017 & 12.841 & 0.039 & 12.708 & 0.036 & 0.841 & 0 & -1.54 & 0.05 & -- & -- \\
-4 & 13:26:12.93 & -47:24:18.8 & 13.475 & 0.016 & 13.219 & 0.021 & 13.133 & 0.020 & 13.030 & 0.036 & 13.026 & 0.035 & 0.627 & 0 & -1.74 & 0.05 & -- & -- \\
-5 & 13:26:18.33 & -47:23:12.4 & 13.700 & 0.017 & 13.549 & 0.020 & 13.507 & 0.027 & 13.387 & 0.043 & 13.340 & 0.030 & 0.515 & 0 & -1.35 & 0.08 & -1.24 & 0.11 \\
-7 & 13:27:00.90 & -47:14:00.5 & 13.333 & 0.009 & 13.151 & 0.031 & 13.036 & 0.018 & -- & -- & -- & -- & 0.713 & 0 & -1.46 & 0.08 & -- & -- \\
-8 & 13:27:48.45 & -47:28:20.3 & 13.505 & 0.015 & 13.258 & 0.016 & 13.223 & 0.014 & -- & -- & -- & -- & 0.521 & 0 & -1.91 & 0.28 & -- & -- \\
-9 & 13:25:59.58 & -47:26:24.0 & 13.776 & 0.017 & 13.534 & 0.021 & 13.470 & 0.016 & 13.315 & 0.036 & 13.279 & 0.039 & 0.523 & 0 & -1.49 & 0.06 & -- & -- \\
-10 & 13:26:06.99 & -47:24:36.6 & 13.579 & 0.014 & 13.395 & 0.023 & 13.345 & 0.019 & 13.342 & 0.037 & 13.168 & 0.037 & 0.375 & 1 & -1.66 & 0.10 & -- & -- \\
-11 & 13:26:30.59 & -47:23:01.6 & 13.481 & 0.014 & 13.307 & 0.028 & 13.219 & 0.025 & 13.050 & 0.058 & -- & -- & 0.565 & 0 & -1.67 & 0.13 & -1.61 & 0.22 \\
-12 & 13:26:27.21 & -47:24:06.2 & 13.590 & 0.018 & 13.379 & 0.028 & 13.305 & 0.025 & 13.168 & 0.048 & 13.448 & 0.088 & 0.387 & 1 & -1.53 & 0.14 & -- & -- \\
-13 & 13:25:58.18 & -47:25:21.6 & 13.353 & 0.019 & 13.081 & 0.022 & 13.058 & 0.017 & 12.918 & 0.032 & 12.860 & 0.031 & 0.669 & 0 & -1.91 & 0.000 & -- & -- \\
-14 & 13:25:59.74 & -47:39:09.6 & 13.588 & 0.011 & 13.343 & 0.020 & 13.365 & 0.016 & -- & -- & 13.299 & 0.045 & 0.377 & 1 & -1.71 & 0.13 & -- & -- \\
-15 & 13:26:27.11 & -47:24:38.0 & 13.245 & 0.018 & 13.020 & 0.031 & 12.954 & 0.025 & 13.149 & 0.084 & -- & -- & 0.811 & 0 & -1.64 & 0.39 & -1.68 & 0.18 \\
-16 & 13:27:37.69 & -47:37:34.8 & 13.680 & 0.015 & 13.502 & 0.022 & 13.437 & 0.018 & -- & -- & -- & -- & 0.330 & 1 & -1.29 & 0.08 & -1.65 & 0.46 \\
-18 & 13:27:45.11 & -47:24:56.6 & 13.371 & 0.010 & 13.131 & 0.024 & 13.100 & 0.016 & 13.006 & 0.043 & -- & -- & 0.622 & 0 & -1.78 & 0.28 & -- & -- \\
-20 & 13:27:14.05 & -47:28:06.3 & 13.410 & 0.015 & 13.210 & 0.036 & 13.125 & 0.025 & 13.060 & 0.039 & 12.940 & 0.029 & 0.616 & 0 & -- & -- & -1.52 & 0.34 \\
-21 & 13:26:11.17 & -47:25:58.8 & 13.578 & 0.016 & 13.399 & 0.027 & 13.361 & 0.020 & 13.301 & 0.047 & 13.200 & 0.032 & 0.381 & 1 & -0.90 & 0.11 & -- & -- \\
-22 & 13:27:41.04 & -47:34:07.6 & 13.572 & 0.012 & 13.380 & 0.016 & 13.288 & 0.017 & -- & -- & -- & -- & 0.396 & 1 & -1.63 & 0.17 & -1.60 & 0.99 \\
-23 & 13:26:46.50 & -47:24:39.5 & 13.941 & 0.025 & 13.794 & 0.048 & 13.658 & 0.033 & 13.325 & 0.064 & -- & -- & 0.511 & 0 & -1.08 & 0.14 & -1.35 & 0.58 \\
-24 & 13:27:38.32 & -47:34:14.5 & 13.419 & 0.012 & 13.218 & 0.014 & 13.138 & 0.014 & -- & -- & -- & -- & 0.462 & 1 & -1.86 & 0.03 & -- & -- \\
-30 & 13:26:15.94 & -47:29:56.0 & 13.521 & 0.021 & 13.287 & 0.046 & 13.251 & 0.030 & 13.188 & 0.047 & 13.071 & 0.060 & 0.404 & 1 & -1.75 & 0.17 & -1.62 & 0.28 \\
-32 & 13:27:03.32 & -47:21:38.9 & 13.508 & 0.009 & 13.244 & 0.018 & 13.132 & 0.018 & -- & -- & -- & -- & 0.620 & 0 & -1.53 & 0.16 & -- & -- \\
-33 & 13:25:51.60 & -47:29:05.8 & 13.338 & 0.015 & 13.106 & 0.022 & 13.091 & 0.019 & -- & -- & 13.006 & 0.035 & 0.602 & 0 & -2.09 & 0.23 & -1.58 & 0.42 \\
-34 & 13:26:07.21 & -47:33:10.4 & 13.273 & 0.014 & 13.018 & 0.014 & 12.916 & 0.013 & -- & -- & 12.838 & 0.065 & 0.734 & 0 & -1.71 & 0.000 & -- & -- \\
-35 & 13:26:53.21 & -47:22:34.7 & 13.586 & 0.012 & 13.463 & 0.024 & 13.356 & 0.023 & -- & -- & -- & -- & 0.387 & 1 & -1.56 & 0.08 & -1.63 & 0.36 \\
-36 & 13:27:10.11 & -47:15:29.8 & 13.534 & 0.007 & 13.372 & 0.019 & 13.307 & 0.014 & -- & -- & -- & -- & 0.380 & 1 & -1.49 & 0.23 & -- & -- \\
-38 & 13:27:03.30 & -47:36:30.2 & 13.226 & 0.015 & 12.943 & 0.019 & 12.814 & 0.018 & -- & -- & -- & -- & 0.779 & 0 & -1.75 & 0.18 & -1.64 & 0.40 \\
-39 & 13:27:59.77 & -47:34:42.3 & 13.560 & 0.009 & 13.415 & 0.014 & 13.308 & 0.014 & -- & -- & -- & -- & 0.393 & 1 & -1.96 & 0.29 & -- & -- \\
-40 & 13:26:24.56 & -47:30:46.2 & 13.517 & 0.022 & 13.250 & 0.051 & 13.153 & 0.033 & 13.062 & 0.049 & 13.416 & 0.056 & 0.634 & 0 & -1.60 & 0.08 & -1.62 & 0.19 \\
-44 & 13:26:22.39 & -47:34:35.3 & 13.677 & 0.014 & 13.425 & 0.023 & 13.368 & 0.018 & -- & -- & 13.132 & 0.036 & 0.568 & 0 & -1.40 & 0.12 & -1.29 & 0.35 \\
-45 & 13:25:30.88 & -47:27:21.0 & 13.513 & 0.015 & 13.201 & 0.015 & 13.164 & 0.014 & -- & -- & 13.070 & 0.028 & 0.589 & 0 & -1.78 & 0.25 & -- & -- \\
-46 & 13:25:30.23 & -47:25:51.8 & 13.299 & 0.016 & 12.998 & 0.017 & 12.947 & 0.014 & -- & -- & -- & -- & 0.687 & 0 & -1.88 & 0.17 & -- & -- \\
-47 & 13:25:56.46 & -47:24:12.0 & 13.420 & 0.020 & 13.223 & 0.018 & 13.150 & 0.018 & 13.099 & 0.030 & 13.073 & 0.026 & 0.485 & 1 & -1.58 & 0.31 & -- & -- \\
-49 & 13:26:07.78 & -47:37:55.5 & 13.566 & 0.012 & 13.238 & 0.019 & 13.220 & 0.016 & -- & -- & 13.099 & 0.049 & 0.605 & 0 & -1.98 & 0.11 & -- & -- \\
-50 & 13:25:53.94 & -47:27:35.8 & 13.647 & 0.014 & 13.402 & 0.015 & 13.362 & 0.014 & -- & -- & 13.305 & 0.056 & 0.386 & 1 & -1.59 & 0.19 & -- & -- \\
-51 & 13:26:42.66 & -47:24:21.4 & 13.597 & 0.014 & 13.378 & 0.033 & 13.270 & 0.029 & 13.315 & 0.083 & -- & -- & 0.574 & 0 & -1.64 & 0.21 & -1.84 & 0.23 \\
-54 & 13:26:23.54 & -47:18:47.7 & 13.281 & 0.016 & 12.998 & 0.017 & 12.954 & 0.015 & 12.799 & 0.030 & -- & -- & 0.773 & 0 & -1.66 & 0.12 & -1.80 & 0.23 \\
-56 & 13:25:55.53 & -47:37:44.1 & 13.643 & 0.009 & 13.386 & 0.022 & 13.353 & 0.017 & -- & -- & 13.232 & 0.035 & 0.568 & 0 & -1.26 & 0.15 & -- & -- \\
-57 & 13:27:49.38 & -47:36:50.5 & 13.234 & 0.015 & 12.995 & 0.018 & 12.882 & 0.014 & -- & -- & -- & -- & 0.794 & 0 & -1.89 & 0.14 & -- & -- \\
-58 & 13:26:13.05 & -47:24:03.0 & 13.660 & 0.017 & 13.495 & 0.018 & 13.421 & 0.021 & 13.345 & 0.033 & 13.309 & 0.034 & 0.370 & 1 & -1.37 & 0.18 & -1.91 & 0.31 \\
-59 & 13:26:18.43 & -47:29:46.7 & 13.727 & 0.023 & 13.424 & 0.043 & 13.391 & 0.033 & 13.248 & 0.071 & 13.418 & 0.064 & 0.519 & 0 & -1.00 & 0.28 & -- & -- \\
-63 & 13:25:07.96 & -47:36:54.1 & 13.223 & 0.017 & 12.862 & 0.017 & 12.869 & 0.012 & -- & -- & -- & -- & 0.826 & 0 & -1.73 & 0.09 & -- & -- \\
-64 & 13:26:02.22 & -47:36:19.2 & 13.638 & 0.013 & 13.438 & 0.022 & 13.407 & 0.022 & -- & -- & 13.314 & 0.044 & 0.344 & 1 & -1.46 & 0.23 & -- & -- \\
-66 & 13:26:33.08 & -47:22:25.2 & 13.542 & 0.011 & 13.359 & 0.022 & 13.264 & 0.020 & 13.103 & 0.035 & -- & -- & 0.407 & 1 & -1.68 & 0.34 & -- & -- \\
-67 & 13:26:28.62 & -47:18:46.9 & 13.610 & 0.014 & 13.384 & 0.016 & 13.326 & 0.015 & 13.368 & 0.047 & -- & -- & 0.564 & 0 & -1.10 & 0.000 & -1.19 & 0.23 \\
-68 & 13:26:12.80 & -47:19:35.7 & 13.258 & 0.021 & 13.004 & 0.015 & 12.970 & 0.015 & 12.928 & 0.050 & -- & -- & 0.535 & 1 & -1.60 & 0.01 & -- & -- \\
-69 & 13:25:11.02 & -47:37:33.5 & -- & -- & -- & -- & 13.112 & 0.014 & -- & -- & -- & -- & 0.635 & 0 & -1.52 & 0.14 & -- & -- \\
-70 & 13:27:27.76 & -47:33:42.7 & 13.529 & 0.013 & 13.282 & 0.029 & 13.254 & 0.022 & -- & -- & -- & -- & 0.391 & 1 & -1.94 & 0.15 & -1.74 & 0.30 \\
-72 & 13:27:33.11 & -47:16:22.9 & 13.554 & 0.010 & 13.339 & 0.017 & 13.311 & 0.014 & -- & -- & -- & -- & 0.385 & 1 & -1.32 & 0.22 & -- & -- \\
-73 & 13:25:53.75 & -47:16:10.8 & 13.480 & 0.018 & 13.251 & 0.017 & 13.215 & 0.016 & -- & -- & -- & -- & 0.575 & 0 & -1.50 & 0.09 & -- & -- \\
-74 & 13:27:07.22 & -47:17:33.9 & 13.622 & 0.008 & 13.457 & 0.016 & 13.405 & 0.015 & -- & -- & -- & -- & 0.503 & 0 & -1.83 & 0.36 & -- & -- \\
-75 & 13:27:19.70 & -47:18:46.5 & 13.410 & 0.011 & 13.175 & 0.028 & 13.137 & 0.025 & -- & -- & -- & -- & 0.422 & 1 & -1.49 & 0.08 & -1.82 & 0.99 \\
-76 & 13:26:57.23 & -47:20:07.7 & 13.634 & 0.012 & 13.488 & 0.017 & 13.449 & 0.020 & -- & -- & -- & -- & 0.338 & 1 & -1.45 & 0.13 & -- & -- \\
-77 & 13:27:20.89 & -47:22:05.6 & 13.474 & 0.013 & 13.264 & 0.028 & 13.199 & 0.021 & -- & -- & -- & -- & 0.426 & 1 & -1.81 & 0.000 & -1.84 & 0.43 \\
-79 & 13:28:24.99 & -47:29:25.2 & 13.382 & 0.010 & 13.162 & 0.016 & 13.123 & 0.015 & -- & -- & -- & -- & 0.608 & 0 & -1.39 & 0.18 & -- & -- \\
-81 & 13:27:36.68 & -47:24:48.3 & 13.542 & 0.012 & 13.326 & 0.033 & 13.286 & 0.025 & 13.248 & 0.076 & -- & -- & 0.389 & 1 & -1.72 & 0.31 & -1.99 & 0.43 \\
-82 & 13:27:35.61 & -47:26:30.3 & 13.579 & 0.016 & 13.324 & 0.024 & 13.296 & 0.018 & -- & -- & 13.827 & 0.104 & 0.336 & 1 & -1.56 & 0.20 & -1.71 & 0.56 \\
-83 & 13:27:08.42 & -47:21:34.1 & 13.603 & 0.010 & 13.431 & 0.024 & 13.370 & 0.022 & -- & -- & -- & -- & 0.357 & 1 & -1.30 & 0.22 & -- & -- \\
-84 & 13:24:47.45 & -47:29:56.5 & -- & -- & 12.833 & 0.017 & 12.781 & 0.016 & -- & -- & -- & -- & 0.580 & 0 & -1.47 & 0.10 & -- & -- \\
-85 & 13:25:06.49 & -47:23:34.0 & 13.344 & 0.011 & -- & -- & -- & -- & -- & -- & -- & -- & 0.743 & 0 & -1.87 & 0.31 & -- & -- \\
-94 & 13:25:57.06 & -47:22:46.1 & 14.070 & 0.024 & 13.934 & 0.022 & 13.870 & 0.027 & 13.858 & 0.038 & 13.799 & 0.029 & 0.254 & 1 & -1.00 & 0.11 & -- & -- \\
-95 & 13:25:24.95 & -47:28:53.2 & 13.497 & 0.015 & 13.269 & 0.017 & 13.264 & 0.017 & -- & -- & 13.178 & 0.024 & 0.405 & 1 & -1.84 & 0.55 & -- & -- \\
-97 & 13:27:08.49 & -47:25:30.9 & 13.302 & 0.010 & 13.143 & 0.029 & 13.034 & 0.022 & 12.964 & 0.061 & 12.702 & 0.064 & 0.692 & 0 & -1.56 & 0.37 & -1.74 & 0.17 \\
-101 & 13:27:30.24 & -47:29:51.0 & 13.708 & 0.016 & 13.484 & 0.030 & 13.436 & 0.023 & -- & -- & -- & -- & 0.341 & 1 & -1.88 & 0.32 & -- & -- \\
-102 & 13:27:22.11 & -47:30:12.3 & 13.320 & 0.012 & 13.033 & 0.022 & 12.993 & 0.020 & 12.984 & 0.049 & 13.056 & 0.072 & 0.691 & 0 & -1.84 & 0.13 & -1.65 & 0.16 \\
-103 & 13:27:14.29 & -47:28:36.3 & 13.620 & 0.018 & 13.409 & 0.040 & 13.377 & 0.034 & 12.960 & 0.071 & 13.024 & 0.066 & 0.329 & 1 & -1.92 & 0.11 & -1.78 & 0.27 \\
-104 & 13:28:07.76 & -47:33:44.9 & 13.732 & 0.096 & 13.626 & 0.154 & 13.452 & 0.141 & -- & -- & -- & -- & 0.867 & 0 & -1.83 & 0.18 & -- & -- \\
-105 & 13:27:46.02 & -47:32:43.9 & 13.768 & 0.014 & 13.615 & 0.020 & 13.533 & 0.018 & -- & -- & -- & -- & 0.335 & 1 & -1.24 & 0.18 & -- & -- \\
-107 & 13:27:14.05 & -47:30:57.9 & 13.597 & 0.017 & 13.340 & 0.038 & 13.301 & 0.030 & 13.535 & 0.219 & 13.351 & 0.076 & 0.514 & 0 & -1.36 & 0.11 & -- & -- \\
-115 & 13:26:12.30 & -47:34:17.5 & 13.401 & 0.012 & 13.176 & 0.017 & 13.103 & 0.013 & -- & -- & -- & -- & 0.630 & 0 & -1.87 & 0.01 & -1.64 & 0.32 \\
-117 & 13:26:19.91 & -47:29:21.0 & 13.480 & 0.020 & 13.274 & 0.043 & 13.202 & 0.031 & 13.110 & 0.044 & 12.949 & 0.043 & 0.422 & 1 & -1.68 & 0.25 & -- & -- \\
-120 & 13:26:25.52 & -47:32:48.6 & 13.525 & 0.049 & 13.072 & 0.079 & 13.135 & 0.094 & 12.958 & 0.066 & 12.927 & 0.055 & 0.549 & 0 & -1.39 & 0.06 & -1.15 & 0.16 \\
-121 & 13:26:28.17 & -47:31:50.5 & 13.741 & 0.016 & 13.648 & 0.033 & 13.531 & 0.026 & 13.414 & 0.037 & 13.302 & 0.033 & 0.304 & 1 & -1.46 & 0.13 & -1.83 & 0.40 \\
-122 & 13:26:30.31 & -47:33:02.2 & 13.369 & 0.018 & 13.132 & 0.042 & 13.062 & 0.024 & 13.057 & 0.052 & 13.019 & 0.043 & 0.635 & 0 & -2.02 & 0.18 & -1.79 & 0.21 \\
-123 & 13:26:51.17 & -47:37:13.2 & 13.462 & 0.016 & 13.239 & 0.019 & 13.174 & 0.017 & -- & -- & -- & -- & 0.474 & 1 & -1.64 & 0.01 & -- & -- \\
-124 & 13:26:54.49 & -47:39:07.5 & 13.708 & 0.013 & 13.510 & 0.018 & 13.482 & 0.023 & -- & -- & -- & -- & 0.332 & 1 & -1.33 & 0.23 & -- & -- \\
-125 & 13:26:48.92 & -47:41:03.7 & 13.420 & 0.015 & 13.200 & 0.016 & 13.153 & 0.015 & -- & -- & -- & -- & 0.593 & 0 & -1.67 & 0.22 & -1.81 & 0.38 \\
-126 & 13:28:08.03 & -47:40:46.7 & 13.642 & 0.011 & 13.467 & 0.017 & 13.370 & 0.016 & -- & -- & -- & -- & 0.342 & 1 & -1.31 & 0.13 & -- & -- \\
-127 & 13:25:19.36 & -47:28:37.6 & -- & -- & -- & -- & 13.579 & 0.018 & -- & -- & 13.573 & 0.063 & 0.305 & 1 & -1.59 & 0.08 & -- & -- \\
-128 & 13:26:17.75 & -47:30:13.0 & 13.207 & 0.018 & 12.927 & 0.032 & 12.810 & 0.020 & -- & -- & 12.445 & 0.074 & 0.835 & 0 & -1.88 & 0.04 & -- & -- \\
-130 & 13:26:09.93 & -47:13:40.0 & 13.688 & 0.021 & 13.527 & 0.032 & 13.418 & 0.025 & -- & -- & -- & -- & 0.493 & 0 & -1.46 & 0.17 & -- & -- \\
-147 & 13:27:15.86 & -47:31:09.2 & 13.397 & 0.012 & 12.934 & 0.041 & 13.083 & 0.022 & -- & -- & 12.585 & 0.096 & 0.423 & 1 & -1.66 & 0.14 & -- & -- \\
-149 & 13:27:32.94 & -47:13:43.6 & 13.354 & 0.015 & 13.061 & 0.035 & 13.024 & 0.024 & -- & -- & -- & -- & 0.683 & 0 & -1.21 & 0.24 & -- & -- \\
-150 & 13:27:40.21 & -47:36:00.1 & 13.068 & 0.019 & 12.757 & 0.025 & 12.692 & 0.018 & -- & -- & -- & -- & 0.899 & 0 & -1.76 & 0.34 & -- & -- \\
-151 & 13:28:25.40 & -47:16:00.2 & 13.501 & 0.013 & 13.301 & 0.020 & 13.265 & 0.016 & -- & -- & -- & -- & 0.408 & 0 & -1.30 & 0.24 & -- & -- \\
-163 & 13:25:49.42 & -47:20:21.5 & 13.763 & 0.019 & 13.557 & 0.016 & 13.545 & 0.025 & -- & -- & -- & -- & 0.313 & 1 & -1.18 & 0.27 & -- & -- \\
-168 & 13:25:52.78 & -47:32:02.9 & 14.176 & 0.015 & 14.000 & 0.020 & 13.960 & 0.018 & -- & -- & -- & -- & 0.321 & 1 & -- & -- & -- & -- \\
-169 & 13:27:20.47 & -47:23:59.1 & 13.805 & 0.013 & 13.735 & 0.019 & 13.652 & 0.025 & 13.734 & 0.050 & 14.001 & 0.116 & 0.319 & 1 & -- & -- & -1.65 & 0.19 \\
-184 & 13:27:28.50 & -47:31:35.4 & 13.778 & 0.012 & 13.624 & 0.028 & 13.536 & 0.019 & -- & -- & -- & -- & 0.303 & 1 & -- & -- & -- & -- \\
-185 & 13:26:04.13 & -47:21:45.0 & 13.701 & 0.016 & 13.545 & 0.018 & 13.508 & 0.023 & 13.496 & 0.036 & 13.479 & 0.033 & 0.333 & 1 & -- & -- & -- & -- \\
-261 & 13:27:15.41 & -47:21:29.5 & 13.431 & 0.009 & 13.212 & 0.019 & 13.113 & 0.020 & -- & -- & -- & -- & 0.403 & 1 & -- & -- & -1.50 & 0.35 \\
-263 & 13:26:13.13 & -47:26:09.7 & 13.155 & 0.017 & 12.888 & 0.017 & 12.746 & 0.016 & -- & -- & 12.660 & 0.034 & 1.012 & 0 & -- & -- & -1.73 & 0.19 \\
-274 & 13:26:43.73 & -47:22:48.2 & 13.828 & 0.011 & 13.758 & 0.023 & 13.650 & 0.022 & -- & -- & -- & -- & 0.311 & 1 & -- & -- & -- & -- \\
-276 & 13:27:16.51 & -47:33:17.6 & 13.727 & 0.021 & 13.614 & 0.046 & 13.533 & 0.024 & -- & -- & -- & -- & 0.308 & 1 & -- & -- & -- & -- \\
-280 & 13:27:09.33 & -47:23:05.7 & 13.951 & 0.012 & 13.905 & 0.026 & 13.816 & 0.029 & -- & -- & -- & -- & 0.282 & 1 & -- & -- & -- & -- \\
-285 & 13:25:40.20 & -47:34:48.4 & 13.687 & 0.017 & 13.504 & 0.027 & 13.503 & 0.015 & -- & -- & 13.358 & 0.074 & 0.329 & 1 & -- & -- & -- & -- \\
-288 & 13:28:10.32 & -47:23:47.8 & 13.809 & 0.011 & 13.719 & 0.016 & 13.635 & 0.019 & -- & -- & -- & -- & 0.295 & 1 & -- & -- & -- & -- \\
-289 & 13:28:03.68 & -47:21:27.9 & 13.743 & 0.013 & 13.618 & 0.015 & 13.584 & 0.022 & -- & -- & -- & -- & 0.308 & 1 & -- & -- & -- & -- \\
-291 & 13:26:38.52 & -47:33:28.0 & 13.674 & 0.018 & 13.518 & 0.044 & 13.444 & 0.026 & -- & -- & -- & -- & 0.334 & 1 & -- & -- & -- & -- \\
-357 & 13:26:17.77 & -47:30:23.4 & 13.692 & 0.027 & 13.468 & 0.064 & 13.468 & 0.045 & 13.462 & 0.044 & 13.375 & 0.041 & 0.298 & 1 & -- & -- & -1.64 & 0.99 \\
+3 & 13:25:56.15 & -47:25:53.8 & 13.247 & 0.017 & 12.982 & 0.018 & 12.882 & 0.017 & 12.841 & 0.039 & 12.708 & 0.036 & 0.841 & ab & -1.54 & 0.05 & -- & -- \\
+4 & 13:26:12.93 & -47:24:18.8 & 13.475 & 0.016 & 13.219 & 0.021 & 13.133 & 0.020 & 13.030 & 0.036 & 13.026 & 0.035 & 0.627 & ab & -1.74 & 0.05 & -- & -- \\
+5 & 13:26:18.33 & -47:23:12.4 & 13.700 & 0.017 & 13.549 & 0.020 & 13.507 & 0.027 & 13.387 & 0.043 & 13.340 & 0.030 & 0.515 & ab & -1.35 & 0.08 & -1.24 & 0.11 \\
+7 & 13:27:00.90 & -47:14:00.5 & 13.333 & 0.009 & 13.151 & 0.031 & 13.036 & 0.018 & -- & -- & -- & -- & 0.713 & ab & -1.46 & 0.08 & -- & -- \\
+8 & 13:27:48.45 & -47:28:20.3 & 13.505 & 0.015 & 13.258 & 0.016 & 13.223 & 0.014 & -- & -- & -- & -- & 0.521 & ab & -1.91 & 0.28 & -- & -- \\
+9 & 13:25:59.58 & -47:26:24.0 & 13.776 & 0.017 & 13.534 & 0.021 & 13.470 & 0.016 & 13.315 & 0.036 & 13.279 & 0.039 & 0.523 & ab & -1.49 & 0.06 & -- & -- \\
+10 & 13:26:06.99 & -47:24:36.6 & 13.579 & 0.014 & 13.395 & 0.023 & 13.345 & 0.019 & 13.342 & 0.037 & 13.168 & 0.037 & 0.375 & c & -1.66 & 0.10 & -- & -- \\
+11 & 13:26:30.59 & -47:23:01.6 & 13.481 & 0.014 & 13.307 & 0.028 & 13.219 & 0.025 & 13.050 & 0.058 & -- & -- & 0.565 & ab & -1.67 & 0.13 & -1.61 & 0.22 \\
+12 & 13:26:27.21 & -47:24:06.2 & 13.590 & 0.018 & 13.379 & 0.028 & 13.305 & 0.025 & 13.168 & 0.048 & 13.448 & 0.088 & 0.387 & c & -1.53 & 0.14 & -- & -- \\
+13 & 13:25:58.18 & -47:25:21.6 & 13.353 & 0.019 & 13.081 & 0.022 & 13.058 & 0.017 & 12.918 & 0.032 & 12.860 & 0.031 & 0.669 & ab & -1.91 & 0.000 & -- & -- \\
+14 & 13:25:59.74 & -47:39:09.6 & 13.588 & 0.011 & 13.343 & 0.020 & 13.365 & 0.016 & -- & -- & 13.299 & 0.045 & 0.377 & c & -1.71 & 0.13 & -- & -- \\
+15 & 13:26:27.11 & -47:24:38.0 & 13.245 & 0.018 & 13.020 & 0.031 & 12.954 & 0.025 & 13.149 & 0.084 & -- & -- & 0.811 & ab & -1.64 & 0.39 & -1.68 & 0.18 \\
+16 & 13:27:37.69 & -47:37:34.8 & 13.680 & 0.015 & 13.502 & 0.022 & 13.437 & 0.018 & -- & -- & -- & -- & 0.330 & c & -1.29 & 0.08 & -1.65 & 0.46 \\
+18 & 13:27:45.11 & -47:24:56.6 & 13.371 & 0.010 & 13.131 & 0.024 & 13.100 & 0.016 & 13.006 & 0.043 & -- & -- & 0.622 & ab & -1.78 & 0.28 & -- & -- \\
+20 & 13:27:14.05 & -47:28:06.3 & 13.410 & 0.015 & 13.210 & 0.036 & 13.125 & 0.025 & 13.060 & 0.039 & 12.940 & 0.029 & 0.616 & ab & -- & -- & -1.52 & 0.34 \\
+21 & 13:26:11.17 & -47:25:58.8 & 13.578 & 0.016 & 13.399 & 0.027 & 13.361 & 0.020 & 13.301 & 0.047 & 13.200 & 0.032 & 0.381 & c & -0.90 & 0.11 & -- & -- \\
+22 & 13:27:41.04 & -47:34:07.6 & 13.572 & 0.012 & 13.380 & 0.016 & 13.288 & 0.017 & -- & -- & -- & -- & 0.396 & c & -1.63 & 0.17 & -1.60 & 0.99 \\
+23 & 13:26:46.50 & -47:24:39.5 & 13.941 & 0.025 & 13.794 & 0.048 & 13.658 & 0.033 & 13.325 & 0.064 & -- & -- & 0.511 & ab & -1.08 & 0.14 & -1.35 & 0.58 \\
+24 & 13:27:38.32 & -47:34:14.5 & 13.419 & 0.012 & 13.218 & 0.014 & 13.138 & 0.014 & -- & -- & -- & -- & 0.462 & c & -1.86 & 0.03 & -- & -- \\
+30 & 13:26:15.94 & -47:29:56.0 & 13.521 & 0.021 & 13.287 & 0.046 & 13.251 & 0.030 & 13.188 & 0.047 & 13.071 & 0.060 & 0.404 & c & -1.75 & 0.17 & -1.62 & 0.28 \\
+32 & 13:27:03.32 & -47:21:38.9 & 13.508 & 0.009 & 13.244 & 0.018 & 13.132 & 0.018 & -- & -- & -- & -- & 0.620 & ab & -1.53 & 0.16 & -- & -- \\
+33 & 13:25:51.60 & -47:29:05.8 & 13.338 & 0.015 & 13.106 & 0.022 & 13.091 & 0.019 & -- & -- & 13.006 & 0.035 & 0.602 & ab & -2.09 & 0.23 & -1.58 & 0.42 \\
+34 & 13:26:07.21 & -47:33:10.4 & 13.273 & 0.014 & 13.018 & 0.014 & 12.916 & 0.013 & -- & -- & 12.838 & 0.065 & 0.734 & ab & -1.71 & 0.000 & -- & -- \\
+35 & 13:26:53.21 & -47:22:34.7 & 13.586 & 0.012 & 13.463 & 0.024 & 13.356 & 0.023 & -- & -- & -- & -- & 0.387 & c & -1.56 & 0.08 & -1.63 & 0.36 \\
+36 & 13:27:10.11 & -47:15:29.8 & 13.534 & 0.007 & 13.372 & 0.019 & 13.307 & 0.014 & -- & -- & -- & -- & 0.380 & c & -1.49 & 0.23 & -- & -- \\
+38 & 13:27:03.30 & -47:36:30.2 & 13.226 & 0.015 & 12.943 & 0.019 & 12.814 & 0.018 & -- & -- & -- & -- & 0.779 & ab & -1.75 & 0.18 & -1.64 & 0.40 \\
+39 & 13:27:59.77 & -47:34:42.3 & 13.560 & 0.009 & 13.415 & 0.014 & 13.308 & 0.014 & -- & -- & -- & -- & 0.393 & c & -1.96 & 0.29 & -- & -- \\
+40 & 13:26:24.56 & -47:30:46.2 & 13.517 & 0.022 & 13.250 & 0.051 & 13.153 & 0.033 & 13.062 & 0.049 & 13.416 & 0.056 & 0.634 & ab & -1.60 & 0.08 & -1.62 & 0.19 \\
+44 & 13:26:22.39 & -47:34:35.3 & 13.677 & 0.014 & 13.425 & 0.023 & 13.368 & 0.018 & -- & -- & 13.132 & 0.036 & 0.568 & ab & -1.40 & 0.12 & -1.29 & 0.35 \\
+45 & 13:25:30.88 & -47:27:21.0 & 13.513 & 0.015 & 13.201 & 0.015 & 13.164 & 0.014 & -- & -- & 13.070 & 0.028 & 0.589 & ab & -1.78 & 0.25 & -- & -- \\
+46 & 13:25:30.23 & -47:25:51.8 & 13.299 & 0.016 & 12.998 & 0.017 & 12.947 & 0.014 & -- & -- & -- & -- & 0.687 & ab & -1.88 & 0.17 & -- & -- \\
+47 & 13:25:56.46 & -47:24:12.0 & 13.420 & 0.020 & 13.223 & 0.018 & 13.150 & 0.018 & 13.099 & 0.030 & 13.073 & 0.026 & 0.485 & c & -1.58 & 0.31 & -- & -- \\
+49 & 13:26:07.78 & -47:37:55.5 & 13.566 & 0.012 & 13.238 & 0.019 & 13.220 & 0.016 & -- & -- & 13.099 & 0.049 & 0.605 & ab & -1.98 & 0.11 & -- & -- \\
+50 & 13:25:53.94 & -47:27:35.8 & 13.647 & 0.014 & 13.402 & 0.015 & 13.362 & 0.014 & -- & -- & 13.305 & 0.056 & 0.386 & c & -1.59 & 0.19 & -- & -- \\
+51 & 13:26:42.66 & -47:24:21.4 & 13.597 & 0.014 & 13.378 & 0.033 & 13.270 & 0.029 & 13.315 & 0.083 & -- & -- & 0.574 & ab & -1.64 & 0.21 & -1.84 & 0.23 \\
+54 & 13:26:23.54 & -47:18:47.7 & 13.281 & 0.016 & 12.998 & 0.017 & 12.954 & 0.015 & 12.799 & 0.030 & -- & -- & 0.773 & ab & -1.66 & 0.12 & -1.80 & 0.23 \\
+56 & 13:25:55.53 & -47:37:44.1 & 13.643 & 0.009 & 13.386 & 0.022 & 13.353 & 0.017 & -- & -- & 13.232 & 0.035 & 0.568 & ab & -1.26 & 0.15 & -- & -- \\
+57 & 13:27:49.38 & -47:36:50.5 & 13.234 & 0.015 & 12.995 & 0.018 & 12.882 & 0.014 & -- & -- & -- & -- & 0.794 & ab & -1.89 & 0.14 & -- & -- \\
+58 & 13:26:13.05 & -47:24:03.0 & 13.660 & 0.017 & 13.495 & 0.018 & 13.421 & 0.021 & 13.345 & 0.033 & 13.309 & 0.034 & 0.370 & c & -1.37 & 0.18 & -1.91 & 0.31 \\
+59 & 13:26:18.43 & -47:29:46.7 & 13.727 & 0.023 & 13.424 & 0.043 & 13.391 & 0.033 & 13.248 & 0.071 & 13.418 & 0.064 & 0.519 & ab & -1.00 & 0.28 & -- & -- \\
+63 & 13:25:07.96 & -47:36:54.1 & 13.223 & 0.017 & 12.862 & 0.017 & 12.869 & 0.012 & -- & -- & -- & -- & 0.826 & ab & -1.73 & 0.09 & -- & -- \\
+64 & 13:26:02.22 & -47:36:19.2 & 13.638 & 0.013 & 13.438 & 0.022 & 13.407 & 0.022 & -- & -- & 13.314 & 0.044 & 0.344 & c & -1.46 & 0.23 & -- & -- \\
+66 & 13:26:33.08 & -47:22:25.2 & 13.542 & 0.011 & 13.359 & 0.022 & 13.264 & 0.020 & 13.103 & 0.035 & -- & -- & 0.407 & c & -1.68 & 0.34 & -- & -- \\
+67 & 13:26:28.62 & -47:18:46.9 & 13.610 & 0.014 & 13.384 & 0.016 & 13.326 & 0.015 & 13.368 & 0.047 & -- & -- & 0.564 & ab & -1.10 & 0.000 & -1.19 & 0.23 \\
+68 & 13:26:12.80 & -47:19:35.7 & 13.258 & 0.021 & 13.004 & 0.015 & 12.970 & 0.015 & 12.928 & 0.050 & -- & -- & 0.535 & c & -1.60 & 0.01 & -- & -- \\
+69 & 13:25:11.02 & -47:37:33.5 & -- & -- & -- & -- & 13.112 & 0.014 & -- & -- & -- & -- & 0.635 & ab & -1.52 & 0.14 & -- & -- \\
+70 & 13:27:27.76 & -47:33:42.7 & 13.529 & 0.013 & 13.282 & 0.029 & 13.254 & 0.022 & -- & -- & -- & -- & 0.391 & c & -1.94 & 0.15 & -1.74 & 0.30 \\
+72 & 13:27:33.11 & -47:16:22.9 & 13.554 & 0.010 & 13.339 & 0.017 & 13.311 & 0.014 & -- & -- & -- & -- & 0.385 & c & -1.32 & 0.22 & -- & -- \\
+73 & 13:25:53.75 & -47:16:10.8 & 13.480 & 0.018 & 13.251 & 0.017 & 13.215 & 0.016 & -- & -- & -- & -- & 0.575 & ab & -1.50 & 0.09 & -- & -- \\
+74 & 13:27:07.22 & -47:17:33.9 & 13.622 & 0.008 & 13.457 & 0.016 & 13.405 & 0.015 & -- & -- & -- & -- & 0.503 & ab & -1.83 & 0.36 & -- & -- \\
+75 & 13:27:19.70 & -47:18:46.5 & 13.410 & 0.011 & 13.175 & 0.028 & 13.137 & 0.025 & -- & -- & -- & -- & 0.422 & c & -1.49 & 0.08 & -1.82 & 0.99 \\
+76 & 13:26:57.23 & -47:20:07.7 & 13.634 & 0.012 & 13.488 & 0.017 & 13.449 & 0.020 & -- & -- & -- & -- & 0.338 & c & -1.45 & 0.13 & -- & -- \\
+77 & 13:27:20.89 & -47:22:05.6 & 13.474 & 0.013 & 13.264 & 0.028 & 13.199 & 0.021 & -- & -- & -- & -- & 0.426 & c & -1.81 & 0.000 & -1.84 & 0.43 \\
+79 & 13:28:24.99 & -47:29:25.2 & 13.382 & 0.010 & 13.162 & 0.016 & 13.123 & 0.015 & -- & -- & -- & -- & 0.608 & ab & -1.39 & 0.18 & -- & -- \\
+81 & 13:27:36.68 & -47:24:48.3 & 13.542 & 0.012 & 13.326 & 0.033 & 13.286 & 0.025 & 13.248 & 0.076 & -- & -- & 0.389 & c & -1.72 & 0.31 & -1.99 & 0.43 \\
+82 & 13:27:35.61 & -47:26:30.3 & 13.579 & 0.016 & 13.324 & 0.024 & 13.296 & 0.018 & -- & -- & 13.827 & 0.104 & 0.336 & c & -1.56 & 0.20 & -1.71 & 0.56 \\
+83 & 13:27:08.42 & -47:21:34.1 & 13.603 & 0.010 & 13.431 & 0.024 & 13.370 & 0.022 & -- & -- & -- & -- & 0.357 & c & -1.30 & 0.22 & -- & -- \\
+84 & 13:24:47.45 & -47:29:56.5 & -- & -- & 12.833 & 0.017 & 12.781 & 0.016 & -- & -- & -- & -- & 0.580 & ab & -1.47 & 0.10 & -- & -- \\
+85 & 13:25:06.49 & -47:23:34.0 & 13.344 & 0.011 & -- & -- & -- & -- & -- & -- & -- & -- & 0.743 & ab & -1.87 & 0.31 & -- & -- \\
+94 & 13:25:57.06 & -47:22:46.1 & 14.070 & 0.024 & 13.934 & 0.022 & 13.870 & 0.027 & 13.858 & 0.038 & 13.799 & 0.029 & 0.254 & c & -1.00 & 0.11 & -- & -- \\
+95 & 13:25:24.95 & -47:28:53.2 & 13.497 & 0.015 & 13.269 & 0.017 & 13.264 & 0.017 & -- & -- & 13.178 & 0.024 & 0.405 & c & -1.84 & 0.55 & -- & -- \\
+97 & 13:27:08.49 & -47:25:30.9 & 13.302 & 0.010 & 13.143 & 0.029 & 13.034 & 0.022 & 12.964 & 0.061 & 12.702 & 0.064 & 0.692 & ab & -1.56 & 0.37 & -1.74 & 0.17 \\
+101 & 13:27:30.24 & -47:29:51.0 & 13.708 & 0.016 & 13.484 & 0.030 & 13.436 & 0.023 & -- & -- & -- & -- & 0.341 & c & -1.88 & 0.32 & -- & -- \\
+102 & 13:27:22.11 & -47:30:12.3 & 13.320 & 0.012 & 13.033 & 0.022 & 12.993 & 0.020 & 12.984 & 0.049 & 13.056 & 0.072 & 0.691 & ab & -1.84 & 0.13 & -1.65 & 0.16 \\
+103 & 13:27:14.29 & -47:28:36.3 & 13.620 & 0.018 & 13.409 & 0.040 & 13.377 & 0.034 & 12.960 & 0.071 & 13.024 & 0.066 & 0.329 & c & -1.92 & 0.11 & -1.78 & 0.27 \\
+104 & 13:28:07.76 & -47:33:44.9 & 13.732 & 0.096 & 13.626 & 0.154 & 13.452 & 0.141 & -- & -- & -- & -- & 0.867 & ab & -1.83 & 0.18 & -- & -- \\
+105 & 13:27:46.02 & -47:32:43.9 & 13.768 & 0.014 & 13.615 & 0.020 & 13.533 & 0.018 & -- & -- & -- & -- & 0.335 & c & -1.24 & 0.18 & -- & -- \\
+107 & 13:27:14.05 & -47:30:57.9 & 13.597 & 0.017 & 13.340 & 0.038 & 13.301 & 0.030 & 13.535 & 0.219 & 13.351 & 0.076 & 0.514 & ab & -1.36 & 0.11 & -- & -- \\
+115 & 13:26:12.30 & -47:34:17.5 & 13.401 & 0.012 & 13.176 & 0.017 & 13.103 & 0.013 & -- & -- & -- & -- & 0.630 & ab & -1.87 & 0.01 & -1.64 & 0.32 \\
+117 & 13:26:19.91 & -47:29:21.0 & 13.480 & 0.020 & 13.274 & 0.043 & 13.202 & 0.031 & 13.110 & 0.044 & 12.949 & 0.043 & 0.422 & c & -1.68 & 0.25 & -- & -- \\
+120 & 13:26:25.52 & -47:32:48.6 & 13.525 & 0.049 & 13.072 & 0.079 & 13.135 & 0.094 & 12.958 & 0.066 & 12.927 & 0.055 & 0.549 & ab & -1.39 & 0.06 & -1.15 & 0.16 \\
+121 & 13:26:28.17 & -47:31:50.5 & 13.741 & 0.016 & 13.648 & 0.033 & 13.531 & 0.026 & 13.414 & 0.037 & 13.302 & 0.033 & 0.304 & c & -1.46 & 0.13 & -1.83 & 0.40 \\
+122 & 13:26:30.31 & -47:33:02.2 & 13.369 & 0.018 & 13.132 & 0.042 & 13.062 & 0.024 & 13.057 & 0.052 & 13.019 & 0.043 & 0.635 & ab & -2.02 & 0.18 & -1.79 & 0.21 \\
+123 & 13:26:51.17 & -47:37:13.2 & 13.462 & 0.016 & 13.239 & 0.019 & 13.174 & 0.017 & -- & -- & -- & -- & 0.474 & c & -1.64 & 0.01 & -- & -- \\
+124 & 13:26:54.49 & -47:39:07.5 & 13.708 & 0.013 & 13.510 & 0.018 & 13.482 & 0.023 & -- & -- & -- & -- & 0.332 & c & -1.33 & 0.23 & -- & -- \\
+125 & 13:26:48.92 & -47:41:03.7 & 13.420 & 0.015 & 13.200 & 0.016 & 13.153 & 0.015 & -- & -- & -- & -- & 0.593 & ab & -1.67 & 0.22 & -1.81 & 0.38 \\
+126 & 13:28:08.03 & -47:40:46.7 & 13.642 & 0.011 & 13.467 & 0.017 & 13.370 & 0.016 & -- & -- & -- & -- & 0.342 & c & -1.31 & 0.13 & -- & -- \\
+127 & 13:25:19.36 & -47:28:37.6 & -- & -- & -- & -- & 13.579 & 0.018 & -- & -- & 13.573 & 0.063 & 0.305 & c & -1.59 & 0.08 & -- & -- \\
+128 & 13:26:17.75 & -47:30:13.0 & 13.207 & 0.018 & 12.927 & 0.032 & 12.810 & 0.020 & -- & -- & 12.445 & 0.074 & 0.835 & ab & -1.88 & 0.04 & -- & -- \\
+130 & 13:26:09.93 & -47:13:40.0 & 13.688 & 0.021 & 13.527 & 0.032 & 13.418 & 0.025 & -- & -- & -- & -- & 0.493 & ab & -1.46 & 0.17 & -- & -- \\
+147 & 13:27:15.86 & -47:31:09.2 & 13.397 & 0.012 & 12.934 & 0.041 & 13.083 & 0.022 & -- & -- & 12.585 & 0.096 & 0.423 & c & -1.66 & 0.14 & -- & -- \\
+149 & 13:27:32.94 & -47:13:43.6 & 13.354 & 0.015 & 13.061 & 0.035 & 13.024 & 0.024 & -- & -- & -- & -- & 0.683 & ab & -1.21 & 0.24 & -- & -- \\
+150 & 13:27:40.21 & -47:36:00.1 & 13.068 & 0.019 & 12.757 & 0.025 & 12.692 & 0.018 & -- & -- & -- & -- & 0.899 & ab & -1.76 & 0.34 & -- & -- \\
+151 & 13:28:25.40 & -47:16:00.2 & 13.501 & 0.013 & 13.301 & 0.020 & 13.265 & 0.016 & -- & -- & -- & -- & 0.408 & ab & -1.30 & 0.24 & -- & -- \\
+163 & 13:25:49.42 & -47:20:21.5 & 13.763 & 0.019 & 13.557 & 0.016 & 13.545 & 0.025 & -- & -- & -- & -- & 0.313 & c & -1.18 & 0.27 & -- & -- \\
+168 & 13:25:52.78 & -47:32:02.9 & 14.176 & 0.015 & 14.000 & 0.020 & 13.960 & 0.018 & -- & -- & -- & -- & 0.321 & c & -- & -- & -- & -- \\
+169 & 13:27:20.47 & -47:23:59.1 & 13.805 & 0.013 & 13.735 & 0.019 & 13.652 & 0.025 & 13.734 & 0.050 & 14.001 & 0.116 & 0.319 & c & -- & -- & -1.65 & 0.19 \\
+184 & 13:27:28.50 & -47:31:35.4 & 13.778 & 0.012 & 13.624 & 0.028 & 13.536 & 0.019 & -- & -- & -- & -- & 0.303 & c & -- & -- & -- & -- \\
+185 & 13:26:04.13 & -47:21:45.0 & 13.701 & 0.016 & 13.545 & 0.018 & 13.508 & 0.023 & 13.496 & 0.036 & 13.479 & 0.033 & 0.333 & c & -- & -- & -- & -- \\
+261 & 13:27:15.41 & -47:21:29.5 & 13.431 & 0.009 & 13.212 & 0.019 & 13.113 & 0.020 & -- & -- & -- & -- & 0.403 & c & -- & -- & -1.50 & 0.35 \\
+263 & 13:26:13.13 & -47:26:09.7 & 13.155 & 0.017 & 12.888 & 0.017 & 12.746 & 0.016 & -- & -- & 12.660 & 0.034 & 1.012 & ab & -- & -- & -1.73 & 0.19 \\
+274 & 13:26:43.73 & -47:22:48.2 & 13.828 & 0.011 & 13.758 & 0.023 & 13.650 & 0.022 & -- & -- & -- & -- & 0.311 & c & -- & -- & -- & -- \\
+276 & 13:27:16.51 & -47:33:17.6 & 13.727 & 0.021 & 13.614 & 0.046 & 13.533 & 0.024 & -- & -- & -- & -- & 0.308 & c & -- & -- & -- & -- \\
+280 & 13:27:09.33 & -47:23:05.7 & 13.951 & 0.012 & 13.905 & 0.026 & 13.816 & 0.029 & -- & -- & -- & -- & 0.282 & c & -- & -- & -- & -- \\
+285 & 13:25:40.20 & -47:34:48.4 & 13.687 & 0.017 & 13.504 & 0.027 & 13.503 & 0.015 & -- & -- & 13.358 & 0.074 & 0.329 & c & -- & -- & -- & -- \\
+288 & 13:28:10.32 & -47:23:47.8 & 13.809 & 0.011 & 13.719 & 0.016 & 13.635 & 0.019 & -- & -- & -- & -- & 0.295 & c & -- & -- & -- & -- \\
+289 & 13:28:03.68 & -47:21:27.9 & 13.743 & 0.013 & 13.618 & 0.015 & 13.584 & 0.022 & -- & -- & -- & -- & 0.308 & c & -- & -- & -- & -- \\
+291 & 13:26:38.52 & -47:33:28.0 & 13.674 & 0.018 & 13.518 & 0.044 & 13.444 & 0.026 & -- & -- & -- & -- & 0.334 & c & -- & -- & -- & -- \\
+357 & 13:26:17.77 & -47:30:23.4 & 13.692 & 0.027 & 13.468 & 0.064 & 13.468 & 0.045 & 13.462 & 0.044 & 13.375 & 0.041 & 0.298 & c & -- & -- & -1.64 & 0.99 \\
 \end{longtable}}
 \end{center}
 \end{landscape}
 \clearpage
 
+\begin{comment}
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{final_plots/deltadelta_3p6_4p5_spect.pdf}
@@ -634,7 +656,7 @@ ID & RA (J2000) & Dec (J2000)  & $J$  & $\sigma_{J}$ & $H$   & $\sigma_{H}$   & 
 \label{fig:deltadelta_phot}
 \end{center}
 \end{figure}
-
+\end{comment}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
