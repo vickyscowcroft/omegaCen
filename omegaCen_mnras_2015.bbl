@@ -69,11 +69,16 @@
 {Freedman} W.~L.,  et~al., 2011, \mn@doi [\aj] {10.1088/0004-6256/142/6/192},
   \href {http://adsabs.harvard.edu/abs/2011AJ....142..192F} {142, 192}
 
+\bibitem[\protect\citeauthoryear{{Freedman} et~al.,}{{Freedman}
+  et~al.}{2012a}]{2012sptz.prop90002F}
+{Freedman} W.,  et~al., 2012a, {The Carnegie RR Lyrae Program}, Spitzer
+  Proposal
+
 \bibitem[\protect\citeauthoryear{{Freedman}, {Madore}, {Scowcroft}, {Burns},
   {Monson}, {Persson}, {Seibert}  \& {Rigby}}{{Freedman}
-  et~al.}{2012}]{2012ApJ...758...24F}
+  et~al.}{2012b}]{2012ApJ...758...24F}
 {Freedman} W.~L.,  {Madore} B.~F.,  {Scowcroft} V.,  {Burns} C.,  {Monson} A.,
-  {Persson} S.~E.,  {Seibert} M.,   {Rigby} J.,  2012, \mn@doi [\apj]
+  {Persson} S.~E.,  {Seibert} M.,   {Rigby} J.,  2012b, \mn@doi [\apj]
   {10.1088/0004-637X/758/1/24}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...758...24F} {758, 24}
 
@@ -86,6 +91,10 @@
   et~al.}{2013}]{2013ApJ...767...62G}
 {Garofalo} A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/767/1/62},
   \href {http://adsabs.harvard.edu/abs/2013ApJ...767...62G} {767, 62}
+
+\bibitem[\protect\citeauthoryear{{Iben}}{{Iben}}{1971}]{1971PASP...83..697I}
+{Iben} Jr. I.,  1971, \mn@doi [\pasp] {10.1086/129210}, \href
+  {http://adsabs.harvard.edu/abs/1971PASP...83..697I} {83, 697}
 
 \bibitem[\protect\citeauthoryear{{Indebetouw} et~al.,}{{Indebetouw}
   et~al.}{2005}]{2005ApJ...619..931I}
@@ -104,6 +113,11 @@
     {Schwarzenberg-Czerny} A.,  2004, \mn@doi [\aap]
   {10.1051/0004-6361:20047137}, \href
   {http://adsabs.harvard.edu/abs/2004A%26A...424.1101K} {424, 1101}
+
+\bibitem[\protect\citeauthoryear{{Kennicutt} Jr. et~al.,}{{Kennicutt}
+  et~al.}{1998}]{1998ApJ...498..181K}
+{Kennicutt} Jr. R.~C.,  et~al., 1998, \mn@doi [\apj] {10.1086/305538}, \href
+  {http://adsabs.harvard.edu/abs/1998ApJ...498..181K} {498, 181}
 
 \bibitem[\protect\citeauthoryear{{Lub}}{{Lub}}{2002}]{2002ASPC..265...95L}
 {Lub} J.,  2002, in {van Leeuwen} F.,  {Hughes} J.~D.,   {Piotto} G.,  eds,
