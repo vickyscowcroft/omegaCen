@@ -1,0 +1,59 @@
+Omega Cen PL and Distance Fitting Code Explanation
+
+Package requirements (all should be available via pip install):
+    NumPy
+    SciPy
+    Pandas
+    Matplotlib
+    Prettyplotlib
+
+Script summaries, in order of how they should be run:
+
+- pl_plot_theoretical
+    Reads from uncrowded_photometry.csv
+    Does PL fitting and makes PL plot using theoretical PL relations imported from pls_theo.py
+    Saves fitted distances as final_data_files/dist_phot_theo.csv
+    Copies uncrowded_photometry.csv and adds columns with residuals, saves as uncrowded_withresid.csv
+
+- pl_plot_m4
+    Reads from uncrowded_photometry.csv
+    Does PL fitting and makes PL plot using M4 PL relations imported from pls_m4.py
+    Saves fitted distances as final_data_files/dist_phot_m4.csv
+    Copies uncrowded_photometry.csv and adds columns with residuals, saves as uncrowded_withresid_m4.csv
+
+- distance_plot_theoretical
+    Reads from from final_data_files/dist_phot_theo.csv
+    Uses functions from reddening_laws.py to fit true distance modulus + reddening value to 
+    uncorrected average distance moduli
+    Plots distance moduli for abs, cs, and averages with extinction curve
+
+- distance_plot_m4
+    Reads from from final_data_files/dist_phot_m4.csv
+    Uses functions from reddening_laws.py to fit true distance modulus + reddening value to 
+    uncorrected average distance moduli
+    Plots distance moduli for abs, cs, and averages with extinction curve
+
+- make_csv_with_metallicities
+    Merges uncrowded_withresid.csv and uncrowded_withresid_m4.csv and adds columns with metallicity
+    values from sollima_2006.cat and rey_2000.cat, saves as uncrowded_everything.csv
+
+- metallicity_residual_plots
+    Reads from uncrowded_everything.csv
+    Makes plots of metallicities vs. residuals, phot vs spect metallicities, period vs color,
+    and metallicity vs. color
+
+Scripts that are not run directly:
+
+- pls_theo
+    Definitions of theoretical PL relation functions for use in pl_plot_theoretical
+
+- pls_m4
+    Definitions of m4 PL relation functions for use in pl_plot_m4
+    (same as theoretical for JHK, m4 for 3.6 and 4.5 only)
+
+- reddening_laws
+    Defines reddening laws for multiple wavelength regimes
+    Fits multiwavelength distance moduli to reddening laws and returns a true distance modulus,
+    true A_v value, and respective errors
+    Used in distance_plot_theoretical and distance_plot_m4
+

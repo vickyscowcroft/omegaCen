@@ -225,6 +225,11 @@
   {http://adsabs.harvard.edu/abs/2015arXiv150206995S} {} (\mn@eprint {arXiv}
   {1502.06995})
 
+\bibitem[\protect\citeauthoryear{{Skrutskie} et~al.,}{{Skrutskie}
+  et~al.}{2006}]{2006AJ....131.1163S}
+{Skrutskie} M.~F.,  et~al., 2006, \mn@doi [\aj] {10.1086/498708}, \href
+  {http://adsabs.harvard.edu/abs/2006AJ....131.1163S} {131, 1163}
+
 \bibitem[\protect\citeauthoryear{{Sollima}, {Borissova}, {Catelan}, {Smith},
   {Minniti}, {Cacciari}  \& {Ferraro}}{{Sollima}
   et~al.}{2006}]{2006ApJ...640L..43S}

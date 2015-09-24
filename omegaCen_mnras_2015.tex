@@ -61,7 +61,7 @@
 
 % Title of the paper, and the short title which is used in the headers.
 % Keep the title short and informative.
-\title[Mid--IR RR Lyrae PL Relation in $\omega$ Cen]{The Carnegie RR Lyrae Program: The Mid--Infrared RR Lyrae Period--Luminosity Relation in $\omega$~Cen}
+\title[Mid--IR RRL PL Relation in $\omega$ Cen]{The Carnegie RR Lyrae Program: The Mid--Infrared RR Lyrae Period--Luminosity Relation in $\omega$~Cen}
 
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
@@ -171,23 +171,23 @@ In this work we focus on the effect of metallicity on the RR Lyrae (RRL) PL rela
 
 There are very few metallic or molecular transition lines in the mid--IR at typical RRL temperatures, so the effects of metallicity on luminosity should be minimised. However, $\omega$~Cen provides the ideal test bed for any effect that we may not have predicted. Such an effect is not out of the realm of possibility; for example, the strength of the CO band head at 4.5~$\mu$m has been found to have a significant dependence on metallicity, and has such prevented the IRAC 4.5~$\mu$m Cepheid observations from being used for distance measurements in the CHP \citep{2011ApJ...743...76S, 2012ApJ...759..146M, 2015arXiv150206995S}. As our concern in this program is systematic precision, we must ensure that similar effects do not plague the RRL distance scale.  
 
-The paper is set out as follows: Section~\ref{sec:observations} details the observations and data reduction. Section~\ref{sec:results} presents the photometry of the $\omega$~Cen RRL. Section~\ref{sec:pl_relation} describes the mid--IR PL relations and Section~\ref{sec:distance_moduli} discusses the application of these to a distance measurement of  $\omega$~Cen. Section~\ref{sec:metallicity} and Section~\ref{sec:discussion} examine the effect of metallicity on mid--IR observations of RR Lyrae variables and its implications for distance measurements and the extragalactic distance scale. In Section~\ref{sec:conclusions} we present our conclusions.
+The paper is set out as follows: Section~\ref{sec:observations} details the observations and data reduction. Section~\ref{sec:results} presents the photometry of the $\omega$~Cen RRL. Section~\ref{sec:pl_relation} describes the mid--IR PL relations and Section~\ref{sec:distance_moduli} discusses the application of these to a distance measurement of  $\omega$~Cen. Section~\ref{sec:metallicity} and Section~\ref{sec:discussion} examine the effect of metallicity on mid--IR observations of RRLs and its implications for distance measurements and the extragalactic distance scale. In Section~\ref{sec:conclusions} we present our conclusions.
 
 \section{Observations \& Data Reduction}
 \label{sec:observations}
-This work combines mid--IR observations from the Warm {\it Spitzer} mission, with supporting near--IR observations from the FourStar instrument on the Magellan telescope \citep{2013PASP..125..654P} {\bf Note for Andy: Which Magellan?}. Figure~\ref{fig:omegaCen_fields} shows a $K_S$ FourStar image with the {\it Spitzer} fields outlined, and the positions of known RRL plotted as circles.
+This work combines mid--IR observations from the Warm {\it Spitzer} mission, with supporting near--IR observations from the FourStar instrument on the Magellan telescope \citep{2013PASP..125..654P} {\bf Note for Andy: Which Magellan?}. Figure~\ref{fig:omegaCen_fields} shows a $K_s$ FourStar image with the {\it Spitzer} fields outlined, and the positions of known RRL plotted as circles.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{final_plots/omegacen_coverage_map.pdf}
-\caption{A $K_s$--band image of $\omega$~Cen from the FourStar camera, overlaid with the catalog of RR Lyrae \citep{2004A&A...424.1101K} and footprints of the {\it Spitzer} IRAC fields.}
+\caption{A $K_s$--band image of $\omega$~Cen from the FourStar camera, overlaid with the catalog of RRL \citep{2004A&A...424.1101K} and footprints of the {\it Spitzer} IRAC fields.}
 \label{fig:omegaCen_fields}
 \end{center}
 \end{figure}
 
 \subsection{Warm {\it Spitzer} Data}
 \label{sec:spitzer_reduction}
-The Warm~\textit{Spitzer} observations for this work were taken as part of the Carnegie RR Lyrae Program. Three fields in $\omega$~Cen were chosen; their positions and the positions of known $\omega$~Cen RR Lyrae variables are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using {\it Spitzer} IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
+The Warm~\textit{Spitzer} observations for this work were taken as part of the Carnegie RR Lyrae Program. Three fields in $\omega$~Cen were chosen; their positions and the positions of known $\omega$~Cen RRLs are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using {\it Spitzer} IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
 %% VS added info about field shapes and missing colour information.
 The elongated field shapes come from the design of IRAC; while the [3.6] channel is collecting on--target data, the [4.5] channel collects off target data ``for free'', and vice versa. We chose to include these off--target fields to maximise the number of RRL in our final sample and to increase the legacy value of our data set to the community. 
 
@@ -201,12 +201,14 @@ Master star lists for {\sc allframe} were created for each filter/field combinat
 \subsection{FourStar Data}
 \label{sec:fourstar_reduction}
 
-{\bf Andy to add text about FourStar data and reduction}
+FourStar $J$, $H$ and $K_s$ data were taken on the nights of June 25, 27 and 28 (2013).  Four epochs were obtained each night in each filter for a total of 12 epochs.  A mosaic of $5\times3$ (slightly overlapping) pointings (tiles) covered a $50\times30$ arcminute field of view centered on omega cen.  Each tile consists of a 5 point dither pattern with a 5.8 second exposure time.  Stacked mosaics of the entire field were made as well as individual tiles using a customized pipeline for FourStar data.  The purpose of the individual tiles is to provide photometry with better time resolution than the large mosaic.  
+
+PSF photometry of the tiles was performed using \textsc{daophot} and \textsc{allframe} \citep{1987PASP...99..191S, 1994PASP..106..250S}. A PSF model was created for each epoch/tile/filter combination.  A master star list for \textsc{allframe} was created from the final $K_s$ mosaic and the multi-wavelength/epoch results were combined using \textsc{daomatch} and \textsc{daomaster}.  Our final photometry is calibrated to the 2MASS standard system \citep{2006AJ....131.1163S}. 
 
 \subsection{Crowding}
 \label{sec:crowding}
 
-The primary limiting factor in this data is crowding: 77 RR Lyrae variables out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding. We compared the {\it Spitzer} images to a $K_s$--band image from the FourStar infrared camera on Magellan \citep{2013PASP..125..654P}, with a resolution of 0.159 arcsec. This enabled us to see which stars were significantly contaminated. Our full, uncrowded RR Lyrae sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m.
+The primary limiting factor in this data is crowding: 77 RRLs out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding. We compared the {\it Spitzer} images to a $K_s$--band image from the FourStar infrared camera on Magellan \citep{2013PASP..125..654P}, with a resolution of 0.159 arcsec. This enabled us to see which stars were significantly contaminated. Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m.
 
 \section{Results}
 \label{sec:results}
@@ -232,7 +234,7 @@ The average magnitudes presented in Table~\ref{tab:phot} are flux averages, and 
 %% Important to remember (and the editor will pull you up on this) all figures/tables must be in the paper in the order in which they are referred to (so fig 1 *must* be referred to first, fig 2 second etc) and you can't have any figures that you don't refer to in the text. I'm not going to fuss with this too much until you've got the new figures in. 
 
 %% Definition of PL relations and fitting method
-We test both empirical and theoretical parameters as fiducial in our PL fitting. We use the theoretical near-- and mid--infrared PL relation parameters presented in \citet{2015ApJ...808...50M} and Braga et al. (in prep.), along with the empirical PL relation parameters derived from photometry of RR Lyrae variables in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for comparison. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least--squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
+We test both empirical and theoretical parameters as fiducial in our PL fitting. We use the theoretical near-- and mid--infrared PL relation parameters presented in \citet{2015ApJ...808...50M} and Braga et al. (in prep.), along with the empirical PL relation parameters derived from photometry of RRLs in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for comparison. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least--squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
 
 %% PL equations
 
@@ -241,7 +243,7 @@ The theoretical RRL PL relations are described in Table~\ref{tab:pl_table_theo}.
 where $a$, $b$, and $c$ are theoretically derived coefficients.
 \begin{table}
 \centering
-\caption{Theoretical near-- and mid--IR RR Lyrae period--luminosity relations for $\omega$ Cen; NIR parameters are from \citet{2015ApJ...808...50M} and MIR parameters are from Braga et al. (in prep.)}
+\caption{Theoretical near-- and mid--IR RRL period--luminosity relations for $\omega$ Cen; NIR parameters are from \citet{2015ApJ...808...50M} and MIR parameters are from Braga et al. (in prep.)}
 \label{tab:pl_table_theo}
 \begin{tabular}{l||c|c|c|c|r} 
 \hline \hline
@@ -268,7 +270,7 @@ where $a$ and $b$ are empirically derived coefficients.
 
 \begin{table}
 \centering
-\caption{Empirical mid--IR RR Lyrae period--luminosity relations for $\omega$ Cen from \citet{2015arXiv150507858N}.} 
+\caption{Empirical mid--IR RRL period--luminosity relations for $\omega$ Cen from \citet{2015arXiv150507858N}.} 
 \label{tab:pl_table_m4}
 \begin{tabular}{l||c|c|c|c|r} 
 \hline \hline
@@ -285,13 +287,12 @@ $[4.5]$ & FO & $-1.348$ & $-2.979$ & $0.021$ \\
 %% Metallicity description
 
 The theoretical PL relations for both the near-- and mid--IR have a metallicity dependent term. 
-Not all stars in our sample have known metallicity values, so we use an average [Fe/H] value for all RR Lyrae variables in the cluster. We use both photometric \citep{2000AJ....119.1824R} and spectroscopic \citep{2006ApJ...640L..43S} metallicities for comparison. We find that there is little correspondence between individual metallicity measurements for stars which have both spectroscopic and photometric metallicity values, as shown in Figure~\ref{fig:metallicity_comparison}, and that the average metallicities of the spectroscopic and photometric catalogs differ by nearly 0.1 dex. We use a mean photometric [Fe/H] of  $-1.584$ and a spectroscopic [Fe/H] of $-1.677$.
+Not all stars in our sample have known metallicity values, so we use an average [Fe/H] value for all RRLs in the cluster. We use both photometric \citep{2000AJ....119.1824R} and spectroscopic \citep{2006ApJ...640L..43S} metallicities for comparison. We find that there is little correspondence between individual metallicity measurements for stars which have both spectroscopic and photometric metallicity values, as shown in Figure~\ref{fig:metallicity_comparison}, and that the average metallicities of the spectroscopic and photometric catalogs differ by nearly 0.1 dex. We use a mean photometric [Fe/H] of  $-1.584$ and a spectroscopic [Fe/H] of $-1.677$.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{final_plots/metallicity_comparison_all.pdf}
-\includegraphics[width=80mm]{final_plots/metallicity_comparison_samestars.pdf}
-\caption{Spectroscopic vs. photometric measurements of [Fe/H] for RR Lyrae variables in $\omega$~Cen. Top: All stars for which both catalogs have [Fe/H] measurements. Bottom: only the stars which appear in our final sample.}
+\caption{Spectroscopic vs. photometric measurements of [Fe/H] for RRLs in $\omega$~Cen.}
 \label{fig:metallicity_comparison}
 \end{center}
 \end{figure}
@@ -299,11 +300,11 @@ Not all stars in our sample have known metallicity values, so we use an average 
 
 %% Start by saying what the big sample is:
 
-Our full, uncrowded RR Lyrae sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. The PL fits to this sample are shown in Figure~\ref{fig:omegaCen_pl_allstars}.
+Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. The PL fits to this sample are shown in Figure~\ref{fig:omegaCen_pl_allstars}.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=80mm]{final_plots/multiwavelength_PL_allstars_phot.pdf}
+\includegraphics[width=80mm]{final_plots/multiwavelength_PL_allstars.pdf}
 \caption{PL relations for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry assuming an [Fe/H]$=-1.584$, corresponding to the average photometric metallicity from \citet{2000AJ....119.1824R}. All uncrowded RRL for which we have photometry are included in these fits.}
 \label{fig:omegaCen_pl_allstars}
 \end{center}
@@ -315,6 +316,7 @@ For the final PL relations, we use only the stars for which we have photometry i
 
 %% It's not clear from the caption whether the PL relations here are from the theoretical or empirical relations. You need to be very explicit about which fits are coming from which. 
 
+\begin{comment}
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{final_plots/multiwavelength_PL_samestars_phot_unweighted.pdf}
@@ -330,7 +332,7 @@ For the final PL relations, we use only the stars for which we have photometry i
 \label{fig:omegaCen_pl_spect}
 \end{center}
 \end{figure}
-
+\end{comment}
 
 \section{Distance Moduli}
 \label{sec:distance_moduli}
@@ -339,6 +341,15 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 
 %and the distance moduli and reddening values obtained from these fits are shown in Figure~\ref{fig:omegaCen_dist_phot_allstar}.
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{final_plots/multiwavelength_distance_fullandcut.pdf}
+\caption{Distance moduli for the full sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry using the average photometric metallicity from \citet{2000AJ....119.1824R} and theoretical PL relations for all bandpasses}
+\label{fig:omegaCen_dist_phot_allstar}
+\end{center}
+\end{figure}
+
+\begin{comment}
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{final_plots/multiwavelength_distance_allstars_phot.pdf}
@@ -362,10 +373,11 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 \label{fig:omegaCen_dist_spect}
 \end{center}
 \end{figure}
+\end{comment}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=80mm]{final_plots/multiwavelength_distance_samestars_m4.pdf}
+\includegraphics[width=80mm]{final_plots/multiwavelength_distance_abc.pdf}
 \caption{Distance moduli for the cut sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry using the average photometric metallicity from \citet{2006ApJ...640L..43S} and theoretical PL relations for $J\!H\!K_s$ and empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m}
 \label{fig:omegaCen_dist_m4}
 \end{center}
@@ -373,16 +385,26 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 
 \begin{figure}
 \begin{center}
+\includegraphics[width=80mm]{final_plots/multiwavelength_distance_phot_abc.pdf}
+\caption{Distance moduli for the cut sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry using the average photometric metallicity from \citet{2006ApJ...640L..43S} and theoretical PL relations for $J\!H\!K_s$ and empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m}
+\label{fig:omegaCen_dist_m4}
+\end{center}
+\end{figure}
+
+\begin{comment}
+\begin{figure}
+\begin{center}
 \includegraphics[width=80mm]{final_plots/multiwavelength_distance_samestars_m4_no4p5c.pdf}
 \caption{Distance moduli for the cut sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry using the average photometric metallicity from \citet{2006ApJ...640L..43S} and theoretical PL relations for $J\!H\!K_s$ and empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m, excluding the first overtone pulsators in 4.5~$\mu$m}
 \label{fig:omegaCen_dist_m4_4p5ab}
 \end{center}
 \end{figure}
+\end{comment}
 
 Using photometric metallicities we obtain a mean reddening--corrected distance modulus of $\mu_0 = 13.720 \pm 0.037$, and with spectroscopic metallicities we obtain $\mu_0 = 13.736 \pm 0.037$.
 The difference between the two distance moduli is less than 0.02 mag, well within the $\pm 0.037$ mag errors. The fact that the two distance moduli are indistinguishable is the first indication that the infrared RRL PL relations are not sensitive to metallicity effects.
 
-We average these distance moduli (thus essentially averaging the metallicities as well) to find a true mean distance modulus of $\mu_0 = 13.728 \pm 0.037$, which is in excellent agreement with prior measurements using near--infrared RR Lyrae period--luminosity relations \citep{2006ApJ...652..362D}, slightly higher than the distance modulus measured using the eclipsing binary OGLEGC17 \citep{2001AJ....121.3089T}, and significantly higher than the distance moduli measured by dynamical modelling \citep{2006A&A...445..513V,
+We average these distance moduli (thus essentially averaging the metallicities as well) to find a true mean distance modulus of $\mu_0 = 13.728 \pm 0.037$, which is in excellent agreement with prior measurements using near--infrared RRL period--luminosity relations \citep{2006ApJ...652..362D}, slightly higher than the distance modulus measured using the eclipsing binary OGLEGC17 \citep{2001AJ....121.3089T}, and significantly higher than the distance moduli measured by dynamical modelling \citep{2006A&A...445..513V,
 2013MNRAS.436.2598W}.
 
 The extinction value we derive from these fits, $E(B-V) = 0.148 \pm 0.055$ is slightly high but within error of the values of $E(B-V) = 0.11$ and $E(B-V) = 0.1212 \pm 0.0021$ derived by \citet{2002ASPC..265...95L} and \citet{2011ApJ...737..103S} respectively, and in good agreement with the $E(B-V) = 0.1410 \pm 0.0024$ value derived by \citet{1998ApJ...500..525S}.
@@ -398,7 +420,7 @@ We also examine the period--color (3.6~$\mu$m -- 4.5~$\mu$m) relation for our sa
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{final_plots/period_color_samestars.pdf}
-\caption{Period color nonsense} %, using the average photometric metallicity from \citet{2006ApJ...640L..43S} and theoretical PL relations for $J\!H\!K_s$ and empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m, excluding the first overtone pulsators in 4.5~$\mu$m}
+\caption{Period color thing} %, using the average photometric metallicity from \citet{2006ApJ...640L..43S} and theoretical PL relations for $J\!H\!K_s$ and empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m, excluding the first overtone pulsators in 4.5~$\mu$m}
 \label{fig:period_color}
 \end{center}
 \end{figure}
@@ -424,7 +446,7 @@ We also examine the period--color (3.6~$\mu$m -- 4.5~$\mu$m) relation for our sa
 \section{Metallicity}
 \label{sec:metallicity}
 
-$\omega$ Cen is ideal for calibrating the RR Lyrae period--luminosity--metallicity relation, as it contains 192 known RR Lyrae \citep{2004A&A...424.1101K} with a range of metallicities spanning over 1.5 dex (Bono 2013, priv. comm.); a metallicity spread this wide is not found in any other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL from other clusters (e.g. M4, \citet{2015arXiv150507858N}) and our photometric uncertainties are well understood, so the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
+$\omega$ Cen is ideal for calibrating the RRL period--luminosity--metallicity relation, as it contains 192 known RRL \citep{2004A&A...424.1101K} with a range of metallicities spanning over 1.5 dex (Bono 2013, priv. comm.); a metallicity spread this wide is not found in any other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL from other clusters (e.g. M4, \citet{2015arXiv150507858N}) and our photometric uncertainties are well understood, so the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
 
  $\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R}. As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for the Galactic globular cluster, where 
 \begin{equation} \label{eqn:gamma}
@@ -433,7 +455,7 @@ $\omega$ Cen is ideal for calibrating the RR Lyrae period--luminosity--metallici
 
 similar to $\gamma$ used to quantify the effect of metallicity on the zero--point of the Cepheid PL relation \citep{1998ApJ...498..181K}. 
 
-Theoretical models suggest that the metallicity dependence of the RR Lyrae PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
+Theoretical models suggest that the metallicity dependence of the RRL PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
 
 In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that in the 4.5~$\mu$m bandpass there is absorption due to a CO bandhead at 4.65~$\mu$m, which strengthens the metallicity dependence of the PL relation in this bandpass. However, this effect is due to the low temperature of Cepheid atmospheres and disappears in the hottest, shortest-period Cepheids, as the CO dissociates at temperatures above 6000 K \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000 K \citep{1971PASP...83..697I}, we expect to see no such CO absorption in the 4.5~$\mu$m PL relation. If there are any other unanticipated metallicity effects, they must be smaller than the dispersion of the PL relations themselves.
 
@@ -443,6 +465,16 @@ If there is any correlation between [Fe/H] and the PL residuals, we expect it to
 \end{equation}
 to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figures~\ref{fig:delta_3p6_phot}, \ref{fig:delta_3p6_spect}, \ref{fig:delta_4p5_phot}, and \ref{fig:delta_4p5_spect}. We find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N, 2015ApJ...799..165B}, there is no evidence that it is due to metallicity. When we examine [Fe/H] vs. $\Delta$3.6~$\mu$m and $\Delta$4.5~$\mu$m, $\gamma$ is within $2\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals. When the outlier at [Fe/H] = $-2.0$ in Figures~\ref{fig:delta_3p6_phot} and \ref{fig:delta_4p5_phot} is removed, $\gamma$ moves within $1\sigma$ of zero for all [Fe/H] vs. residual fits, as seen in Figures~\ref{fig:delta_3p6_phot_nooutlier} and \ref{fig:delta_4p5_phot_nooutlier}.
 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{final_plots/delta_feh_specphot_theo.pdf}
+\caption{[Fe/H] vs. $\Delta$3.6~$\mu$m using photometric metallicities}
+\label{fig:delta_3p6_phot}
+\end{center}
+\end{figure}
+
+\begin{comment}
 
 \begin{figure}
 \begin{center}
@@ -492,6 +524,8 @@ to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars w
 \end{center}
 \end{figure}
 
+\end{comment}
+
 
 \section{Discussion}
 \label{sec:discussion}
@@ -510,9 +544,11 @@ Our investigation into the metallicity effects in the mid--infrared is limited p
 
 We thank Eric Persson for his many contributions to this project.
 
-This research has made use of the NASA/IPAC Extragalactic Database (NED), which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.
- 
 This work is based on observations made with the Spitzer Space Telescope, which is operated by the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA. Support for this work was provided by NASA through an award issued by JPL/Caltech.
+
+This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
+
+This research has made use of the NASA/IPAC Extragalactic Database (NED), which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -540,22 +576,22 @@ This work is based on observations made with the Spitzer Space Telescope, which 
 
 %% To get the appendix table numbering right you need to have a section after the appendix command. This way the table will be referred to as Table A1, rather than Table 1 (which you already have another one of in the main text).
 
-\section{Appendix: Photometry of RR Lyrae Variables}
+\section{Appendix: Photometry of RRLs}
 \label{sec:phot_table_appendix}
 \onecolumn
 \begin{landscape}
 \begin{center}
 \scriptsize{
 \begin{longtable}{l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|r} %% I find it's easier to count if you have the right number of columns if you put the pipes in betwee, but you don't have to. 
-\caption{$J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry of the RR Lyrae variables in $\omega$~Cen\label{tab:phot}} %% Your numbering problem can be solved by putting the label inside the caption. Labels in tex correspond to the captions, not the objects. 
+\caption{$J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry of the RRLs in $\omega$~Cen\label{tab:phot}} %% Your numbering problem can be solved by putting the label inside the caption. Labels in tex correspond to the captions, not the objects. 
 \tabularnewline 
-ID & RA (J2000) & Dec (J2000)  & $J$  & $\sigma_{J}$ & $H$   & $\sigma_{H}$   & $K_s$   & $\sigma_{K}$ & [3.6]   & $\sigma_{{[3.6]}}$ & [4.5]  & $\sigma_{{[4.5]}}$  & $P$ (days) & Mode & [Fe/H], p   & $\sigma_{[\text{Fe/H}]}$, p   & [Fe/H], s   & $\sigma_{[\text{Fe/H}]}$, s \\
+ID & RA (J2000) & Dec (J2000)  & $J$  & $\sigma_{J}$ & $H$   & $\sigma_{H}$   & $K_s$   & $\sigma_{K_s}$ & [3.6]   & $\sigma_{{[3.6]}}$ & [4.5]  & $\sigma_{{[4.5]}}$  & $P$ (days) & Mode & [Fe/H], p   & $\sigma_{[\text{Fe/H}]}$, p   & [Fe/H], s   & $\sigma_{[\text{Fe/H}]}$, s \\
 \hline
 \endfirsthead
 \multicolumn{4}{c}%
 {\tablename\ \thetable\ -- \textit{Continued from previous page}} \\
 \hline 
-ID & RA (J2000) & Dec (J2000)  & $J$  & $\sigma_{J}$ & $H$   & $\sigma_{H}$   & $K_s$   & $\sigma_{K}$ & [3.6]   & $\sigma_{{[3.6]}}$ & [4.5]  & $\sigma_{{[4.5]}}$  & $P$ (days) & Mode & [Fe/H], p   & $\sigma_{[\text{Fe/H}]}$, p   & [Fe/H], s   & $\sigma_{[\text{Fe/H}]}$, s \\
+ID & RA (J2000) & Dec (J2000)  & $J$  & $\sigma_{J}$ & $H$   & $\sigma_{H}$   & $K_s$   & $\sigma_{K_s}$ & [3.6]   & $\sigma_{{[3.6]}}$ & [4.5]  & $\sigma_{{[4.5]}}$  & $P$ (days) & Mode & [Fe/H], p   & $\sigma_{[\text{Fe/H}]}$, p   & [Fe/H], s   & $\sigma_{[\text{Fe/H}]}$, s \\
 \hline
 \endhead
 \hline \multicolumn{4}{r}{\textit{Continued on next page}} \\
