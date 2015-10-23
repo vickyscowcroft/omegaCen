@@ -62,7 +62,7 @@ def fit_reddening(b,v,r,i,j,h,k,i1,i2,berr,verr,rerr,ierr,jerr,herr,kerr,i1err,i
 		#print alam
 		def redfit(alam, muo, Av):
 			return muo + Av*alam
-		popt, pcov = curve_fit(redfit, alam[alam>0], mus[mus>0], sigma=muerr[muerr > 0])
+		popt, pcov = curve_fit(redfit, alam[alam>0], mus[mus>0], sigma=muerr[muerr > 0], absolute_sigma=True)
 		muo = popt[0]
 		Av = popt[1]
 		#print muo, Av
