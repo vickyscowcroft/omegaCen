@@ -1,5 +1,5 @@
 # feh = -1.58404580153
-feh = -1.62692307692
+feh = -1.56749344383
 
 def j_ab(per, dist):
     return -0.506 + -1.981 * per + 0.175 * feh + dist

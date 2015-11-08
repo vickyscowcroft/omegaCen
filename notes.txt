@@ -1,0 +1,28 @@
+Conclusions: Figure 10
+
+More discussion on impact that this has on distance scale - not null result
+Know you don't have to make fe/h correction/metallicity calibration
+Same PL relation
+Lower limit on PL dispersion from Reticulum - omega cen puts upper limit on dispersion
+
+Conclusions: Figure 10
+
+More discussion on impact that this has on distance scale - not null result
+Know you don't have to make fe/h correction/metallicity calibration
+Same PL relation
+Lower limit on PL dispersion from Reticulum - omega cen puts upper limit on dispersion
+
+Coverage map - plot ABs and Cs separately
+
+Figure Based Plan:
+New suggested order of figures:
+
+    Fields figure (same as current figure 1). In section 2: Observations and Data Reduction
+    PL relations using spectroscopic average metallicity (or whichever metallicity you choose to adopt as the "best" value for the analysis) Most of the current distance modulus figures use the Sollima spectrosopic average, so I'm assuming that you would pick that. This figure would be very similar to the current figure 3. In Section 4: Period Luminosity Relations
+    Distance moduli plot using both types (i.e. RRab and RRc fit simultaneously) and spectroscopic metallicity. Should be using empirical PL relations for all bands (i.e Braga M4 relations for JHK, Neeley M4 relations for [3.6], [4.5], Kaluzny for optical when data is ready).  I'm not sure which plot this would correspond to in the current draft as the captions are all identical. In Section 5: Distance Moduli.
+    Now we're getting into more detail in the distance moduli fitting. Distance moduli plot fitting RRab and RRc separately using all empirical PL relations and the spectroscopic metallicity. This is what you were showing at last week's meeting. Also in Section 5: Distance Moduli.
+    Comparison of spectroscopic vs. photometric metallicities (current figure 2). In Section 6: Metallicity
+    Distance moduli plot using empirical PL relations and the photometric metallicity and either the simultaneous RRab/RRc or the the separate fits. Which one you choose will depend on your analysis that goes with Figure 4. Whichever approach you think gives you a more robust answer should be adopted here to make a metallicity comparison. In Section 6: Metallicity.
+    [Fe/H] vs residuals for each metallicity indicator. In Section 6: Metallicity.
+
+One comment that came up in last week's meeting that I hadn't caught before is that we switch nomenclature quite frequently between FU/FO and RRab/RRc. We need to be consistant with this throughout the paper. My preference is RRab/RRc, because I have a hard time reading FU and FO as different things when I'm reading a paper, but you're first author so the final decision rests with you. I wanted to let you know now so you could update any figures accordingly.
