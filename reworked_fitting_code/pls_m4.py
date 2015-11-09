@@ -1,6 +1,14 @@
 # feh = -1.58404580153
 feh = -1.56749344383
 
+def b_ab(per, dist):
+    return -0.506 + -0.981 * per + 0.175 * feh + dist
+def b_c(per, dist):
+    return -1.069 + -0.461 * per + 0.148 * feh + dist
+def v_ab(per, dist):
+    return -0.755 + -1.239 * per + 0.186 * feh + dist
+def v_c(per, dist):
+    return -1.312 + -0.696 * per + 0.155 * feh + dist
 def j_ab(per, dist):
     return -0.506 + -1.981 * per + 0.175 * feh + dist
 def j_c(per, dist):
