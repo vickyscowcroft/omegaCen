@@ -1,14 +1,16 @@
 # feh = -1.58404580153
+import numpy as np
 feh = -1.56749344383
 
 def b_ab(per, dist):
-    return 1.53 + -0.03 * per + 0.35 * feh + dist
+    return v_ab(per, dist)
 def b_c(per, dist):
-    return 1.46 + -0.03 * per + 0.35 * feh + dist
+    return v_ab(per, dist)
 def v_ab(per, dist):
-    return 1.08 + -0.52 * per + 0.32 * feh + dist
+    mh = get_mh(feh)
+    return 1.067 + 0 * per + 0.502 * mh + 0.108 * mh**2 + dist
 def v_c(per, dist):
-    return 0.96 + -0.52 * per + 0.32 * feh + dist
+    return v_ab(per, dist)
 def j_ab(per, dist):
     return -0.506 + -1.981 * per + 0.175 * feh + dist
 def j_c(per, dist):
@@ -29,3 +31,9 @@ def f_ab(per, dist):
     return -0.593 + -2.355 * (per + 0.26) + dist 
 def f_c(per, dist):
     return -0.240 + -2.979 * (per + 0.55) + dist 
+
+def get_mh(feh):
+    alpha = 0.3
+    f = 10**alpha
+    mh = feh + np.log10(0.638*f + 0.362)
+    return mh
