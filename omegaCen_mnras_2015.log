@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 NOV 2015 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 NOV 2015 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1051,86 +1051,79 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 
 Underfull \vbox (badness 2237) has occurred while \output is active []
 
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 296.
-LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 296.
- [3pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
-has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.296 O
-       ur full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98...
-pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has
- been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.296 O
-       ur full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98...
-]
-<reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf, id=277, 5
+<reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf, id=254, 5
 05.89pt x 578.16pt>
 File: reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf Graph
 ic file (type pdf)
 
 <use reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_PL_m
-4_clipped.pdf used on input line 300.
+4_clipped.pdf used on input line 284.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 294.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.6pt on input line 294.
 
+[3pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 
-LaTeX Warning: Reference `fig:omegaCen_dist_phot' on page 4 undefined on input 
-line 329.
-
-
-LaTeX Warning: Reference `fig:omegaCen_dist_spect' on page 4 undefined on input
- line 329.
-
-
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.294 
+      ]
 <reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf
-, id=286, 505.89pt x 361.35pt>
+, id=282, 505.89pt x 361.35pt>
 File: reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mea
 n.pdf Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean
 .pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_dist
-ance_m4_clipped_mean.pdf used on input line 335.
+ance_m4_clipped_mean.pdf used on input line 297.
 (pdftex.def)             Requested size: 227.62204pt x 162.58945pt.
 
 <reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.pdf, 
-id=287, 505.89pt x 361.35pt>
+id=283, 505.89pt x 361.35pt>
 File: reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.
 pdf Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.p
 df>
 Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_dist
-ance_m4_clipped_ab.pdf used on input line 343.
+ance_m4_clipped_ab.pdf used on input line 305.
 (pdftex.def)             Requested size: 227.62204pt x 162.58945pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+ [4pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 \begin{equation}
-                       \label{eqn:gamma}pdfTeX warning (ext4): destination with
- the same identifier (name{figure.3}) has been already used, duplicate ignored
+l.331 $
+       \omega$~Cen is unique in that we can also take a second approach to e...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 \begin{equation}
-                       \label{eqn:gamma}pdfTeX warning (ext4): destination with
- the same identifier (name{figure.4}) has been already used, duplicate ignored
+l.331 $
+       \omega$~Cen is unique in that we can also take a second approach to e...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.370 \begin{equation}
-                       \label{eqn:gamma} <./reworked_fitting_code/final_plots/m
-ultiwavelength_PL_m4_clipped.pdf> <./reworked_fitting_code/final_plots/multiwav
-elength_distance_m4_clipped_mean.pdf
+l.331 $
+       \omega$~Cen is unique in that we can also take a second approach to e...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.331 $
+       \omega$~Cen is unique in that we can also take a second approach to e...
+ <./reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf> <./rew
+orked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
 multiwavelength_distance_m4_clipped_mean.pdf): PDF inclusion: multiple pdfs wit
@@ -1143,40 +1136,40 @@ multiwavelength_distance_m4_clipped_ab.pdf): PDF inclusion: multiple pdfs with
 page group included in a single page
 >]
 <reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf, id=1
-053, 433.62pt x 325.215pt>
+047, 433.62pt x 325.215pt>
 File: reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf 
 Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_comparis
-on_all_clipped.pdf used on input line 388.
+on_all_clipped.pdf used on input line 349.
 (pdftex.def)             Requested size: 227.62204pt x 170.71562pt.
 
 <reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf, id=
-1054, 578.16pt x 433.62pt>
+1048, 578.16pt x 433.62pt>
 File: reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf
  Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
-uals_m4_clipped.pdf used on input line 397.
+uals_m4_clipped.pdf used on input line 358.
 (pdftex.def)             Requested size: 227.62204pt x 170.71231pt.
 (./omegaCen_mnras_2015.bbl [5pdfTeX warning (ext4): destination with the same i
 dentifier (name{figure.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.105   et~al.}{2015}]{2015A&A...578A.128K}
-                                           pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.6}) has been already used, duplicate ignor
-ed
+l.49   et~al.}{2015}]{2015ApJ...806..200C}
+                                          pdfTeX warning (ext4): destination wi
+th the same identifier (name{figure.6}) has been already used, duplicate ignore
+d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.105   et~al.}{2015}]{2015A&A...578A.128K}
-                                            <./reworked_fitting_code/final_plot
-s/metallicity_comparison_all_clipped.pdf> <./reworked_fitting_code/final_plots/
-metallicity_vs_residuals_m4_clipped.pdf
+l.49   et~al.}{2015}]{2015ApJ...806..200C}
+                                           <./reworked_fitting_code/final_plots
+/metallicity_comparison_all_clipped.pdf> <./reworked_fitting_code/final_plots/m
+etallicity_vs_residuals_m4_clipped.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
 metallicity_vs_residuals_m4_clipped.pdf): PDF inclusion: multiple pdfs with pag
@@ -1203,29 +1196,29 @@ Package hyperref Warning: Suppressing empty link on input line 225.
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 458.
+(Font)              scaled to size 6.0pt on input line 415.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.5pt on input line 460.
+(Font)              scaled to size 6.5pt on input line 417.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 460.
+(Font)              size <6> substituted on input line 417.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.0pt on input line 466.
+(Font)              scaled to size 6.0pt on input line 423.
 [8
 
 
 ] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
  [10
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
  (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 598.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 598.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 555.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: E8A6312370C54B7E5EFBAE06E67A0AB2;660.
 
@@ -1233,16 +1226,13 @@ Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 598.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
  ) 
 Here is how much of TeX's memory you used:
- 9921 strings out of 493089
- 143434 string characters out of 6134842
- 303632 words of memory out of 5000000
- 13070 multiletter control sequences out of 15000+600000
+ 9919 strings out of 493089
+ 143385 string characters out of 6134842
+ 303895 words of memory out of 5000000
+ 13068 multiletter control sequences out of 15000+600000
  155142 words of font info for 254 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,15n,35p,1711b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1272,10 +1262,10 @@ live/2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/20
 mf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/urw/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (10 pages, 2654383 bytes).
+Output written on omegaCen_mnras_2015.pdf (10 pages, 2655890 bytes).
 PDF statistics:
- 1672 PDF objects out of 1728 (max. 8388607)
- 570 compressed objects within 6 object streams
+ 1666 PDF objects out of 1728 (max. 8388607)
+ 566 compressed objects within 6 object streams
  83 named destinations out of 1000 (max. 500000)
  127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

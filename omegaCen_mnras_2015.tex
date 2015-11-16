@@ -213,32 +213,23 @@ The primary limiting factor in the data is crowding: 77 RRLs out of the original
 \section{Results}
 \label{sec:results}
 
-Our final photometry catalog, including magnitudes and errors for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m is presented in Table~\ref{tab:phot}.
+% Should we be doing gloess fitting to these things? I'm slightly afraid to look at the light curves
+
+Our final photometry catalog, including magnitudes and errors for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m, is presented in Table~\ref{tab:phot}.
 %% See comments in appendix for how I got the appendix table numbering to work properly.
 The average magnitudes presented in Table~\ref{tab:phot} are flux averages, and the photometric uncertainties of the time series data are the error on the mean.
 % VS rewrote this paragraph to be mor concise. It says exactly the same thing as you wrote. 
 
-%The average magnitudes are calculated by first converting the individual values into fluxes, then taking the mean flux and converting that back to a magnitude. The photometric errors of the time series data are added in quadrature and divided by the square root of the total number of observations to obtain the final error value.
+Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. For the PL fitting, detailed in the next section, we use only the stars for which we have photometry in all five bandpasses, ensuring that the same range of periods and metallicities are sampled for each wavelength. Our final RRL sample consists of 24 stars, or 12 in each pulsation mode.
 
 \section{Period--Luminosity Relations}
 \label{sec:pl_relation}
 
-%% VS: I'm doing some rearranging here. All the information is here but I think it needs a bit of reorganising to flow better. 
-%% I'm trying to get it to the point where you have all the relavent information in order:
-%% PL definitions
-%% Description of fitting method
-%% Metallicitiy definitions (essentially more data)
-%% Full sample PL fits
-%% Cut sample PL fits (can't describe cut sample until you know what you're cutting from)
-%% Also moving all references to the distance modulus plots to the next section. Trying to focus on on result at a time. 
-%% Important to remember (and the editor will pull you up on this) all figures/tables must be in the paper in the order in which they are referred to (so fig 1 *must* be referred to first, fig 2 second etc) and you can't have any figures that you don't refer to in the text. I'm not going to fuss with this too much until you've got the new figures in. 
-
 %% Definition of PL relations and fitting method
-We test both empirical and theoretical parameters as fiducial in our PL fitting. We use the theoretical near-- and mid--infrared PL relation parameters presented in \citet{2015ApJ...808...50M} and Braga et al. (in prep.), along with the empirical PL relation parameters derived from photometry of RRLs in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for comparison. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least--squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
+We use the theoretical near--infrared PL relation parameters presented in \citet{2015ApJ...808...50M} for the $JHK$ bands, and the empirical PL relation parameters derived from photometry of RRLs in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for the IRAC bands. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least--squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
 
 %% PL equations
-
-The theoretical RRL PL relations are described in Table~\ref{tab:pl_table_theo}. The relations take the form
+The theoretical $JHK$ RRL PL relations are described in Table~\ref{tab:pl_table_theo}. The relations take the form
 \begin{equation}M = a + b\times\log P + c\times[\text{Fe/H}]\end{equation}
 where $a$, $b$, and $c$ are theoretically derived coefficients.
 \begin{table}
@@ -264,9 +255,9 @@ $K_s$ & RRab & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 \end{table}
 
 
-We also use the the empirical mid--IR RRL PL relations from \citet{2015arXiv150507858N} for comparison. These are described in Table~\ref{tab:pl_table_m4}. The relations take the form
+For the mid--IR we use the the empirical RRL PL relations from \citet{2015arXiv150507858N}, as described in Table~\ref{tab:pl_table_m4}. The relations take the form
 \begin{equation}M = a + b \times (\log (P) + P_0) \end{equation}
-where $a$ and $b$ are empirically derived coefficients and $P_0$ is the absolute value of the mean period.
+where $a$ and $b$ are empirically derived coefficients and $P_0$ is the absolute value of the mean period. We calculate the absolute PL zero points by subtracting the M4 distance modulus that Neeley et al. derive, 11.399 mag, from the apparent PL zero points.
 
 \begin{table}
 \centering
@@ -286,54 +277,25 @@ $[4.5]$ & RRab & $-0.593$ & $-2.355$ & $0.260$ & $0.036$ \\
 
 %% Metallicity description
 
-The theoretical PL relations for the near--IR have a metallicity-dependent term; however, we do not have known metallicities for all stars in our sample. We therefore use a single [Fe/H] value that is the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.567$. This will be discussed further in section~\ref{sec:metallicity}.
-
-% The theoretical PL relations for both the near-- and mid--IR have a metallicity-dependent term. 
-% Not all stars in our sample have known metallicity values, so we use an average [Fe/H] value for all RRLs in the cluster. We use both photometric \citep{2000AJ....119.1824R} and spectroscopic \citep{2006ApJ...640L..43S} metallicities for comparison. We find that there is little correspondence between individual metallicity measurements for stars which have both spectroscopic and photometric metallicity values, as shown in Figure~\ref{fig:metallicity_comparison}, and that the average metallicities of the spectroscopic and photometric catalogs differ by nearly 0.1 dex. We use a mean photometric [Fe/H] of  $-1.584$ and a spectroscopic [Fe/H] of $-1.677$.
-
-%% Start by saying what the big sample is:
-
-Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 36 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. The PL fits to this sample are shown in Figure~\ref{fig:omegaCen_pl_m4}.
+The theoretical PL relations for the near--IR have a metallicity-dependent term; however, we do not have known metallicities for all stars in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.567$. This will be discussed further in Section~\ref{sec:metallicity}.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf}
-\caption{PL relations for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry assuming an [Fe/H]$=-1.627$, corresponding to the average spectroscopic metallicity for stars in our sample from \citep{2006ApJ...640L..43S}. All uncrowded RRL for which we have photometry are included in these fits.}
+\caption{PL relations for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry assuming [Fe/H]$=-1.567$. Here circles represent RRab stars, triangles represent RRcs, colored points are the final consistent sample, grey points are stars that did not appear in all bands, and the unfilled points are stars rejected from the final sample based on $2\sigma$ clipping of the residuals of 3.6~$\mu$m vs. the residuals of $H$ and $K$.}
 \label{fig:omegaCen_pl_m4}
 \end{center}
 \end{figure}
 
-For the final PL relations, we use only the stars for which we have photometry in all five bandpasses. Our final RRL sample consists of 25 RRL (12 fundamental mode and 13 first overtone). This sample reduces bias by ensuring that the same range of periods and metallicities are sampled for each wavelength.
-
-\begin{comment}
-\begin{figure}
-\begin{center}
-\includegraphics[width=80mm]{reworked_fitting_code/final_plots/multiwavelength_PL_samestars_phot_unweighted.pdf}
-\caption{PL relations for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry assuming an [Fe/H]$=-1.584$, corresponding to the average photometric metallicity from \citet{2000AJ....119.1824R}. Only those RRL that appear in all five near-- and mid--infrared bands are included in the fit.}
-\label{fig:omegaCen_pl_phot}
-\end{center}
-\end{figure}
-
-\begin{figure}
-\begin{center}
-\includegraphics[width=80mm]{reworked_fitting_code/final_plots/multiwavelength_PL_samestars_spect_unweighted.pdf}
-\caption{PL relations for $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry assuming an [Fe/H]$=-1.677$, corresponding to the average spectroscopic metallicity from \citet{2006ApJ...640L..43S}.  Only those RRL that appear in all five near-- and mid--infrared bands are included in the fit.}
-\label{fig:omegaCen_pl_spect}
-\end{center}
-\end{figure}
-\end{comment}
-
 \section{Distance Moduli}
 \label{sec:distance_moduli}
 
-We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening--corrected distance modulus. We fit the near--infrared reddening law from \citet{1989ApJ...345..245C} and mid--infrared law from \citet{2005ApJ...619..931I} simultaneously, assuming the ratio of total to selective absorption $R_V = 3.1$. (We tested a value of $R_V = 3.23$ as well, and it changed the results by less than 1\%.) The resulting fits are shown in Figures~\ref{fig:omegaCen_dist_phot} and \ref{fig:omegaCen_dist_spect}.
-
-% put some dank memes here
+We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening--corrected distance modulus. We fit the near--infrared reddening law from \citet{1989ApJ...345..245C} and mid--infrared law from \citet{2005ApJ...619..931I} simultaneously, assuming a ratio of total to selective absorption $R_V = 3.1$. The resulting fit is shown in Figure~\ref{fig:omegaCen_dist_m4_mean}. We derive a dereddened distance modulus of $\langle \mu_0 \rangle = 13.781 \pm 0.018$ with $E(B-V) = 0.066 \pm 0.030$ using the weighted mean RRab + RRc distances.
 
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf}
-\caption{Distance moduli for the final sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry. The filled circles are the mean distance moduli using both RRab and RRc stars, the unfilled circles are the distance moduli using only RRab stars, and the filled triangles are distance moduli using only RRc stars.}
+\caption{Distance moduli for the final sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry. The filled circles are the mean distance moduli using both RRab and RRc stars, the unfilled circles are the distance moduli using only RRab stars, and the filled triangles are distance moduli using only RRc stars. The reddening laws are fit to the mean distance moduli.}
 \label{fig:omegaCen_dist_m4_mean}
 \end{center}
 \end{figure}
@@ -341,14 +303,14 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.pdf}
-\caption{Distance moduli for the final sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry}
+\caption{Distance moduli for the final sample of $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry, with the reddening laws fit to the distances from RRab only.}
 \label{fig:omegaCen_dist_m4_ab}
 \end{center}
 \end{figure}
 
-Using the empirical PL relations for 3.6~$\mu$m and 4.5~$\mu$m and the theoretical PL relations for $J\!H\!K_s$, we derive a true dereddened distance modulus of $\mu_0 = 13.777 \pm 0.011$ and an $E(B-V)$ of $0.075 \pm $(something), as shown in Figure~\ref{fig:omegaCen_dist_m4_mean}.
-
-The anomalously high distance modulus for 4.5~$\mu$m in Figure~\ref{fig:omegaCen_dist_m4_mean} is caused exclusively by the first overtone pulsators, which have the lowest signal-to-noise measurements and are therefore most vulnerable to crowding effects. If we remove the first overtone pulsators from the 4.5~$\mu$m data, the derived distance modulus for 4.5~$\mu$m decreases substantially, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, resulting in an excellent fit of all points to the reddening curve. From these distance moduli we derive a true dereddened distance modulus of \textbf{something} %$\mu_0 = 13.770 \pm 0.005$ and $E(B-V) = 0.084 \pm$(something).
+%The anomalously high distance modulus for 4.5~$\mu$m in Figure~\ref{fig:omegaCen_dist_m4_mean} is caused exclusively by the RRc stars, which have the lowest signal-to-noise measurements and are therefore most vulnerable to crowding effects. 
+It is apparent from Figure~\ref{fig:omegaCen_dist_m4_mean} that there are large discrepancies in the distance moduli in 3.6 and 4.5~$\mu$m for the two pulsation modes; these contribute to the relatively low $E(B-V)$ value and high dereddened distance modulus.
+If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a dereddened distance modulus of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with $E(B-V) = 0.110 \pm 0.042$, both of which are closer to accepted values {\bf [CITE]} than the values derived from the weighted mean distance moduli.
 
 \begin{comment}
 \begin{figure}
@@ -363,14 +325,13 @@ The anomalously high distance modulus for 4.5~$\mu$m in Figure~\ref{fig:omegaCen
 \section{Metallicity}
 \label{sec:metallicity}
 
-$\omega$ Cen is ideal for examining the RRL period--luminosity--metallicity relation, [metallicity spread]%
+$\omega$ Cen is ideal for examining the RRL period--luminosity--metallicity relation, because [is there a better canonical metallicity spread than the one Giuseppe sent us like 2 years ago]
 A metallicity spread this wide is not found in any other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL from the cluster M4, \citet{2015arXiv150507858N}) and our photometric uncertainties are well understood, so the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
 
 $\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R}. As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for $\omega$~Cen, where 
 \begin{equation} \label{eqn:gamma}
 \gamma = \dfrac {\Delta \text{mag}} {[\text{Fe/H}]}\text{,}
 \end{equation}
-
 similar to $\gamma$ used to quantify the effect of metallicity on the zero--point of the Cepheid PL relation \citep{1998ApJ...498..181K}. 
 
 Theoretical models suggest that the metallicity dependence of the RRL PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
@@ -395,7 +356,7 @@ to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars w
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf}
-\caption{Photometric and spectroscopic [Fe/H] values vs. period--luminosity residuals in 3.6~$\mu$m and 4.5~$\mu$m, with the $\gamma$ parameter from equation 4 in the top right corner.}
+\caption{Photometric and spectroscopic [Fe/H] values vs. period--luminosity residuals in 3.6~$\mu$m and 4.5~$\mu$m, with the $\gamma$ parameter from equation 4 in the top right corner of each subplot.}
 \label{fig:metallicity_residuals}
 \end{center}
 \end{figure}
@@ -404,14 +365,10 @@ to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars w
 \section{Discussion}
 \label{sec:discussion}
 
-%Alternative explanations for the increased scatter relative to M4
-
-%The metallicity terms in the theoretical mid--infrared relations are comparable to the metallicity terms in the near--infrared (see Table~\ref{tab:pl_table_theo}), which is counter to previous predictions that the metallicity dependence should decrease with increasing wavelength \citep{2004ApJS..154..633C, 2001MNRAS.326.1183B}. This may be one reason for the $\sim\!\!0.1$~mag discrepancy between the distance moduli for 3.6~$\mu$m and 4.5~$\mu$m derived using the theoretical parameters vs. the empirical parameters.
-
-%Our investigation into the metallicity effects in the mid--infrared is limited primarily by the quality of the metallicity measurements of individual stars. {\bf Did someone say Eric Persson was working on this at some point...? Should I say we can expect a better dataset at some point?}
-
 \section{Conclusions}
 \label{sec:conclusions}
+
+Trigonometric parallaxes of Galactic RRLs from the {\em GAIA} mission will increase the number of calibrators for the absolute RRL PL relations by an order of magnitude {\bf [cite overview paper]}. %JWST will probably do something too if it doesn't blow up on launch/get stuck unfolding/fail to align its mirrors/crash into everything else that's at L2
 
 \section*{Acknowledgements}
 \label{sec:acknowledgements}
