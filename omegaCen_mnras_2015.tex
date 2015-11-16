@@ -185,7 +185,7 @@ This work combines mid--IR observations from the Warm {\it Spitzer} mission, wit
 \end{center}
 \end{figure}
 
-\subsection{Warm {\it Spitzer} Data}
+\subsection{Warm {\em Spitzer} Data}
 \label{sec:spitzer_reduction}
 The Warm~\textit{Spitzer} observations for this work were taken as part of the Carnegie RR Lyrae Program. Three fields in $\omega$~Cen were chosen; their positions and the positions of known $\omega$~Cen RRLs are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours, roughly corresponding to the period of the longest period RRL we expected in the field. The observations of all three fields were taken on 2013-05-10 and 2013-05-11. Each field was observed using {\it Spitzer} IRAC \citep{2004ApJS..154...10F} with a 30s frame time with a medium scale, gaussian 5--point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
 %% VS added info about field shapes and missing colour information.
@@ -255,9 +255,9 @@ $K_s$ & RRab & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 \end{table}
 
 
-For the mid--IR we use the the empirical RRL PL relations from \citet{2015arXiv150507858N}, as described in Table~\ref{tab:pl_table_m4}. The relations take the form
+For the mid--IR we use the the empirical RRL PL relations from \citet{2015arXiv150507858N}, as described in Table~\ref{tab:pl_table_m4}. These relations take the form
 \begin{equation}M = a + b \times (\log (P) + P_0) \end{equation}
-where $a$ and $b$ are empirically derived coefficients and $P_0$ is the absolute value of the mean period. We calculate the absolute PL zero points by subtracting the M4 distance modulus that Neeley et al. derive, 11.399 mag, from the apparent PL zero points.
+where $a$ and $b$ are empirically derived coefficients and $P_0$ is the absolute value of the logarithm of the mean period. We calculate the absolute PL zero points by subtracting the M4 distance modulus that Neeley et al. derive, 11.399 mag, from the apparent PL zero points.
 
 \begin{table}
 \centering
@@ -308,7 +308,6 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 \end{center}
 \end{figure}
 
-%The anomalously high distance modulus for 4.5~$\mu$m in Figure~\ref{fig:omegaCen_dist_m4_mean} is caused exclusively by the RRc stars, which have the lowest signal-to-noise measurements and are therefore most vulnerable to crowding effects. 
 It is apparent from Figure~\ref{fig:omegaCen_dist_m4_mean} that there are large discrepancies in the distance moduli in 3.6 and 4.5~$\mu$m for the two pulsation modes; these contribute to the relatively low $E(B-V)$ value and high dereddened distance modulus.
 If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a dereddened distance modulus of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with $E(B-V) = 0.110 \pm 0.042$, both of which are closer to accepted values {\bf [CITE]} than the values derived from the weighted mean distance moduli.
 
@@ -369,6 +368,8 @@ to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars w
 \label{sec:conclusions}
 
 Trigonometric parallaxes of Galactic RRLs from the {\em GAIA} mission will increase the number of calibrators for the absolute RRL PL relations by an order of magnitude {\bf [cite overview paper]}. %JWST will probably do something too if it doesn't blow up on launch/get stuck unfolding/fail to align its mirrors/crash into everything else that's at L2
+
+% In conclusion, the name of the trashcan is astronomy
 
 \section*{Acknowledgements}
 \label{sec:acknowledgements}
