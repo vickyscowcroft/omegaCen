@@ -16,4 +16,23 @@ New suggested order of figures:
     Distance moduli plot using empirical PL relations and the photometric metallicity and either the simultaneous RRab/RRc or the the separate fits. Which one you choose will depend on your analysis that goes with Figure 4. Whichever approach you think gives you a more robust answer should be adopted here to make a metallicity comparison. In Section 6: Metallicity.
     [Fe/H] vs residuals for each metallicity indicator. In Section 6: Metallicity.
 
-One comment that came up in last week's meeting that I hadn't caught before is that we switch nomenclature quite frequently between FU/FO and RRab/RRc. We need to be consistant with this throughout the paper. My preference is RRab/RRc, because I have a hard time reading FU and FO as different things when I'm reading a paper, but you're first author so the final decision rests with you. I wanted to let you know now so you could update any figures accordingly.
+Distance moduli suck because X, even if that's disproved later in the paper - suggest reasons for discrepancies at end of section
+Low SNR data, poorly defined PL relation, metallicity
+Three things that contribute to PL dispersion
+Calculation of dispersion - diff between M4 and omega Cen
+Add omega cen PL dispersions
+Add table of distance moduli + dispersions
+Sigma_observed = 5 * sigma_Neeley + sigma_photometry (avg photometric error) + sigma_metallicity (unknown) -- add in quadrature to get upper limit on Fe/H
+
+Add fig 5 to discussion
+Fuck around with metallicities, see how they change reddening + distances
+Possibly split metallicity section - effect on distance, effect on mags
+
+Discussion: THINGS KINDA SUCK
+GAIA: will get metallicities for calibrators, order of magnitude more calibrators (50), parallaxes to microarcsec precision, PARALLAXES FOR OMEGA CEN WHAAAAT
+Calibrators: 2017, omega cen 2022
+GAIA release schedule, check website
+JWST: things will suck less IF IT WORKS
+For the data we can get now, we can behave as if there is no metallicity effect
+
+Tables of band, mode, uncorrected dmod, PL scatter
