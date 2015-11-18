@@ -33,6 +33,12 @@
 {Braga} V.~F.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/799/2/165},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...799..165B} {799, 165}
 
+\bibitem[\protect\citeauthoryear{{Burriesci}}{{Burriesci}}{2005}]{2005SPIE.5904...21B}
+{Burriesci} L.~G.,  2005, in {Heaney} J.~B.,  {Burriesci} L.~G.,  eds,  Society
+  of Photo-Optical Instrumentation Engineers (SPIE) Conference Series Vol.
+  5904, Cryogenic Optical Systems and Instruments XI. pp 21--29,
+  \mn@doi{10.1117/12.613596}
+
 \bibitem[\protect\citeauthoryear{{Cardelli}, {Clayton}  \& {Mathis}}{{Cardelli}
   et~al.}{1989}]{1989ApJ...345..245C}
 {Cardelli} J.~A.,  {Clayton} G.~C.,   {Mathis} J.~S.,  1989, \mn@doi [\apj]
@@ -82,6 +88,11 @@
 {Freeman} K.~C.,  {Rodgers} A.~W.,  1975, \mn@doi [\apjl] {10.1086/181945},
   \href {http://adsabs.harvard.edu/abs/1975ApJ...201L..71F} {201, L71}
 
+\bibitem[\protect\citeauthoryear{{Gardner} et~al.,}{{Gardner}
+  et~al.}{2006}]{2006SSRv..123..485G}
+{Gardner} J.~P.,  et~al., 2006, \mn@doi [\ssr] {10.1007/s11214-006-8315-7},
+  \href {http://adsabs.harvard.edu/abs/2006SSRv..123..485G} {123, 485}
+
 \bibitem[\protect\citeauthoryear{{Garofalo} et~al.,}{{Garofalo}
   et~al.}{2013}]{2013ApJ...767...62G}
 {Garofalo} A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/767/1/62},
@@ -113,6 +124,19 @@
   et~al.}{1998}]{1998ApJ...498..181K}
 {Kennicutt} Jr. R.~C.,  et~al., 1998, \mn@doi [\apj] {10.1086/305538}, \href
   {http://adsabs.harvard.edu/abs/1998ApJ...498..181K} {498, 181}
+
+\bibitem[\protect\citeauthoryear{{Lindegren} \& {Perryman}}{{Lindegren} \&
+  {Perryman}}{1996}]{1996A&AS..116..579L}
+{Lindegren} L.,  {Perryman} M.~A.~C.,  1996, \aaps, \href
+  {http://adsabs.harvard.edu/abs/1996A%26AS..116..579L} {116, 579}
+
+\bibitem[\protect\citeauthoryear{{Liu}, {Bailer-Jones}, {Sordo}, {Vallenari},
+  {Borrachero}, {Luri}  \& {Sartoretti}}{{Liu}
+  et~al.}{2012}]{2012MNRAS.426.2463L}
+{Liu} C.,  {Bailer-Jones} C.~A.~L.,  {Sordo} R.,  {Vallenari} A.,  {Borrachero}
+  R.,  {Luri} X.,   {Sartoretti} P.,  2012, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2012.21797.x}, \href
+  {http://adsabs.harvard.edu/abs/2012MNRAS.426.2463L} {426, 2463}
 
 \bibitem[\protect\citeauthoryear{{Longmore}, {Fernley}  \&
   {Jameson}}{{Longmore} et~al.}{1986}]{1986MNRAS.220..279L}

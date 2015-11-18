@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 NOV 2015 21:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 NOV 2015 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1108,31 +1108,28 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 $
-       \omega$~Cen is unique in that we can also take a second approach to e...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
-s been already used, duplicate ignored
+l.340 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 $
-       \omega$~Cen is unique in that we can also take a second approach to e...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
+l.340 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 $
-       \omega$~Cen is unique in that we can also take a second approach to e...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
-s been already used, duplicate ignored
+l.340 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 $
-       \omega$~Cen is unique in that we can also take a second approach to e...
- <./reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf> <./rew
-orked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf
+l.340 
+       <./reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf> 
+<./reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.p
+df
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
 multiwavelength_distance_m4_clipped_mean.pdf): PDF inclusion: multiple pdfs wit
@@ -1144,72 +1141,71 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
 multiwavelength_distance_m4_clipped_ab.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
 >]
-<reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf, id=1
-044, 433.62pt x 325.215pt>
-File: reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf 
-Graphic file (type pdf)
-
-<use reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf>
-Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_comparis
-on_all_clipped.pdf used on input line 357.
-(pdftex.def)             Requested size: 227.62204pt x 170.71562pt.
-
 <reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf, id=
-1045, 578.16pt x 433.62pt>
+1044, 578.16pt x 433.62pt>
 File: reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf
  Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
-uals_m4_clipped.pdf used on input line 366.
+uals_m4_clipped.pdf used on input line 375.
 (pdftex.def)             Requested size: 227.62204pt x 170.71231pt.
-(./omegaCen_mnras_2015.bbl [5pdfTeX warning (ext4): destination with the same i
-dentifier (name{figure.5}) has been already used, duplicate ignored
+
+<reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf, id=1
+045, 433.62pt x 325.215pt>
+File: reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf 
+Graphic file (type pdf)
+
+<use reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_comparis
+on_all_clipped.pdf used on input line 387.
+(pdftex.def)             Requested size: 227.62204pt x 170.71562pt.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.49   et~al.}{2015}]{2015ApJ...806..200C}
-                                          pdfTeX warning (ext4): destination wi
-th the same identifier (name{figure.6}) has been already used, duplicate ignore
-d
+l.427 T
+       his publication makes use of data products from the Two Micron All Sk...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
+s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.49   et~al.}{2015}]{2015ApJ...806..200C}
-                                           <./reworked_fitting_code/final_plots
-/metallicity_comparison_all_clipped.pdf> <./reworked_fitting_code/final_plots/m
-etallicity_vs_residuals_m4_clipped.pdf
+l.427 T
+       his publication makes use of data products from the Two Micron All Sk...
+ <./reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf> 
+<./reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
-metallicity_vs_residuals_m4_clipped.pdf): PDF inclusion: multiple pdfs with pag
-e group included in a single page
->]
+metallicity_comparison_all_clipped.pdf): PDF inclusion: multiple pdfs with page
+ group included in a single page
+>] (./omegaCen_mnras_2015.bbl
 
-Package hyperref Warning: Suppressing empty link on input line 154.
+Package hyperref Warning: Suppressing empty link on input line 178.
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 155.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 179.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 
-Package hyperref Warning: Suppressing empty link on input line 171.
+Package hyperref Warning: Suppressing empty link on input line 195.
 
 
-Package hyperref Warning: Suppressing empty link on input line 208.
+Package hyperref Warning: Suppressing empty link on input line 232.
 
-) [6
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+) [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 603.
  [7
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 603.
  (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 566.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 603.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 603.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: 79CE39DAE51B4238A611C982A55D9536;592.
 
@@ -1220,16 +1216,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 603.
  ) 
 Here is how much of TeX's memory you used:
- 9864 strings out of 493089
- 142443 string characters out of 6134842
- 241074 words of memory out of 5000000
- 13036 multiletter control sequences out of 15000+600000
- 142536 words of font info for 230 fonts, out of 8000000 for 9000
+ 9886 strings out of 493089
+ 142910 string characters out of 6134842
+ 245301 words of memory out of 5000000
+ 13048 multiletter control sequences out of 15000+600000
+ 143186 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,35p,1678b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,35p,1678b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1253,14 +1249,15 @@ e/qtmri.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rntxmi
 local/texlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi5.pfb></usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/newtx/rtxmi7.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (7 pages, 2665697 bytes).
+xmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on omegaCen_mnras_2015.pdf (7 pages, 2670045 bytes).
 PDF statistics:
- 1627 PDF objects out of 1728 (max. 8388607)
- 529 compressed objects within 6 object streams
- 72 named destinations out of 1000 (max. 500000)
+ 1652 PDF objects out of 1728 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 78 named destinations out of 1000 (max. 500000)
  119 words of extra memory for PDF output out of 10000 (max. 10000000)
 

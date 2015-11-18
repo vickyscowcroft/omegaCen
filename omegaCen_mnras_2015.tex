@@ -270,7 +270,7 @@ where $a$ and $b$ are empirically derived coefficients and $P_0$ is the absolute
 
 \begin{table}
 \centering
-\caption{Empirical mid-IR RRL period-luminosity relation coefficients for $\omega$ Cen \citep{2015arXiv150507858N}, for relations of the form $M = a + b \times (\log (P) + P_0)$ with {\bf measured ??} dispersion $\sigma$.} 
+\caption{Empirical mid-IR RRL period-luminosity relation coefficients for $\omega$ Cen \citep{2015arXiv150507858N}, for relations of the form $M = a + b \times (\log (P) + P_0)$ with measured dispersion $\sigma$.} 
 \label{tab:pl_table_m4}
 \begin{tabular}{l||c|c|c|c|c|r} 
 \hline \hline
@@ -333,10 +333,10 @@ If we remove the RRc's and fit the extinction curve only to the RRab's, as shown
 \section{Metallicity}
 \label{sec:metallicity}
 
+Theoretical models suggest that the metallicity dependence of the RRL PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
+
 $\omega$ Cen is ideal for examining the RRL period-luminosity-metallicity relation, because [is there a better canonical metallicity spread than the one Giuseppe sent us like 2 years ago]
 A metallicity spread this wide is not found in any other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL from the cluster M4, \citet{2015arXiv150507858N} and our photometric uncertainties are well understood, the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
-
-We can place an upper limit on the possible metallicity effect 
 
 % Up to here is great!
 
@@ -346,29 +346,46 @@ We can place an upper limit on the possible metallicity effect
 
 % VS will check on the 5sigma width of the PL, but I’m pretty sure that’s right. If you want to look too, you’re considering the PL relation as a uniformly filled square distribution.
 
+We can place an upper limit on the possible contribution of metallicity to the measured PL dispersion by comparing the dispersions of $\omega$~Cen and M4:
+\begin{align}
+\sigma_{\text{obs}} &= \sqrt{(5\sigma_{\text{M4}})^2 + \sigma_{\text{phot}}^2 + \sigma_{[\text{Fe/H}]}^2} \\
+\sigma_{[\text{Fe/H}]} &= \sqrt{\sigma_{\text{obs}}^2 -  \left((5\sigma_{\text{M4}})^2 + \sigma_{\text{phot}}^2\right)}
+\end{align}
+
+% this is some shit
+
+%%%
+
 $\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R}. As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for $\omega$~Cen, where 
 \begin{equation} \label{eqn:gamma}
 \gamma = \dfrac {\Delta \text{mag}} {[\text{Fe/H}]}\text{,}
 \end{equation}
 similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K}. 
 
-Theoretical models suggest that the metallicity dependence of the RRL PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
-
-In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that in the 4.5~$\mu$m bandpass there is absorption due to a CO bandhead at 4.65~$\mu$m, which strengthens the metallicity dependence of the PL relation in this bandpass. However, this effect is due to the low temperature of Cepheid atmospheres and disappears in the hottest, shortest-period Cepheids, as the CO dissociates at temperatures above 6000 K \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000 K \citep{1971PASP...83..697I}, we expect to see no such CO absorption in the 4.5~$\mu$m PL relation. If there are any other unanticipated metallicity effects, they must be smaller than the dispersion of the PL relations themselves.
+We know from mid-IR spectra that a significant CO feature sits within the IRAC [4.5] filter. In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that this has a significant effect on the [4.5] magnitudes, and is metallicity dependent. However, this effect increases with decreasing temperatures, turning off completely above 6000~K where all the CO has been destroyed \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000~K \citep{1971PASP...83..697I}, we expect to see no such CO absorption in the [4.5] PL relation. If there are any other unanticipated metallicity effects for RRL, they must be smaller than the dispersion of the PL relations themselves, but we must still perform empirical tests to search for such effects.
 
 If there is any correlation between [Fe/H] and the PL residuals, we expect it to be a linear one, consistent with the theoretical metallicity terms in the PL relation, $c\times[\text{Fe/H}]$; we fit a relation of the form
 \begin{equation}
 \Delta\text{mag} = \gamma \times[\text{Fe/H}] + d
 \end{equation}
-to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figure~\ref{fig:metallicity_residuals}. We find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N, 2015ApJ...799..165B}, there is no evidence that it is due to metallicity. When we examine [Fe/H] vs. $\Delta$3.6~$\mu$m and $\Delta$4.5~$\mu$m, $\gamma$ is within $1\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals.
+to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figure~\ref{fig:metallicity_residuals}. We find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N, 2015ApJ...799..165B}, there is no evidence that it is due to metallicity. When we examine [Fe/H] vs. $\Delta$[3.6] and $\Delta$[4.5], $\gamma$ is within $1\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals.
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=80mm]{reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf}
-\caption{Spectroscopic vs. photometric measurements of [Fe/H] for RRLs in $\omega$~Cen.}
-\label{fig:metallicity_comparison}
-\end{center}
-\end{figure}
+
+\begin{table}
+\centering
+%\caption{Empirical mid-IR RRL period-luminosity relation coefficients for $\omega$ Cen \citep{2015arXiv150507858N}, for relations of the form $M = a + b \times (\log (P) + P_0)$ with {\bf measured ??} dispersion $\sigma$.} 
+%\label{tab:pl_table_m4}
+\begin{tabular}{l||c|c|c|c|c|r} 
+\hline \hline
+Band & [Fe/H] type & $\gamma$ & $\sigma_{\gamma}$ & $P_0$ & $\sigma$ \\
+\hline
+$[3.6]$ & Spectroscopic & $-0.558$ & $-2.370$ & $0.260$ & $0.035$ \\
+            & Photometric & $-0.192$ & $-2.658$ & $0.550$ & $0.021$ \\
+$[4.5]$ & Spectroscopic & $-0.593$ & $-2.355$ & $0.260$ & $0.036$ \\
+            & Photometric & $-0.240$ & $-2.979$ & $0.550$ & $0.021$ \\ 
+            \hline
+\end{tabular}
+\end{table}
 
 
 \begin{figure}
@@ -383,12 +400,40 @@ to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars w
 \section{Discussion}
 \label{sec:discussion}
 
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf}
+\caption{Spectroscopic vs. photometric measurements of [Fe/H] for RRLs in $\omega$~Cen.}
+\label{fig:metallicity_comparison}
+\end{center}
+\end{figure}
+
+Results from the {\em GAIA} mission \citep{1996A&AS..116..579L} are expected to improve the characterization of the RRL PL relation dramatically. Trigonometric parallaxes and spectrophotometric metallicities of Galactic RRLs from {\em GAIA} will increase the number of calibrators for the absolute RRL PL relations by an order of magnitude \citep[{\bf overview paper}]{2012MNRAS.426.2463L}. [something about omega cen parallaxes and metallicities too]
+
+We also anticipate that the NIRCam instrument on {\em JWST} \citep{2005SPIE.5904...21B, 2006SSRv..123..485G} will provide substantial improvements over IRAC for this project. The NIRCam filters F356W and F444W will provide data in passbands comparable to IRAC's [3.6] and [4.5] at an order of magnitude higher resolution (0.065 arcsec/pixel), which will significantly decrease photometric error due to crowding. % lol unless it blows up on launch/gets stuck unfolding/fails to align its mirrors/crashes into everything else that's at L2
+
+\begin{comment}
+
+Suggestions from what we discussed today:
+
+* How does the choice of metallicity affect the results?
+* Comparison of the photometric and spectroscopic metallicities - discussion of Fig 5
+— Also note figures must appear in the order they are referred to in the text.
+* Could crowding have affected the result? Probably not systematically, BUT it did reduce the sample of RRL dramatically.
+* How does the calibration of the PL affect the result?
+* Better Calibration of the PL relation
+* Future metallicity measurements
+** GAIA
+* Better resolution in the mid—IR
+** JWST
+VS will send references for GAIA, JWST separately
+
+\end{comment}
+
 \section{Conclusions}
 \label{sec:conclusions}
 
-Trigonometric parallaxes of Galactic RRLs from the {\em GAIA} mission will increase the number of calibrators for the absolute RRL PL relations by an order of magnitude {\bf [cite overview paper]}. %JWST will probably do something too if it doesn't blow up on launch/get stuck unfolding/fail to align its mirrors/crash into everything else that's at L2
-
-% In conclusion, the name of the trashcan is astronomy
+% the name of the trashcan is astronomy
 
 \section*{Acknowledgements}
 \label{sec:acknowledgements}
