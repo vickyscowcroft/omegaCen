@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  18 NOV 2015 22:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 NOV 2015 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1004,26 +1004,26 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 7.3pt on input line 167.
 
-Underfull \vbox (badness 5460) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/bx/n' in size <8> not available
-(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 172.
+(Font)              Font shape `T1/ntxtlf/b/n' tried instead on input line 171.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 8.0pt on input line 172.
+(Font)              scaled to size 8.0pt on input line 171.
 LaTeX Font Info:    Try loading font information for TS1+ntxtlf on input line 1
-72.
+71.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.0pt on input line 172.
+(Font)              scaled to size 8.0pt on input line 171.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-Underfull \vbox (badness 6380) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 <reworked_fitting_code/final_plots/omegacen_coverage_map_new.pdf, id=141, 650.4
@@ -1064,17 +1064,17 @@ Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_PL_m
 4_clipped.pdf used on input line 293.
 (pdftex.def)             Requested size: 227.62204pt x 260.14313pt.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 303.
+(Font)              scaled to size 8.8pt on input line 297.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 303.
+(Font)              scaled to size 6.6pt on input line 297.
 
 [3pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
 as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.303 
-      ]
+l.297 \end{figure}
+                  ]
 <reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf
 , id=285, 505.89pt x 361.35pt>
 File: reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mea
@@ -1101,25 +1101,25 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.340 
+l.342 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.340 
+l.342 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.340 
+l.342 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.340 
+l.342 
        <./reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf> 
 <./reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.p
 df
@@ -1141,7 +1141,7 @@ File: reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf
 
 <use reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
-uals_m4_clipped.pdf used on input line 393.
+uals_m4_clipped.pdf used on input line 396.
 (pdftex.def)             Requested size: 227.62204pt x 170.71231pt.
 
 <reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf, id=1
@@ -1151,24 +1151,22 @@ Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_comparis
-on_all_clipped.pdf used on input line 405.
+on_all_clipped.pdf used on input line 408.
 (pdftex.def)             Requested size: 227.62204pt x 170.71562pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
- has been already used, duplicate ignored
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.443 T
+l.451 T
        his work is based on observations made with the Spitzer Space Telesco...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.443 T
+l.451 T
        his work is based on observations made with the Spitzer Space Telesco...
  <./reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf> 
 <./reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf
@@ -1196,29 +1194,29 @@ Package hyperref Warning: Suppressing empty link on input line 232.
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 482.
+(Font)              scaled to size 6.0pt on input line 490.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.5pt on input line 484.
+(Font)              scaled to size 6.5pt on input line 492.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 484.
+(Font)              size <6> substituted on input line 492.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.0pt on input line 490.
+(Font)              scaled to size 6.0pt on input line 498.
 [8
 
 
 ] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
  [10
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
  (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 621.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 629.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: EBECC3427D920F1CC446A35D56FE9A78;657.
 
@@ -1226,12 +1224,12 @@ Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 621.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 629.
  ) 
 Here is how much of TeX's memory you used:
  9920 strings out of 493089
  143276 string characters out of 6134842
- 304155 words of memory out of 5000000
+ 304161 words of memory out of 5000000
  13064 multiletter control sequences out of 15000+600000
  158597 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1264,7 +1262,7 @@ t/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 /urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (10 pages, 2678714 bytes).
+Output written on omegaCen_mnras_2015.pdf (10 pages, 2678798 bytes).
 PDF statistics:
  1678 PDF objects out of 1728 (max. 8388607)
  576 compressed objects within 6 object streams
