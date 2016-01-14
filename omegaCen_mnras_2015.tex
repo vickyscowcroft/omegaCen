@@ -237,6 +237,13 @@ Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$,
 %% Definition of PL relations and fitting method
 We use the theoretical near-infrared PL relation parameters presented in \citet{2015ApJ...808...50M} for the $JHK$ bands, and the empirical PL relation parameters derived from photometry of RRLs in the globular cluster M4 (NGC 6121) from \citet{2015arXiv150507858N} for the IRAC bands. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least-squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
 
+\begin{figure*}
+\begin{center}
+\includegraphics[width=160mm]{reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf}
+\caption{PL relations for $J\!H\!K_s$, [3.6], and[4.5] photometry assuming [Fe/H]$=-1.567$. Here circles represent RRab stars, triangles represent RRcs, colored points are the final consistent sample, grey points are stars that did not appear in all bands, and the unfilled points are stars rejected from the final sample based on $2\sigma$ clipping of the residuals of 3.6~$\mu$m vs. the residuals of $H$ and $K$.}
+\label{fig:omegaCen_pl_m4}
+\end{center}
+\end{figure*}
 
 For the mid-IR we use the PL relations from \citet{2015arXiv150507858N}, as described in Table~\ref{tab:pl_table_m4}. These relations take the form
 \begin{equation}M = a + b \times (\log (P) + P_0) \end{equation}
@@ -284,17 +291,7 @@ $[4.5]$ & RRab & $-0.593$ & $-2.355$ & $0.260$ & $0.036$ \\
 \end{tabular}
 \end{table}
 
-%% Metallicity description
-
 The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.567$. The effect of our choice of mean abundance is discussed further in Section~\ref{sec:metallicity}.
-
-\begin{figure*}
-\begin{center}
-\includegraphics[width=160mm]{reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf}
-\caption{PL relations for $J\!H\!K_s$, [3.6], and[4.5] photometry assuming [Fe/H]$=-1.567$. Here circles represent RRab stars, triangles represent RRcs, colored points are the final consistent sample, grey points are stars that did not appear in all bands, and the unfilled points are stars rejected from the final sample based on $2\sigma$ clipping of the residuals of 3.6~$\mu$m vs. the residuals of $H$ and $K$.}
-\label{fig:omegaCen_pl_m4}
-\end{center}
-\end{figure*}
 
 \section{Distance Moduli}
 \label{sec:distance_moduli}
@@ -320,16 +317,6 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 It is apparent from Figure~\ref{fig:omegaCen_dist_m4_mean} that there are large discrepancies in the distance moduli in 3.6 and 4.5~$\mu$m for the two pulsation modes; these contribute to the relatively low $E(B-V)$ value and high dereddened distance modulus.
 If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a dereddened distance modulus of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with $E(B-V) = 0.110 \pm 0.042$, both of which are closer to accepted values {\bf [CITE]} than the values derived from the weighted mean distance moduli.
 
-\begin{comment}
-\begin{figure}
-\begin{center}
-\includegraphics[width=80mm]{reworked_fitting_code/final_plots/period_color_clipped.pdf}
-\caption{Period color thing}
-\label{fig:period_color}
-\end{center}
-\end{figure}
-\end{comment}
-
 \section{Metallicity}
 \label{sec:metallicity}
 
@@ -340,22 +327,35 @@ Theoretical models suggest that the metallicity dependence of the RRL PL relatio
 $\omega$ Cen is ideal for examining the RRL period-luminosity-metallicity relation, because [is there a better canonical metallicity spread than the one Giuseppe sent us like 2 years ago]
 A metallicity spread this wide is not found in any other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL in [3.6] and [4.5] from the cluster M4, \citet{2015arXiv150507858N} and our photometric uncertainties are well understood, the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
 
+We can place an upper limit on the contribution of metallicity to the measured PL dispersion by combining the probability distributions of the known intrinsic PL width and the scatter induced by photometric error and comparing the result to the observed distribution of $\omega$~Cen PL residuals. We model the intrinsic scatter as a uniform distribution with full width $\sqrt{12} \times 0.035 = 0.121$ and the photometric uncertainties as a Gaussian with a standard deviation of the median photometric error in the sample, $\sigma = 0.046$. We construct a probability distribution for the observed PL scatter using a Gaussian kernel density estimator on the residuals with a bandwidth selected by leave-one-out cross-validation \citep{2013sdmm.book.....I}. All these models are shown in Figure~\ref{fig:probdist1}, along with the convolution of the intrinsic scatter and photometric error distributions.
 
-% Up to here is great!
+We construct a metallicity probability distribution in the same way as for the observed scatter. We show the distributions overlaid on histograms of the known metallicity values in Figure~\ref{fig:feh_hist} for all metallicity values and for only the ones that appear in our sample of RRab in [3.6]. Our RRab sample may oversample the high-metallicity end of the distribution, but as we do not have metallicity values for all the stars the sample, we use the distribution for all metallicity values.
 
-% At this point is where you do the calculation for the upper limit of the metallicity effect, by combining the photometric contribution, intrinsic dispersion and the measured dispersion.
+Figure~\ref{fig:probdist2}
 
-% Don’t be afraid to walk the reader through it step by step here, it’s good to put in all the details. 
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{reworked_fitting_code/final_plots/distributions_nofeh.pdf}
+\caption{Probability distributions for components of PL scatter, with intrinsic width in green, photometric error in orange, the combination thereof in pink, and the observed distribution in purple.}
+\label{fig:probdist1}
+\end{center}
+\end{figure}
 
-% VS will check on the 5sigma width of the PL, but I’m pretty sure that’s right. If you want to look too, you’re considering the PL relation as a uniformly filled square distribution.
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{reworked_fitting_code/final_plots/feh_distribution.pdf}
+\caption{Histograms of all spectroscopic metallicity values (green) and values in our sample of RRab in [3.6] (orange), with corresponding smoothed probability distributions.}
+\label{fig:feh_hist}
+\end{center}
+\end{figure}
 
-We can place an upper limit on the possible contribution of metallicity to the measured PL dispersion by comparing the dispersions of $\omega$~Cen and M4:
-\begin{align}
-\sigma_{\text{obs}} &= \sqrt{(5\sigma_{\text{M4}})^2 + \sigma_{\text{phot}}^2 + \sigma_{[\text{Fe/H}]}^2} \\
-\sigma_{[\text{Fe/H}]} &= \sqrt{\sigma_{\text{obs}}^2 -  \left((5\sigma_{\text{M4}})^2 + \sigma_{\text{phot}}^2\right)}
-\end{align}
-
-% this is some shit
+\begin{figure}
+\begin{center}
+\includegraphics[width=80mm]{reworked_fitting_code/final_plots/distributions.pdf}
+\caption{Some probability densities.}
+\label{fig:probdist2}
+\end{center}
+\end{figure}
 
 %%%
 
@@ -413,7 +413,7 @@ $[4.5]$ & Spectroscopic & $-0.593$ & $-2.355$ & $0.260$ & $0.036$ \\
 
 Results from the {\em GAIA} mission \citep{1996A&AS..116..579L} are expected to improve the characterization of the RRL PL relation dramatically. Trigonometric parallaxes and spectrophotometric metallicities of Galactic RRLs from {\em GAIA} will increase the number of calibrators for the absolute RRL PL relations by an order of magnitude \citep[{\bf overview paper}]{2012MNRAS.426.2463L}. [something about omega cen parallaxes and metallicities too] % ask Giuseppe about GAIA metallicity issue
 
-We also anticipate that the NIRCam instrument on {\em JWST} \citep{2005SPIE.5904...21B, 2006SSRv..123..485G} will provide substantial improvements over IRAC for investigations of this nature. The NIRCam filters F356W and F444W will provide data in passbands comparable to IRAC's [3.6] and [4.5] at an order of magnitude higher resolution (0.065 arcsec/pixel), which will significantly decrease photometric error due to crowding and therefore allow us to obtain data for all known RRLs in $\omega$~Cen. % lol unless it blows up on launch/gets stuck unfolding/fails to align its mirrors/crashes into everything else that's at L2
+We also anticipate that the NIRCam instrument on {\em JWST} \citep{2005SPIE.5904...21B, 2006SSRv..123..485G} will provide substantial improvements over IRAC for investigations of this nature. The NIRCam filters F356W and F444W will provide data in passbands comparable to IRAC's [3.6] and [4.5] at an order of magnitude higher resolution (0.065 arcsec/pixel), which will significantly decrease photometric error due to crowding and therefore allow us to obtain data for all known RRLs in $\omega$~Cen. 
 
 % Eric Persson's metallicity omega cen project - 'we explore a subset of RR Lyrae variables in the w Centauri globular cluster for which a large set of stellar metallicities will be available for a broad range of RR Lyrae' overview paper
 % spectroscopically with magellan
