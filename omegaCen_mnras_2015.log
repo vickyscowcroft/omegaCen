@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JAN 2016 18:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JAN 2016 22:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,18 +1217,18 @@ l.435 W
  <./reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf>]
 (./omegaCen_mnras_2015.bbl
 
-Package hyperref Warning: Suppressing empty link on input line 183.
+Package hyperref Warning: Suppressing empty link on input line 178.
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 184.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 179.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 
-Package hyperref Warning: Suppressing empty link on input line 200.
+Package hyperref Warning: Suppressing empty link on input line 195.
 
 
-Package hyperref Warning: Suppressing empty link on input line 237.
+Package hyperref Warning: Suppressing empty link on input line 232.
 
 ) [8pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
 ) has been already used, duplicate ignored
@@ -1275,10 +1275,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 654.
  ) 
 Here is how much of TeX's memory you used:
- 9936 strings out of 493089
- 144052 string characters out of 6134842
- 306185 words of memory out of 5000000
- 13078 multiletter control sequences out of 15000+600000
+ 9932 strings out of 493089
+ 143947 string characters out of 6134842
+ 305972 words of memory out of 5000000
+ 13075 multiletter control sequences out of 15000+600000
  157947 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,15n,35p,1678b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1309,10 +1309,10 @@ xmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (12 pages, 2665681 bytes).
+Output written on omegaCen_mnras_2015.pdf (12 pages, 2665425 bytes).
 PDF statistics:
- 1608 PDF objects out of 1728 (max. 8388607)
- 613 compressed objects within 7 object streams
- 87 named destinations out of 1000 (max. 500000)
+ 1607 PDF objects out of 1728 (max. 8388607)
+ 612 compressed objects within 7 object streams
+ 86 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
