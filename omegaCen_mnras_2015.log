@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JAN 2016 14:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  15 JAN 2016 18:22
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,6 +1039,9 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/b/it' will be
 (Font)              scaled to size 9.0pt on input line 197.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 203.
+
+Underfull \vbox (badness 2237) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 231.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
@@ -1102,41 +1105,30 @@ ance_m4_clipped_ab.pdf used on input line 311.
 
 Underfull \vbox (badness 1024) has occurred while \output is active []
 
-
-<reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf, id=95
-2, 433.62pt x 289.08pt>
-File: reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf G
-raphic file (type pdf)
-
-<use reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf>
-Package pdftex.def Info: reworked_fitting_code/final_plots/distributions_nofeh_
-ab_3_gaussian.pdf used on input line 332.
-(pdftex.def)             Requested size: 227.62204pt x 151.74721pt.
-
-[5pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
-as been already used, duplicate ignored
+ [5pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 
+l.331 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 
+l.331 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 
+l.331 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 
+l.331 
        <./reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped
 _mean.pdf> <./reworked_fitting_code/final_plots/multiwavelength_distance_m4_cli
 pped_ab.pdf
@@ -1145,14 +1137,24 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
 multiwavelength_distance_m4_clipped_ab.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
 >]
-<reworked_fitting_code/final_plots/distributions_ab_3_gaussian.pdf, id=1043, 43
+<reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf, id=10
+50, 433.62pt x 289.08pt>
+File: reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf G
+raphic file (type pdf)
+
+<use reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/distributions_nofeh_
+ab_3_gaussian.pdf used on input line 334.
+(pdftex.def)             Requested size: 227.62204pt x 151.74721pt.
+
+<reworked_fitting_code/final_plots/distributions_ab_3_gaussian.pdf, id=1051, 43
 3.62pt x 469.755pt>
 File: reworked_fitting_code/final_plots/distributions_ab_3_gaussian.pdf Graphic
  file (type pdf)
 
 <use reworked_fitting_code/final_plots/distributions_ab_3_gaussian.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/distributions_ab_3_g
-aussian.pdf used on input line 355.
+aussian.pdf used on input line 377.
 (pdftex.def)             Requested size: 227.62204pt x 246.58923pt.
 
 <reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf, id=10
@@ -1162,7 +1164,7 @@ raphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
-uals_m4_split.pdf used on input line 397.
+uals_m4_split.pdf used on input line 415.
 (pdftex.def)             Requested size: 455.24408pt x 625.95728pt.
 
 <reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf, id=1
@@ -1172,7 +1174,7 @@ Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_comparis
-on_all_clipped.pdf used on input line 409.
+on_all_clipped.pdf used on input line 427.
 (pdftex.def)             Requested size: 227.62204pt x 170.71562pt.
 
 [6pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
@@ -1180,15 +1182,22 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.452 T
-       his work is based on observations made with the Spitzer Space Telesco...
+l.435 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has
+ been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.435 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) ha
 s been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.452 T
-       his work is based on observations made with the Spitzer Space Telesco...
+l.435 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
  <./reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf> <.
 /reworked_fitting_code/final_plots/distributions_ab_3_gaussian.pdf
 
@@ -1203,8 +1212,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.452 T
-       his work is based on observations made with the Spitzer Space Telesco...
+l.435 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
  <./reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf>]
 (./omegaCen_mnras_2015.bbl
 
@@ -1226,36 +1235,36 @@ Package hyperref Warning: Suppressing empty link on input line 237.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.479 \clearpage
+l.499 \clearpage
                  <./reworked_fitting_code/final_plots/metallicity_comparison_al
 l_clipped.pdf>] [9
 
 
 ]
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.0pt on input line 495.
+(Font)              scaled to size 6.0pt on input line 515.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.5pt on input line 497.
+(Font)              scaled to size 6.5pt on input line 517.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 497.
+(Font)              size <6> substituted on input line 517.
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
-(Font)              scaled to size 6.0pt on input line 503.
+(Font)              scaled to size 6.0pt on input line 523.
 [10
 
 
 ] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 634.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 654.
  [12
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 634.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 654.
  (./omegaCen_mnras_2015.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 634.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 634.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 654.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 654.
 Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 (rerunfilecheck)             Checksum: 3C2C17A41EA930EFC783E4B8D1134273;643.
 
@@ -1263,13 +1272,13 @@ Package rerunfilecheck Info: File `omegaCen_mnras_2015.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 634.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 654.
  ) 
 Here is how much of TeX's memory you used:
- 9934 strings out of 493089
- 144034 string characters out of 6134842
- 305101 words of memory out of 5000000
- 13077 multiletter control sequences out of 15000+600000
+ 9936 strings out of 493089
+ 144052 string characters out of 6134842
+ 306185 words of memory out of 5000000
+ 13078 multiletter control sequences out of 15000+600000
  157947 words of font info for 255 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,15n,35p,1678b,565s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1300,10 +1309,10 @@ xmf-dist/fonts/type1/public/txfonts/txmia.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2015/texmf-dist/font
 s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on omegaCen_mnras_2015.pdf (12 pages, 2664454 bytes).
+Output written on omegaCen_mnras_2015.pdf (12 pages, 2665681 bytes).
 PDF statistics:
- 1607 PDF objects out of 1728 (max. 8388607)
- 612 compressed objects within 7 object streams
- 86 named destinations out of 1000 (max. 500000)
+ 1608 PDF objects out of 1728 (max. 8388607)
+ 613 compressed objects within 7 object streams
+ 87 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
