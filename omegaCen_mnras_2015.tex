@@ -61,7 +61,7 @@
 
 % Title of the paper, and the short title which is used in the headers.
 % Keep the title short and informative.
-\title[Mid-IR RRL PL Relation in $\omega$ Cen]{The Carnegie RR Lyrae Program: The Mid-Infrared RR Lyrae Period-Luminosity Relation in $\omega$~Cen and also metallicity [working title]}
+\title[Mid-IR RRL PL Relation in $\omega$ Cen]{The Carnegie RR Lyrae Program: The Mid-Infrared RR Lyrae Period-Luminosity Relation in $\omega$~Cen and also metallicity}
 
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
@@ -322,23 +322,47 @@ If we remove the RRc's and fit the extinction curve only to the RRab's, as shown
 
 Theoretical models suggest that the metallicity dependence of the RRL PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
 
-$\omega$ Cen is ideal for examining the RRL period-luminosity-metallicity relation, because [is there a better canonical metallicity spread than the one Giuseppe sent us like 2 years ago]
-A metallicity spread this wide is not found in any  other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL in [3.6] and [4.5] from the cluster M4, \citet{2015arXiv150507858N} and our photometric uncertainties are well understood, the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster. 
+$\omega$ Cen is ideal for examining the RRL period-luminosity-metallicity relation, because {\bf need source for canonical metallicity spread}
+A metallicity spread this wide is not found in any other Galactic globular cluster. One of the advantages of using globular clusters to calibrate PL coefficients is that all stars in a cluster can be considered to be at the same distance from Earth. We can therefore assume that any dispersion in the PL relation is a combination of the a) the intrinsic dispersion of the PL relation, b) the photometric uncertainties, and c) dispersion induced by the spread in metallicity of the RRL. Since we have measured the intrinsic dispersion of the RRL PL in [3.6] and [4.5] from the cluster M4, \citet{2015arXiv150507858N} and our photometric uncertainties are well understood, the only unknown in this problem is the dispersion due to the spread in metallicity of the cluster.
 
-We can place an upper limit on the contribution of metallicity to the measured PL dispersion by combining the probability distributions of the known intrinsic PL width and the scatter induced by photometric error and comparing the result to the observed distribution of $\omega$~Cen PL residuals. The following description of the process uses the RRab PL relation in [3.6] as the example case; we apply this method to both pulsation modes in both IRAC filters. We model the intrinsic scatter as a uniform distribution with full width $\sqrt{12} \times 0.035 = 0.121$ and the photometric uncertainties as a Gaussian with a standard deviation of the median photometric error in the sample, $\sigma = 0.046$. We construct a probability distribution for the observed PL scatter using a Gaussian kernel density estimator on the residuals with a bandwidth selected by leave-one-out cross-validation \citep{2013sdmm.book.....I}. All these models are shown in Figure~\ref{fig:probdist1}, along with the convolution of the intrinsic scatter and photometric error distributions.
+We know from mid-IR spectra that a significant CO feature sits within the IRAC [4.5] filter. In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that this has a significant effect on the [4.5] magnitudes, and is metallicity dependent. However, this effect increases with decreasing temperatures, turning off completely above 6000~K where all the CO has been destroyed \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000~K \citep{1971PASP...83..697I}, we expect to see no such CO absorption in the [4.5] PL relation. If there are any other unanticipated metallicity effects for RRL, they must be smaller than the dispersion of the PL relations themselves, but we must still perform empirical tests to search for such effects.
 
-To constrain the contribution of metallicity to the observed scatter, we require another probability distribution for metallicity. We construct a metallicity probability distribution in the same way as for the observed scatter. We show two metallicity distributions Figure~\ref{fig:feh_hist}, one using all $\omega$~Cen RRL [Fe/H] values presented in \citet{2006ApJ...640L..43S} and one using only the values that appear in our RRL sample, overlaid with their respective KDE-smoothed probability distributions. Our [3.6] RRab sample appears to oversample the high-metallicity end of the distribution. However, as we do not have metallicity values for all RRL in this sample, we choose to use the distribution that includes all metallicity values as our canonical metallicity distribution in our analysis.
-
-This metallicity probability distribution characterizes the metallicity dispersion in units of dex, whereas the other probability distributions are in units of magnitudes. We therefore ``convert" the metallicity probability distribution to magnitudes using a scaling factor. To scale the metallicity distribution, we convolve the metallicity distribution with the previous convolution of the intrinsic width and photometric error distribution and minimize the difference between that and the observed distribution. The results are shown in Figure~\ref{fig:probdist2}. We find that the optimized model is nearly identical to the observed PL scatter in the case of RRab's in [3.6].
+We can place an upper limit on the contribution of metallicity to the measured PL dispersion by combining the probability distributions of the known intrinsic PL width and the scatter induced by photometric error and comparing the result to the observed distribution of $\omega$~Cen PL residuals. The following description of the process uses the RRab PL relation in [3.6] as the example case; we apply this method to both pulsation modes in both IRAC filters. We model the intrinsic scatter as a uniform distribution with a full width of $\sqrt{12}$ times the intrinsic PL width (see Table~\ref{tab:pl_table_m4}), $\sqrt{12} \times 0.035 = 0.121$ mag and the photometric uncertainties as a Gaussian distribution with a standard deviation of the mean photometric error in the sample, $\sigma = 0.048$ mag. We model the probability distribution of the observed PL residuals as a Gaussian centered at zero with a scale of the standard deviation of the residuals, $\sigma = 0.088$ mag. These models are shown in Figure~\ref{fig:probdist1}, as well as the convolution of the intrinsic scatter and photometric error distributions.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=80mm]{reworked_fitting_code/final_plots/distributions_nofeh.pdf}
-\caption{Probability distributions for components of PL scatter, with intrinsic width in green, photometric error in orange, the combination thereof in pink, and the observed distribution in purple.}
+\includegraphics[width=80mm]{reworked_fitting_code/final_plots/distributions_nofeh_ab_3_gaussian.pdf}
+\caption{Probability distributions for components of PL scatter, with intrinsic width in green, photometric error in orange, the combination thereof in purple, and the observed distribution in pink.}
 \label{fig:probdist1}
 \end{center}
 \end{figure}
 
+To constrain the contribution of metallicity to the observed scatter, we model the metallicity-induced scatter as another Gaussian centered at zero. To find the standard deviation of this model, we convolve the metallicity distribution with the previous convolution of the intrinsic width and photometric error distributions, and minimize the difference between that and the observed distribution. For RRab's in [3.6], we find the standard deviation of the model metallicity distribution to be $\sigma = 0.064$.
+
+{\bf Probably will be removed but should be discussed:}
+Dividing the standard deviation of the metallicity distribution by the standard deviation of the metallicity, we find a $\gamma$ parameter ($\gamma$ = $\Delta$ mag / $\Delta$ [Fe/H]) of 0.282 using spectroscopic metallicities and 0.234 using photometric. Is this meaningful? Probably not! But here's a table of them just in case:
+
+\begin{table}
+\centering
+\caption{Some metallicity shit}
+\label{tab:gamma}
+\begin{tabular}{l||c|clc|r} 
+\hline \hline
+Band & Mode & $\sigma$ & $\gamma$, spect & $\gamma$, phot \\
+\hline
+$[3.6]$ & RRab & $0.064$ & $-1.980$ & $0.282$ & $0.234$ \\
+$[3.6]$ & RRc & $0.091$ & $0.778$ & $0.190$ & $0.323$\\
+$[4.5]$ & RRab & $0.162$ & $0.712$ & $0.180$ & $0.590$\\
+$[4.5]$ & RRc & $0.195$ & $1.660$ & $0.180$ & $0.689$\\
+\hline
+\end{tabular}
+\end{table}
+
+% [3.6] RRc - stddev of [fe/h] distribution: 0.091 - gamma (spect): 0.778 - gamma (phot): 0.323
+% [4.5] RRab - stddev of [fe/h] distribution: 0.162 - gamma (spect): 0.712 - gamma (phot): 0.590
+% [4.5] RRc - stddev of [fe/h] distribution: 0.195 - gamma (spect): 1.660 - gamma (phot): 0.689
+
+\begin{comment}
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm]{reworked_fitting_code/final_plots/feh_distribution.pdf}
@@ -346,36 +370,15 @@ This metallicity probability distribution characterizes the metallicity dispersi
 \label{fig:feh_hist}
 \end{center}
 \end{figure}
+\end{comment}
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=80mm]{reworked_fitting_code/final_plots/distributions.pdf}
+\includegraphics[width=80mm]{reworked_fitting_code/final_plots/distributions_ab_3_gaussian.pdf}
 \caption{Top: Intrinsic, photometric error, and observed PL relations as in Figure~\ref{fig:probdist1}, as well as the scaled metallicity distribution and best model (convolution of intrinsic, photometric, and metallicity distributions). Bottom: only the observed and model distributions for easier comparison.}
 \label{fig:probdist2}
 \end{center}
 \end{figure}
-
-
-{\bf SOME THINGS:
-
-- The model vs. observed distribution as it is right now is at roughly Zoolander levels of really really really ridiculously good-looking
-
-- Like, it looks way too good to be real
-
-- Fortunately, it doesn't look nearly this good for the rest of the PL relations
-
-- Where did the sqrt(12) in the intrinsic width come from again?
-
-- The contribution from photometric error is lowest for [4.5] RRc's and highest for RRab's, which is definitely backwards
-
-- Is there any reason to believe RRab's and RRc's have different metallicity distributions?
-
-- What if we just went back to Gaussians
-
-- Especially since we talk about individual metallicities in the next bit
-
-}
-%%%
 
 $\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R}. As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for $\omega$~Cen, where 
 \begin{equation} \label{eqn:gamma}
@@ -383,13 +386,11 @@ $\omega$~Cen is unique in that we can also take a second approach to establishin
 \end{equation}
 similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K}. 
 
-We know from mid-IR spectra that a significant CO feature sits within the IRAC [4.5] filter. In the case of Cepheids, \citet{2011ApJ...743...76S} and \citet{2015arXiv150206995S} have shown that this has a significant effect on the [4.5] magnitudes, and is metallicity dependent. However, this effect increases with decreasing temperatures, turning off completely above 6000~K where all the CO has been destroyed \citep{2012ApJ...759..146M}. As even the coolest RRL have temperatures over 6000~K \citep{1971PASP...83..697I}, we expect to see no such CO absorption in the [4.5] PL relation. If there are any other unanticipated metallicity effects for RRL, they must be smaller than the dispersion of the PL relations themselves, but we must still perform empirical tests to search for such effects.
-
 If there is any correlation between [Fe/H] and the PL residuals, we expect it to be a linear one, consistent with the theoretical metallicity terms in the PL relation, $c\times[\text{Fe/H}]$; we fit a relation of the form
 \begin{equation}
 \Delta\text{mag} = \gamma \times[\text{Fe/H}] + d
 \end{equation}
-to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figure~\ref{fig:metallicity_residuals}. We find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N, 2015ApJ...799..165B}, there is no evidence that it is due to metallicity. When we examine [Fe/H] vs. $\Delta$[3.6] and $\Delta$[4.5], $\gamma$ is within $1\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals.
+to the 3.6~$\mu$m and 4.5~$\mu$m PL residuals and metallicity values for stars with known individual metallicity values, as shown in Figure~\ref{fig:metallicity_residuals}. By this metric we find that although the scatter in the 3.6~$\mu$m and 4.5~$\mu$m PL relations is higher for $\omega$~Cen than it is for M4 \citep{2015arXiv150507858N, 2015ApJ...799..165B}, there is little evidence that it is due to metallicity. When we examine [Fe/H] vs. the residuals of each PL relation, $\gamma$ is within $1\sigma$ of zero for all fits, indicating that there is no significant metallicity dependence in the PL residuals.
 
 
 \begin{table}
@@ -411,7 +412,7 @@ $[4.5]$ & Spectroscopic & $-0.593$ & $-2.355$ & $0.260$ & $0.036$ \\
 
 \begin{figure*}
 \begin{center}
-\includegraphics[width=160mm]{reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_clipped.pdf}
+\includegraphics[width=160mm]{reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf}
 \caption{Photometric and spectroscopic [Fe/H] values vs. period-luminosity residuals in 3.6~$\mu$m and 4.5~$\mu$m, with the $\gamma$ parameter from equation 4 in the top right corner of each subplot.}
 \label{fig:metallicity_residuals}
 \end{center}
@@ -468,6 +469,8 @@ We thank Eric Persson for his many contributions to this project.
 
 This work is based on observations made with the Spitzer Space Telescope, which is operated by the Jet Propulsion Laboratory, California Institute of Technology under a contract with NASA. Support for this work was provided by NASA through an award issued by JPL/Caltech.
 
+This work was also supported in part by the Claremont-Carnegie Astrophysics Research Program.
+
 This publication makes use of data products from the Two Micron All Sky Survey, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
 
 This research has made use of the NASA/IPAC Extragalactic Database (NED), which is operated by the Jet Propulsion Laboratory, California Institute of Technology, under contract with the National Aeronautics and Space Administration.
@@ -504,14 +507,14 @@ This research has made use of the NASA/IPAC Extragalactic Database (NED), which 
 
 % Add comments to table
 
-\section{Appendix: Photometry of RRLs}
+\section{RRL Photometry}
 \label{sec:phot_table_appendix}
 \onecolumn
 \begin{landscape}
 \begin{center}
 \scriptsize{
 \begin{longtable}{lcccccccccccccccccccr}
-\caption{$J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry of the RRLs in $\omega$~Cen\label{tab:phot}} 
+\caption{NEEDS MORE DESCRIPTION $J\!H\!K_s$, 3.6~$\mu$m, and 4.5~$\mu$m photometry of the RRLs in $\omega$~Cen\label{tab:phot}} 
 \tabularnewline 
 ID & RA (J2000) & Dec (J2000) & Mode & $P$ (days) & $J$  & $\sigma_{J}$ & $H$  & $\sigma_{H}$ & $K_s$  & $\sigma_{K_s}$ & [3.6] & $\sigma_{{[3.6]}}$ & $\Delta [3.6]$ & [4.5] & $\sigma_{{[4.5]}}$ & $\Delta [4.5]$ & [Fe/H], p   & $\sigma_{[\text{Fe/H}]}$, p & [Fe/H], s & $\sigma_{[\text{Fe/H}]}$, s \\
 \hline
