@@ -70,7 +70,7 @@ def fit_reddening(b,v,r,i,j,h,k,i1,i2,berr,verr,rerr,ierr,jerr,herr,kerr,i1err,i
 		Averr = np.sqrt(pcov[1][1])
 		#print muo_err
 		#print Averr
-		return(muo, Av, muo_err, Averr)
+		return(muo, Av, muo_err, Averr, alam[alam>0])
 	else:
 		return(i1, 0.00, 0.00, 0.00)
 		
