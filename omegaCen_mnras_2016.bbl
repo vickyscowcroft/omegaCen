@@ -98,6 +98,11 @@
 {Garofalo} A.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/767/1/62},
   \href {http://adsabs.harvard.edu/abs/2013ApJ...767...62G} {767, 62}
 
+\bibitem[\protect\citeauthoryear{{Gratton}, {Tornambe}  \&
+  {Ortolani}}{{Gratton} et~al.}{1986}]{1986A&A...169..111G}
+{Gratton} R.~G.,  {Tornambe} A.,   {Ortolani} S.,  1986, \aap, \href
+  {http://adsabs.harvard.edu/abs/1986A%26A...169..111G} {169, 111}
+
 \bibitem[\protect\citeauthoryear{{Iben}}{{Iben}}{1971}]{1971PASP...83..697I}
 {Iben} Jr. I.,  1971, \mn@doi [\pasp] {10.1086/129210}, \href
   {http://adsabs.harvard.edu/abs/1971PASP...83..697I} {83, 697}
@@ -125,6 +130,10 @@
 {Kennicutt} Jr. R.~C.,  et~al., 1998, \mn@doi [\apj] {10.1086/305538}, \href
   {http://adsabs.harvard.edu/abs/1998ApJ...498..181K} {498, 181}
 
+\bibitem[\protect\citeauthoryear{{Lee}}{{Lee}}{1991}]{1991ApJ...373L..43L}
+{Lee} Y.-W.,  1991, \mn@doi [\apjl] {10.1086/186047}, \href
+  {http://adsabs.harvard.edu/abs/1991ApJ...373L..43L} {373, L43}
+
 \bibitem[\protect\citeauthoryear{{Lindegren} \& {Perryman}}{{Lindegren} \&
   {Perryman}}{1996}]{1996A&AS..116..579L}
 {Lindegren} L.,  {Perryman} M.~A.~C.,  1996, \aaps, \href
@@ -140,7 +149,8 @@
 
 \bibitem[\protect\citeauthoryear{{Longmore}, {Fernley}  \&
   {Jameson}}{{Longmore} et~al.}{1986}]{1986MNRAS.220..279L}
-{Longmore} A.~J.,  {Fernley} J.~A.,   {Jameson} R.~F.,  1986, \mnras, \href
+{Longmore} A.~J.,  {Fernley} J.~A.,   {Jameson} R.~F.,  1986, \mn@doi [\mnras]
+  {10.1093/mnras/220.2.279}, \href
   {http://adsabs.harvard.edu/abs/1986MNRAS.220..279L} {220, 279}
 
 \bibitem[\protect\citeauthoryear{{Madore} \& {Freedman}}{{Madore} \&
@@ -156,7 +166,7 @@
 \bibitem[\protect\citeauthoryear{{Makovoz}, {Roby}, {Khan}  \&
   {Booth}}{{Makovoz} et~al.}{2006}]{2006SPIE.6274E..0CM}
 {Makovoz} D.,  {Roby} T.,  {Khan} I.,   {Booth} H.,  2006, in Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series. p.~0,
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series. p. 62740C,
   \mn@doi{10.1117/12.672536}
 
 \bibitem[\protect\citeauthoryear{{Marconi} et~al.,}{{Marconi}
@@ -172,17 +182,28 @@
   {10.1088/0004-637X/759/2/146}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...759..146M} {759, 146}
 
+\bibitem[\protect\citeauthoryear{{Navarrete} et~al.,}{{Navarrete}
+  et~al.}{2015}]{2015A&A...577A..99N}
+{Navarrete} C.,  et~al., 2015, \mn@doi [\aap] {10.1051/0004-6361/201424838},
+  \href {http://adsabs.harvard.edu/abs/2015A%26A...577A..99N} {577, A99}
+
 \bibitem[\protect\citeauthoryear{{Neeley} et~al.,}{{Neeley}
-  et~al.}{2015}]{2015arXiv150507858N}
-{Neeley} J.~R.,  et~al., 2015, preprint, \href
-  {http://adsabs.harvard.edu/abs/2015arXiv150507858N} {} (\mn@eprint {arXiv}
-  {1505.07858})
+  et~al.}{2015}]{2015ApJ...808...11N}
+{Neeley} J.~R.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/11},
+  \href {http://adsabs.harvard.edu/abs/2015ApJ...808...11N} {808, 11}
 
 \bibitem[\protect\citeauthoryear{{Ordo{\~n}ez}, {Yang}  \&
   {Sarajedini}}{{Ordo{\~n}ez} et~al.}{2014}]{2014ApJ...786..147O}
 {Ordo{\~n}ez} A.~J.,  {Yang} S.-C.,   {Sarajedini} A.,  2014, \mn@doi [\apj]
   {10.1088/0004-637X/786/2/147}, \href
   {http://adsabs.harvard.edu/abs/2014ApJ...786..147O} {786, 147}
+
+\bibitem[\protect\citeauthoryear{{Persson}, {Madore}, {Krzemi{\'n}ski},
+  {Freedman}, {Roth}  \& {Murphy}}{{Persson}
+  et~al.}{2004}]{2004AJ....128.2239P}
+{Persson} S.~E.,  {Madore} B.~F.,  {Krzemi{\'n}ski} W.,  {Freedman} W.~L.,
+  {Roth} M.,   {Murphy} D.~C.,  2004, \mn@doi [\aj] {10.1086/424934}, \href
+  {http://adsabs.harvard.edu/abs/2004AJ....128.2239P} {128, 2239}
 
 \bibitem[\protect\citeauthoryear{{Persson} et~al.,}{{Persson}
   et~al.}{2013}]{2013PASP..125..654P}
@@ -232,11 +253,11 @@
 
 \bibitem[\protect\citeauthoryear{{Scowcroft}, {Freedman}, {Madore}, {Monson},
   {Persson}, {Rich}, {Seibert}  \& {Rigby}}{{Scowcroft}
-  et~al.}{2015}]{2015arXiv150206995S}
+  et~al.}{2016}]{2016ApJ...816...49S}
 {Scowcroft} V.,  {Freedman} W.~L.,  {Madore} B.~F.,  {Monson} A.,  {Persson}
-  S.~E.,  {Rich} J.,  {Seibert} M.,   {Rigby} J.~R.,  2015, preprint, \href
-  {http://adsabs.harvard.edu/abs/2015arXiv150206995S} {} (\mn@eprint {arXiv}
-  {1502.06995})
+  S.~E.,  {Rich} J.,  {Seibert} M.,   {Rigby} J.~R.,  2016, \mn@doi [\apj]
+  {10.3847/0004-637X/816/2/49}, \href
+  {http://adsabs.harvard.edu/abs/2016ApJ...816...49S} {816, 49}
 
 \bibitem[\protect\citeauthoryear{{Skrutskie} et~al.,}{{Skrutskie}
   et~al.}{2006}]{2006AJ....131.1163S}
