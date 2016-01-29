@@ -287,10 +287,7 @@ $K_s$ & RRab & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 \end{tabular}
 \end{table}
 
-The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.567$. %The effect of our choice of mean abundance is discussed further in Section~\ref{sec:metallicity}.
-
-% throw out [4.5] and see what happens
-% answer: everything stays within errors!!! SURPRISE
+The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.67$.
 
 \section{Distance Moduli}
 \label{sec:distance_moduli}
@@ -300,7 +297,7 @@ The distance moduli derived from the PL fitting have not been corrected for redd
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm, trim=0.75cm 0 0.5cm 0]{reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf}
-\caption{Top: Uncorrected distance moduli for the final sample of $J\!H\!K_s$, [3.6], and [4.5] photometry. Filled circles are the mean distance moduli using both RRab and RRc stars, open circles are the distance moduli using only RRab stars, and open triangles are distance moduli using only RRc stars. Here the NIR and MIR reddening laws are fit to the mean distance moduli. The solid and dashed horizontal lines are the mean corrected distance modulus and its $1\sigma$ errors respectively. Bottom: reddening-corrected distance moduli and mean corrected distance modulus.}
+\caption{Top: Uncorrected distance moduli for the final sample of $J\!H\!K_s$, [3.6], and [4.5] photometry. Filled circles are the mean distance moduli using both RRab and RRc stars, open circles are the distance moduli using only RRab stars, and open triangles are distance moduli using only RRc stars. Here the NIR and MIR reddening laws are fit to the mean distance moduli. The solid and dashed horizontal lines are the mean corrected distance modulus and its $1\sigma$ errors respectively. Bottom: reddening-corrected distance moduli and mean corrected distance modulus. Errors on the corrected distance moduli are the quadrature sum of the uncorrected distance moduli errors and the reddening error at the requisite wavelength.}
 \label{fig:omegaCen_dist_m4_mean}
 \end{center}
 \end{figure}
@@ -312,6 +309,9 @@ The distance moduli derived from the PL fitting have not been corrected for redd
 \label{fig:omegaCen_dist_m4_ab}
 \end{center}
 \end{figure}
+
+\begingroup
+\setlength{\tabcolsep}{.5em}
 
 \begin{table*}
 \centering
@@ -329,6 +329,8 @@ $[4.5]$ & $13.768 \pm 0.048$ & $13.890 \pm 0.061$ & $13.826 \pm 0.038$ & $13.756
 \hline
 \end{tabular}
 \end{table*}
+
+\endgroup
 
 \begin{table}
 \centering
@@ -350,6 +352,8 @@ $[4.5]$ & $13.749 \pm 0.049$ & $13.871 \pm 0.061$ & $13.807 \pm 0.039$ \\
 
 It is apparent from Figure~\ref{fig:omegaCen_dist_m4_mean} that there are large discrepancies in the distance moduli in [3.6] and[4.5] for the two pulsation modes; these contribute to the relatively low $E(B-V)$ value and high dereddened distance modulus.
 If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a true dereddened distance modulus of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with $E(B-V) = 0.110 \pm 0.042$, both of which are closer to accepted values \citep{2002ASPC..265...95L}[OTHER REFS] than the values derived from the weighted mean distance moduli. All individual corrected distance moduli from this fit are shown in Table~\ref{tab:dist_mod_ab}.
+
+Given the large errors in the [4.5] distances, we also fit the extinction curve to the $JHK_s$ and [3.6] distances only, excluding [4.5] entirely; this was found to have a negligible effect on the final distance modulus and reddening for both the mean and RRab-only measurements.
 
 \section{Metallicity}
 \label{sec:metallicity}
@@ -435,11 +439,7 @@ $[4.5]$ & RRc & 0.132 & 0.243 & 1.420 & 0.771 \\ %& $1.660$ & $0.689$\\
 \subsection{PL Residuals and Individual Metallicities}
 \label{sec:residuals}
 
-$\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R}. %As another test of the effect of metallicity, we use these measurements to assess the $\gamma$ parameter for $\omega$~Cen, where 
-%\begin{equation} \label{eqn:gamma}
-%\gamma = \dfrac {\Delta \text{mag}} {[\text{Fe/H}]}\text{,}
-%\end{equation}
-%similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K, 2009MNRAS.396.1287S}. 
+$\omega$~Cen is unique in that we can also take a second approach to establishing the metallicity effect on the RRL PL relation. As it is such an interesting system, $\omega$~Cen is extremely well studied and many of its RRL have spectroscopic or photometric metallicities in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R}. 
 
 If there is any correlation between [Fe/H] and the PL residuals, we expect it to be a linear one, consistent with the theoretical metallicity terms in the $JHK_s$ PL relations, $c\times[\text{Fe/H}]$. We fit a relation of the form
 \begin{equation}
@@ -499,6 +499,11 @@ to the [3.6] and [4.5] PL residuals and metallicity values for stars with known 
 \end{figure}
 \end{comment}
 
+% 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small Ñ age/mass spread rather than metalliicity effect. Can refer to new plot here too.
+
+% 2. Why the discrepancy between RRab and RRc - data effect rather than intrinsic??
+
+
 While we find high upper bounds on the contribution of metallicity to the PL scatter in the IRAC passbands, particularly [4.5], it is unlikely that this scatter is due to metallicity alone. \citet{1986A&A...169..111G} and \citet{1991ApJ...373L..43L} demonstrate that RRL luminosity is dependent on the horizontal branch morphology as well as metallicity, and that $\omega$~Cen contains RRL in multiple evolutionary states. %\citet{2015A&A...577A..99N} confirm the presence of OoI stars in $\omega$~Cen.
 
 Results from the {\em GAIA} mission \citep{1996A&AS..116..579L} are expected to improve the overall characterization of the RRL PL relation dramatically. Trigonometric parallaxes and spectrophotometric metallicities of Galactic RRLs from {\em GAIA} will increase the number of calibrators for the absolute RRL PL relations by an order of magnitude \citep[{\bf overview paper}]{2012MNRAS.426.2463L}. {\bf something about omega cen parallaxes and metallicities too}
@@ -540,7 +545,7 @@ VS will send references for GAIA, JWST separately
 
 We derive a true mean dereddened distance modulus for $\omega$~Cen of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with reddening $E(B-V) = 0.110 \pm 0.042$ using distance moduli derived from RRab PL relations in $JHK_s$, [3.6], and [4.5]. Using the mean of RRab and RRc distance moduli in the same passbands, we derive a true mean dereddened distance modulus of $\langle \mu_0 \rangle = 13.781 \pm 0.018$ with reddening $E(B-V) = 0.066 \pm 0.030$. The RRab results are closer to literature values.
 
-We also constrain the contribution of metallicity to the scatter of the $\omega$~Cen PL relations, and find no correlation of metallicity with PL residuals in IRAC passbands for either pulsation mode. {\bf I still have no idea what to conclude from the gaussians}
+We also constrain the contribution of metallicity, quantified as $\gamma = \Delta \text{mag} / \Delta [\text{Fe/H}]$, to the scatter of the $\omega$~Cen PL relations by subtracting the variances of the intrinsic scatter and photometric error from the observed PL variance and taking the square root of the result, and dividing that by the standard deviation of the distribution of metallicity values. We also measure $\gamma$ directly using the slope of the linear fit to the PL residuals vs. [Fe/H].
 
 % the name of the trashcan is astronomy
 % zizek.gif
