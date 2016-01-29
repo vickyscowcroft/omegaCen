@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JAN 2016 17:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  28 JAN 2016 17:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -772,11 +772,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 754.
 Here is how much of TeX's memory you used:
  7914 strings out of 493089
  115127 string characters out of 6134842
- 288208 words of memory out of 5000000
+ 287871 words of memory out of 5000000
  11106 multiletter control sequences out of 15000+600000
  64164 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,15n,38p,1765b,547s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,15n,38p,1765b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -807,7 +807,7 @@ ts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmtt8.pfb>
-Output written on omegaCen_mnras_2016.pdf (16 pages, 2748952 bytes).
+Output written on omegaCen_mnras_2016.pdf (16 pages, 2749079 bytes).
 PDF statistics:
  1547 PDF objects out of 1728 (max. 8388607)
  760 compressed objects within 8 object streams
