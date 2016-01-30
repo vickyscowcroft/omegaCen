@@ -17,11 +17,6 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
-\bibitem[\protect\citeauthoryear{{Benedict} et~al.,}{{Benedict}
-  et~al.}{2011}]{2011AJ....142..187B}
-{Benedict} G.~F.,  et~al., 2011, \mn@doi [\aj] {10.1088/0004-6256/142/6/187},
-  \href {http://adsabs.harvard.edu/abs/2011AJ....142..187B} {142, 187}
-
 \bibitem[\protect\citeauthoryear{{Bono}, {Caputo}, {Castellani}, {Marconi}  \&
   {Storm}}{{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
 {Bono} G.,  {Caputo} F.,  {Castellani} V.,  {Marconi} M.,   {Storm} J.,  2001,
@@ -55,6 +50,11 @@
   et~al.}{2015}]{2015ApJ...806..200C}
 {Cusano} F.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/806/2/200}, \href
   {http://adsabs.harvard.edu/abs/2015ApJ...806..200C} {806, 200}
+
+\bibitem[\protect\citeauthoryear{{Del Principe} et~al.,}{{Del Principe}
+  et~al.}{2006}]{2006ApJ...652..362D}
+{Del Principe} M.,  et~al., 2006, \mn@doi [\apj] {10.1086/508136}, \href
+  {http://adsabs.harvard.edu/abs/2006ApJ...652..362D} {652, 362}
 
 \bibitem[\protect\citeauthoryear{{Efstathiou}}{{Efstathiou}}{2014}]{2014MNRAS.440.1138E}
 {Efstathiou} G.,  2014, \mn@doi [\mnras] {10.1093/mnras/stu278}, \href
@@ -153,6 +153,11 @@
   {10.1093/mnras/220.2.279}, \href
   {http://adsabs.harvard.edu/abs/1986MNRAS.220..279L} {220, 279}
 
+\bibitem[\protect\citeauthoryear{{Lub}}{{Lub}}{2002}]{2002ASPC..265...95L}
+{Lub} J.,  2002, in {van Leeuwen} F.,  {Hughes} J.~D.,   {Piotto} G.,  eds,
+  Astronomical Society of the Pacific Conference Series Vol. 265, Omega
+  Centauri, A Unique Window into Astrophysics. p.~95
+
 \bibitem[\protect\citeauthoryear{{Madore} \& {Freedman}}{{Madore} \&
   {Freedman}}{1991}]{1991PASP..103..933M}
 {Madore} B.~F.,  {Freedman} W.~L.,  1991, \mn@doi [\pasp] {10.1086/132911},
@@ -174,6 +179,12 @@
 {Marconi} M.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/50}, \href
   {http://adsabs.harvard.edu/abs/2015ApJ...808...50M} {808, 50}
 
+\bibitem[\protect\citeauthoryear{{Marengo}, {Evans}, {Barmby}, {Bono}, {Welch}
+  \& {Romaniello}}{{Marengo} et~al.}{2010}]{2010ApJ...709..120M}
+{Marengo} M.,  {Evans} N.~R.,  {Barmby} P.,  {Bono} G.,  {Welch} D.~L.,
+  {Romaniello} M.,  2010, \mn@doi [\apj] {10.1088/0004-637X/709/1/120}, \href
+  {http://adsabs.harvard.edu/abs/2010ApJ...709..120M} {709, 120}
+
 \bibitem[\protect\citeauthoryear{{Monson}, {Freedman}, {Madore}, {Persson},
   {Scowcroft}, {Seibert}  \& {Rigby}}{{Monson}
   et~al.}{2012}]{2012ApJ...759..146M}
@@ -181,11 +192,6 @@
   {Scowcroft} V.,  {Seibert} M.,   {Rigby} J.~R.,  2012, \mn@doi [\apj]
   {10.1088/0004-637X/759/2/146}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...759..146M} {759, 146}
-
-\bibitem[\protect\citeauthoryear{{Navarrete} et~al.,}{{Navarrete}
-  et~al.}{2015}]{2015A&A...577A..99N}
-{Navarrete} C.,  et~al., 2015, \mn@doi [\aap] {10.1051/0004-6361/201424838},
-  \href {http://adsabs.harvard.edu/abs/2015A%26A...577A..99N} {577, A99}
 
 \bibitem[\protect\citeauthoryear{{Neeley} et~al.,}{{Neeley}
   et~al.}{2015}]{2015ApJ...808...11N}
@@ -226,6 +232,14 @@
 {Rey} S.-C.,  {Lee} Y.-W.,  {Joo} J.-M.,  {Walker} A.,   {Baird} S.,  2000,
   \mn@doi [\aj] {10.1086/301304}, \href
   {http://adsabs.harvard.edu/abs/2000AJ....119.1824R} {119, 1824}
+
+\bibitem[\protect\citeauthoryear{{Rich}, {Persson}, {Freedman}, {Madore},
+  {Monson}, {Scowcroft}  \& {Seibert}}{{Rich}
+  et~al.}{2014}]{2014ApJ...794..107R}
+{Rich} J.~A.,  {Persson} S.~E.,  {Freedman} W.~L.,  {Madore} B.~F.,  {Monson}
+  A.~J.,  {Scowcroft} V.,   {Seibert} M.,  2014, \mn@doi [\apj]
+  {10.1088/0004-637X/794/2/107}, \href
+  {http://adsabs.harvard.edu/abs/2014ApJ...794..107R} {794, 107}
 
 \bibitem[\protect\citeauthoryear{{Riess} et~al.,}{{Riess}
   et~al.}{2011}]{2011ApJ...730..119R}
