@@ -17,6 +17,11 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{{Benedict} et~al.,}{{Benedict}
+  et~al.}{2011}]{2011AJ....142..187B}
+{Benedict} G.~F.,  et~al., 2011, \mn@doi [\aj] {10.1088/0004-6256/142/6/187},
+  \href {http://adsabs.harvard.edu/abs/2011AJ....142..187B} {142, 187}
+
 \bibitem[\protect\citeauthoryear{{Bono}, {Caputo}, {Castellani}, {Marconi}  \&
   {Storm}}{{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
 {Bono} G.,  {Caputo} F.,  {Castellani} V.,  {Marconi} M.,   {Storm} J.,  2001,
@@ -193,6 +198,11 @@
   {10.1088/0004-637X/759/2/146}, \href
   {http://adsabs.harvard.edu/abs/2012ApJ...759..146M} {759, 146}
 
+\bibitem[\protect\citeauthoryear{{Navarrete} et~al.,}{{Navarrete}
+  et~al.}{2015}]{2015A&A...577A..99N}
+{Navarrete} C.,  et~al., 2015, \mn@doi [\aap] {10.1051/0004-6361/201424838},
+  \href {http://adsabs.harvard.edu/abs/2015A%26A...577A..99N} {577, A99}
+
 \bibitem[\protect\citeauthoryear{{Neeley} et~al.,}{{Neeley}
   et~al.}{2015}]{2015ApJ...808...11N}
 {Neeley} J.~R.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/11},
@@ -284,6 +294,11 @@
 {Sollima} A.,  {Borissova} J.,  {Catelan} M.,  {Smith} H.~A.,  {Minniti} D.,
   {Cacciari} C.,   {Ferraro} F.~R.,  2006, \mn@doi [\apjl] {10.1086/503099},
   \href {http://adsabs.harvard.edu/abs/2006ApJ...640L..43S} {640, L43}
+
+\bibitem[\protect\citeauthoryear{{Sollima}, {Ferraro}, {Pancino}  \&
+  {Bellazzini}}{{Sollima} et~al.}{2008}]{2008MmSAI..79..342S}
+{Sollima} A.,  {Ferraro} F.~R.,  {Pancino} E.,   {Bellazzini} M.,  2008,
+  \memsai, \href {http://adsabs.harvard.edu/abs/2008MmSAI..79..342S} {79, 342}
 
 \bibitem[\protect\citeauthoryear{{Stetson}}{{Stetson}}{1987}]{1987PASP...99..191S}
 {Stetson} P.~B.,  1987, \mn@doi [\pasp] {10.1086/131977}, \href
