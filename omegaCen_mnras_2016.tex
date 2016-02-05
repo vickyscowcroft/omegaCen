@@ -220,7 +220,7 @@ PSF photometry of the tiles was performed using \textsc{daophot} and \textsc{all
 
 %crowding: if there was a star within the IRAC psf in the highres version, it was thrown out
 
-The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the FourStar $K_s$-band image. The 0.159 arcsec/pixel resolution of the $K_s$ band image compared to the 0.6 arcsec/pixel resolution of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. 77 RRLs out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding, another 13 were outside the mosaic field of view, and four more were found to be unusable other reasons. %Our full, uncrowded RRL sample consists of 97 stars in $J$ and $H$, 99 in $K_s$, 37 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. {\bf [CHECK THIS]}
+The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the FourStar $K_s$-band image. The 0.159 arcsec/pixel resolution of the $K_s$ band image compared to the 0.6 arcsec/pixel resolution of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. RRL were determined to be contaminated if there were one or more resolved stars in the $K$-band image within a {\bf [SOMETHING] }arcsecond radius of the RRL. 77 RRLs out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding, another 13 were outside the FourStar mosaic field of view, and four more were found to be unusable other reasons. %Our full, uncrowded RRL sample consists of 97 stars in $J$ and $H$, 99 in $K_s$, 37 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. {\bf [CHECK THIS]}
 
 \section{Results}
 \label{sec:results}
@@ -228,17 +228,17 @@ The primary limiting factor in the photometric precision is crowding. To assess 
 Our final photometry catalog, including magnitudes and uncertainties for $J\!H\!K_s$, [3.6], and [4.5], is presented in Table~\ref{tab:everything}. {\bf Note: this will not be an appendix in the final draft, we're just putting it there for now because it's huge.}
 The average magnitudes presented in Table~\ref{tab:everything} are flux averages, and the photometric uncertainties of the time series data are the error on the mean. \textsc{gloess} fitting \citet{2004AJ....128.2239P} was also attempted on the light curves as done in previous CHP works \citep[e.g.][]{2011ApJ...743...76S, 2012ApJ...759..146M, 2014ApJ...794..107R, 2016ApJ...816...49S}, but the phase coverage is sufficiently extensive that it did not significantly improve results.
 
-Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 38 in [3.6], and 42 in [4.5]. For the PL fitting, detailed in the next section, we use only the stars for which we have photometry in all five bandpasses, ensuring that the same range of periods and metallicities are sampled for each wavelength. This reduces the possibility of biases being introduced by inconsistent RRL samples to the distance moduli we fit in Section~\ref{sec:distance_moduli}. in Our final RRL sample consists of 24 stars, or 12 in each pulsation mode.
+Our full, uncrowded RRL sample consists of 96 stars in $J$ and $H$, 98 in $K_s$, 38 in [3.6], and 42 in [4.5]; the small number of stars in the IRAC bands compared to the FourStar bands is due to the smaller coverage of the IRAC pointings (see Figure~\ref{fig:omegaCen_fields}. For the PL fitting, detailed in the next section, we use only the stars for which we have photometry in all five bandpasses, ensuring that the same range of periods and metallicities are sampled for each wavelength. This reduces the possibility of biases being introduced by inconsistent RRL samples to the distance moduli we fit in Section~\ref{sec:distance_moduli}. in Our final RRL sample consists of 24 stars, or 12 in each pulsation mode.
 
 \section{Period-Luminosity Relations}
 \label{sec:pl_relation}
 
-We fit PL relations using the theoretical near-infrared PL relation parameters presented in \citet{2015ApJ...808...50M} for the $JHK_s$ bands, and the empirical PL relation parameters derived from photometry of RRLs in the globular cluster M4 (NGC 6121) from \citet{2015ApJ...808...11N} for the IRAC bands. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least-squares method, and fit the distance modulus to each pulsation mode in each wavelength separately.
+We fit PL relations using the theoretical near-infrared PL relation parameters presented in \citet{2015ApJ...808...50M} for the $JHK_s$ bands, and the empirical PL relation parameters derived from photometry of RRLs in the globular cluster M4 (NGC 6121) from \citet{2015ApJ...808...11N} for the IRAC bands. With the use of preexisting PL relation coefficients, the distance modulus becomes the only free parameter in our fit. We fit all distance moduli using an unweighted least-squares method, and fit the distance modulus to each pulsation mode in each wavelength separately. We also refine the fit by sigma-clipping the residuals of the [3.6] fit at a $2\sigma$ level, resulting in the rejection of two more stars.
 
 \begin{figure*}
 \begin{center}
 \includegraphics[width=160mm]{reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf}
-\caption{PL relations for $J\!H\!K_s$, [3.6], and [4.5] photometry assuming [Fe/H]$=-1.567$. Here circles represent RRab stars, triangles represent RRcs, colored points are the final consistent sample with photometry in all 5 wavebands, grey points are stars that did not appear in all bands, and the unfilled points are stars rejected from the final sample based on $2\sigma$ clipping of the residuals of [3.6] vs. the residuals of $H$ and $K$.}
+\caption{PL relations for $J\!H\!K_s$, [3.6], and [4.5] photometry assuming [Fe/H]$=-1.677$. Here circles represent RRab stars and triangles represent RRc's. Colored points are the final consistent sample with photometry in all 5 wavebands and grey points are stars that did not appear in all bands. The unfilled points are stars rejected from the final sample based on $2\sigma$ clipping of the PL residuals in [3.6].}
 \label{fig:omegaCen_pl_m4}
 \end{center}
 \end{figure*}
@@ -287,12 +287,12 @@ $K_s$ & RRab & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 \end{tabular}
 \end{table}
 
-The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.67$.
+The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.677$.
 
 \section{Distance Moduli}
 \label{sec:distance_moduli}
 
-We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening value and reddening-corrected distance modulus. We fit the near-infrared reddening law from \citet{1989ApJ...345..245C} to the $JHK_s$ data and the mid-infrared law from \citet{2005ApJ...619..931I} to [3.6] and [4.5] simultaneously, assuming a ratio of total to selective absorption $R_V = 3.1$. The resulting fit is shown in Figure~\ref{fig:omegaCen_dist_m4_mean}. We derive a true mean dereddened distance modulus of $\langle \mu_0 \rangle = 13.781 \pm 0.018$ with $E(B-V) = 0.066 \pm 0.030$ using the weighted mean RRab + RRc distances. The individual uncorrected distance moduli $\mu$, corrected distance moduli $\mu_0$, and PL residuals are shown in Table~\ref{tab:dist_mod}.
+We combine the uncorrected distance moduli from each bandpass to obtain a mean reddening value and reddening-corrected distance modulus. We fit the near-infrared reddening law from \citet{1989ApJ...345..245C} to the $JHK_s$ data and the mid-infrared law from \citet{2005ApJ...619..931I} to [3.6] and [4.5] simultaneously, assuming a ratio of total to selective absorption $R_V = 3.1$. The resulting fit is shown in Figure~\ref{fig:omegaCen_dist_m4_mean}. We derive a true mean dereddened distance modulus of $\langle \mu_0 \rangle = 13.789 \pm 0.018$ with $E(B-V) = 0.084 \pm 0.030$ using the weighted mean RRab + RRc distances. The individual uncorrected distance moduli $\mu$, corrected distance moduli $\mu_0$, and PL residuals are shown in Table~\ref{tab:dist_mod}.
 
 \begin{figure}
 \begin{center}
@@ -321,14 +321,27 @@ We combine the uncorrected distance moduli from each bandpass to obtain a mean r
 \hline \hline
 Band & $\mu$, RRab & $\mu$, RRc & $\mu$, mean & $\mu_0$, RRab & $\mu_0$, RRc & $\mu_0$, mean & $\sigma_{\text{PL}}$, RRab & $\sigma_{\text{PL}}$, RRc \\
 \hline
-$J$ & $13.839 \pm 0.022$ & $13.850 \pm 0.019$ & $13.844 \pm 0.015$ & $13.779 \pm 0.035$ & $13.790 \pm 0.033$ & $13.784 \pm 0.031$ & 0.077 & 0.063 \\
-$H$ & $13.796 \pm 0.030$ & $13.827 \pm 0.026$ & $13.811 \pm 0.020$ & $13.758 \pm 0.035$ & $13.790 \pm 0.031$ & $13.773 \pm 0.026$ & 0.108 & 0.085 \\
-$K_s$ & $13.790 \pm 0.024$ & $13.814 \pm 0.021$ & $13.802 \pm 0.016$ & $13.767 \pm 0.026$ & $13.791 \pm 0.023$ & $13.778 \pm 0.019$ & 0.084 & 0.070 \\
-$[3.6]$ & $13.751 \pm 0.024$ & $13.838 \pm 0.031$ & $13.793 \pm 0.019$ & $13.738 \pm 0.025$ & $13.825 \pm 0.031$ & $13.779 \pm 0.020$ & 0.088 & 0.102 \\
-$[4.5]$ & $13.768 \pm 0.048$ & $13.890 \pm 0.061$ & $13.826 \pm 0.038$ & $13.756 \pm 0.048$ & $13.878 \pm 0.061$ & $13.815 \pm 0.039$ & 0.173 & 0.202 \\
+$J$ & $13.865 \pm 0.023$ & $13.866 \pm 0.019$ & $13.865 \pm 0.015$ & $13.788 \pm 0.036$ & $13.790 \pm 0.033$ & $13.789 \pm 0.031$ & 0.127 & 0.082 \\
+$H$ & $13.821 \pm 0.032$ & $13.844 \pm 0.026$ & $13.832 \pm 0.021$ & $13.773 \pm 0.037$ & $13.796 \pm 0.031$ & $13.784 \pm 0.027$ & 0.170 & 0.107 \\
+$K_s$ & $13.816 \pm 0.025$ & $13.831 \pm 0.021$ & $13.824 \pm 0.016$ & $13.786 \pm 0.027$ & $13.801 \pm 0.024$ & $13.794 \pm 0.020$ & 0.147 & 0.089 \\
+$[3.6]$ & $13.750 \pm 0.026$ & $13.838 \pm 0.031$ & $13.794 \pm 0.020$ & $13.733 \pm 0.027$ & $13.821 \pm 0.031$ & $13.777 \pm 0.021$ & 0.124 & 0.096 \\
+$[4.5]$ & $13.771 \pm 0.052$ & $13.890 \pm 0.061$ & $13.830 \pm 0.040$ & $13.756 \pm 0.052$ & $13.875 \pm 0.061$ & $13.816 \pm 0.040$ & 0.154 & 0.219 \\
 \hline
 \end{tabular}
 \end{table*}
+
+\begin{comment}
+$J$ & $13.865 \pm 0.023$ & $13.866 \pm 0.019$ & $13.865 \pm 0.015$ & $13.788 \pm 0.036$ & $13.790 \pm 0.033$ & $13.789 \pm 0.031$ & 0.127 & 0.082 \\
+$H$ & $13.821 \pm 0.032$ & $13.844 \pm 0.026$ & $13.832 \pm 0.021$ & $13.773 \pm 0.037$ & $13.796 \pm 0.031$ & $13.784 \pm 0.027$ & 0.170 & 0.107 \\
+$K_s$ & $13.816 \pm 0.025$ & $13.831 \pm 0.021$ & $13.824 \pm 0.016$ & $13.786 \pm 0.027$ & $13.801 \pm 0.024$ & $13.794 \pm 0.020$ & 0.147 & 0.089 \\
+$[3.6]$ & $13.750 \pm 0.026$ & $13.838 \pm 0.031$ & $13.794 \pm 0.020$ & $13.733 \pm 0.027$ & $13.821 \pm 0.031$ & $13.777 \pm 0.021$ & 0.124 & 0.096 \\
+$[4.5]$ & $13.771 \pm 0.052$ & $13.890 \pm 0.061$ & $13.830 \pm 0.040$ & $13.756 \pm 0.052$ & $13.875 \pm 0.061$ & $13.816 \pm 0.040$ & 0.154 & 0.219 \\
+
+$[3.6]$ & RRab & 0.124 & 0.040 & 0.052 & 0.106 \\
+$[3.6]$ & RRc & 0.096 & 0.079 & 0.044 & 0.034 \\
+$[4.5]$ & RRab & 0.154 & 0.045 & 0.046 & 0.140 \\
+$[4.5]$ & RRc & 0.219 & 0.057 & 0.054 & 0.205 \\
+\end{comment}
 
 \endgroup
 
@@ -340,17 +353,25 @@ $[4.5]$ & $13.768 \pm 0.048$ & $13.890 \pm 0.061$ & $13.826 \pm 0.038$ & $13.756
 \hline \hline
 Band & $\mu_0$, RRab & $\mu_0$, RRc & $\mu_0$, mean \\
 \hline
-$J$ & $13.739 \pm 0.044$ & $13.750 \pm 0.043$ & $13.744 \pm 0.041$ \\
-$H$ & $13.733 \pm 0.039$ & $13.764 \pm 0.035$ & $13.748 \pm 0.031$ \\
-$K_s$ & $13.751 \pm 0.028$ & $13.775 \pm 0.026$ & $13.763 \pm 0.022$ \\
-$[3.6]$ & $13.729 \pm 0.026$ & $13.815 \pm 0.032$ & $13.770 \pm 0.021$ \\
-$[4.5]$ & $13.749 \pm 0.049$ & $13.871 \pm 0.061$ & $13.807 \pm 0.039$ \\
+$J$ & $13.739 \pm 0.047$ & $13.741 \pm 0.045$ & $13.740 \pm 0.043$ \\
+$H$ & $13.742 \pm 0.041$ & $13.766 \pm 0.036$ & $13.754 \pm 0.033$ \\
+$K_s$ & $13.767 \pm 0.030$ & $13.782 \pm 0.026$ & $13.775 \pm 0.023$ \\
+$[3.6]$ & $13.722 \pm 0.028$ & $13.810 \pm 0.032$ & $13.766 \pm 0.022$ \\
+$[4.5]$ & $13.747 \pm 0.053$ & $13.866 \pm 0.061$ & $13.806 \pm 0.041$ \\
 \hline
 \end{tabular}
 \end{table}
 
+\begin{comment}
+& $13.739 \pm 0.047$ & $13.741 \pm 0.045$ & $13.740 \pm 0.043$ \\
+& $13.742 \pm 0.041$ & $13.766 \pm 0.036$ & $13.754 \pm 0.033$ \\
+& $13.767 \pm 0.030$ & $13.782 \pm 0.026$ & $13.775 \pm 0.023$ \\
+& $13.722 \pm 0.028$ & $13.810 \pm 0.032$ & $13.766 \pm 0.022$ \\
+& $13.747 \pm 0.053$ & $13.866 \pm 0.061$ & $13.806 \pm 0.041$ \\
+\end{comment}
+
 It is apparent from Figure~\ref{fig:omegaCen_dist_m4_mean} that there are large discrepancies in the distance moduli in [3.6] and [4.5] for the two pulsation modes; these contribute to the relatively low $E(B-V)$ value and high dereddened distance modulus \citep{2002ASPC..265...95L, 2006ApJ...652..362D}. 
-If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a true dereddened distance modulus of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with $E(B-V) = 0.110 \pm 0.042$, both of which are closer to accepted values than the values derived from the weighted mean distance moduli. All individual corrected distance moduli from this fit are shown in Table~\ref{tab:dist_mod_ab}.
+If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a true dereddened distance modulus of $\langle \mu_0 \rangle = 13.743 \pm 0.026$ with $E(B-V) = 0.138 \pm 0.044$, both of which are closer to accepted values than the values derived from the weighted mean distance moduli. All individual corrected distance moduli from this fit are shown in Table~\ref{tab:dist_mod_ab}.
 
 Given the large errors in the [4.5] distances, we also fit the extinction curve to the $JHK_s$ and [3.6] distances only, excluding [4.5] entirely; this was found to have a negligible effect on the final distance modulus and reddening for both the mean and RRab-only measurements.
 
@@ -383,13 +404,19 @@ The calculated $\sigma_\text{[Fe/H]}$ values for all IRAC PL relations are shown
 \hline \hline
 Band & Mode & $\sigma_{\text{observed}}$ & $\sigma_{\text{intrinsic}}$ & $\sigma_{\text{phot}}$ & $\sigma_{[\text{Fe/H}]}$ \\
 \hline
+$[3.6]$ & RRab & 0.124 & 0.040 & 0.052 & 0.106 \\
+$[3.6]$ & RRc & 0.096 & 0.079 & 0.044 & 0.034 \\
+$[4.5]$ & RRab & 0.154 & 0.045 & 0.046 & 0.140 \\
+$[4.5]$ & RRc & 0.219 & 0.057 & 0.054 & 0.205 \\
+\hline
+\end{tabular}
+\end{table}
+\begin{comment}
 $[3.6]$ & RRab & 0.088 & 0.040 & 0.048 & 0.062 \\ % & $0.282$ & $0.234$\\
 $[3.6]$ & RRc & 0.102 & 0.079 & 0.041 & 0.050 \\ %& $0.778$ & $0.323$\\
 $[4.5]$ & RRab & 0.173 & 0.045 & 0.046 & 0.160 \\ % & $0.712$ & $0.590$\\
 $[4.5]$ & RRc & 0.202 & 0.057 & 0.048 & 0.188 \\ %& $1.660$ & $0.689$\\
-\hline
-\end{tabular}
-\end{table}
+\end{comment}
 
 We use these measurements of $\sigma_\text{[Fe/H]}$ to assess the $\gamma$ parameter for $\omega$~Cen, where 
 \begin{equation} \label{eqn:gamma}
@@ -405,7 +432,7 @@ For [3.6] we find $\gamma \leq 0.247$ mag dex$^{-1}$ for RRab's, and $\gamma \le
 \label{tab:gamma}
 \begin{tabular}{lccccr} 
 \hline \hline
-Band & Mode & $\sigma_{\text{[Fe/H]spect}}$ & $\sigma_{\text{[Fe/H]phot}}$ & $\gamma_{\text{spect}}$ & $\gamma_{\text{phot}}$ \\
+Band & Mode & $\sigma_{\text{spect}}$ & $\sigma_{\text{phot}}$ & $\gamma_{\text{spect}}$ & $\gamma_{\text{phot}}$ \\
 \hline
 $[3.6]$ & RRab & 0.250 & 0.254 & 0.247 & 0.243 \\ % & $0.282$ & $0.234$\\
 $[3.6]$ & RRc & 0.132 & 0.243 & 0.383 & 0.208 \\ %& $0.778$ & $0.323$\\
