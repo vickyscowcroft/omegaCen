@@ -152,9 +152,9 @@ keyword1 - keyword2 - keyword3
 
 % ^^^ From the MNRAS style guide:
 
-% Hyphens (one dash in LaTeX) should be used for compound adjectives (e.g. low-density gas, least-squares fit, two-component model). This also applies to simple adjectival units (e.g. 1.5-m telescope, 284.5-nm line), but not to complex units or ranges, which could become cumbersome (e.g. 15 km s–1 feature, 100–200 µm observations). Some words (e.g. time-scale) are always hyphenated as part of journal style (see below). 
+% Hyphens (one dash in LaTeX) should be used for compound adjectives (e.g. low-density gas, least-squares fit, two-component model). This also applies to simple adjectival units (e.g. 1.5-m telescope, 284.5-nm line), but not to complex units or ranges, which could become cumbersome (e.g. 15 km s√ê1 feature, 100√ê200 ¬µm observations). Some words (e.g. time-scale) are always hyphenated as part of journal style (see below). 
 
-% N-rules (two dashes in LaTeX): these are longer than hyphens and are used (i) to separate key words, (ii) as parentheses (e.g. the results – assuming no temperature gradient – are indicative of …), (iii) to denote a range (e.g. 1.6–2.2 µm), and (iv) to denote the joining of two words (e.g. Kolmogorov–Smirnov test, Herbig–Haro object). 
+% N-rules (two dashes in LaTeX): these are longer than hyphens and are used (i) to separate key words, (ii) as parentheses (e.g. the results √ê assuming no temperature gradient √ê are indicative of √â), (iii) to denote a range (e.g. 1.6√ê2.2 ¬µm), and (iv) to denote the joining of two words (e.g. Kolmogorov√êSmirnov test, Herbig√êHaro object). 
 
 % M-rules (three dashes in TeX/LaTeX) are not used in MNRAS.
 
@@ -163,6 +163,23 @@ keyword1 - keyword2 - keyword3
 
 \section{Introduction}
 \label{sec:intro}
+
+Suggested intro structure from RLB:
+
+\begin{enumerate}
+	\item $H_{0}$ and the need for other distance ladders.
+	\item RR Lyrae as a good local standard candle, particularly in the mid-IR
+	\item MidIR RRL as a standard candle that needs auxilliray analysis in order to be applied
+	\item The need to constrain metallicity effects, using the well known horizontal branch dependencies on metallicity as a basis
+	\item One such analysis $\rightarrow$ empirical study of metallicity term in the NIR/MIR - literature not settled.
+	\item Murareva et al. (2015), table 3 for NIR
+	\item This work (Durbin et al. 2016) explores the MIR metallicity effect {\bf which has not previously been explored empirically}
+	\item Establish $\omega$ Cen as the best place to do this test
+	\item Be clear that prior analyses of $\omega$ Cen have been inconclusive in optical compared to theoretical expectations
+	\item Outline of paper.
+\end{enumerate}
+
+{\bf Remeber to go from BIG PICTURE to FINE DETAIL. Go from the WHY to the HOW.}
 
 The Carnegie RR Lyrae Program (CRRP) is a Warm {\it Spitzer} program \citep[][PID 90002]{2012sptz.prop90002F} with the aim of calibrating the mid-infrared (mid-IR) RR Lyrae period-luminosity (PL) relation. Similar to the Carnegie Hubble Program (CHP) \citep{2011AJ....142..192F}, which used mid-IR observations of Cepheids to measure the Hubble constant \citep[$H_{0}$][]{2012ApJ...758...24F}, the results of the CRRP will be used to provide an independent, population II calibration of the zero-point of the extragalactic distance scale, and hence an independent measurement of $H_{0}$. 
 
@@ -519,7 +536,7 @@ More accurate metallicities will be required to constrain any potential effect f
 \end{figure}
 \end{comment}
 
-% 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small — age/mass spread rather than metalliicity effect. Can refer to new plot here too.
+% 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small √ë age/mass spread rather than metalliicity effect. Can refer to new plot here too.
 
 % 2. Why the discrepancy between RRab and RRc - data effect rather than intrinsic??
 
@@ -530,7 +547,7 @@ Results from the {\em GAIA} mission \citep{1996A&AS..116..579L} are expected to 
 
 We also anticipate that the NIRCam instrument on {\em JWST} \citep{2005SPIE.5904...21B, 2006SSRv..123..485G} will provide substantial improvements over IRAC for investigations of this nature. The NIRCam filters F356W and F444W will provide data in passbands comparable to IRAC's [3.6] and [4.5] at an order of magnitude higher resolution (0.065 arcsec/pixel), which will significantly decrease photometric error due to crowding and therefore allow us to obtain data for all known RRLs in $\omega$~Cen. 
 
-% 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small — age/mass spread rather than metalliicity effect. Can refer to new plot here too.
+% 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small √ë age/mass spread rather than metalliicity effect. Can refer to new plot here too.
 
 % 2. Why the descrepancy between RRab and RRc - data effect rather than intrinsic??
 
@@ -548,13 +565,13 @@ Suggestions from what we discussed today:
 
 * How does the choice of metallicity affect the results?
 * Comparison of the photometric and spectroscopic metallicities - discussion of Fig 5
-— Also note figures must appear in the order they are referred to in the text.
+√ë Also note figures must appear in the order they are referred to in the text.
 * Could crowding have affected the result? Probably not systematically, BUT it did reduce the sample of RRL dramatically.
 * How does the calibration of the PL affect the result?
 * Better Calibration of the PL relation
 * Future metallicity measurements
 ** GAIA
-* Better resolution in the mid—IR
+* Better resolution in the mid√ëIR
 ** JWST
 VS will send references for GAIA, JWST separately
 
