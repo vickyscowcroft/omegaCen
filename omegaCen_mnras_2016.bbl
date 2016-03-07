@@ -17,6 +17,11 @@
   {mn@eprint@\@tempb}{\@tempb:\@tempc}{\expandafter \expandafter \csname
   mn@eprint@\@tempb\endcsname \expandafter{\@tempc}}}
 
+\bibitem[\protect\citeauthoryear{{Aaronson} \& {Mould}}{{Aaronson} \&
+  {Mould}}{1986}]{1986ApJ...303....1A}
+{Aaronson} M.,  {Mould} J.,  1986, \mn@doi [\apj] {10.1086/164046}, \href
+  {http://adsabs.harvard.edu/abs/1986ApJ...303....1A} {303, 1}
+
 \bibitem[\protect\citeauthoryear{{Benedict} et~al.,}{{Benedict}
   et~al.}{2011}]{2011AJ....142..187B}
 {Benedict} G.~F.,  et~al., 2011, \mn@doi [\aj] {10.1088/0004-6256/142/6/187},
@@ -27,6 +32,13 @@
 {Bono} G.,  {Caputo} F.,  {Castellani} V.,  {Marconi} M.,   {Storm} J.,  2001,
   \mn@doi [\mnras] {10.1046/j.1365-8711.2001.04655.x}, \href
   {http://adsabs.harvard.edu/abs/2001MNRAS.326.1183B} {326, 1183}
+
+\bibitem[\protect\citeauthoryear{{Bono}, {Caputo}, {Castellani}, {Marconi},
+  {Storm}  \& {Degl'Innocenti}}{{Bono} et~al.}{2003}]{2003MNRAS.344.1097B}
+{Bono} G.,  {Caputo} F.,  {Castellani} V.,  {Marconi} M.,  {Storm} J.,
+  {Degl'Innocenti} S.,  2003, \mn@doi [\mnras]
+  {10.1046/j.1365-8711.2003.06878.x}, \href
+  {http://adsabs.harvard.edu/abs/2003MNRAS.344.1097B} {344, 1097}
 
 \bibitem[\protect\citeauthoryear{{Braga} et~al.,}{{Braga}
   et~al.}{2015}]{2015ApJ...799..165B}
@@ -208,6 +220,12 @@
 {Neeley} J.~R.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/808/1/11},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...808...11N} {808, 11}
 
+\bibitem[\protect\citeauthoryear{{Nemec}, {Nemec}  \& {Lutz}}{{Nemec}
+  et~al.}{1994}]{1994AJ....108..222N}
+{Nemec} J.~M.,  {Nemec} A.~F.~L.,   {Lutz} T.~E.,  1994, \mn@doi [\aj]
+  {10.1086/117062}, \href {http://adsabs.harvard.edu/abs/1994AJ....108..222N}
+  {108, 222}
+
 \bibitem[\protect\citeauthoryear{{Ordo{\~n}ez}, {Yang}  \&
   {Sarajedini}}{{Ordo{\~n}ez} et~al.}{2014}]{2014ApJ...786..147O}
 {Ordo{\~n}ez} A.~J.,  {Yang} S.-C.,   {Sarajedini} A.,  2014, \mn@doi [\apj]
@@ -225,12 +243,6 @@
   et~al.}{2013}]{2013PASP..125..654P}
 {Persson} S.~E.,  et~al., 2013, \mn@doi [\pasp] {10.1086/671164}, \href
   {http://adsabs.harvard.edu/abs/2013PASP..125..654P} {125, 654}
-
-\bibitem[\protect\citeauthoryear{{Planck Collaboration} et~al.,}{{Planck
-  Collaboration} et~al.}{2015}]{2015arXiv150201589P}
-{Planck Collaboration} et~al., 2015, preprint, \href
-  {http://adsabs.harvard.edu/abs/2015arXiv150201589P} {} (\mn@eprint {arXiv}
-  {1502.01589})
 
 \bibitem[\protect\citeauthoryear{{Reach} et~al.,}{{Reach}
   et~al.}{2005}]{2005PASP..117..978R}
