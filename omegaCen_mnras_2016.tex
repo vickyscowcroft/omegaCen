@@ -239,7 +239,7 @@ PSF photometry of the tiles was performed using \textsc{daophot} and \textsc{all
 
 %crowding: if there was a star within the IRAC psf in the highres version, it was thrown out
 
-The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the FourStar $K_s$-band image. The 0.159 arcsec/pixel resolution of the $K_s$ band image compared to the 0.6 arcsec/pixel resolution of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. RRL were determined to be contaminated if there were one or more resolved stars in the $K$-band image within a {\bf [SOMETHING] }arcsecond radius of the RRL. 77 RRLs out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding, another 13 were outside the FourStar mosaic field of view, and four more were found to be unusable other reasons. %Our full, uncrowded RRL sample consists of 97 stars in $J$ and $H$, 99 in $K_s$, 37 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. {\bf [CHECK THIS]}
+The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the FourStar $K_s$-band image. The 0.159 arcsec/pixel resolution of the $K_s$ band image compared to the 0.6 arcsec/pixel resolution of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. RRL were determined to be contaminated if there were one or more resolved stars in the $K$-band image within a 3.6 arcsecond radius of the RRL. 77 RRLs out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding, another 13 were outside the FourStar mosaic field of view, and four more were found to be unusable due to image artifacts and other contamination. %Our full, uncrowded RRL sample consists of 97 stars in $J$ and $H$, 99 in $K_s$, 37 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. {\bf [CHECK THIS]}
 
 \section{Results}
 \label{sec:results}
@@ -307,6 +307,8 @@ $K_s$ & RRab & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 \end{table}
 
 The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.677$.
+
+% bring in metallicity histograms here
 
 \section{Distance Moduli}
 \label{sec:distance_moduli}
@@ -453,10 +455,10 @@ For [3.6] we find $\gamma \leq 0.247$ mag dex$^{-1}$ for RRab's, and $\gamma \le
 \hline \hline
 Band & Mode & $\sigma_{\text{spect}}$ & $\sigma_{\text{phot}}$ & $\gamma_{\text{spect}}$ & $\gamma_{\text{phot}}$ \\
 \hline
-$[3.6]$ & RRab & 0.250 & 0.254 & 0.247 & 0.243 \\ % & $0.282$ & $0.234$\\
-$[3.6]$ & RRc & 0.132 & 0.243 & 0.383 & 0.208 \\ %& $0.778$ & $0.323$\\
-$[4.5]$ & RRab & 0.250 & 0.254 & 0.642 & 0.632 \\ % & $0.712$ & $0.590$\\
-$[4.5]$ & RRc & 0.132 & 0.243 & 1.421 & 0.772 \\ %& $1.660$ & $0.689$\\
+$[3.6]$ & RRab & 0.250 & 0.254 & 0.423 & 0.418 \\ % & $0.282$ & $0.234$\\
+$[3.6]$ & RRc & 0.132 & 0.243 & 0.258 & 0.140 \\ %& $0.778$ & $0.323$\\
+$[4.5]$ & RRab & 0.250 & 0.254 & 0.561 & 0.552 \\ % & $0.712$ & $0.590$\\
+$[4.5]$ & RRc & 0.132 & 0.243 & 1.553 & 0.844 \\ %& $1.660$ & $0.689$\\
 \hline
 \end{tabular}
 \end{table}
@@ -542,6 +544,7 @@ More accurate metallicities will be required to constrain any potential effect f
 
 % 2. Why the discrepancy between RRab and RRc - data effect rather than intrinsic??
 
+% put average error bar on metallicity-residual plots
 
 While we find high upper bounds on the contribution of metallicity to the PL scatter in the IRAC passbands, particularly [4.5], it is unlikely that this scatter is due to metallicity alone. \citet{1986A&A...169..111G} and \citet{1991ApJ...373L..43L} demonstrate that RRL luminosity is dependent on the horizontal branch morphology as well as metallicity; it is also well known that $\omega$~Cen contains RRLs in multiple evolutionary states \citep{2008MmSAI..79..342S, 2015A&A...577A..99N}.
 
