@@ -13,45 +13,45 @@ Repeated entry---line 852 of file omegaCen_mnras_2016.bib
 I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 56 entries,
+You've used 53 entries,
             2881 wiz_defined-function locations,
-            1230 strings with 28642 characters,
-and the built_in function-call counts, 26305 in all, are:
-= -- 2153
-> -- 1899
-< -- 99
-+ -- 842
-- -- 275
-* -- 3447
-:= -- 4064
+            1199 strings with 27598 characters,
+and the built_in function-call counts, 24544 in all, are:
+= -- 2009
+> -- 1748
+< -- 95
++ -- 787
+- -- 241
+* -- 3205
+:= -- 3780
 add.period$ -- 0
-call.type$ -- 56
-change.case$ -- 112
-chr.to.int$ -- 55
-cite$ -- 56
-duplicate$ -- 1276
-empty$ -- 1294
-format.name$ -- 447
-if$ -- 4509
+call.type$ -- 53
+change.case$ -- 106
+chr.to.int$ -- 52
+cite$ -- 53
+duplicate$ -- 1207
+empty$ -- 1226
+format.name$ -- 405
+if$ -- 4203
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 55
-newline$ -- 181
-num.names$ -- 354
-pop$ -- 298
+missing$ -- 52
+newline$ -- 172
+num.names$ -- 334
+pop$ -- 285
 preamble$ -- 1
-purify$ -- 224
+purify$ -- 212
 quote$ -- 0
-skip$ -- 730
+skip$ -- 693
 stack$ -- 0
-substring$ -- 1511
-swap$ -- 651
-text.length$ -- 231
+substring$ -- 1391
+swap$ -- 613
+text.length$ -- 219
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 504
+type$ -- 477
 warning$ -- 0
-while$ -- 405
+while$ -- 379
 width$ -- 0
-write$ -- 574
+write$ -- 544
 (There were 2 error messages)
