@@ -248,7 +248,6 @@ PSF photometry of the tiles was performed using \textsc{daophot} and \textsc{all
 \label{sec:crowding}
 
 The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the FourStar $K_s$-band image. The 0.159 arcsec/pixel resolution of the $K_s$ band image compared to the 0.6 arcsec/pixel resolution of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. RRL were determined to be contaminated if there were one or more resolved stars in the $K$-band image within a 3.6 arcsecond (6 IRAC pixels) radius of the RRL. 77 RRLs out of the original catalog of 192 \citep{2004A&A...424.1101K} were rejected due to crowding, another 13 were outside the FourStar mosaic field of view, and four more were found to be unusable due to contamination.
-%Our full, uncrowded RRL sample consists of 97 stars in $J$ and $H$, 99 in $K_s$, 37 in 3.6~$\mu$m, and 43 in 4.5~$\mu$m. {\bf [CHECK THIS]}
 
 \section{Results}
 \label{sec:results}
@@ -435,10 +434,20 @@ The calculated $\sigma_\text{[Fe/H]}$ values for all IRAC PL relations are shown
 \hline \hline
 Band & Mode & $\sigma_{\text{observed}}$ & $\sigma_{\text{intrinsic}}$ & $\sigma_{\text{phot}}$ & $\sigma_{[\text{Fe/H}]}$ \\
 \hline
-$[3.6]$ & RRab & 0.124 & 0.040 & 0.052 & 0.106 \\
-$[3.6]$ & RRc & 0.096 & 0.079 & 0.044 & 0.034 \\
-$[4.5]$ & RRab & 0.154 & 0.045 & 0.046 & 0.140 \\
-$[4.5]$ & RRc & 0.219 & 0.057 & 0.054 & 0.205 \\
+%$[3.6]$ & RRab & 0.124 & 0.040 & 0.052 & 0.106 \\
+%$[3.6]$ & RRc & 0.096 & 0.079 & 0.044 & 0.034 \\
+%$[4.5]$ & RRab & 0.154 & 0.045 & 0.046 & 0.140 \\
+%$[4.5]$ & RRc & 0.219 & 0.057 & 0.054 & 0.205 \\
+$J$ & RRab & 0.127 & 0.060 & 0.018 & 0.111 \\
+  & RRc & 0.082 & 0.040 & 0.015 & 0.070 \\
+$H$ & RRab & 0.170 & 0.040 & 0.028 & 0.163 \\
+  & RRc & 0.107 & 0.020 & 0.024 & 0.102 \\
+$K_s$ & RRab & 0.147 & 0.030 & 0.023 & 0.142 \\
+  & RRc & 0.089 & 0.020 & 0.021 & 0.084 \\
+$[3.6]$  & RRab & 0.124 & 0.040 & 0.052 & 0.106 \\
+  & RRc & 0.096 & 0.079 & 0.044 & 0.034 \\
+$[4.5]$& RRab & 0.154 & 0.045 & 0.046 & 0.140 \\
+  & RRc & 0.219 & 0.057 & 0.054 & 0.205 \\
 \hline
 \end{tabular}
 \end{table}
@@ -449,14 +458,13 @@ $[4.5]$ & RRab & 0.173 & 0.045 & 0.046 & 0.160 \\ % & $0.712$ & $0.590$\\
 $[4.5]$ & RRc & 0.202 & 0.057 & 0.048 & 0.188 \\ %& $1.660$ & $0.689$\\
 \end{comment}
 
-We use these \textcolor{magenta}{estimates} of $\sigma_\text{[Fe/H]}$ to assess the $\gamma$ parameter for $\omega$~Cen, where 
+We use these estimates of $\sigma_\text{[Fe/H]}$ to assess the $\gamma$ parameter for $\omega$~Cen, where 
 \begin{equation} \label{eqn:gamma}
 \gamma = \dfrac {\Delta \text{mag}} {\Delta [\text{Fe/H}]}\text{ mag dex} ^{-1}\text{,}
 \end{equation}
-\vscomment{adding units to ur eqns\\}
 similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K, 2009MNRAS.396.1287S}. Here we calculate $\gamma$ in units of mag dex$^{-1}$ by dividing the standard deviation of the metallicity component of the PL scatter by the standard deviation of the metallicity distribution for both \citep{2006ApJ...640L..43S} and photometric \citep{2000AJ....119.1824R} metallicities; the results for each PL are shown in Table~\ref{tab:gamma}. We use all available metallicity values for each pulsation mode when taking the standard deviation, as we do not have metallicity values for all the stars in our samples, although the metallicity values we do have trace the overall metallicity distributions fairly well (see Figure~\ref{fig:metallicity_hists}).
 
-For [3.6] we find $\gamma \leq 0.247$ mag dex$^{-1}$ for RRab's, and $\gamma \leq 0.383$ mag dex$^{-1}$ for RRc's.
+For [3.6] we find $\gamma \leq 0.455$ mag dex$^{-1}$ for RRab's, and $\gamma \leq 0.237$ mag dex$^{-1}$ for RRc's.
 
 \begin{table}
 \centering
@@ -466,15 +474,23 @@ For [3.6] we find $\gamma \leq 0.247$ mag dex$^{-1}$ for RRab's, and $\gamma \le
 \hline \hline
 Band & Mode & $\sigma_{\text{spect}}$ & $\sigma_{\text{phot}}$ & $\gamma_{\text{spect}}$ & $\gamma_{\text{phot}}$ \\
 \hline
-$[3.6]$ & RRab & 0.250 & 0.254 & 0.247 & 0.243 \\ % & $0.282$ & $0.234$\\
-$[3.6]$ & RRc & 0.132 & 0.243 & 0.383 & 0.208 \\ %& $0.778$ & $0.323$\\
-$[4.5]$ & RRab & 0.250 & 0.254 & 0.642 & 0.632 \\ % & $0.712$ & $0.590$\\
-$[4.5]$ & RRc & 0.132 & 0.243 & 1.421 & 0.772 \\ %& $1.660$ & $0.689$\\
+%$[3.6]$ & RRab & 0.250 & 0.254 & 0.423 & 0.418 \\ % & $0.282$ & $0.234$\\
+%$[3.6]$ & RRc & 0.132 & 0.243 & 0.258 & 0.140 \\ %& $0.778$ & $0.323$\\
+%$[4.5]$ & RRab & 0.250 & 0.254 & 0.561 & 0.552 \\ % & $0.712$ & $0.590$\\
+%$[4.5]$ & RRc & 0.132 & 0.243 & 1.553 & 0.844 \\ %& $1.660$ & $0.689$\\
+$J$ & RRab & 0.215 & 0.262 & 0.515 & 0.423 \\
+  & RRc & 0.132 & 0.245 & 0.529 & 0.285 \\
+$H$ & RRab & 0.215 & 0.260 & 0.760 & 0.627 \\
+  & RRc & 0.132 & 0.245 & 0.773 & 0.416 \\
+$K_s$ & RRab & 0.215 & 0.258 & 0.659 & 0.549 \\
+  & RRc & 0.132 & 0.242 & 0.636 & 0.347 \\
+$[3.6]$ & RRab & 0.232 & 0.275 & 0.455 & 0.385 \\
+  & RRc & 0.145 & 0.266 & 0.237 & 0.129 \\
+$[4.5]$ & RRab & 0.215 & 0.285 & 0.653 & 0.492 \\
+  & RRc & 0.107 & 0.244 & 1.904 & 0.837 \\
 \hline
 \end{tabular}
 \end{table}
-
-\vscomment{We talked about this on Friday so I'm not going to beat a dead horse, just a reminder to check these numbers. I went through and checked the $\gamma$ values and what I worked out came out big. They're upper limits on $\gamma$, and just because they're big doesn't mean we need to worry. It's interesting. It's also why I want you to read a couple of the papers and see what you think of the values you get when you consider what else could be going on with the horizontal branch.\\ I've just had a thought. Can you also do this for J, H, K? It would be interesting to see what $\gamma$ came out for those using this method. I think it's still a valid technique because we're using a single metallicity for the whole cluster rather than the individual metallicities for each star in the PL fitting. Humour me. }
 
 \subsection{PL Residuals and Individual Metallicities}
 \label{sec:residuals}
@@ -567,7 +583,6 @@ We also anticipate that the NIRCam instrument on {\em JWST} \citep{2005SPIE.5904
 % 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small Ñ age/mass spread rather than metallicity effect. Can refer to new plot here too.
 
 % 2. Why the descrepancy between RRab and RRc - data effect rather than intrinsic??
-
 
 % 2015A&A...577A..99N 
 
