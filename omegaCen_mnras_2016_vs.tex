@@ -69,11 +69,11 @@
 
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
-\author[M.~J.~Durbin et al.]{Meredith~J.~Durbin$^{1,2}$\thanks{E-mail: mdurbin@stsci.edu}
-Victoria Scowcroft$^{3}$
-Wendy L. Freedman$^{4}$
-Barry F. Madore$^{3}$
-\newauthor Rachael L. Beaton$^{3}$
+\author[M.~J.~Durbin et al.]{Meredith~J.~Durbin$^{1}$
+Victoria Scowcroft$^{2}$
+Wendy L. Freedman$^{3}$
+Barry F. Madore$^{2}$
+\newauthor Rachael L. Beaton$^{2}$
 %Gurtina Besla$^{5}$ 
 %Giuseppe Bono$^{6, 7}$
 %Vittorio Braga$^{6, 7}$
@@ -86,21 +86,20 @@ Barry F. Madore$^{3}$
 %Steve Majewski$^{13}$
 %Roeland van der Marel$^{1}$
 %\newauthor Massimo Marengo$^{14}$
-Andrew~J.~Monson$^{5}$
+Andrew~J.~Monson$^{4}$
 %Jill Neeley$^{14}$
 %David Nidever$^{16}$ 
 %\newauthor Grzegorz Pietrzynski$^{17, 18}$
 %George Preston$^{3}$
-Mark Seibert$^{3}$
+Mark Seibert$^{2}$
 %Horace Smith$^{19}$
 %\newauthor Igor Soszynski$^{17}$
 %Andrzej Udalski$^{17}$
 \\
 % List of institutions
-$^1$ Space Telescope Science Institute, 3700 San Martin Drive, Baltimore, MD 21218, USA \\
-$^2$ Pomona College, Claremont, CA 91711, USA \\
-$^3$ Observatories of the Carnegie Institution of Washington, 813 Santa Barbara St., Pasadena, CA 91101, USA \\
-$^4$ Department of Astronomy and Astrophysics, University of Chicago, 5640 S Ellis Ave, Chicago, IL 60637, USA \\
+$^1$ Department of Astronomy, University of Washington, Seattle, WA 98195, USA \\
+$^2$ Observatories of the Carnegie Institution of Washington, 813 Santa Barbara St., Pasadena, CA 91101, USA \\
+$^3$ Department of Astronomy and Astrophysics, University of Chicago, 5640 S Ellis Ave, Chicago, IL 60637, USA \\
 %$^5$ Department of Astronomy and Steward Observatory, University of Arizona, 933 North Cherry Avenue,   Tucson, AZ 85721, USA \\
 %$^6$ Univ. Roma ``Tor Vergata", Via della Ricerca Scientifica, 1 - 00133, Roma, Italy \\
 %$^7$ INAF-OAR, via Frascati 33 - 00040, Monte Porzio Catone (RM), Italy \\
@@ -111,7 +110,7 @@ $^4$ Department of Astronomy and Astrophysics, University of Chicago, 5640 S Ell
 %$^{12}$ Department of Astronomy, Columbia University, New York, NY 10027, USA  \\
 %$^{13}$ Department of Astronomy, University of Virginia, Charlottesville, VA 22904-0818, USA \\
 %$^{14}$ Department of Physics and Astronomy, Iowa State University, Ames, IA, USA \\
-$^{5}$ Department of Astronomy and Astrophysics, The Pennsylvania State University, 403 Davey Lab, University Park, PA, 16802, USA \\
+$^{4}$ Department of Astronomy and Astrophysics, The Pennsylvania State University, 403 Davey Lab, University Park, PA, 16802, USA \\
 %$^{16}$ Department of Astronomy, University of Michigan, Ann Arbor, MI 48109, USA \\
 %$^{17}$ Warsaw University Observatory Al. Ujazdowskie 4, 00-478 Warszawa, Poland \\
 %$^{18}$ Departamento de Astronomia, Universidad de Concepcion, Casilla 160-C, Chile \\
@@ -315,7 +314,15 @@ $K_s$ & RRab & $-0.820$ & $-2.270$ & $0.180$ & $0.030$\\
 \end{tabular}
 \end{table}
 
-The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.677$. \vscomment{Here is where you should introduce Figure~\ref{fig:metallicity_hists} to demonstrate the applicability of your chosen metallicity.}
+The theoretical PL relations for the near-IR have a metallicity-dependent term; however, we do not have known metallicities for all RRL in our sample. We therefore use the average [Fe/H] of the RRLs for which there are known metallicities. Using spectroscopic metallicities from \citet{2006ApJ...640L..43S}, we obtain an average [Fe/H] of $-1.677$.
+
+\begin{figure*}
+\begin{center}
+\includegraphics[width=160mm]{reworked_fitting_code/final_plots/metallicity_hists.pdf}
+\caption{Histograms of spectroscopic \citep[right column]{2006ApJ...640L..43S} and photometric \citep[left column]{2000AJ....119.1824R} [Fe/H] values for RRab (top row) and RRc (bottom row). The light blue histograms represent all known metallicity values for each type, and the dark blue are the metallicity values in our final RRL sample. The number $N$ at the top right corner of each subplot is the number of stars in our final sample that have known metallicity values for the given type and metallicity catalog.}
+\label{fig:metallicity_hists}
+\end{center}
+\end{figure*}
 
 \section{Distance Moduli}
 \label{sec:distance_moduli}
@@ -405,8 +412,6 @@ Given the large errors in the [4.5] distances, we also fit the extinction curve 
 
 \section{Metallicity}
 \label{sec:metallicity}
-
-\vscomment{This is where I think some more reading would help. There's been several more papers in the last few months that I hadn't had time to keep up with until the last week or so. See the separate list I'm sending you. Summarising, I think that the intro paragraph to this section can be extended to discuss the uncertainty around the size of the [Fe/H] effect. I think that is where the most recent literature is pointing.}
 
 Theoretical models suggest that the metallicity dependence of the RRL PL relation should decrease monotonically from the optical to the near-infrared \citep{2001MNRAS.326.1183B, 2004ApJS..154..633C}. Observational evidence corroborates this; previous investigations performed on WISE data suggest no obvious metallicity dependence in the mid-IR PL relations \citep{2013ApJ...776..135M}.
 
@@ -511,14 +516,6 @@ to the [3.6] and [4.5] PL residuals and metallicity values for stars with known 
 
 More accurate metallicities will be required to constrain any potential effect further.
 
-
-\begin{figure*}
-\begin{center}
-\includegraphics[width=160mm]{reworked_fitting_code/final_plots/metallicity_hists.pdf}
-\caption{Histograms of spectroscopic \citep[right column]{2006ApJ...640L..43S} and photometric \citep[left column]{2000AJ....119.1824R} [Fe/H] values for RRab (top row) and RRc (bottom row). The light blue histograms represent all known metallicity values for each type, and the dark blue are the metallicity values in our final RRL sample. The number $N$ at the top right corner of each subplot is the number of stars in our final sample that have known metallicity values for the given type and metallicity catalog.}
-\label{fig:metallicity_hists}
-\end{center}
-\end{figure*}
 
 
 \begin{figure*}
