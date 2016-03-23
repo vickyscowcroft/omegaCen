@@ -22,13 +22,6 @@
 {Aaronson} M.,  {Mould} J.,  1986, \mn@doi [\apj] {10.1086/164046}, \href
   {http://adsabs.harvard.edu/abs/1986ApJ...303....1A} {303, 1}
 
-\bibitem[\protect\citeauthoryear{{Babusiaux}, {van Leeuwen}  \&
-  {Gilmore}}{{Babusiaux} et~al.}{2002}]{2002ASPC..265..415B}
-{Babusiaux} C.,  {van Leeuwen} F.,   {Gilmore} G.,  2002, in {van Leeuwen} F.,
-  {Hughes} J.~D.,   {Piotto} G.,  eds,  Astronomical Society of the Pacific
-  Conference Series Vol. 265, Omega Centauri, A Unique Window into
-  Astrophysics. p.~415
-
 \bibitem[\protect\citeauthoryear{{Bono}, {Caputo}, {Castellani}, {Marconi}  \&
   {Storm}}{{Bono} et~al.}{2001}]{2001MNRAS.326.1183B}
 {Bono} G.,  {Caputo} F.,  {Castellani} V.,  {Marconi} M.,   {Storm} J.,  2001,
@@ -69,16 +62,10 @@
   {10.1086/422916}, \href {http://adsabs.harvard.edu/abs/2004ApJS..154..633C}
   {154, 633}
 
-\bibitem[\protect\citeauthoryear{{Cutri} et~al.,}{{Cutri}
-  et~al.}{2013}]{2013wise.rept....1C}
-{Cutri} R.~M.,  et~al., 2013, \href
-  {http://adsabs.harvard.edu/abs/2013wise.rept....1C} {}
-
-\bibitem[\protect\citeauthoryear{{Dambis}, {Rastorguev}  \&
-  {Zabolotskikh}}{{Dambis} et~al.}{2014}]{2014MNRAS.439.3765D}
-{Dambis} A.~K.,  {Rastorguev} A.~S.,   {Zabolotskikh} M.~V.,  2014, \mn@doi
-  [\mnras] {10.1093/mnras/stu226}, \href
-  {http://adsabs.harvard.edu/abs/2014MNRAS.439.3765D} {439, 3765}
+\bibitem[\protect\citeauthoryear{{Cutri} \& {et al.}}{{Cutri} \& {et
+  al.}}{2014}]{2014yCat.2328....0C}
+{Cutri} R.~M.,  {et al.} 2014, VizieR Online Data Catalog, \href
+  {http://adsabs.harvard.edu/abs/2014yCat.2328....0C} {2328}
 
 \bibitem[\protect\citeauthoryear{{Dambis}, {Berdnikov}, {Kniazev}, {Kravtsov},
   {Rastorguev}, {Sefako}, {Vozyakova}  \& {Zabolotskikh}}{{Dambis}
@@ -191,6 +178,11 @@
 {Lub} J.,  2002, in {van Leeuwen} F.,  {Hughes} J.~D.,   {Piotto} G.,  eds,
   Astronomical Society of the Pacific Conference Series Vol. 265, Omega
   Centauri, A Unique Window into Astrophysics. p.~95
+
+\bibitem[\protect\citeauthoryear{{Madore} et~al.,}{{Madore}
+  et~al.}{2013}]{2013ApJ...776..135M}
+{Madore} B.~F.,  et~al., 2013, \mn@doi [\apj] {10.1088/0004-637X/776/2/135},
+  \href {http://adsabs.harvard.edu/abs/2013ApJ...776..135M} {776, 135}
 
 \bibitem[\protect\citeauthoryear{{Makovoz}, {Roby}, {Khan}  \&
   {Booth}}{{Makovoz} et~al.}{2006}]{2006SPIE.6274E..0CM}

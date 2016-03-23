@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/vs/Dropbox/Publications/omegaCen/.texpadtmp/omegaCen_mnras_2016_vs.aux
+The style file: ../mnras.bst
+Database file #1: ../omegaCen_mnras_2016_vs.bib
+Warning--I didn't find a database entry for "2014MNRAS.439.3765D"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 54 entries,
+            2881 wiz_defined-function locations,
+            1212 strings with 28116 characters,
+and the built_in function-call counts, 25183 in all, are:
+= -- 2053
+> -- 1815
+< -- 97
++ -- 812
+- -- 257
+* -- 3289
+:= -- 3890
+add.period$ -- 0
+call.type$ -- 54
+change.case$ -- 108
+chr.to.int$ -- 53
+cite$ -- 54
+duplicate$ -- 1230
+empty$ -- 1248
+format.name$ -- 423
+if$ -- 4311
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 53
+newline$ -- 175
+num.names$ -- 342
+pop$ -- 290
+preamble$ -- 1
+purify$ -- 216
+quote$ -- 0
+skip$ -- 706
+stack$ -- 0
+substring$ -- 1425
+swap$ -- 629
+text.length$ -- 223
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 486
+warning$ -- 0
+while$ -- 387
+width$ -- 0
+write$ -- 554
+(There was 1 warning)
