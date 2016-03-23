@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 MAR 2016 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 MAR 2016 09:32
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **omegaCen_mnras_2016_vs.tex
@@ -712,40 +712,12 @@ l.671 \clearpage
 [13
 
 
-]
-Overfull \hbox (45.33649pt too wide) in alignment at lines 689--695
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
+] [14
 
 
-Overfull \hbox (45.33649pt too wide) in alignment at lines 695--701
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (45.33649pt too wide) in alignment at lines 701--703
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (45.33649pt too wide) in alignment at lines 703--705
- [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] [] 
- []
-
-[14
-
-
-]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table A1 on input line 806.
-
-[15]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
+] [15]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 840.
-[16
+ [16
 
 
 ]
@@ -756,16 +728,12 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 840.
 Package rerunfilecheck Info: File `omegaCen_mnras_2016_vs.out' has not changed.
 
 (rerunfilecheck)             Checksum: DEA81B8CA44602C3EB1ECFE5D0CE019E;834.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 840.
  ) 
 Here is how much of TeX's memory you used:
  7904 strings out of 493089
  114765 string characters out of 6134842
- 287538 words of memory out of 5000000
+ 287539 words of memory out of 5000000
  11099 multiletter control sequences out of 15000+600000
  63674 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -796,7 +764,7 @@ ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on omegaCen_mnras_2016_vs.pdf (16 pages, 2656169 bytes).
+Output written on omegaCen_mnras_2016_vs.pdf (16 pages, 2656201 bytes).
 PDF statistics:
  1004 PDF objects out of 1200 (max. 8388607)
  811 compressed objects within 9 object streams
