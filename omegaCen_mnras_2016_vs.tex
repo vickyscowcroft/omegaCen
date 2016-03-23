@@ -319,7 +319,7 @@ The theoretical PL relations for the near-IR have a metallicity-dependent term; 
 \begin{figure*}
 \begin{center}
 \includegraphics[width=160mm]{reworked_fitting_code/final_plots/metallicity_hists.pdf}
-\caption{Histograms of spectroscopic \citep[right column]{2006ApJ...640L..43S} and photometric \citep[left column]{2000AJ....119.1824R} [Fe/H] values for RRab (top row) and RRc (bottom row). The light blue histograms represent all known metallicity values for each type, and the dark blue are the metallicity values in our final RRL sample. The number $N$ at the top right corner of each subplot is the number of stars in our final sample that have known metallicity values for the given type and metallicity catalog.}
+\caption{Histograms of spectroscopic \citep[left column]{2006ApJ...640L..43S} and photometric \citep[right column]{2000AJ....119.1824R} [Fe/H] values for RRab (top row) and RRc (bottom row). The light blue histograms represent all known metallicity values for each type, and the dark blue are the metallicity values for our final RRL sample in each passband. The number $N$ at the top right corner of each subplot is the number of stars in our final sample that have known metallicity values for the given type, wavelength, and metallicity catalog.}
 \label{fig:metallicity_hists}
 \end{center}
 \end{figure*}
@@ -417,7 +417,7 @@ $[4.5]$ & $13.747 \pm 0.053$ & $13.866 \pm 0.061$ & $13.806 \pm 0.041$ \\
 \end{comment}
 
 It is apparent from Figure~\ref{fig:omegaCen_dist_m4_mean} that there are large discrepancies in the distance moduli in [3.6] and [4.5] for the two pulsation modes; these discrepancies contribute to the relatively low $E(B-V)$ value and high dereddened distance modulus compared to previously determined values \citep[e.g.][]{2002ASPC..265...95L, 2006ApJ...652..362D}. 
-If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a true dereddened distance modulus of $\langle \mu_0 \rangle = 13.743 \pm 0.026$ with $E(B-V) = 0.138 \pm 0.044$, both of which are closer to accepted values than the values derived from the weighted mean distance moduli. All individual corrected distance moduli from this fit are shown in Table~\ref{tab:dist_mod_ab}.
+If we remove the RRc's and fit the extinction curve only to the RRab's, as shown in Figure~\ref{fig:omegaCen_dist_m4_ab}, we obtain a better fit of all points to the extinction curve than when we use the mean. From these distance moduli we derive a true dereddened distance modulus of $\langle \mu_0 \rangle = 13.743 \pm 0.026$ with $E(B-V) = 0.138 \pm 0.044$, both of which are closer to accepted values {\bf[cite here too?]} than the values derived from the weighted mean distance moduli. All individual corrected distance moduli from this fit are shown in Table~\ref{tab:dist_mod_ab}.
 
 Given the large errors in the [4.5] distances, we also fit the extinction curve to the $JHK_s$ and [3.6] distances only, excluding [4.5] entirely; this was found to have a negligible effect on the final distance modulus and reddening for both the mean and RRab-only measurements.
 
@@ -533,7 +533,7 @@ However, as Figure~\ref{fig:metallicity_residuals} also shows, the dominant sour
 \begin{figure*}
 \begin{center}
 \includegraphics[width=160mm]{reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf}
-\caption{Photometric \citep{2000AJ....119.1824R} and spectroscopic \citep{2006ApJ...640L..43S} [Fe/H] values vs. period-luminosity residuals for RRab and RRc in [3.6] and [4.5]. Solid lines are the line of best fit with slope $\gamma$, and dashed lines are the $1\sigma$ confidence intervals. The $\gamma$ parameter from equation 4 in the top right corner of each subplot. All $\gamma$ values are consistent with zero.}
+\caption{Photometric \citep{2000AJ....119.1824R} and spectroscopic \citep{2006ApJ...640L..43S} [Fe/H] values vs. period-luminosity residuals for RRab and RRc in [3.6] and [4.5]. Solid lines are the line of best fit with slope $\gamma$, and dashed lines are the $1\sigma$ confidence intervals. The crossed lines at the bottom left corner of each subplot represent average errors in [Fe/H] and $\Delta$mag. The $\gamma$ parameter from equation 4 is shown in the top right corner of each subplot. All $\gamma$ values are consistent with zero.}
 \label{fig:metallicity_residuals}
 \end{center}
 \end{figure*}
@@ -576,7 +576,7 @@ Figures~\ref{fig:hband_spectro} and~\ref{fig:hband_photo} demonstrate the need f
 \begin{figure*}
 \begin{center}
 \includegraphics[width=160mm]{reworked_fitting_code/final_plots/spect_color_PL.pdf}
-\caption{$H$ and [3.6] PL relations with fundamentalised RRc periods, with colour indicating spectroscopic \citep{2006ApJ...640L..43S} metallicity values. Grey points have no known metallicity values. There is no trend between direction of deviation from the PL with metallicity in either the $H$ or [3.6] relation, demonstrating that the increased dispersion must have an additional evolutionary component.}
+\caption{$H$ and [3.6] PL relations, with colour indicating spectroscopic \citep{2006ApJ...640L..43S} metallicity values. Grey points have no known metallicity values. There is no trend between direction of deviation from the PL with metallicity in either the $H$ or [3.6] relation, demonstrating that the increased dispersion must have an additional evolutionary component.}
 \label{fig:hband_spectro}
 \end{center}
 \end{figure*}
@@ -584,7 +584,7 @@ Figures~\ref{fig:hband_spectro} and~\ref{fig:hband_photo} demonstrate the need f
 \begin{figure*}
 \begin{center}
 \includegraphics[width=160mm]{reworked_fitting_code/final_plots/phot_color_PL.pdf}
-\caption{$H$ and [3.6] PL relations with fundamentalised RRc periods, with colour indicating photometric \citep{2000AJ....119.1824R} metallicity values. Grey points have no known metallicity values. There is no trend between direction of deviation from the PL with metallicity in either the $H$ or [3.6] relation, demonstrating that the increased dispersion must have an additional evolutionary component.}
+\caption{$H$ and [3.6] PL relations, with colour indicating photometric \citep{2000AJ....119.1824R} metallicity values. Grey points have no known metallicity values. There is no trend between direction of deviation from the PL with metallicity in either the $H$ or [3.6] relation, demonstrating that the increased dispersion must have an additional evolutionary component.}
 \label{fig:hband_photo}
 \end{center}
 \end{figure*}
@@ -628,16 +628,13 @@ VS will send references for GAIA, JWST separately
 \section{Conclusions}
 \label{sec:conclusions}
 
-We derive a true mean dereddened distance modulus for $\omega$~Cen of $\langle \mu_0 \rangle = 13.739 \pm 0.024$ with reddening ${E(B-V) = 0.110 \pm 0.042}$ using distance moduli derived from RRab PL relations in $JHK_s$, [3.6], and [4.5]. Using the mean of RRab and RRc distance moduli in the same passbands, we derive a true mean dereddened distance modulus of $\langle \mu_0 \rangle = 13.781 \pm 0.018$ with reddening $E(B-V) = 0.066 \pm 0.030$. The value found using RRab alone is in better agreement with those in the literature \citep[e.g.][]{2002ASPC..265...95L, 2006ApJ...652..362D}.
+We derive a true mean dereddened distance modulus for $\omega$~Cen of ${\langle \mu_0 \rangle = 13.743 \pm 0.026}$ with reddening ${E(B-V) = 0.138 \pm 0.044}$ using distance moduli derived from RRab PL relations in $JHK_s$, [3.6], and [4.5]. Using the mean of RRab and RRc distance moduli in the same passbands, we derive a true mean dereddened distance modulus of ${\langle \mu_0 \rangle = 13.789 \pm 0.018}$ with reddening ${E(B-V) = 0.084 \pm 0.030}$. The value found using RRab alone is in better agreement with those in the literature \citep[e.g.][]{2002ASPC..265...95L, 2006ApJ...652..362D}.
 
 We also constrain the contribution of metallicity on the dispersion of the RRL PL relations by considering the variances associated with each component of the PL relation. We find that at most metallicity contributes 0.106 and 0.140~mag in dispersion to the [3.6] and [4.5] RRab PL relations respectively. Converting these values into $\gamma$, the PL relation metallicity coefficient, we find high upper limits compared to theoretical predictions for all infrared wavelengths. 
 
 When deriving $\gamma$ empirically using the residuals from the RRL PL relations and the individual metallicities of the stars, we find $\gamma$ values consistent with zero at all infrared wavelengths. We thus conclude that the upper limits derived in Section~\ref{sec:dispersions} are likely a combination of metallicity and evolutionary effects due to the evolutionary spread of the populations in $\omega$~Cen.  
 
 %, quantified as $\gamma = \Delta \text{mag} / \Delta [\text{Fe/H}]$, to the scatter of the $\omega$~Cen PL relations by subtracting the variances of the intrinsic scatter and photometric error from the observed PL variance and taking the square root of the result, and dividing that by the standard deviation of the distribution of metallicity values. We also measure $\gamma$ directly using the slope of the linear fit to the PL residuals vs. [Fe/H].
-
-% the name of the trashcan is astronomy
-% zizek.gif
 
 \section*{Acknowledgements}
 \label{sec:acknowledgements}
