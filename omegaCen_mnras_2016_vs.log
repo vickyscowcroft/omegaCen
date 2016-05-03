@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 MAR 2016 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 MAY 2016 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -466,104 +466,107 @@ Overfull \hbox (4.08653pt too wide) in paragraph at lines 130--130
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+aer on input line 200.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Font Info:    Try loading font information for OMS+aer on input line 230.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ae/omsaer.fd
 File: omsaer.fd 1999/12/27
 )
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 230.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-<reworked_fitting_code/final_plots/omegacen_coverage_map_new.pdf, id=189, 644.1
+<reworked_fitting_code/final_plots/omegacen_coverage_map_new.pdf, id=166, 644.1
 5889pt x 502.99524pt>
 File: reworked_fitting_code/final_plots/omegacen_coverage_map_new.pdf Graphic f
 ile (type pdf)
 
 <use reworked_fitting_code/final_plots/omegacen_coverage_map_new.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/omegacen_coverage_ma
-p_new.pdf used on input line 220.
+p_new.pdf used on input line 237.
 (pdftex.def)             Requested size: 455.24408pt x 389.92473pt.
  [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.261 \section
-              {Period-Luminosity Relations} <./reworked_fitting_code/final_plot
-s/omegacen_coverage_map_new.pdf>]
-Underfull \hbox (badness 1314) in paragraph at lines 278--278
+Underfull \hbox (badness 1314) in paragraph at lines 294--294
 \T1/aer/m/n/8 co-ef-fi-cients ([][]Nee-ley et al.[][] [][]2015[][]), for re-la-
 tions of the form
  []
 
+[3pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
 
-<reworked_fitting_code/final_plots/metallicity_hists.pdf, id=328, 578.16pt x 72
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.335 
+       <./reworked_fitting_code/final_plots/omegacen_coverage_map_new.pdf>]
+<reworked_fitting_code/final_plots/metallicity_hists.pdf, id=297, 578.16pt x 72
 2.7pt>
 File: reworked_fitting_code/final_plots/metallicity_hists.pdf Graphic file (typ
 e pdf)
  <use reworked_fitting_code/final_plots/metallicity_hists.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_hists.pd
-f used on input line 321.
+f used on input line 338.
 (pdftex.def)             Requested size: 455.24408pt x 569.05206pt.
 
-<reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf, id=339, 5
+<reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf, id=308, 5
 05.89pt x 578.16pt>
 File: reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf Graph
 ic file (type pdf)
 
 <use reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_PL_m
-4_clipped.pdf used on input line 331.
+4_clipped.pdf used on input line 348.
 (pdftex.def)             Requested size: 455.24408pt x 520.28625pt.
 
 <reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean.pdf
-, id=346, 505.89pt x 505.89pt>
+, id=315, 505.89pt x 505.89pt>
 File: reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mea
 n.pdf Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_mean
 .pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_dist
-ance_m4_clipped_mean.pdf used on input line 345.
+ance_m4_clipped_mean.pdf used on input line 362.
 (pdftex.def)             Requested size: 227.62204pt x 244.83916pt.
 
 <reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.pdf, 
-id=347, 505.89pt x 505.89pt>
+id=316, 505.89pt x 505.89pt>
 File: reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.
 pdf Graphic file (type pdf)
 
 <use reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped_ab.p
 df>
 Package pdftex.def Info: reworked_fitting_code/final_plots/multiwavelength_dist
-ance_m4_clipped_ab.pdf used on input line 353.
+ance_m4_clipped_ab.pdf used on input line 370.
 (pdftex.def)             Requested size: 227.62204pt x 244.83916pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (16.31491pt too wide) in paragraph at lines 383--394
+ [][] 
+ []
 
- [4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
-has been already used, duplicate ignored
+[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.428 
+l.459 
       pdfTeX warning (ext4): destination with the same identifier (name{table.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.428 
+l.459 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -572,11 +575,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.428 
+l.459 
        <./reworked_fitting_code/final_plots/metallicity_hists.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
@@ -584,38 +584,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.430 
-       <./reworked_fitting_code/final_plots/multiwavelength_PL_m4_clipped.pdf>]
-
+l.499 \begin{equation}
+                       \label{eqn:gamma} <./reworked_fitting_code/final_plots/m
+ultiwavelength_PL_m4_clipped.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 1558) has occurred while \output is active []
 
  [7pdfTeX warning (ext4): destination with the same identifier (name{table.3}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.437 
+l.503 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.437 
+l.503 
       pdfTeX warning (ext4): destination with the same identifier (name{table.4
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.437 
+l.503 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.437 
+l.503 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.503 
        <./reworked_fitting_code/final_plots/multiwavelength_distance_m4_clipped
 _mean.pdf> <./reworked_fitting_code/final_plots/multiwavelength_distance_m4_cli
 pped_ab.pdf
@@ -624,120 +627,229 @@ pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
 multiwavelength_distance_m4_clipped_ab.pdf): PDF inclusion: multiple pdfs with 
 page group included in a single page
 >]
-<reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf, id=58
-8, 578.16pt x 794.97pt>
-File: reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf G
-raphic file (type pdf)
+<reworked_fitting_code/final_plots/metallicity_vs_residuals_3.pdf, id=560, 578.
+16pt x 361.35pt>
+File: reworked_fitting_code/final_plots/metallicity_vs_residuals_3.pdf Graphic 
+file (type pdf)
 
-<use reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.pdf>
+<use reworked_fitting_code/final_plots/metallicity_vs_residuals_3.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
-uals_m4_split.pdf used on input line 535.
-(pdftex.def)             Requested size: 455.24408pt x 625.95728pt.
+uals_3.pdf used on input line 545.
+(pdftex.def)             Requested size: 455.24408pt x 284.52603pt.
 
+<reworked_fitting_code/final_plots/metallicity_vs_residuals_4.pdf, id=569, 578.
+16pt x 361.35pt>
+File: reworked_fitting_code/final_plots/metallicity_vs_residuals_4.pdf Graphic 
+file (type pdf)
 
-LaTeX Warning: Float too large for page by 3.51283pt on input line 539.
+<use reworked_fitting_code/final_plots/metallicity_vs_residuals_4.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
+uals_4.pdf used on input line 553.
+(pdftex.def)             Requested size: 455.24408pt x 284.52603pt.
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.5}) h
-as been already used, duplicate ignored
+<reworked_fitting_code/final_plots/metallicity_vs_residuals_J.pdf, id=571, 578.
+16pt x 361.35pt>
+File: reworked_fitting_code/final_plots/metallicity_vs_residuals_J.pdf Graphic 
+file (type pdf)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.573 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.6
-}) has been already used, duplicate ignored
+<use reworked_fitting_code/final_plots/metallicity_vs_residuals_J.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
+uals_J.pdf used on input line 561.
+(pdftex.def)             Requested size: 455.24408pt x 284.52603pt.
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.573 
-      ] [9pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.6}) has been already used, duplicate ignored
+<reworked_fitting_code/final_plots/metallicity_vs_residuals_H.pdf, id=573, 578.
+16pt x 361.35pt>
+File: reworked_fitting_code/final_plots/metallicity_vs_residuals_H.pdf Graphic 
+file (type pdf)
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.573 
-       <./reworked_fitting_code/final_plots/metallicity_vs_residuals_m4_split.p
-df>]
-<reworked_fitting_code/final_plots/spect_color_PL.pdf, id=660, 578.16pt x 433.6
+<use reworked_fitting_code/final_plots/metallicity_vs_residuals_H.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
+uals_H.pdf used on input line 569.
+(pdftex.def)             Requested size: 455.24408pt x 284.52603pt.
+
+<reworked_fitting_code/final_plots/metallicity_vs_residuals_K.pdf, id=575, 578.
+16pt x 361.35pt>
+File: reworked_fitting_code/final_plots/metallicity_vs_residuals_K.pdf Graphic 
+file (type pdf)
+
+<use reworked_fitting_code/final_plots/metallicity_vs_residuals_K.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_vs_resid
+uals_K.pdf used on input line 577.
+(pdftex.def)             Requested size: 455.24408pt x 284.52603pt.
+
+<reworked_fitting_code/final_plots/metallicity_slope_vs_wavelength.pdf, id=577,
+ 433.62pt x 339.66899pt>
+File: reworked_fitting_code/final_plots/metallicity_slope_vs_wavelength.pdf Gra
+phic file (type pdf)
+
+<use reworked_fitting_code/final_plots/metallicity_slope_vs_wavelength.pdf>
+Package pdftex.def Info: reworked_fitting_code/final_plots/metallicity_slope_vs
+_wavelength.pdf used on input line 585.
+(pdftex.def)             Requested size: 227.62204pt x 194.23528pt.
+
+<reworked_fitting_code/final_plots/spect_color_PL.pdf, id=594, 578.16pt x 433.6
 2pt>
 File: reworked_fitting_code/final_plots/spect_color_PL.pdf Graphic file (type p
 df)
  <use reworked_fitting_code/final_plots/spect_color_PL.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/spect_color_PL.pdf u
-sed on input line 578.
+sed on input line 622.
 (pdftex.def)             Requested size: 455.24408pt x 341.43124pt.
 
-<reworked_fitting_code/final_plots/phot_color_PL.pdf, id=665, 578.16pt x 433.62
+<reworked_fitting_code/final_plots/phot_color_PL.pdf, id=599, 578.16pt x 433.62
 pt>
 File: reworked_fitting_code/final_plots/phot_color_PL.pdf Graphic file (type pd
 f)
  <use reworked_fitting_code/final_plots/phot_color_PL.pdf>
 Package pdftex.def Info: reworked_fitting_code/final_plots/phot_color_PL.pdf us
-ed on input line 586.
+ed on input line 630.
 (pdftex.def)             Requested size: 455.24408pt x 341.43124pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
+has been already used, duplicate ignored
 
-Underfull \hbox (badness 3219) in paragraph at lines 631--632
-\T1/aer/m/n/9 We de-rive a true mean dered-dened dis-tance mod-u-
- []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.641 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-(./omegaCen_mnras_2016_vs.bbl
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
 
-Package hyperref Warning: Suppressing empty link on input line 75.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.641 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
+s been already used, duplicate ignored
 
-[10]
-Underfull \vbox (badness 5022) has occurred while \output is active []
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.641 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
+ <./reworked_fitting_code/final_plots/metallicity_vs_residuals_3.pdf> <./rework
+ed_fitting_code/final_plots/metallicity_vs_residuals_4.pdf
 
+pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
+metallicity_vs_residuals_4.pdf): PDF inclusion: multiple pdfs with page group i
+ncluded in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 7012) has occurred while \output is active []
-
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.7}
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.280   et~al.}{2016}]{2016MNRAS.tmp..421S}
-                                            <./reworked_fitting_code/final_plot
-s/spect_color_PL.pdf>]
+l.641 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) ha
+s been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.641 W
+       e also anticipate that the NIRCam instrument on {\em JWST} \citep{200...
+ <./reworked_fitting_code/final_plots/metallicity_vs_residuals_J.pdf> <./rework
+ed_fitting_code/final_plots/metallicity_vs_residuals_H.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
+metallicity_vs_residuals_H.pdf): PDF inclusion: multiple pdfs with page group i
+ncluded in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+\T1/aer/m/n/9 We de-rive a mean dered-dened dis-tance mod-u-lus
+ []
+
+
+Underfull \hbox (badness 6001) in paragraph at lines 675--676
+\T1/aer/m/n/9 for $\OML/cmm/m/it/9 !$ \T1/aer/m/n/9 Cen of $[]$ with red-den-in
+g
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 675--676
+[]$ \T1/aer/m/n/9 us-ing dis-tance mod-uli de-
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.683 \section
+              *{Acknowledgements}pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.683 \section
+              *{Acknowledgements} <./reworked_fitting_code/final_plots/metallic
+ity_vs_residuals_K.pdf> <./reworked_fitting_code/final_plots/metallicity_slope_
+vs_wavelength.pdf
+
+pdfTeX warning: /usr/texbin/pdflatex (file ./reworked_fitting_code/final_plots/
+metallicity_slope_vs_wavelength.pdf): PDF inclusion: multiple pdfs with page gr
+oup included in a single page
+>] (./omegaCen_mnras_2016_vs.bbl
+
+Package hyperref Warning: Suppressing empty link on input line 75.
+
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.91 
+      <./reworked_fitting_code/final_plots/spect_color_PL.pdf>]
+Underfull \vbox (badness 5908) has occurred while \output is active []
+
+
 
 Package hyperref Warning: Suppressing empty link on input line 284.
 
-) [12pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.13
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.671 \clearpage
-                
+l.293   et~al.}{2006}]{2006ApJ...640L..43S}
+                                            <./reworked_fitting_code/final_plot
+s/phot_color_PL.pdf>]) [14
 
- <./reworked_fitting_code/final_plots/phot_color_PL.pdf>]
-[13
-
-
-] [14
+] [15
 
 
-] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 840.
- [16
+] [16
+
+
+] [17]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 884.
+ [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 840.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 884.
  (./omegaCen_mnras_2016_vs.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 840.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 840.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 884.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 884.
 Package rerunfilecheck Info: File `omegaCen_mnras_2016_vs.out' has not changed.
 
-(rerunfilecheck)             Checksum: DEA81B8CA44602C3EB1ECFE5D0CE019E;834.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 840.
+(rerunfilecheck)             Checksum: 0C313256EACD65DD1C5A4E0FB8795E0C;829.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 884.
  ) 
 Here is how much of TeX's memory you used:
- 7904 strings out of 493089
- 114765 string characters out of 6134842
- 286539 words of memory out of 5000000
- 11099 multiletter control sequences out of 15000+600000
+ 7941 strings out of 493089
+ 116480 string characters out of 6134842
+ 285865 words of memory out of 5000000
+ 11124 multiletter control sequences out of 15000+600000
  63674 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,13n,38p,1743b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 36i,13n,38p,1743b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -764,10 +876,10 @@ ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on omegaCen_mnras_2016_vs.pdf (16 pages, 2656525 bytes).
+Output written on omegaCen_mnras_2016_vs.pdf (18 pages, 2632133 bytes).
 PDF statistics:
- 1004 PDF objects out of 1200 (max. 8388607)
- 811 compressed objects within 9 object streams
- 106 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1087 PDF objects out of 1200 (max. 8388607)
+ 871 compressed objects within 9 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 
