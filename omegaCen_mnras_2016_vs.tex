@@ -57,6 +57,7 @@
 % Please keep new commands to a minimum, and use \newcommand not \def to avoid
 % overwriting existing commands. Example:
 \newcommand{\ho}{$H_{0}$\xspace}
+\newcommand{\ocen}{$\omega$~Cen\xspace}
 %\newcommand{\vscomment}[1]{{\bf\textcolor{magenta}{#1}}
 \providecommand{\vscomment}[1]{{\textcolor{magenta}{{VS: #1}}}\xspace}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -65,7 +66,7 @@
 
 % Title of the paper, and the short title which is used in the headers.
 % Keep the title short and informative.
-\title[Mid-IR RRL PLZ Relations in $\omega$ Cen]{The Carnegie RR Lyrae Program: The Mid-Infrared RR Lyrae Period-Luminosity-Metallicity Relations in $\omega$~Cen}
+\title[Mid-IR RRL PLZ Relations in $\omega$ Cen]{The Carnegie RR Lyrae Program: The (Near- and??) Mid-Infrared RR Lyrae Period-Luminosity-Metallicity Relations in $\omega$~Cen}
 
 % The list of authors, and the short list which is used in the headers.
 % If you need two or more lines of authors, add an extra line using \newauthor
@@ -197,7 +198,26 @@ keyword1 - keyword2 - keyword3
 % cite madore 2013 when talking about dispersion
 % we don't know if metallicity is most important factor in driving dispersion-has yet to be demonstrated to any significant level
 
-$\omega$~Centauri (NGC 5139) is one of the most well-studied Galactic globular clusters
+Given its proximity, size, and complexity, $\omega$~Centauri (NGC 5139) has become one of the most well-studied Galactic globular clusters (GGCs) \citep{
+    2002ASPC..265.....V}. It has a mass of approximately $4 \times 10^6~M_{\odot}$ \citep{2013MNRAS.429.1887D}, and a tidal radius of 88~pc \citep{2005MNRAS.360..631M}. $\omega$~Cen's close proximity to Earth \citep[$d \sim 5.5$~kpc, e.g.][]{2006ApJ...652..362D, 2001AJ....121.3089T} allows us to resolve the stellar population of this dense cluster. 
+
+Although it has been subject to decades of investigations, the true nature of $\omega$~Cen remains unclear. It is one of the most massive GGCs orbiting the Milky Way. It is significantly flattened \citep[$\epsilon = 1 - b/a = 0.17$][]{2005MNRAS.360..631M} and it does not show the levels of mass segregation in its stellar population that would be expected were it in equipartition \citep{2002ASPC..265...87A}. Additionally, \ocen was the first GGC discovered to comprise more than one stellar population \citep{1999Natur.402...55L}, breaking down the prevailing interpretation that GGCs were simple stellar populations with a single episode of star formation, hence a monolithic age and metallicity distribution.
+
+There are at least seven distinct stellar populations in \ocen \citep{2016MNRAS.457.4525T}, with a spread in metallicity as large as $0.8$ to $1.4$~dex \citep{2014ApJ...791..107V, 2012ApJ...746...14M, 2010ApJ...722.1373J}. As all the stars in \ocen are at approximately the same distance from Earth\footnote{In this case, the spread in distance due to the depth of the cluster is negligible.}, it is the ideal testbed for studying the effects of changing metallicity on a population.
+
+In this work we focus on the effects of changing metallicity on the RR Lyrae variables (RRL), specifically examining whether the period--luminosity (PL) relations in the near-- and mid--infrared (IR) are affected, and the magnitude of any such effects. $\omega$~Cen has been used previously for such studies, ranging from empirical tests in the optical \citep[e.g.][]{2003MNRAS.345...86O, 1991ApJ...373L..43L} and near--IR \citep[e.g.][]{2006MmSAI..77..245C, 2006ApJ...652..362D}, to semi--empirical tests using population synthesis techniques \citep{2016MNRAS.457.4525T}. 
+
+This work is part of the Carnegie RR Lyrae Program (CRRP), a Warm {\it Spitzer} Exploration Science program with the aim of provide an independent, Population II anchor to the extragalactic distance scale. Tied to RR Lyrae variables with high--precision, geometric distances in the Milky Way, the CRRP will ultimately provide a single instrument measurement of $H_{0}$, independent of Cepheid measurements, putting important constraints on the external accuracy of the standard candle distance ladder, and the internal consistency of the distance measurements of Cepheids and RR Lyrae variables.
+ 
+ Although observing RRL at mid--IR wavelengths dramatically reduces the effects of reddening and extinction \citep[$A_{[3.6]} \sim A_V / 16$][]{2005ApJ...619..931I}, a consensus has not been reached on the consequences of this shift to longer wavelengths on the metallicity term in the empirical RRL PL relation. Both theory and observation have demonstrated that the position of the horizontal branch in the optical colour--magnitude diagram is dependent on metallicity \citep[e.g.][]{2015ApJ...808...50M, 2004ApJS..154..633C, 2003MNRAS.344.1097B, 1994AJ....108..222N}. However, the size of the metallicity contribution in the infrared PL relation is yet to be settled in the literature, either from a theoretical or empirical standpoint. 
+ 
+The most in--depth study of the effect of metallicity on the mid--IR PL relation to date comes from \citet{2014MNRAS.439.3765D}, who used WISE data \citep{2010AJ....140.1868W, 2013wise.rept....1C} to examine possible changes in the RRL PL relation in globular clusters with different metallicities. They found a moderate metallicity dependence of the [W1]\footnote{approximately equivalent to {\it Spitzer} $3.6~\mu$m band} PL relation, with $\gamma_{W1} = 0.106 \pm 0.023$~mag~dex$^{-1}$, slightly larger than their value for the near--IR, and approximately half that of the optical dependence \citep[$\gamma_{K} = 0.088 \pm 0.026$~mag~dex$^{-1}$, $\gamma_{V} = 0.232 \pm 0.020$~mag~dex$^{-1}$,][]{2013MNRAS.435.3206D}. The observational work of \citet{2015ApJ...807..127M} appears to confirm this result, favouring a low value of $\gamma_K$ for Milky Way and Large Magellanic Cloud RRL. However, the empirical study of \citet{2015AJ....150...90K} considers near--IR observations of RRL in the Carina dwarf Spheroidal (dSph) galaxy, this time testing different PL relations with a range of metallicity coefficients. Their results favour a larger value for $\gamma_K$ than \citet{2015PKAS...30..183D}, with average values of $\gamma_K \approx 0.18$~mag~dex$^{-1}$. This is consistent with the theoretical models by \citet{2015ApJ...808...50M}, who find that the metallicity dependence of the infrared PL relation is just as large as at optical wavelengths.
+
+Our study is unique as it is the first study to use $\omega$~Cen to empirically measure the metallicity effect on the mid--IR RRL PL relation using metallicities of individual stars, rather than comparing the populations of RRL in different GGCs or dSph. Our approach --- studying only {\it differential photometric effects} --- removes the systematic uncertainties introduced by comparing populations at different distances with different levels of foreground extinction, and in some cases observed with different instruments.
+
+The paper is set out as follows: Section~\ref{sec:observations} details the observations and data reduction. Section~\ref{sec:results} presents the photometry of the $\omega$~Cen RRL. Section~\ref{sec:pl_relation} describes the mid-IR PL relations and Section~\ref{sec:distance_moduli} discusses the application of these to a distance measurement of  $\omega$~Cen. Section~\ref{sec:metallicity} examines the effects of metallicity on RRL magnitudes and distance estimates. Section~\ref{sec:discussion} discusses the implications of this, and other systematic effects we consider in this work. In Section~\ref{sec:conclusions} we present our conclusions.
+
+
 
 
 %In the era of `precision cosmology' it is important to fully understand all sources of uncertainty in our experiments. Although the results distance ladder measurements such as \citet{2011ApJ...730..119R} and \citet{2012ApJ...758...24F} agree very well, 
@@ -208,14 +228,6 @@ $\omega$~Centauri (NGC 5139) is one of the most well-studied Galactic globular c
 
 % A good local standard candle \citep[as defined by][]{1986ApJ...303....1A} has the following  features: a)~a physical basis, b)~objective measurable, c)~minimal corrections, and d)~small scatter. RR Lyrae variables (hereafter RRL) are excellent standard candles in the mid--infrared. As \citet{1986MNRAS.220..279L} demonstrated, unlike at optical wavelengths where their absolute magnitudes depend only on metallicity, in the infrared RRL follow a clear period--luminosity (PL) relation. The PL relation has a physical basis (i.e. the PL relation is directly linked to the period--radius relation), and both the period and luminosity of the RRL can be objectively measured. In the mid--IR minimal extinction corrections are required \citep[$A_{[3.6]} \approx A_{V}/16$,][]{2005ApJ...619..931I}, and the dispersion of the relation in the infrared has been shown to be small compared to optical wavelengths \citep{2015ApJ...808...50M, 2004ApJS..154..633C}. Through this decrease in dispersion we have found that the intrinsic width of the mid-IR PL for RRL is in fact \emph{smaller} than for Cepheids -- less than 0.05~mag compared to 0.10~mag \citep{2015ApJ...808...11N, 2011ApJ...743...76S}. This translates to a distance uncertainty for an individual RRL of below 2\% for RRL, compared to 4\% for Cepheids, at 3.6~$\mu$m. Thus, for nearby systems RRL are the most precise standard candles.
 
-Although observing RRL at mid--IR wavelengths dramatically reduces the effects of reddening and extinction, the consequences of this shift to longer wavelengths on other parameters in the empirical RRL PL relation are yet to be determined; a particularly contested factor is the effect of metallicity. Both theory and observation have demonstrated that the position of the horizontal branch in the optical colour--magnitude diagram is dependent on metallicity \citep[e.g.][]{2015ApJ...808...50M, 2004ApJS..154..633C, 2003MNRAS.344.1097B, 1994AJ....108..222N}. However, the size of the metallicity contribution in the infrared PL relation is yet to be settled in the literature, either from a theoretical or empirical standpoint. 
-
-The most in--depth study of the effect of metallicity on the mid--IR PL relation to date comes from \citet{2014MNRAS.439.3765D, 2015PKAS...30..183D}, who used the ALLWISE data release \citep{2010AJ....140.1868W, 2013wise.rept....1C} to examine possible changes in the RRL PL relation in globular clusters with different metallicities. They found a moderate dependence of the [W1] (approximately equivalent to {\it Spitzer} [3.6]) PL relation with [Fe/H] of $\gamma_{W1} = 0.102$~mag~dex$^{-1}$, slightly larger than their value for the near--IR, and approximately half that of the optical dependence ($\gamma_{K} = 0.088$~mag~dex$^{-1}$, $\gamma_{V} = 0.232$~mag~dex$^{-1}$). The observational work of \citet{2015ApJ...807..127M} appears to confirm this result, favouring a low value of $\gamma_K$ for Milky Way and LMC RRL. However, the empirical study of \citet{2015AJ....150...90K} considers near--IR observations of RRL in the Carina dwarf Spheroidal (dSph) galaxy, this time testing different PL relations with a range of metallicity coefficients. Their results favour a larger value for $\gamma_K$ than \citet{2015PKAS...30..183D}, with average values of $\gamma_K \approx 0.18$~mag~dex$^{-1}$. This is consistent with the theoretical models by \citet{2015ApJ...808...50M}, who find that the metallicity dependence of the infrared PL relation is just as large as at optical wavelengths.
-
-In this work we focus on the effects of metallicity on the RRL PL relation in the mid-IR using $\omega$~Cen as a test case. 
-$\omega$~Cen is unique in that it exhibits a measurable spread in metallicity, with the most recent results estimating $0.8~\leq~\Delta~\text{[Fe/H]}~\leq~1.4$~dex \citep{2014ApJ...791..107V, 2012ApJ...746...14M, 2010ApJ...722.1373J}. This makes $\omega$~Cen the ideal site for a metallicity study, as all the RRL can be considered to be at the same distance, leaving the metallicities of the individual stars as the only free parameter. $\omega$~Cen has been used previously for such studies, ranging from empirical tests in the optical \citep[e.g.][]{2003MNRAS.345...86O, 1991ApJ...373L..43L} and near--IR \citep[e.g.][]{2006MmSAI..77..245C, 2006ApJ...652..362D}, to semi--empirical tests using population synthesis techniques \citep{2016MNRAS.457.4525T}. Our study is unique as it is the first study to use $\omega$~Cen to empirically measure the metallicity effect on the mid--IR RRL PL relation using metallicities of individual stars.
-
-This work is part of the Carnegie RR Lyrae Program (CRRP), a {\it Spitzer} program \citep[][PID 90002]{2012sptz.prop90002F} which aims to provide an independent, population II measurement of the Hubble constant ($H_{0}$), tied to RR Lyrae variables with high precision geometric distances in the Milky Way. Similar to the Carnegie Hubble Program \citep[CHP][]{2011AJ....142..192F}, CRRP will provide a single instrument measurement of $H_{0}$. It will provide important constraints on the external accuracy of the standard candle distance ladder, and the internal consistency of the distance measurements of Cepheids and RR Lyrae variables.
 
 
 %RR Lyrae variables (hereafter RRL) are intrinsically fainter than Cepheids, and in the optical follow a much shallower, even horizontal, PL relation \citep{2004ApJS..154..633C}. Determining an accurate distance to an RRL in the $V$ band requires knowledge of its metallicity. However, \citet{1986MNRAS.220..279L} showed that the true power of RRL as distance indicators lies in the IR passbands. Recently, several groups have been studying the populations of RRL in globular clusters and nearby dwarf spheroidal galaxies in the infrared \citep[e.g.][and references therein]{2013ApJ...767...62G, 2014ApJ...786..147O, 2015ApJ...806..200C, 2015A&A...578A.128K}. Several Galactic RRL now have high precision geometric distances measured as part of the HST-Fine Guidance Sensor (HST-FGS) parallax program \citep{2011AJ....142..187B}, and can therefore be used to calibrate the absolute zero-point of the RRL PL relation.% and \textit{HST} parallaxes were obtained for several Galactic RRL calibrators \citep{2011AJ....142..187B}, where calibrators are RRL whose distances can be determined by both parallax and period-luminosity fitting. {\bf (Is that right? Should I be more general and say any object whose distance can be determined by more than one distance ladder method?)}
@@ -226,11 +238,9 @@ This work is part of the Carnegie RR Lyrae Program (CRRP), a {\it Spitzer} progr
 %
 %There are very few metallic or molecular transition lines in the mid-IR at typical RRL temperatures, so the effects of metallicity on luminosity should be minimised. However, $\omega$~Cen provides the ideal environment for a direct empirical test. Such an effect is not out of the realm of possibility; for example, the strength of the CO band head at 4.5~$\mu$m has been found to have a significant effect on Cepheid colours \citep{2010ApJ...709..120M}, and has such prevented the IRAC 4.5~$\mu$m Cepheid observations from being used for distance measurements in the CHP \citep{2011ApJ...743...76S, 2012ApJ...759..146M, 2016ApJ...816...49S}. Our concern in this program is systematic precision, and therefore we must test for any potential effects directly.
 %
-The paper is set out as follows: Section~\ref{sec:observations} details the observations and data reduction. Section~\ref{sec:results} presents the photometry of the $\omega$~Cen RRL. Section~\ref{sec:pl_relation} describes the mid-IR PL relations and Section~\ref{sec:distance_moduli} discusses the application of these to a distance measurement of  $\omega$~Cen. Section~\ref{sec:metallicity} examines the effects of metallicity on RRL magnitudes and distance estimates. Section~\ref{sec:discussion} discusses the implications of this, and other systematic effects we consider in this work. In Section~\ref{sec:conclusions} we present our conclusions.
-
 \section{Observations \& Data Reduction}
 \label{sec:observations}
-This work combines mid-IR observations from the {\it Spitzer} program \citet[][PID 90002]{2012sptz.prop90002F} with supporting near-IR observations from the FourStar instrument \citep{2013PASP..125..654P} on the Baade-Magellan telescope at Las Campanas Observatory. Figure~\ref{fig:omegaCen_fields} shows a $K_s$-band FourStar image with the {\it Spitzer} fields outlined, and the positions of known RRL from \citet{2004A&A...424.1101K} indicated by circles (fundamental mode, RRab) or triangles (first overtone, RRc). 
+This work combines mid-IR observations from the CRRP Warm {\it Spitzer} program with supporting near-IR observations from the FourStar instrument \citep{2013PASP..125..654P} on the Baade-Magellan telescope at Las Campanas Observatory. Figure~\ref{fig:omegaCen_fields} shows a $K_s$-band FourStar image with the {\it Spitzer} fields outlined, and the positions of known RRL from \citet{2004A&A...424.1101K} indicated by circles (fundamental mode, RRab) or triangles (first overtone, RRc). 
 
 \begin{figure*}
 \begin{center}
@@ -242,10 +252,10 @@ This work combines mid-IR observations from the {\it Spitzer} program \citet[][P
 
 \subsection{{\em Spitzer} Data}
 \label{sec:spitzer_reduction}
-The \textit{Spitzer} observations for this work were taken as part of the CRRP. Three fields in $\omega$~Cen were chosen; their positions are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours (0.67~days), roughly corresponding to the longest period RRL we expected in the field and ensuring full phase coverage of all RRL. The observations of all three fields were taken on 2013 May 10 and 2013 May 11. Each field was observed using the {\it Spitzer} InfraRed Array Camera (IRAC) \citep{2004ApJS..154...10F} with a 30~s frame time with a medium scale, gaussian 5-point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
+The \textit{Spitzer} observations for this work were taken as part of the CRRP \citet[][{\it Spitzer} PID 90002]{2012sptz.prop90002F}. Three fields in $\omega$~Cen were chosen; their positions are shown in Figure~\ref{fig:omegaCen_fields}. To obtain optimal RRL light curves we observed each field 12 times over approximately 16 hours (0.67~days), roughly corresponding to the longest period RRL we expected in the field and ensuring full phase coverage of all RRL. The observations of all three fields were taken on 2013 May 10 and 2013 May 11. Each field was observed using the {\it Spitzer} InfraRed Array Camera (IRAC) \citep{2004ApJS..154...10F} with a 30~s frame time with a medium scale, gaussian 5-point dither pattern to mitigate any image artefacts. Images were collected in both the 3.6 and 4.5~$\mu$m channels. 
 The elongated field shapes come from the design of IRAC; while the [3.6] channel is collecting on-target data, the [4.5] channel collects off target data ``for free'', and vice versa. We chose to include these off-target fields to maximise the number of RRL in our final sample and to increase the legacy value of our data set to the community. 
 
-The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the corrected basic calibrated data frames (cBCDs) then mosaicking them at 0.6 arcsec pixel scale using the drizzle algorithm. Mosaicked location-correction images were created at the same time. 
+The science images were created using \textsc{mopex} \citep{2006SPIE.6274E..0CM}, first running overlap correction on the corrected basic calibrated data frames (cBCDs) then mosaicking the original, under--sampled 1.2 arcsec scale images to a resolution of 0.6 arcsec pixel scale using the drizzle algorithm. Mosaicked location-correction images were created at the same time. The science mosaics have a signal to noise of approximately 100 at the brightness level of the RRL in both bands. 
 
 % say resolution/FWHM
 PSF photometry was performed on the mosaicked images using {\sc daophot} and {\sc allframe} \citep{1987PASP...99..191S, 1994PASP..106..250S}. The PSF model was created for each field/filter combination using the first epoch data and was applied to every epoch. As the observations were taken temporally close together the effects of telescope rotation between epochs on the mosaicked PSF were minimal, so making a single good PSF model for each field/filter combination proved to be more efficient and just as accurate as creating one for every epoch. 
@@ -258,14 +268,16 @@ Master star lists for {\sc allframe} were created for each filter/field combinat
 \label{sec:fourstar_reduction}
 
 % compare FWHMs not pixel scale
-$J$, $H$ and $K_s$ data were taken with the FourStar instrument on the Baade-Magellan telescope at Las Campanas Observatory \citep{2013PASP..125..654P} on the nights of 2013 June 25, 2013 June 27, and 2013 June 28. Four epochs were obtained each night in each filter for a total of 12 epochs. A mosaic of $5\times3$ slightly overlapping pointings (tiles), each with FourStar's native $10.9 \times 10.9$ arcminute field of view, covered a $50\times30$ arcminute field of view centred on $\omega$~Cen. Each tile consists of a 5 point dither pattern with a 5.8 second exposure time. Stacked mosaics of the entire field were made as well as individual tiles using a customised pipeline for FourStar data. The purpose of the individual tiles is to provide photometry with better time resolution than the large mosaic. 
+$J$, $H$ and $K_s$ data were taken with the FourStar instrument on the Baade-Magellan telescope at Las Campanas Observatory \citep{2013PASP..125..654P} on the nights of 2013 June 25, 2013 June 27, and 2013 June 28. Four epochs were obtained each night in each filter for a total of 12 epochs, with a typical image quality of $\text{FWHM} =0.6$ arc-seconds in the $K_{S}$ band. A mosaic of $5\times3$ slightly overlapping pointings (tiles), each with FourStar's native $10.9 \times 10.9$ arc-minute field of view, covered a $50\times30$ arc-minute field of view centred on $\omega$~Cen. Each tile consists of a 5 point dither pattern with a 5.8 second exposure time. Stacked mosaics of the entire field were made as well as individual tiles using a customised pipeline for FourStar data. The purpose of the individual tiles is to provide photometry with better time resolution than the large mosaic. 
 
 PSF photometry of the tiles was performed using \textsc{daophot} and \textsc{allframe} \citep{1987PASP...99..191S, 1994PASP..106..250S}. A PSF model was created for each epoch/tile/filter combination. A master star list for \textsc{allframe} was created from the final $K_s$ mosaic and the multi-wavelength/epoch results were combined using \textsc{daomatch} and \textsc{daomaster}. Our final photometry is calibrated to the 2MASS standard system \citep{2006AJ....131.1163S}. 
 
 \subsection{Crowding}
 \label{sec:crowding}
 
-The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the higher resolution FourStar $K_s$-band image. The 0.159 arcsec/pixel scale of the $K_s$-band image compared to the 0.6 arcsec/pixel scale of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. RRL were determined to be contaminated if there were one or more resolved stars in the $K_s$-band image within a 3.6 arcsecond (6 resampled IRAC pixels) radius of the RRL. 77 RRLs out of the original \citet{2004A&A...424.1101K} catalog of 192 were rejected due to crowding. Another 13 were outside the FourStar mosaic field of view, and four more were found to be unusable due to other image artefacts.
+\vscomment{Expand this section to include the crowded/uncrowded image cutouts.}
+
+The primary limiting factor in the photometric precision is crowding. To assess crowding for individual RRLs, we compared the {\it Spitzer} images to the higher resolution FourStar $K_s$-band image. The 0.159 arcsec/pixel scale of the $K_s$-band image compared to the 0.6 arcsec/pixel scale of the IRAC images enabled us to more accurately determine which stars were significantly contaminated. RRL were determined to be contaminated if there were one or more resolved stars in the $K_s$-band image within a 3.6 arc-second (6 resampled IRAC pixels) radius of the RRL. 77 RRLs out of the original \citet{2004A&A...424.1101K} catalog of 192 were rejected due to crowding. Another 13 were outside the FourStar mosaic field of view, and four more were found to be unusable due to other image artefacts.
 
 \section{Results}
 \label{sec:results}
@@ -314,7 +326,7 @@ where $a$, $b$, and $c$ are theoretically derived coefficients.
 
 \begin{table}
 \centering
-\caption{Theoretical near-IR RRL period-luminosity relation coefficients \citep{2015ApJ...808...50M}, for relations of the form ${M = a + b \times \log P + c \times [\text{Fe/H}]}$ (Eqn.~\ref{eqn:marconi_pl}) with modeled dispersion $\sigma$.}
+\caption{Theoretical near-IR RRL period-luminosity relation coefficients \citep{2015ApJ...808...50M}, for relations of the form ${M = a + b \times \log P + c \times [\text{Fe/H}]}$ (Eqn.~\ref{eqn:marconi_pl}) with modelled dispersion $\sigma$.}
 \label{tab:pl_table_theo}
 \begin{tabular}{l||c|c|c|c|c|r} 
 \hline \hline
@@ -465,11 +477,12 @@ We can place an upper limit on the contribution of metallicity to the $\omega$~C
 %go through rachael's logic
 %HOW ARE WE DEFINING INTRINSIC
 
-The calculated $\sigma_\text{[Fe/H]}$ values for all IRAC PL relations are shown in Table~\ref{tab:metallicity_sigma}, along with with $\sigma_{\text{observed}}$ and the other scatter components.
+Table~\ref{tab:metallicity_sigma} shows the estimated contribution to the dispersion from metallicity $\sigma_{[Fe/H]}$ in each band, alongside the contributions from the photometric uncertainties and intrinsic components \citep[from][for the near-- and mid--IR, respectively]{2015ApJ...808...50M, 2015ApJ...808...11N}. We note that this procedure is robust despite the inclusion of the metallicity term, $c$, in the near--IR PL relations (Equation~\ref{eqn:marconi_pl} and Table~\ref{tab:pl_table_theo}), as this is a constant term multiplied by a single [Fe/H] applied to each RRL uniformly, while the methodology described in this section studies the differential effects of the varying metallicities in \ocen.
+
 
 \begin{table}
 \centering
-\caption{The standard deviation of the observed spread of the PL residuals $\sigma_{\text{observed}}$ ($\sigma_{\text{PL}}$ in Table~\ref{tab:dist_mod}) and its components: $\sigma_{\text{intrinsic}}$ ($\sigma$ in Table~\ref{tab:pl_table_m4}), $\sigma_{\text{phot}}$, and $\sigma_{[\text{Fe/H}]}$ for all IRAC PL relations.}
+\caption{The standard deviation of the observed spread of the PL residuals $\sigma_{\text{observed}}$ ($\sigma_{\text{PL}}$ in Table~\ref{tab:dist_mod}) and its components: $\sigma_{\text{intrinsic}}$ ($\sigma$ in Table~\ref{tab:pl_table_m4}), $\sigma_{\text{phot}}$, and $\sigma_{[\text{Fe/H}]}$ for all PL relations.}
 \label{tab:metallicity_sigma}
 \begin{tabular}{lccccr} 
 \hline \hline
@@ -501,7 +514,10 @@ We use these estimates of $\sigma_\text{[Fe/H]}$ to assess the $\gamma$ paramete
 \end{equation}
 similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K, 2009MNRAS.396.1287S}. Here we calculate $\gamma$ in units of mag~dex$^{-1}$ by dividing the standard deviation of the metallicity component of the PL scatter by the standard deviation of the metallicity distribution for both \citep{2006ApJ...640L..43S} and photometric \citep{2000AJ....119.1824R} metallicities; the results for each PL are shown in Table~\ref{tab:gamma}. We use all available metallicity values for each pulsation mode when taking the standard deviation, as we do not have metallicity values for all the stars in our samples, although the metallicity values we do have trace the overall metallicity distributions fairly well (see Figure~\ref{fig:metallicity_hists}).
 
-For [3.6] we find $\gamma \leq 0.455$ mag~dex$^{-1}$ for RRab's, and $\gamma \leq 0.237$ mag~dex$^{-1}$ for RRc's. These values are upper limits, and as we will show in Sections~\ref{sec:residuals} and~\ref{sec:discussion}, the size of the effect that can be attributed to metallicity effects alone may be much smaller. 
+It is important to note that these values presented in Tables~\ref{tab:metallicity_sigma} and \ref{tab:gamma} are upper limits, and as we will show in Sections~\ref{sec:residuals} and~\ref{sec:discussion}, the size of the effect that can be attributed to metallicity effects alone may be much smaller. 
+
+%For [3.6] we find $\gamma \leq 0.455$ mag~dex$^{-1}$ for RRab's, and $\gamma \leq 0.237$ mag~dex$^{-1}$ for RRc's. These values are upper limits, and as we will show in Sections~\ref{sec:residuals} and~\ref{sec:discussion}, the size of the effect that can be attributed to metallicity effects alone may be much smaller. 
+
 
 \begin{table}
 \centering
@@ -583,7 +599,18 @@ However, the dominant source of uncertainty in these fits is the metallicity mea
 \begin{figure}
 \begin{center}
 \includegraphics[width=80mm, trim=0.75cm 0 0.5cm 0]{reworked_fitting_code/final_plots/metallicity_slope_vs_wavelength.pdf}
-\caption{.}
+\caption{Metallicity slope dependence on wavelength. At each of five
+wavelengths along the x axis (corresponding to the $J$, $H$, $K$, 3.6 and 
+4.5~$\mu$m bandpasses) we plot on the y axis the results of a
+regression of magnitude residuals against metallicities, searching
+both for a signal and for any trend in that signal with
+wavelength. Neither trend is found. Colour--coded symbols break the data
+down into RRab and RRC type variables (circles and triangles,
+respectively) and into spectroscopically determined metallicities and
+photometric metallicities (black/blue and red/green, respectively.)
+Virtually all of the individual data points are consistent with no
+metallicity effect on the observed magnitudes, independent of
+wavelength, RRL type and/or metallicity determination method.}
 \label{fig:metallicity_slopes}
 \end{center}
 \end{figure}
@@ -610,7 +637,8 @@ However, the dominant source of uncertainty in these fits is the metallicity mea
 
 % 2. Why the discrepancy between RRab and RRc - data effect rather than intrinsic??
 
-
+\subsection{Evolutionary Effects}
+\label{sec:evolution}
 While we find high upper bounds on the contribution of metallicity to the PL scatter in all infrared passbands, it is unlikely that this scatter is due to metallicity alone. \citet{1986A&A...169..111G} and \citet{1991ApJ...373L..43L} demonstrate that RRL luminosity is dependent on the horizontal branch morphology as well as metallicity; it is also well known that $\omega$~Cen contains RRLs in multiple evolutionary states \citep{2008MmSAI..79..342S, 2015A&A...577A..99N}.
 
 \citet{2015ApJ...808...50M} performed extensive theoretical studies of the effects of both RRL composition and evolutionary state on the position of the horizontal branch in the Hertzsprung--Russell (HR) diagram. In their figure 2 they present the HR diagram for a selection of models at a fixed composition for a range of evolutionary states, demonstrating a spread in 0.3~dex in bolometric luminosity between the least evolved, zero--age horizontal branch (ZAHB) mass RRL and the most evolved RRL. The RRL population in $\omega$~Cen is thought to be comprised of (at least) two different populations --- the metal rich population being the less evolved ZAHB phase stars, with the more metal poor population in an advanced evolutionary state \citep{2016MNRAS.457.4525T}. This spread in evolutionary state \textit{in addition to} the spread in metallicity could create the additional dispersion observed in the $\omega$~Cen PL relations. 
@@ -633,6 +661,15 @@ Figures~\ref{fig:hband_spectro} and~\ref{fig:hband_photo} demonstrate the need f
 \end{center}
 \end{figure*}
 
+\subsection{Improvements to the Mid--IR PL Calibration}
+\label{sec:improvements}
+We note here a concern with the current adopted slopes for RRab and RRc variables at 4.5~$\mu$m from \citet{2015ApJ...808...11N} (and to a lesser degree for the corresponding slopes for the 3.6~$\mu$m PL relations). There are two indications that the slopes may not be correct. First, we note that the slope of the respective PL relations as a function of wavelength is not monotonically increasing with increasing wavelength, as expected as the slope asymptotically approaches the slope of the wavelength-independent period-radius relation. For the RRab variables a relatively smooth trend is observed. However, for the RRc
+variables the situation is less clear. While the three near-infrared slopes follow the RRab trend in lock--step, the slope at 3.6~$\mu$m is very shallow with respect to the value expected from a smooth extrapolation from the shorter wavelengths, and then at 4.5~$\mu$m the
+slope becomes unexpectedly large. This pattern of behaviour is unphysical. 
+
+Future data, beyond the scope of this paper, will be required to improve upon these slopes; however, we note that the slopes at 3.6~$\mu$m and 4.5~$\mu$m should both be around $-2.80$, suggesting that 3.6~$\mu$m will be steeper by 0.09 (a 5\% adjustment) and that the slope at 4.5~$\mu$m  will be flatter by 0.18 (an 6\% adjustment). Second, the correspondence of the 3.6 and 4.5~$\mu$m magnitude residuals from their respective PL relations would be made tighter if the 4.5~$\mu$m PL relation for the RRc variables were made shallower, or the 3.6~$\mu$m slope made steeper, or both, as suggested above.
+
+The issue of whether this difference in slope is due to differences in metallicity between \ocen and M4 \citep[the calibrating sample in][]{2015ApJ...808...11N}, or to another effect such as the discrepant period distributions of the samples, or a difference in analysis technique, requires an independent sample of RRL at a single metallicity, and as such cannot be answered with the \ocen sample. 
 
 Results from the Gaia mission \citep{1996A&AS..116..579L} are expected to improve the overall characterisation of the RRL PL relation dramatically. Trigonometric parallaxes and spectrophotometric metallicities of Galactic RRLs from Gaia will increase the number of high quality calibrators for the infrared PL relations by an order of magnitude \citep[Scowcroft et al. 2016b, in prep., Beaton et al. 2016, in prep.]{2012MNRAS.426.2463L}. 
 
