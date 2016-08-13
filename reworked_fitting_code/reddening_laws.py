@@ -30,7 +30,7 @@ def indebetouw_ir(wavelength): ## For use with 1.5 microns onwards
 ## which are the dereddened distance modulus, the Av and their uncertainties
 
 	
-def fit_reddening(b,v,r,i,j,h,k,i1,i2,berr,verr,rerr,ierr,jerr,herr,kerr,i1err,i2err):
+def fit_reddening(b,v,r,i,j,h,k,i1,i2,berr,verr,rerr,ierr,jerr,herr,kerr,i1err,i2err,weight_by_err=True):
 	## The input values are the uncorrected distance moduli
 	alam = []
 	mus = []
@@ -62,7 +62,12 @@ def fit_reddening(b,v,r,i,j,h,k,i1,i2,berr,verr,rerr,ierr,jerr,herr,kerr,i1err,i
 		#print alam
 		def redfit(alam, muo, Av):
 			return muo + Av*alam
-		popt, pcov = curve_fit(redfit, alam[alam>0], mus[mus>0], sigma=muerr[muerr > 0], absolute_sigma=True)
+		if weight_by_err:
+			print 'weighting by error'
+			popt, pcov = curve_fit(redfit, alam[alam>0], mus[mus>0], sigma=muerr[muerr > 0], absolute_sigma=True)
+		else:
+			print 'NOT weighting by error'
+			popt, pcov = curve_fit(redfit, alam[alam>0], mus[mus>0])
 		muo = popt[0]
 		Av = popt[1]
 		#print muo, Av
