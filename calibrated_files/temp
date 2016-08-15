@@ -1,19 +1,165 @@
-13:26:28.62 -47:18:46.9 J2000 ->  380.172  427.931
-13:26:23.54 -47:18:47.7 J2000 ->  440.857  489.028
-13:26:33.08 -47:22:25.2 J2000 ->  589.916  121.198
-13:26:12.80 -47:19:35.7 J2000 ->  624.766  564.568
-13:26:30.59 -47:23:01.6 J2000 ->  662.857  109.504
-13:26:27.21 -47:24:06.2 J2000 ->  780.093   76.045
-13:26:27.11 -47:24:38.0 J2000 ->  819.445   40.504
-13:26:18.33 -47:23:12.4 J2000 ->  819.776  246.483
-13:26:04.13 -47:21:45.0 J2000 ->  881.822  520.639
-13:26:13.05 -47:24:03.0 J2000 ->  942.506  252.284
-13:26:12.93 -47:24:18.8 J2000 ->  962.871  235.467
-13:25:57.06 -47:22:46.1 J2000 -> 1038.224  536.015
-13:26:06.99 -47:24:36.6 J2000 -> 1053.995  287.203
-13:26:13.13 -47:26:09.7 J2000 -> 1093.570  104.733
-13:26:11.17 -47:25:58.8 J2000 -> 1103.502  141.202
-13:25:56.46 -47:24:12.0 J2000 -> 1148.247  443.852
-13:25:58.18 -47:25:21.6 J2000 -> 1211.463  342.334
-13:25:59.58 -47:26:24.0 J2000 -> 1269.823  253.057
-13:25:56.15 -47:25:53.8 J2000 -> 1273.915  329.744
+mv omegaCen_3_3p6um_plots/V25.pdf omegaCen_3_3p6um_plots/V25_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V23.pdf omegaCen_3_3p6um_plots/V23_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V34.pdf omegaCen_3_3p6um_plots/V34_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V30.pdf omegaCen_3_3p6um_plots/V30_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V27.pdf omegaCen_3_3p6um_plots/V27_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V26.pdf omegaCen_3_3p6um_plots/V26_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V51.pdf omegaCen_3_3p6um_plots/V51_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V44.pdf omegaCen_3_3p6um_plots/V44_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V40.pdf omegaCen_3_3p6um_plots/V40_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V35.pdf omegaCen_3_3p6um_plots/V35_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V71.pdf omegaCen_3_3p6um_plots/V71_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V62.pdf omegaCen_3_3p6um_plots/V62_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V59.pdf omegaCen_3_3p6um_plots/V59_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V52.pdf omegaCen_3_3p6um_plots/V52_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V88.pdf omegaCen_3_3p6um_plots/V88_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V87.pdf omegaCen_3_3p6um_plots/V87_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V86.pdf omegaCen_3_3p6um_plots/V86_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V96.pdf omegaCen_3_3p6um_plots/V96_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V91.pdf omegaCen_3_3p6um_plots/V91_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V90.pdf omegaCen_3_3p6um_plots/V90_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V89.pdf omegaCen_3_3p6um_plots/V89_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V99.pdf omegaCen_3_3p6um_plots/V99_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V98.pdf omegaCen_3_3p6um_plots/V98_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V97.pdf omegaCen_3_3p6um_plots/V97_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V111.pdf omegaCen_3_3p6um_plots/V111_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V106.pdf omegaCen_3_3p6um_plots/V106_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V116.pdf omegaCen_3_3p6um_plots/V116_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V115.pdf omegaCen_3_3p6um_plots/V115_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V114.pdf omegaCen_3_3p6um_plots/V114_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V112.pdf omegaCen_3_3p6um_plots/V112_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V118.pdf omegaCen_3_3p6um_plots/V118_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V117.pdf omegaCen_3_3p6um_plots/V117_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V121.pdf omegaCen_3_3p6um_plots/V121_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V120.pdf omegaCen_3_3p6um_plots/V120_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V119.pdf omegaCen_3_3p6um_plots/V119_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V131.pdf omegaCen_3_3p6um_plots/V131_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V128.pdf omegaCen_3_3p6um_plots/V128_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V122.pdf omegaCen_3_3p6um_plots/V122_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V135.pdf omegaCen_3_3p6um_plots/V135_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V132.pdf omegaCen_3_3p6um_plots/V132_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V139.pdf omegaCen_3_3p6um_plots/V139_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V137.pdf omegaCen_3_3p6um_plots/V137_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V136.pdf omegaCen_3_3p6um_plots/V136_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V141.pdf omegaCen_3_3p6um_plots/V141_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V140.pdf omegaCen_3_3p6um_plots/V140_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V144.pdf omegaCen_3_3p6um_plots/V144_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V143.pdf omegaCen_3_3p6um_plots/V143_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V142.pdf omegaCen_3_3p6um_plots/V142_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V155.pdf omegaCen_3_3p6um_plots/V155_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V153.pdf omegaCen_3_3p6um_plots/V153_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V146.pdf omegaCen_3_3p6um_plots/V146_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V165.pdf omegaCen_3_3p6um_plots/V165_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V158.pdf omegaCen_3_3p6um_plots/V158_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V157.pdf omegaCen_3_3p6um_plots/V157_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V264.pdf omegaCen_3_3p6um_plots/V264_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V166.pdf omegaCen_3_3p6um_plots/V166_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V265.pdf omegaCen_3_3p6um_plots/V265_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V267.pdf omegaCen_3_3p6um_plots/V267_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V266.pdf omegaCen_3_3p6um_plots/V266_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V268.pdf omegaCen_3_3p6um_plots/V268_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V271.pdf omegaCen_3_3p6um_plots/V271_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V270.pdf omegaCen_3_3p6um_plots/V270_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V272.pdf omegaCen_3_3p6um_plots/V272_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V274.pdf omegaCen_3_3p6um_plots/V274_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V273.pdf omegaCen_3_3p6um_plots/V273_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V277.pdf omegaCen_3_3p6um_plots/V277_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V275.pdf omegaCen_3_3p6um_plots/V275_F3_3p6um.pdf
+mv omegaCen_3_3p6um_plots/V100.pdf omegaCen_3_3p6um_plots/V100_F3_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V9.pdf omegaCen_2_3p6um_plots/V9_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V5.pdf omegaCen_2_3p6um_plots/V5_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V4.pdf omegaCen_2_3p6um_plots/V4_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V3.pdf omegaCen_2_3p6um_plots/V3_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V12.pdf omegaCen_2_3p6um_plots/V12_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V11.pdf omegaCen_2_3p6um_plots/V11_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V21.pdf omegaCen_2_3p6um_plots/V21_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V15.pdf omegaCen_2_3p6um_plots/V15_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V13.pdf omegaCen_2_3p6um_plots/V13_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V54.pdf omegaCen_2_3p6um_plots/V54_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V47.pdf omegaCen_2_3p6um_plots/V47_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V66.pdf omegaCen_2_3p6um_plots/V66_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V58.pdf omegaCen_2_3p6um_plots/V58_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V68.pdf omegaCen_2_3p6um_plots/V68_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V67.pdf omegaCen_2_3p6um_plots/V67_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V94.pdf omegaCen_2_3p6um_plots/V94_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V185.pdf omegaCen_2_3p6um_plots/V185_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V263.pdf omegaCen_2_3p6um_plots/V263_F2_3p6um.pdf
+mv omegaCen_2_3p6um_plots/V10.pdf omegaCen_2_3p6um_plots/V10_F2_3p6um.pdf
+mv omegaCen_1_4p5um_plots/V19.pdf omegaCen_1_4p5um_plots/V19_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V41.pdf omegaCen_1_4p5um_plots/V41_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V20.pdf omegaCen_1_4p5um_plots/V20_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V81.pdf omegaCen_1_4p5um_plots/V81_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V71.pdf omegaCen_1_4p5um_plots/V71_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V82.pdf omegaCen_1_4p5um_plots/V82_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V97.pdf omegaCen_1_4p5um_plots/V97_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V86.pdf omegaCen_1_4p5um_plots/V86_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V99.pdf omegaCen_1_4p5um_plots/V99_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V98.pdf omegaCen_1_4p5um_plots/V98_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V102.pdf omegaCen_1_4p5um_plots/V102_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V101.pdf omegaCen_1_4p5um_plots/V101_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V106.pdf omegaCen_1_4p5um_plots/V106_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V103.pdf omegaCen_1_4p5um_plots/V103_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V109.pdf omegaCen_1_4p5um_plots/V109_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V108.pdf omegaCen_1_4p5um_plots/V108_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V107.pdf omegaCen_1_4p5um_plots/V107_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V111.pdf omegaCen_1_4p5um_plots/V111_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V110.pdf omegaCen_1_4p5um_plots/V110_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V113.pdf omegaCen_1_4p5um_plots/V113_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V112.pdf omegaCen_1_4p5um_plots/V112_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V119.pdf omegaCen_1_4p5um_plots/V119_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V118.pdf omegaCen_1_4p5um_plots/V118_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V114.pdf omegaCen_1_4p5um_plots/V114_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V122.pdf omegaCen_1_4p5um_plots/V122_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V121.pdf omegaCen_1_4p5um_plots/V121_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V142.pdf omegaCen_1_4p5um_plots/V142_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V141.pdf omegaCen_1_4p5um_plots/V141_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V140.pdf omegaCen_1_4p5um_plots/V140_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V132.pdf omegaCen_1_4p5um_plots/V132_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V146.pdf omegaCen_1_4p5um_plots/V146_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V145.pdf omegaCen_1_4p5um_plots/V145_F1_4p5um.pdf
+mv omegaCen_1_4p5um_plots/V100.pdf omegaCen_1_4p5um_plots/V100_F1_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V3.pdf omegaCen_2_4p5um_plots/V3_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V9.pdf omegaCen_2_4p5um_plots/V9_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V5.pdf omegaCen_2_4p5um_plots/V5_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V4.pdf omegaCen_2_4p5um_plots/V4_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V13.pdf omegaCen_2_4p5um_plots/V13_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V12.pdf omegaCen_2_4p5um_plots/V12_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V33.pdf omegaCen_2_4p5um_plots/V33_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V21.pdf omegaCen_2_4p5um_plots/V21_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V15.pdf omegaCen_2_4p5um_plots/V15_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V46.pdf omegaCen_2_4p5um_plots/V46_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V45.pdf omegaCen_2_4p5um_plots/V45_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V50.pdf omegaCen_2_4p5um_plots/V50_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V47.pdf omegaCen_2_4p5um_plots/V47_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V58.pdf omegaCen_2_4p5um_plots/V58_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V95.pdf omegaCen_2_4p5um_plots/V95_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V94.pdf omegaCen_2_4p5um_plots/V94_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V127.pdf omegaCen_2_4p5um_plots/V127_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V185.pdf omegaCen_2_4p5um_plots/V185_F2_4p5um.pdf
+mv omegaCen_2_4p5um_plots/V10.pdf omegaCen_2_4p5um_plots/V10_F2_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V14.pdf omegaCen_3_4p5um_plots/V14_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V30.pdf omegaCen_3_4p5um_plots/V30_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V27.pdf omegaCen_3_4p5um_plots/V27_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V26.pdf omegaCen_3_4p5um_plots/V26_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V25.pdf omegaCen_3_4p5um_plots/V25_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V40.pdf omegaCen_3_4p5um_plots/V40_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V34.pdf omegaCen_3_4p5um_plots/V34_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V56.pdf omegaCen_3_4p5um_plots/V56_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V49.pdf omegaCen_3_4p5um_plots/V49_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V44.pdf omegaCen_3_4p5um_plots/V44_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V62.pdf omegaCen_3_4p5um_plots/V62_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V59.pdf omegaCen_3_4p5um_plots/V59_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V64.pdf omegaCen_3_4p5um_plots/V64_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V117.pdf omegaCen_3_4p5um_plots/V117_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V120.pdf omegaCen_3_4p5um_plots/V120_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V119.pdf omegaCen_3_4p5um_plots/V119_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V118.pdf omegaCen_3_4p5um_plots/V118_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V122.pdf omegaCen_3_4p5um_plots/V122_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V121.pdf omegaCen_3_4p5um_plots/V121_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V131.pdf omegaCen_3_4p5um_plots/V131_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V128.pdf omegaCen_3_4p5um_plots/V128_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V140.pdf omegaCen_3_4p5um_plots/V140_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V135.pdf omegaCen_3_4p5um_plots/V135_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V158.pdf omegaCen_3_4p5um_plots/V158_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V156.pdf omegaCen_3_4p5um_plots/V156_F3_4p5um.pdf
+mv omegaCen_3_4p5um_plots/V115.pdf omegaCen_3_4p5um_plots/V115_F3_4p5um.pdf
