@@ -1,6 +1,7 @@
 omegaCen RR Lyrae cut sample
 ----
-
+* RR Lyrae matching and sample analysis done using matching_to_kaluzny.ipynb
+* Futher documentation coming eventually - this summarises the main points.
 * Matched the calibrated files to Kaluzny (2004) catalogues by positon - best match within a 10 pixel radius
 * Examined image cutouts (+- 10 pixels in xy) and gloess fit light curves for each star to check quality
   - If good location match and lightcurve then accepted
