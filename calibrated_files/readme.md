@@ -1,5 +1,5 @@
 omegaCen RR Lyrae cut sample
-----
+===
 RR Lyrae matching and sample analysis done using matching_to_kaluzny.ipynb
 
 Further documentation coming eventually - this summarises the main points.
@@ -20,7 +20,7 @@ Further documentation coming eventually - this summarises the main points.
   
 
 rematch function
-====
+---
 The rematch function within the matching_to_kaluzny notebook works to accept and reject the original match stars right now, but the part of the function that allows the user to chose and alternative star is not yet functional. It does display the light curves and positions of the other nearby stars. It does what I need it to do. Feel free to try to implement this part. 
 
 
