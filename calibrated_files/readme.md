@@ -19,6 +19,7 @@ Further documentation coming eventually - this summarises the main points.
   - Close to edge of frame or bad regions on image
   
 **Final Files**: 
+
 The final files with the cut samples are as follows:
 
 omegaCen_1_3p6um_rrl_matched_to_kaluzny.cut
