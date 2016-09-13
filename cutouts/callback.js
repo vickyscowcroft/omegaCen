@@ -10,17 +10,15 @@ var feh = data['photfeh'][indx];
 var feh_err = data['photfeh_err'][indx];
 for (var i=3; i <= 5; i++) {
     var fitsfile = 'cutouts/' + id.toString() + '_' + filts['image'+i.toString()] + '.fits';
-    JS9.Load(fitsfile, {zoom:'toFit', scale:'log', scaleclipping:'dataminmax'}, {display:'image'+i.toString()});
+    JS9.Load(fitsfile, {zoom:'toFit', scale:'asinh', scaleclipping:'dataminmax'}, {display:'image'+i.toString()});
 }
 var idstr = 'RRL ID ' + id;
-// <span style="font-size:10pt">' + type + ', P = ' + Number(per).toFixed(3) + ' d';
-// infostr = infostr + ', [Fe/H] = ' + feh + ' +/- ' + feh_err + ' dex</span>';
 document.getElementById('starinfo').innerHTML = idstr;
 
 var band_labels = ['j','h','k','3','4'];
 var band_names = ['J','H','K_s','[3.6]','[4.5]'];
 var infostr = type + ', P = ' + Number(per).toFixed(3) + ' d<br>';
-// infostr = infostr + '(' + ra + ', ' + dec + ')';
+infostr = infostr + '(' + ra + ', ' + dec + ')';
 infostr = infostr + '[Fe/H]: ' + feh + ' +/- ' + feh_err + ' dex<br>';
 for (var i=0; i <= 4; i++) {
 	var mag = Number(data['mag_' + band_labels[i]][indx]).toFixed(3);
