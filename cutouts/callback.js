@@ -8,6 +8,8 @@ var ra = data['ra'][indx];
 var dec = data['dec'][indx];
 var feh = data['photfeh'][indx];
 var feh_err = data['photfeh_err'][indx];
+var color = data['color'][indx];
+var lc_data = lc_source.get('data');
 for (var i=3; i <= 5; i++) {
     var fitsfile = 'cutouts/' + id.toString() + '_' + filts['image'+i.toString()] + '.fits';
     JS9.Load(fitsfile, {zoom:'toFit', scale:'asinh', scaleclipping:'dataminmax'}, {display:'image'+i.toString()});
@@ -20,9 +22,25 @@ var band_names = ['J','H','K_s','[3.6]','[4.5]'];
 var infostr = type + ', P = ' + Number(per).toFixed(3) + ' d<br>';
 infostr = infostr + '(' + ra + ', ' + dec + ')';
 infostr = infostr + '[Fe/H]: ' + feh + ' +/- ' + feh_err + ' dex<br>';
-for (var i=0; i <= 4; i++) {
-	var mag = Number(data['mag_' + band_labels[i]][indx]).toFixed(3);
-	var merr = Number(data['merr_' + band_labels[i]][indx]).toFixed(3);
+for (var i=0; i<=4; i++) {
+	var l = band_labels[i];
+	var lc_phase = lc_data[id + '_' + l + '_phase'];
+	var lc_mags = lc_data[id + '_' + l + '_mags'];
+	for (var j=0; j<12; j++) {
+		if (typeof lc_phase !== "undefined") {
+			lc_data['phase_' + l][j] = lc_phase[j];
+			lc_data['mags_' + l][j] = lc_mags[j];
+			lc_data['color'][j] = color;
+		} else {
+			lc_data['phase_' + l][j] = 'NaN';
+			lc_data['mags_' + l][j] = 'NaN';
+		}
+	}
+	lc_source.trigger('change');
+	// lc_data['phase_' + l] = lc_phase;
+	// lc_data['mags_' + l] = lc_mags;
+	var mag = Number(data['mag_' + l][indx]).toFixed(3);
+	var merr = Number(data['merr_' + l][indx]).toFixed(3);
     infostr = infostr + band_names[i] + ' mag: ' + mag + ' +/- ' + merr + '<br>';
 }
 document.getElementById('mags').innerHTML = infostr;

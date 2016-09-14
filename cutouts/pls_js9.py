@@ -40,6 +40,7 @@ df['logP'] = np.log10(df.per)
 df['type_vowel'] = df.type.astype(str).str.replace('0','RRab').replace('1','RRc')
 color = colormap(df.photfeh,RdYlBu11)
 df['color'] = color
+lc_df = pd.read_csv('../reworked_fitting_code/final_data_files/lightcurves.csv')
 
 # reads in javascript callback
 with open('callback.js') as callback_file:
@@ -60,43 +61,65 @@ unselected = Circle(size=7, fill_color='color', line_color='black',
 
 filters = ColumnDataSource({'image{}'.format(i+1):[band_names[i]] for i in range(5)})
 
-# Assigns color to point based on redshift
 logP = np.log10(df.per)
 source = ColumnDataSource(data=df.astype(str).to_dict(orient='list'))
+lc_source = ColumnDataSource(data=lc_df.astype(str).to_dict(orient='list'))
+lc_source.add([],name='color')
 figure_dict = OrderedDict()
+
 for i in range(5):
     p = figure(y_range=(14.6, 11.9), x_range=(-0.64, 0.06), plot_width=550)
     l = band_labels[i]
-    source.add(list(df['mag_{}'.format(l)]-mag_offset[i]), name='mag__{}'.format(l))
-    p.circle('logP', 'mag_{}'.format(l),color='color',
-        source=source, size=7, line_color='black', name='pl',
+    lc_source.add([],name='phase_{}'.format(l))
+    lc_source.add([],name='mags_{}'.format(l))
+    p.circle('logP', 'mag_{}'.format(l),color='color', name='pl',
+        source=source, size=7, line_color='black',
         line_width=0.7, fill_alpha=0.7, line_alpha=0.7)
     hover = HoverTool(tooltips=OrderedDict([('ID','@id'),('Type','@type_vowel'),('Per','@per'),
-                                            ('[Fe/H]','@photfeh')])) #,('RA','@ra'),('Dec','@dec')
+                                            ('[Fe/H]','@photfeh')])) # ('RA','@ra'),('Dec','@dec')
     p.add_tools(hover)
     p.yaxis.axis_label = '{} mag'.format(band_names[i])
+    
+    p1 = figure(x_range=(-0.1,1.1), plot_width=200)
+    p1.yaxis.visible = False
+    
+    p1.circle('phase_{}'.format(l),'mags_{}'.format(l),source=lc_source,
+        color='color', size=7, line_color='black',
+        line_width=0.7)
+
     if i == 0:
         p.xaxis.major_label_text_font_size = '0pt'
+        p1.xaxis.major_label_text_font_size = '0pt'
         p.plot_height = 180
+        p1.plot_height = 180
     elif i == 4:
         p.plot_height = 190
+        p1.plot_height = 190
     else:
         p.xaxis.major_label_text_font_size = '0pt'
+        p1.xaxis.major_label_text_font_size = '0pt'
         p.plot_height = 150
+        p1.plot_height = 150
     figure_dict['p{}'.format(i)] = p
+    figure_dict['p{}'.format(i+5)] = p1
     if i > 0:
         figure_dict['p{}'.format(i)].x_range = figure_dict['p0'].x_range
         figure_dict['p{}'.format(i)].y_range = figure_dict['p0'].y_range
+        figure_dict['p{}'.format(i+5)].x_range = figure_dict['p5'].x_range
+    figure_dict['p{}'.format(i+5)].y_range = figure_dict['p0'].y_range
+
     renderer = p.select('pl')
     renderer.selection_glyph = selected
     renderer.nonselection_glyph = unselected
-    callback = CustomJS(args=dict(source=renderer[0].data_source, filters = filters),
+    callback = CustomJS(args=dict(source=renderer[0].data_source, filters = filters, lc_source=lc_source),
         code=callback_js)
     p.add_tools(TapTool(callback=callback))
 
 figure_dict['p0'].title.text = 'Omega Cen RRL PL Relations'
+figure_dict['p5'].title.text = 'Selected RRL light curve'
 figure_dict['p4'].xaxis.axis_label = 'log P (days)'
-grid = gridplot(figure_dict.values(),ncols=1)
+figure_dict['p9'].xaxis.axis_label = 'Phase'
+grid = gridplot(figure_dict.values(),ncols=2)
 
 bokeh_script, bokeh_div = components(grid, CDN)
 
