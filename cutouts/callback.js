@@ -28,11 +28,15 @@ for (var i=0; i<=4; i++) {
 	var lc_mags = lc_data[id + '_' + l + '_mags'];
 	for (var j=0; j<12; j++) {
 		if (typeof lc_phase !== "undefined") {
-			lc_data['phase_' + l][j] = lc_phase[j];
+			lc_data['phase_' + l + '_1'][j] = lc_phase[j];
+			lc_data['phase_' + l + '_2'][j] = Number(lc_phase[j])+1;
+			lc_data['phase_' + l + '_3'][j] = Number(lc_phase[j])+2;
 			lc_data['mags_' + l][j] = lc_mags[j];
 			lc_data['color'][j] = color;
 		} else {
-			lc_data['phase_' + l][j] = 'NaN';
+			lc_data['phase_' + l + '_1'][j] = 'NaN';
+			lc_data['phase_' + l + '_2'][j] = 'NaN';
+			lc_data['phase_' + l + '_3'][j] = 'NaN';
 			lc_data['mags_' + l][j] = 'NaN';
 		}
 	}

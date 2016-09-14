@@ -68,9 +68,11 @@ lc_source.add([],name='color')
 figure_dict = OrderedDict()
 
 for i in range(5):
-    p = figure(y_range=(14.6, 11.9), x_range=(-0.64, 0.06), plot_width=550)
+    p = figure(y_range=(14.6, 11.9), x_range=(-0.64, 0.06), plot_width=540)
     l = band_labels[i]
-    lc_source.add([],name='phase_{}'.format(l))
+    lc_source.add([],name='phase_{}_1'.format(l))
+    lc_source.add([],name='phase_{}_2'.format(l))
+    lc_source.add([],name='phase_{}_3'.format(l))
     lc_source.add([],name='mags_{}'.format(l))
     p.circle('logP', 'mag_{}'.format(l),color='color', name='pl',
         source=source, size=7, line_color='black',
@@ -80,10 +82,16 @@ for i in range(5):
     p.add_tools(hover)
     p.yaxis.axis_label = '{} mag'.format(band_names[i])
     
-    p1 = figure(x_range=(-0.1,1.1), plot_width=200)
+    p1 = figure(x_range=(-0.1,3.1), plot_width=240)
     p1.yaxis.visible = False
     
-    p1.circle('phase_{}'.format(l),'mags_{}'.format(l),source=lc_source,
+    p1.circle('phase_{}_1'.format(l),'mags_{}'.format(l),source=lc_source,
+        color='color', size=7, line_color='black',
+        line_width=0.7)
+    p1.circle('phase_{}_2'.format(l),'mags_{}'.format(l),source=lc_source,
+        color='color', size=7, line_color='black',
+        line_width=0.7)
+    p1.circle('phase_{}_3'.format(l),'mags_{}'.format(l),source=lc_source,
         color='color', size=7, line_color='black',
         line_width=0.7)
 
