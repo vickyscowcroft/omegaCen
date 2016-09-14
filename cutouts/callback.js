@@ -17,6 +17,8 @@ var idstr = 'RRL ID ' + id;
 document.getElementById('starinfo').innerHTML = idstr;
 
 var lc_data = lc_source.get('data');
+lc_data['per'] = Number(per);
+lc_data['id'] = Number(id);
 var band_labels = ['j','h','k','3','4'];
 var band_names = ['J','H','K_s','[3.6]','[4.5]'];
 var infostr = type + ', P = ' + Number(per).toFixed(3) + ' d<br>';
@@ -41,15 +43,14 @@ for (var i=0; i<=4; i++) {
 		}
 	}
 	lc_source.trigger('change');
-	// lc_data['phase_' + l] = lc_phase;
-	// lc_data['mags_' + l] = lc_mags;
 	var mag = Number(data['mag_' + l][indx]).toFixed(3);
 	var merr = Number(data['merr_' + l][indx]).toFixed(3);
     infostr = infostr + band_names[i] + ' mag: ' + mag + ' +/- ' + merr + '<br>';
 }
 document.getElementById('mags').innerHTML = infostr;
 
-JS9.RemoveRegions({display:"fullfield"});
-id1 = JS9.AddRegions('circle(' + ra + ',' + dec + ',20");', {display:"fullfield"});
+JS9.RemoveRegions('star', {display:"fullfield"});
+JS9.AddRegions('circle(' + ra + ',' + dec + ',20")', {tags: 'star', color: 'magenta', width: '2'}, {display:"fullfield"});
+JS9.AddRegions('text(' + ra + ',' + dec + ',"' + id + '")', {tags: 'star', dy: '10', color: 'magenta', width: '2'}, {display:"fullfield"});
 // id2 = JS9.AddRegions('text(' + ra + ',' + dec + ',' + id + ');', {display:"fullfield"});
 

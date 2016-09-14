@@ -4,18 +4,13 @@ Makes static Bokeh plots with JS9.
 
 #!/usr/bin/env python
 
-from astropy.io import fits
-
 from collections import OrderedDict
 import numpy as np
 import pandas as pd
-import os
 
 from bokeh.models import HoverTool, TapTool
-from bokeh.models import Circle, Range1d, ColumnDataSource, Span, CustomJS
-from bokeh.models.glyphs import Image, ImageURL
-# from bokeh.models.mappers import LinearColorMapper
-from bokeh.embed import components, file_html
+from bokeh.models import Circle, ColumnDataSource, CustomJS
+from bokeh.embed import components
 from bokeh.palettes import RdYlBu11
 from bokeh.plotting import gridplot, figure
 from bokeh.resources import CDN
@@ -65,6 +60,8 @@ logP = np.log10(df.per)
 source = ColumnDataSource(data=df.astype(str).to_dict(orient='list'))
 lc_source = ColumnDataSource(data=lc_df.astype(str).to_dict(orient='list'))
 lc_source.add([],name='color')
+lc_source.add([],name='per')
+lc_source.add([],name='id')
 figure_dict = OrderedDict()
 
 for i in range(5):
@@ -135,8 +132,8 @@ bokeh_script, bokeh_div = components(grid, CDN)
 output_file = 'index.html'
 
 with open(output_file, 'w') as f:
-    f.write(before_html) #% (emission_line, z, field[-1].upper()))
+    f.write(before_html)
     f.write(bokeh_div)
     f.write(bokeh_script)
-    f.write(after_html)#% (filt1, filt2, filt3, filt4))
+    f.write(after_html)
 

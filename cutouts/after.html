@@ -1,3 +1,4 @@
+
 <table class="JS9_wrapper">
     <!-- <tr>
         <td colspan="2" style="text-align:right;">
@@ -12,7 +13,9 @@
         <td colspan="2"><div class="JS9Menubar" data-width="365px" id="SUPERMENU_" data-displays="image3,image4,image5"></div></td>
     </tr>
     <tr>
-    <td colspan="2" id="starinfo">Click on a point in the plot to view the star</td>
+    <td colspan="2" id="starinfo">
+        Click on a point in the plot to view the star
+    </td>
 <!--     <tr>
         <td>
             <div class="JS9" id="image1" data-width="180px" data-height="180px"></div>
@@ -44,13 +47,23 @@
     </tr>
     <tr>
         <td colspan="2">
-            <div class="JS9Menubar" id="fullfield-Menubar" data-width="365px"></div>
+            <div class="JS9Menubar" id="fullfieldMenubar" data-width="365px"></div>
             <div class="JS9" id="fullfield" data-width="365px" data-height="226px"></div>
+            <div class="JS9Panner" id="fullfieldPanner" data-width="180px" data-height="120px"></div>
+            <div class="JS9Magnifier" id="fullfieldMagnifier" data-width="180px" data-height="120px"></div>
+            <button class="JS9Button" id="show_3p6" onclick='JS9.LoadRegions("cutouts/3p6.reg", {display: "fullfield"});'>Show [3.6] footprint</button>
+            <button class="JS9Button" id="show_4p5" onclick='JS9.LoadRegions("cutouts/4p5.reg", {display: "fullfield"});'>Show [4.5]</button>
+            <button class="JS9Button" id="hide_3p6" onclick='JS9.RemoveRegions("3p6", {display: "fullfield"});'>Hide [3.6]</button>
+            <button class="JS9Button" id="hide_4p5" onclick='JS9.RemoveRegions("4p5", {display: "fullfield"});'>Hide [4.5]</button>
+            <br>
+            <button class="JS9Button" id="show_all" onclick='JS9.LoadRegions("cutouts/all.reg", {display: "fullfield"});'>Show full RRL catalog</button>
+            <button class="JS9Button" id="hide_all" onclick='JS9.RemoveRegions("full", {display: "fullfield"});'>Hide full catalog</button>
         </td>
     </tr>
 </table>
 </body>
 <script type="text/javascript">
-    JS9.Preload("cutouts/Omega_Cen_Ks_small.fits", {zoom:'0.8',scale:"log"}, {display: "fullfield"});
+    JS9.Preload("cutouts/Omega_Cen_Ks_small.fits", {zoom:"0.8",scale:"log"}, {display: "fullfield"});
 </script>
+
 </html>

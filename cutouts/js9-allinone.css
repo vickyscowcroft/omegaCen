@@ -1,145 +1,243 @@
-/* JS9 allinone: v1.8, Fri Apr  8 17:39:43 EDT 2016 */
+/* JS9 allinone: v1.9, Wed Sep 14 12:52:22 EDT 2016 */
+@charset "UTF-8";
 /*!
  * jQuery contextMenu - Plugin for simple contextMenu handling
  *
- * Version: git-master
+ * Version: v2.2.1-dev
  *
- * Authors: Rodney Rehm, Addy Osmani (patches for FF)
- * Web: http://medialize.github.com/jQuery-contextMenu/
+ * Authors: Björn Brala (SWIS.nl), Rodney Rehm, Addy Osmani (patches for FF)
+ * Web: http://swisnl.github.io/jQuery-contextMenu/
+ *
+ * Copyright (c) 2011-2016 SWIS BV and contributors
  *
  * Licensed under
  *   MIT License http://www.opensource.org/licenses/mit-license
- *   GPL v3 http://opensource.org/licenses/GPL-3.0
  *
+ * Date: 2016-06-17T13:49:48.330Z
  */
+@font-face {
+  font-family: "context-menu-icons";
+  font-style: normal; 
+  font-weight: normal;
+
+  src: url("font/context-menu-icons.eot?1ugwy");
+  src: url("font/context-menu-icons.eot?1ugwy#iefix") format("embedded-opentype"), url("font/context-menu-icons.woff2?1ugwy") format("woff2"), url("font/context-menu-icons.woff?1ugwy") format("woff"), url("font/context-menu-icons.ttf?1ugwy") format("truetype");
+}
+
+.context-menu-icon-add:before {
+  content: "\EA01";
+}
+
+.context-menu-icon-copy:before {
+  content: "\EA02";
+}
+
+.context-menu-icon-cut:before {
+  content: "\EA03";
+}
+
+.context-menu-icon-delete:before {
+  content: "\EA04";
+}
+
+.context-menu-icon-edit:before {
+  content: "\EA05";
+}
+
+.context-menu-icon-paste:before {
+  content: "\EA06";
+}
+
+.context-menu-icon-quit:before {
+  content: "\EA07";
+}
+
+.context-menu-icon::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em; 
+  font-family: "context-menu-icons";
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.context-menu-icon.context-menu-hover:before {
+  color: #fff;
+}
+
+.context-menu-icon.context-menu-disabled::before {
+  color: #bbb;
+}
+
+.context-menu-icon.context-menu-icon--fa {
+  display: list-item;
+}
+.context-menu-icon.context-menu-icon--fa::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2em; 
+  font-family: FontAwesome;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  color: #2980b9;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-hover:before {
+  color: #fff;
+}
+.context-menu-icon.context-menu-icon--fa.context-menu-disabled::before {
+  color: #bbb;
+}
 
 .context-menu-list {
-    margin:0; 
-    padding:0;
-    
-    min-width: 120px;
-    max-width: 250px;
-    display: inline-block;
-    position: absolute;
-    list-style-type: none;
-    
-    border: 1px solid #DDD;
-    background: #EEE;
-    
-    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-       -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-        -ms-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-         -o-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-    
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-size: 11px;
+  position: absolute; 
+  display: inline-block;
+  min-width: 13em;
+  max-width: 26em;
+  padding: .25em 0;
+  margin: .3em;
+  font-family: inherit;
+  font-size: inherit;
+  list-style-type: none;
+  background: #fff;
+  border: 1px solid #bebebe;
+  border-radius: .2em;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
 }
 
 .context-menu-item {
-    padding: 2px 2px 2px 24px;
-    background-color: #EEE;
-    position: relative;
-    -webkit-user-select: none;
-       -moz-user-select: -moz-none;
-        -ms-user-select: none;
-            user-select: none;
+  position: relative;
+  padding: .2em 2em;
+  color: #2f2f2f;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; 
+  background-color: #fff;
 }
 
 .context-menu-separator {
-    padding-bottom:0;
-    border-bottom: 1px solid #DDD;
+  padding: 0; 
+  margin: .35em 0;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .context-menu-item > label > input,
 .context-menu-item > label > textarea {
-    -webkit-user-select: text;
-       -moz-user-select: text;
-        -ms-user-select: text;
-            user-select: text;
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
 }
 
-.context-menu-item.hover {
-    cursor: pointer;
-    background-color: #39F;
+.context-menu-item.context-menu-hover {
+  color: #fff;
+  cursor: pointer; 
+  background-color: #2980b9;
 }
 
-.context-menu-item.disabled {
-    color: #666;
+.context-menu-item.context-menu-disabled {
+  color: #bbb;
+  cursor: default; 
+  background-color: #fff;
 }
 
-.context-menu-input.hover,
-.context-menu-item.disabled.hover {
-    cursor: default;
-    background-color: #EEE;
+.context-menu-input.context-menu-hover {
+  cursor: default;
 }
 
 .context-menu-submenu:after {
-    content: ">";
-    color: #666;
-    position: absolute;
-    top: 0;
-    right: 3px;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  right: .5em;
+  z-index: 1; 
+  width: 0;
+  height: 0;
+  content: '';
+  border-color: transparent transparent transparent #2f2f2f;
+  border-style: solid;
+  border-width: .25em 0 .25em .25em;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
-/* icons
-    #protip:
-    In case you want to use sprites for icons (which I would suggest you do) have a look at
-    http://css-tricks.com/13224-pseudo-spriting/ to get an idea of how to implement 
-    .context-menu-item.icon:before {}
+/**
+ * Inputs
  */
-.context-menu-item.icon { min-height: 18px; background-repeat: no-repeat; background-position: 4px 2px; }
-.context-menu-item.icon-edit { background-image: url(images/page_white_edit.png); }
-.context-menu-item.icon-cut { background-image: url(images/cut.png); }
-.context-menu-item.icon-copy { background-image: url(images/page_white_copy.png); }
-.context-menu-item.icon-paste { background-image: url(images/page_white_paste.png); }
-.context-menu-item.icon-delete { background-image: url(images/page_white_delete.png); }
-.context-menu-item.icon-add { background-image: url(images/page_white_add.png); }
-.context-menu-item.icon-quit { background-image: url(images/door.png); }
+.context-menu-item.context-menu-input {
+  padding: .3em .6em;
+}
 
 /* vertically align inside labels */
-.context-menu-input > label > * { vertical-align: top; }
+.context-menu-input > label > * {
+  vertical-align: top;
+}
 
 /* position checkboxes and radios as icons */
 .context-menu-input > label > input[type="checkbox"],
 .context-menu-input > label > input[type="radio"] {
-    margin-left: -17px;
+  position: relative;
+  top: .12em; 
+  margin-right: .4em;
 }
-.context-menu-input > label > span {
-    margin-left: 5px;
+
+.context-menu-input > label {
+  margin: 0;
 }
 
 .context-menu-input > label,
 .context-menu-input > label > input[type="text"],
 .context-menu-input > label > textarea,
 .context-menu-input > label > select {
-    display: block;
-    width: 100%;
-    
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-        -ms-box-sizing: border-box;
-         -o-box-sizing: border-box;
-            box-sizing: border-box;
+  display: block;
+  width: 100%; 
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .context-menu-input > label > textarea {
-    height: 100px;
-}
-.context-menu-item > .context-menu-list {
-    display: none;
-    /* re-positioned by js */
-    right: -5px;
-    top: 5px;
+  height: 7em;
 }
 
-.context-menu-item.hover > .context-menu-list {
-    display: block;
+.context-menu-item > .context-menu-list {
+  top: .3em; 
+  /* re-positioned by js */
+  right: -.3em;
+  display: none;
+}
+
+.context-menu-item.context-menu-visible > .context-menu-list {
+  display: block;
 }
 
 .context-menu-accesskey {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .dhtmlwindow{
 position: absolute;
@@ -197,7 +295,81 @@ width: 13px; /*width of resize image*/
 height: 13px; /*height of resize image*/
 cursor: nw-resize;
 font-size: 0;
-}/* ######### CSS for Shade Tabs. Remove if not using ######### */
+}
+
+.osxA {
+  text-decoration: none;
+}
+
+.osxSpan {
+  line-height: 8px;
+  vertical-align: 0%;
+}
+
+.osxButtons {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  line-height: 0px;
+}
+
+.osxButtons:hover a {
+  visibility: visible;
+}
+
+.osxClose {
+  background: #ff5c5c;
+  font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  font-size: 8pt;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e33e41;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.osxClose:active {
+  background: #c14645;
+  border: 1px solid #b03537;
+}
+
+.osxClose:active .osxClosebutton {
+  color: #4e0002;
+}
+
+.osxClosebutton {
+  color: #820005;
+  visibility: hidden;
+  cursor: default;
+}
+
+.osxMinimize {
+  background: #ffbd4c;
+  font-family: HelveticaNeue, 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+  font-size: 8pt;
+  margin-left: 8px;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #e09e3e;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.osxMinimize:active {
+  background: #c08e38;
+  border: 1px solid #af7c33;
+}
+
+.osxMinimize:active .osxMinimizebutton {
+  color: #5a2607;
+}
+
+.osxMinimizebutton {
+  color: #9a5518;
+  visibility: hidden;
+  cursor: default;
+}
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
 
 .shadetabs{
 padding: 3px 0;
@@ -483,45 +655,126 @@ div.JS9BlinkHeader {
 canvas.JS9ColorbarCanvas {
     border: 1px solid black;
 }
+
 canvas.JS9ColorbarTextCanvas {
-    font-family: Helvetica, sans-serif;
-    font-size: 10pt;
-    font-weight: 300;
     background-color: white;
 }
 
 
-div.JS9MefContainer {
+.JS9CubeContainer {
+    padding: 5px;
+}
+
+.JS9CubeLinegroup {
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.JS9CubeRangeLine {
+  font-size: 9pt;
+}
+
+.JS9CubeRange {
+  vertical-align: middle;
+}
+
+.JS9CubeValue {
+  vertical-align: top;
+  text-align: center;
+}
+
+.JS9CubeOrder {
+  vertical-align: top;
+}
+
+div.JS9ImarithLinegroup {
+    float: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 95%;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.JS9ImarithContainer {
+    padding: 5px;
+}
+.JS9MefContainer {
     padding: 10px;
     overflow: auto;
 }
 
-div.JS9MefExtension {
+.JS9MefExtension {
     margin: 5px;
     background: #E9E9E9;
     overflow: auto;
 }
 
-p.JS9MefPara {
+.JS9MefHeader {
     margin: 5px;
     background: #E9E9E9;
 }
 
-p.JS9MefInput {
+.JS9MefInput {
     margin: 5px;
     background: #E9E9E9;
 }
 
-div.JS9MefExtensionInactive {
+.JS9MefExtensionInactive {
     padding: 0px;
     border: 1px solid black;
 }
 
-div.JS9MefExtensionActive {
+.JS9MefExtensionActive {
     padding: 0px;
     border: 2px solid #00F000;
 }
 
+span.JS9MefStrike{
+    font-weight:bold; /*set line weight here*/
+    color:red;
+    text-decoration:line-through;
+}
+
+span.JS9MefStrike>span {
+    font-weight:normal;
+    color: black;
+}div.JS9MouseTouchContainer {
+    padding: 2px;
+}
+
+div.JS9MouseTouchText {
+    margin: 5px;
+    padding: 6px;
+    background: #E9E9E9;
+    overflow: auto;
+    border: 1px solid transparent;
+}
+
+div.JS9MouseTouchAction {
+    margin: 5px;
+    padding: 6px;
+    background: #E9E9E9;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+div.JS9MouseTouchHeader, div.JS9MouseTouchFooter {
+    background: #E9E9E9;
+    text-align: center;
+    padding: 0px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
 /*
  *
  * JS9 CSS specifications
@@ -603,7 +856,7 @@ div.JS9PluginToolbar-light
     position:absolute;
     display:inline-block;
     top: 0px;
-    right: 40px;
+    right: 36px;
     overflow: auto;
     text-align: center;
 }
@@ -618,7 +871,7 @@ div.JS9MenubarContainer
     top: 0px;
     left: 0px;
     /* height: 25px; */
-    background: lightgrey;
+    background: lightblue;
     text-align: center;
     padding: 2px 10px;
 }
@@ -671,24 +924,82 @@ div.JS9Message
     font-weight: 300;
 }
 
-.JS9Button
+.JS9ClassicButton
 {
     font: normal 12px Arial;
-    padding: 2px;
-    margin: 2px;
+    background: white;
+    border:  black 2px;
+    border-radius: 4px;
+    padding-top: 3px;
+    padding-right: 6px;
+    padding-bottom: 3px;
+    padding-left: 6px;
+    margin:  4px;
+    outline: none;
 }
 
-/* ipad button font is too large */
-@media all and (device-width: 768px) and (device-height: 1024px) {
-.JS9Button
-{
-    font: normal 10px Arial;
-    padding: 2px;
-    margin: 2px;
-}
+/* prevent firefox from adding extra button padding */
+.JS9ClassicButton::-moz-focus-inner {
+    padding: 0;
+    border: 0;
 }
 
-/* the commands inside a console */
+.JS9Button,
+.JS9FlatButton {
+  color: #fff;
+  background-color: #6496c8;
+  text-shadow: -1px 1px #417cb8;
+  border: none;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  margin:  4px;
+  outline: none;
+}
+
+.JS9Button:hover,
+.JS9Button.hover,
+.JS9FlatButton:hover,
+.JS9FlatButton.hover {
+  background-color: #346392;
+  text-shadow: -1px 1px #27496d;
+}
+
+.JS9Button:active,
+.JS9Button.active,
+.JS9FlatButton:active,
+.JS9FlatButton.active {
+  background-color: #27496d;
+  text-shadow: -1px 1px #193047;
+}
+
+.JS9Button::-moz-focus-inner,
+.JS9FlatButton::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+.JS9BorderButton {
+  color: #6496c8;
+  background: #fff;
+  border: solid 3px #6496c8;
+  margin:  4px;
+  outline: none;
+}
+
+.JS9BorderButton:hover,
+.JS9BorderButton.hover {
+  border-color: #346392;
+  color: #346392;
+}
+
+.JS9BorderButton:active,
+.JS9BorderButton.active {
+  border-color: #27496d;
+  color: #27496d;
+}/* the commands inside a console */
+
 .JS9CmdForm
 {
     border: 0px;
@@ -795,11 +1106,24 @@ input:focus.JS9CmdIn{
 .context-menu-list 
 {
     border: 1px solid black;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #E9E9E9;
 }
 
-.context-menu-item.icon-sun
-{
-   background-image: url(images/sun.png);
+/* jqueryContextMenu v2.2 */
+.context-menu-icon-sun:before {
+   content: url(images/sun.png);
+}
+
+.context-menu-item {
+    background-color: #E9E9E9;
+}
+
+.context-menu-item.context-menu-disabled {
+    color: #AAA;
+    cursor: default; 
+    background-color: #E9E9E9;
 }
 
 .context-menu-separator
@@ -807,13 +1131,33 @@ input:focus.JS9CmdIn{
     border-bottom: 1px solid #AAA;
 }
 
-.context-menu-input > label > input[type="text"]
+.context-menu-input > label
 {
-   width: 85%;
+   margin-left: 18px;
 }
 
-.context-menu-input > label > span {
+.context-menu-input > label > input[type="text"]
+{
+   width: 80%;
+   padding: 2px;
+}
+
+/* jqueryContextMenu pre-v2.2 */
+.pre-v2.2-context-menu-item.icon-sun {
+   background-image: url(images/sun.png);
+}
+
+/* jqueryContextMenu pre-v2.2 */
+.pre-v2.2-context-menu-input > label > span {
     margin-left: 0px;
+}
+
+/* jqueryContextMenu pre-v2.2 */
+.pre-v2.2-context-menu-submenu:after {
+    content: "\2192";
+    color: black;
+    position: absolute;
+    right: 5px;
 }
 
 /* dhtml window overrides */
@@ -823,11 +1167,16 @@ input:focus.JS9CmdIn{
     padding: 0px;
 }
 
+.drag-controls
+{
+    padding: 2px;
+}
+
 .drag-handle
 {
     /* height: 25px; */
     height: 30px;
-    background: lightgrey;
+    background: lightblue;
     text-align: left;
     color: black;
     font-size: 14px;
@@ -843,21 +1192,32 @@ input:focus.JS9CmdIn{
 
 .indentmenu{
     font: normal 11px Arial;
+    margin-left: 4px;
 }
 
 .indentmenu ul{
     border-top: 0px;
-    background: black url(./images/indentbg_grey.png) center center repeat-x;
+    background: #6496c8;
 }
 
 .indentmenu ul li a{
-    border-right: 2px solid #E9E9E9;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 6px solid #E9E9E9;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.indentmenu ul li a:hover,
+.indentmenu ul li a.hover {
+    background-color: #346392;
 }
 
 .indentmenu ul li a.selected{
-    background: black url(./images/indentbg2_grey.png) center center repeat-x;
+    padding-top: 5px; /* don't shift text down 1px */
+    padding-bottom: 5px;
+    background: #27496d;
 }
 
 /* 3d surface plot bug */
@@ -999,6 +1359,14 @@ canvas.surfacePlotCanvas {
     top: 0;
     left: 450px;
     width: 100px;
+}
+
+.column_R4l
+{
+    position: absolute;
+    top: 0;
+    left: 450px;
+    width: 250px;
 }
 
 .column_R5
