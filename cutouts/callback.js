@@ -9,7 +9,6 @@ var dec = data['dec'][indx];
 var feh = data['photfeh'][indx];
 var feh_err = data['photfeh_err'][indx];
 var color = data['color'][indx];
-var lc_data = lc_source.get('data');
 for (var i=3; i <= 5; i++) {
     var fitsfile = 'cutouts/' + id.toString() + '_' + filts['image'+i.toString()] + '.fits';
     JS9.Load(fitsfile, {zoom:'toFit', scale:'asinh', scaleclipping:'dataminmax'}, {display:'image'+i.toString()});
@@ -17,6 +16,7 @@ for (var i=3; i <= 5; i++) {
 var idstr = 'RRL ID ' + id;
 document.getElementById('starinfo').innerHTML = idstr;
 
+var lc_data = lc_source.get('data');
 var band_labels = ['j','h','k','3','4'];
 var band_names = ['J','H','K_s','[3.6]','[4.5]'];
 var infostr = type + ', P = ' + Number(per).toFixed(3) + ' d<br>';
@@ -44,4 +44,8 @@ for (var i=0; i<=4; i++) {
     infostr = infostr + band_names[i] + ' mag: ' + mag + ' +/- ' + merr + '<br>';
 }
 document.getElementById('mags').innerHTML = infostr;
+
+JS9.RemoveRegions({display:"fullfield"});
+id1 = JS9.AddRegions('circle(' + ra + ',' + dec + ',20");', {display:"fullfield"});
+// id2 = JS9.AddRegions('text(' + ra + ',' + dec + ',' + id + ');', {display:"fullfield"});
 
