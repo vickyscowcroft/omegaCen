@@ -8,7 +8,7 @@ from collections import OrderedDict
 import numpy as np
 import pandas as pd
 
-from bokeh.models import HoverTool, TapTool
+from bokeh.models import HoverTool, TapTool, Slider
 from bokeh.models import Circle, ColumnDataSource, CustomJS
 from bokeh.embed import components
 from bokeh.palettes import RdYlBu11
@@ -27,19 +27,23 @@ def colormap(col, palette):
 
 band_labels = ['j', 'h', 'k', '3', '4']
 band_names = ['J', 'H', 'Ks', '3p6', '4p5']
+band_names2 = ['J', 'H', 'Ks', '[3.6]', '[4.5]']
 mag_offset = [8, 6, 4, 2, 0]
 #wavelength = [1.220, 1.630, 2.190, 3.550, 4.493]
 
 df = pd.read_csv('../reworked_fitting_code/final_data_files/all_possible_photometry.csv')
 df['logP'] = np.log10(df.per)
+df['new_per'] = df.per
 df['type_vowel'] = df.type.astype(str).str.replace('0','RRab').replace('1','RRc')
 color = colormap(df.photfeh,RdYlBu11)
 df['color'] = color
 lc_df = pd.read_csv('../reworked_fitting_code/final_data_files/lightcurves.csv')
 
-# reads in javascript callback
+# reads in javascript callbacks
 with open('callback.js') as callback_file:
     callback_js = callback_file.read()
+with open('slider_callback.js') as slider_file:
+    slider_js = slider_file.read()
 
 # reads in HTML that goes before plot
 with open('before.html') as before_file:
@@ -56,13 +60,18 @@ unselected = Circle(size=7, fill_color='color', line_color='black',
 
 filters = ColumnDataSource({'image{}'.format(i+1):[band_names[i]] for i in range(5)})
 
-logP = np.log10(df.per)
 source = ColumnDataSource(data=df.astype(str).to_dict(orient='list'))
 lc_source = ColumnDataSource(data=lc_df.astype(str).to_dict(orient='list'))
 lc_source.add([],name='color')
 lc_source.add([],name='per')
 lc_source.add([],name='id')
 figure_dict = OrderedDict()
+
+slider_callback = CustomJS(args=dict(source=source, lc_source=lc_source),
+        code=slider_js)
+
+slider = Slider(start=-0.5, end=0.5, value=0, step=0.01, title="Adjust period (days)", callback=slider_callback,
+    callback_policy='throttle', callback_throttle=100., width=500)
 
 for i in range(5):
     p = figure(y_range=(14.6, 11.9), x_range=(-0.64, 0.06), plot_width=540)
@@ -77,7 +86,7 @@ for i in range(5):
     hover = HoverTool(tooltips=OrderedDict([('ID','@id'),('Type','@type_vowel'),('Per','@per'),
                                             ('[Fe/H]','@photfeh')])) # ('RA','@ra'),('Dec','@dec')
     p.add_tools(hover)
-    p.yaxis.axis_label = '{} mag'.format(band_names[i])
+    p.yaxis.axis_label = '{} mag'.format(band_names2[i])
     
     p1 = figure(x_range=(-0.1,3.1), plot_width=240)
     p1.yaxis.visible = False
@@ -116,15 +125,16 @@ for i in range(5):
     renderer = p.select('pl')
     renderer.selection_glyph = selected
     renderer.nonselection_glyph = unselected
-    callback = CustomJS(args=dict(source=renderer[0].data_source, filters = filters, lc_source=lc_source),
+    callback = CustomJS(args=dict(filters = filters, lc_source=lc_source, slider=slider),
         code=callback_js)
     p.add_tools(TapTool(callback=callback))
+
 
 figure_dict['p0'].title.text = 'Omega Cen RRL PL Relations'
 figure_dict['p5'].title.text = 'Selected RRL light curve'
 figure_dict['p4'].xaxis.axis_label = 'log P (days)'
 figure_dict['p9'].xaxis.axis_label = 'Phase'
-grid = gridplot(figure_dict.values(),ncols=2)
+grid = gridplot(figure_dict.values() + [slider],ncols=2)
 
 bokeh_script, bokeh_div = components(grid, CDN)
 
