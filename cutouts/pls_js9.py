@@ -130,7 +130,7 @@ for i in range(5):
     p.add_tools(TapTool(callback=callback))
 
 
-figure_dict['p0'].title.text = 'Omega Cen RRL PL Relations'
+figure_dict['p0'].title.text = 'PL Relations'
 figure_dict['p5'].title.text = 'Selected RRL light curve'
 figure_dict['p4'].xaxis.axis_label = 'log P (days)'
 figure_dict['p9'].xaxis.axis_label = 'Phase'

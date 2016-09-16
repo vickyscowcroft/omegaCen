@@ -1,6 +1,19 @@
 body, html {
     font-family:Helvetica,Arial,sans-serif;
     font-size:10pt;
+    width:100%;
+    margin:0;
+}
+.top-paragraph {
+    display:block;
+    position:relative;
+    width:900px;
+    margin:20px auto;
+}
+.bokeh-js9-container {
+    position:relative;
+    width:1160px;
+    margin:0 auto 50px;
     display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
     display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
     display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -9,24 +22,28 @@ body, html {
     -webkit-justify-content:center;
     justify-content:center;
 }
-}
-div[class^="bk-plot"], table.JS9_wrapper {
+div[class^="bk-plot"], .bk-root, table.JS9_wrapper {
     display:inline-block;
+}
+.bk-root, .bk-grid-column, .bk-layout-fixed {
+    margin:0;
+    padding:0;
+    max-width:780px;
+}
+table.JS9_wrapper {
+    padding:0 0 30px 0;
+    margin:0 0 0 30px;
+    width:365px;
 }
 table.JS9_wrapper td {
     overflow:hidden;
-}
-table.JS9_wrapper {
-    padding-bottom:30px;
-    margin-left:30px;
-    width:365px;
 }
 .JS9Message {
     display:none;
 }
 .JS9Button {
     padding:3px 4px;
-    margin:4px 3px;
+    margin:4px 2px;
 }
 input.rescale {
     width:50px;
