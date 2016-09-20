@@ -15,7 +15,7 @@ from bokeh.palettes import RdYlBu11
 from bokeh.plotting import gridplot, figure
 from bokeh.resources import CDN
 
-def colormap(col, palette, low=-2., high=-1.):
+def colormap(col, palette, low=-2.2, high=-1.1):
     bins = np.linspace(low,high,len(palette))
     color = col.copy().astype(str)
     binsize = bins[1] - bins[0]
