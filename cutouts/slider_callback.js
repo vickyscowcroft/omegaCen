@@ -3,7 +3,7 @@ if (typeof indx !== "undefined") {
 	var data = source.get('data');
 	var lc_data = lc_source.get('data');
 	var scale_factor = cb_obj.get('value');
-	var per = data['per'][indx];
+	var per = data['per_new'][indx];
 	var id = data['id'][indx];
 	var new_per = Number(per) + Number(scale_factor);
 	var band_labels = ['j','h','k','3','4'];

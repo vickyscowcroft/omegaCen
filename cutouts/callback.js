@@ -3,12 +3,12 @@ var data = cb_obj.get('data');
 var filts = filters.get('data');
 var id = data['id'][indx];
 var type = data['type_vowel'][indx];
-var per = Number(data['per'][indx]);
+var per = Number(data['per_new'][indx]);
 var new_per = Number(data['new_per'][indx]);
 var ra = data['ra'][indx];
 var dec = data['dec'][indx];
-var feh = data['photfeh'][indx];
-var feh_err = data['photfeh_err'][indx];
+var feh = data['feh_comb'][indx];
+var feh_err = data['feh_comb_err'][indx];
 var color = data['color'][indx];
 for (var i=3; i <= 5; i++) {
     var fitsfile = 'cutouts/' + id.toString() + '_' + filts['image'+i.toString()] + '.fits';
@@ -54,10 +54,10 @@ JS9.RemoveRegions('star', {display:"fullfield"});
 JS9.AddRegions('circle(' + ra + ',' + dec + ',20")', {tags: 'star', color: 'magenta', width: '2'}, {display:"fullfield"});
 JS9.AddRegions('text(' + ra + ',' + dec + ',"' + id + '")', {tags: 'star', dy: '10', color: 'magenta', width: '2'}, {display:"fullfield"});
 
-function reset_phasing(cb_obj) {
+function resetPhasing(cb_obj) {
 	var indx = cb_obj.get('selected')['1d'].indices[0];
 	var data = cb_obj.get('data');
-	var per = Number(data['per'][indx]);
+	var per = Number(data['per_new'][indx]);
 	var new_per = Number(data['new_per'][indx]);
 	var per_diff = new_per - per;
 	if (per != new_per) {
@@ -71,5 +71,5 @@ function reset_phasing(cb_obj) {
 	handle.style.left = left.toFixed(0) + '%';
 }
 
-cb_obj.on('change', reset_phasing(cb_obj));
+cb_obj.on('change', resetPhasing(cb_obj));
 

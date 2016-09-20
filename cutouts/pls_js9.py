@@ -15,13 +15,15 @@ from bokeh.palettes import RdYlBu11
 from bokeh.plotting import gridplot, figure
 from bokeh.resources import CDN
 
-def colormap(col, palette):
-    n,bins = np.histogram(col[np.isfinite(col)],bins=len(palette) - 1)
+def colormap(col, palette, low=-2.4, high=-1.2):
+    bins = np.linspace(low,high,len(palette))
     color = col.copy().astype(str)
     binsize = bins[1] - bins[0]
     for num, val in enumerate(bins):
         cond = (col > val - binsize) & (col <= val)
         color[cond] = palette[num]
+    color[col < low] = palette[0]
+    color[col > high] = palette[-1]
     color[color=='nan'] = '#cccccc'
     return color
 
@@ -31,17 +33,19 @@ band_names2 = ['J', 'H', 'Ks', '[3.6]', '[4.5]']
 mag_offset = [8, 6, 4, 2, 0]
 #wavelength = [1.220, 1.630, 2.190, 3.550, 4.493]
 
-df = pd.read_csv('../reworked_fitting_code/final_data_files/all_possible_photometry.csv')
-df['logP'] = np.log10(df.per)
-df['new_per'] = df.per
+df = pd.read_csv('../reworked_fitting_code/final_data_files/all_possible_phot_braga_resid_sigclip.csv')
+df['new_per'] = df.per_new
+df['logP'] = np.log10(df.new_per)
 df['type_vowel'] = df.type.astype(str).str.replace('0','RRab').replace('1','RRc')
-color = colormap(df.photfeh,RdYlBu11)
+color = colormap(df.feh_comb,RdYlBu11)
+print color, color.shape
 df['color'] = color
 lc_df = pd.read_csv('../reworked_fitting_code/final_data_files/lightcurves.csv')
 
 # reads in javascript callbacks
 with open('callback.js') as callback_file:
     callback_js = callback_file.read()
+
 with open('slider_callback.js') as slider_file:
     slider_js = slider_file.read()
 
@@ -83,8 +87,8 @@ for i in range(5):
     p.circle('logP', 'mag_{}'.format(l),color='color', name='pl',
         source=source, size=7, line_color='black',
         line_width=0.7, fill_alpha=0.7, line_alpha=0.7)
-    hover = HoverTool(tooltips=OrderedDict([('ID','@id'),('Type','@type_vowel'),('Per','@per'),
-                                            ('[Fe/H]','@photfeh')])) # ('RA','@ra'),('Dec','@dec')
+    hover = HoverTool(tooltips=OrderedDict([('ID','@id'),('Type','@type_vowel'),('Per','@per_new'),
+                                            ('[Fe/H]','@feh_comb')])) # ('RA','@ra'),('Dec','@dec')
     p.add_tools(hover)
     p.yaxis.axis_label = '{} mag'.format(band_names2[i])
     
