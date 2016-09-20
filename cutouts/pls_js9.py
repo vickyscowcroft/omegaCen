@@ -15,7 +15,7 @@ from bokeh.palettes import RdYlBu11
 from bokeh.plotting import gridplot, figure
 from bokeh.resources import CDN
 
-def colormap(col, palette, low=-2.4, high=-1.2):
+def colormap(col, palette, low=-2., high=-1.):
     bins = np.linspace(low,high,len(palette))
     color = col.copy().astype(str)
     binsize = bins[1] - bins[0]
@@ -37,8 +37,7 @@ df = pd.read_csv('../reworked_fitting_code/final_data_files/all_possible_phot_br
 df['new_per'] = df.per_new
 df['logP'] = np.log10(df.new_per)
 df['type_vowel'] = df.type.astype(str).str.replace('0','RRab').replace('1','RRc')
-color = colormap(df.feh_comb,RdYlBu11)
-print color, color.shape
+color = colormap(df.feh_rs,RdYlBu11)
 df['color'] = color
 lc_df = pd.read_csv('../reworked_fitting_code/final_data_files/lightcurves.csv')
 
@@ -88,7 +87,7 @@ for i in range(5):
         source=source, size=7, line_color='black',
         line_width=0.7, fill_alpha=0.7, line_alpha=0.7)
     hover = HoverTool(tooltips=OrderedDict([('ID','@id'),('Type','@type_vowel'),('Per','@per_new'),
-                                            ('[Fe/H]','@feh_comb')])) # ('RA','@ra'),('Dec','@dec')
+                                            ('[Fe/H]','@feh_rs')])) # ('RA','@ra'),('Dec','@dec')
     p.add_tools(hover)
     p.yaxis.axis_label = '{} mag'.format(band_names2[i])
     

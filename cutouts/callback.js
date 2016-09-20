@@ -7,8 +7,8 @@ var per = Number(data['per_new'][indx]);
 var new_per = Number(data['new_per'][indx]);
 var ra = data['ra'][indx];
 var dec = data['dec'][indx];
-var feh = data['feh_comb'][indx];
-var feh_err = data['feh_comb_err'][indx];
+var feh = data['feh_rs'][indx];
+var feh_err = data['feh_rs_err'][indx];
 var color = data['color'][indx];
 for (var i=3; i <= 5; i++) {
     var fitsfile = 'cutouts/' + id.toString() + '_' + filts['image'+i.toString()] + '.fits';
