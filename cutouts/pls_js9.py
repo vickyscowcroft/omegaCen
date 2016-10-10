@@ -20,11 +20,11 @@ def colormap(col, palette, low=-2.2, high=-1.1):
     color = col.copy().astype(str)
     binsize = bins[1] - bins[0]
     for num, val in enumerate(bins):
-        cond = (col > val - binsize) & (col <= val)
+        cond = (col >= val - binsize) & (col <= val)
         color[cond] = palette[num]
     color[col < low] = palette[0]
-    color[col > high] = palette[-1]
-    color[color=='nan'] = '#cccccc'
+    color[col >= high] = palette[-1]
+    color[color.str.lower()=='nan'] = '#cccccc'
     return color
 
 band_labels = ['j', 'h', 'k', '3', '4']

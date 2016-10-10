@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: omegaCen_mnras_2016_vs.aux
+The style file: mnras.bst
+Database file #1: omegaCen_mnras_2016_vs.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty institution in 2013wise.rept....1C
+You've used 48 entries,
+            2881 wiz_defined-function locations,
+            1150 strings with 26332 characters,
+and the built_in function-call counts, 22618 in all, are:
+= -- 1837
+> -- 1660
+< -- 82
++ -- 736
+- -- 243
+* -- 2949
+:= -- 3512
+add.period$ -- 0
+call.type$ -- 48
+change.case$ -- 97
+chr.to.int$ -- 48
+cite$ -- 49
+duplicate$ -- 1097
+empty$ -- 1108
+format.name$ -- 387
+if$ -- 3864
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 45
+newline$ -- 157
+num.names$ -- 307
+pop$ -- 269
+preamble$ -- 1
+purify$ -- 192
+quote$ -- 0
+skip$ -- 616
+stack$ -- 0
+substring$ -- 1284
+swap$ -- 564
+text.length$ -- 197
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 432
+warning$ -- 1
+while$ -- 341
+width$ -- 0
+write$ -- 494
+(There was 1 warning)

@@ -22,6 +22,12 @@
   eds,  Astronomical Society of the Pacific Conference Series Vol. 265, Omega
   Centauri, A Unique Window into Astrophysics. p.~87
 
+\bibitem[\protect\citeauthoryear{{Astropy Collaboration} et~al.,}{{Astropy
+  Collaboration} et~al.}{2013}]{2013A&A...558A..33A}
+{Astropy Collaboration} et~al., 2013, \mn@doi [\aap]
+  {10.1051/0004-6361/201322068}, \href
+  {http://adsabs.harvard.edu/abs/2013A%26A...558A..33A} {558, A33}
+
 \bibitem[\protect\citeauthoryear{{Babusiaux}, {van Leeuwen}  \&
   {Gilmore}}{{Babusiaux} et~al.}{2002}]{2002ASPC..265..415B}
 {Babusiaux} C.,  {van Leeuwen} F.,   {Gilmore} G.,  2002, in {van Leeuwen} F.,
@@ -47,6 +53,12 @@
 {Braga} V.~F.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/799/2/165},
   \href {http://adsabs.harvard.edu/abs/2015ApJ...799..165B} {799, 165}
 
+\bibitem[\protect\citeauthoryear{{Braga} et~al.,}{{Braga}
+  et~al.}{2016}]{2016arXiv160904916B}
+{Braga} V.~F.,  et~al., 2016, preprint, \href
+  {http://adsabs.harvard.edu/abs/2016arXiv160904916B} {} (\mn@eprint {arXiv}
+  {1609.04916})
+
 \bibitem[\protect\citeauthoryear{{Burriesci}}{{Burriesci}}{2005}]{2005SPIE.5904...21B}
 {Burriesci} L.~G.,  2005, in {Heaney} J.~B.,  {Burriesci} L.~G.,  eds,
   \procspie Vol. 5904, Cryogenic Optical Systems and Instruments XI. pp 21--29,
@@ -57,12 +69,6 @@
 {Cacciari} C.,  {Sollima} A.,   {Ferraro} F.~R.,  2006, \memsai, \href
   {http://adsabs.harvard.edu/abs/2006MmSAI..77..245C} {77, 245}
 
-\bibitem[\protect\citeauthoryear{{Cardelli}, {Clayton}  \& {Mathis}}{{Cardelli}
-  et~al.}{1989}]{1989ApJ...345..245C}
-{Cardelli} J.~A.,  {Clayton} G.~C.,   {Mathis} J.~S.,  1989, \mn@doi [\apj]
-  {10.1086/167900}, \href {http://adsabs.harvard.edu/abs/1989ApJ...345..245C}
-  {345, 245}
-
 \bibitem[\protect\citeauthoryear{{Catelan}, {Pritzl}  \& {Smith}}{{Catelan}
   et~al.}{2004}]{2004ApJS..154..633C}
 {Catelan} M.,  {Pritzl} B.~J.,   {Smith} H.~A.,  2004, \mn@doi [\apjs]
@@ -71,8 +77,8 @@
 
 \bibitem[\protect\citeauthoryear{{Cutri} et~al.,}{{Cutri}
   et~al.}{2013}]{2013wise.rept....1C}
-{Cutri} R.~M.,  et~al., 2013, \href
-  {http://adsabs.harvard.edu/abs/2013wise.rept....1C} {}
+{Cutri} R.~M.,  et~al., 2013, Technical report, {Explanatory Supplement to the
+  AllWISE Data Release Products}
 
 \bibitem[\protect\citeauthoryear{{D'Souza} \& {Rix}}{{D'Souza} \&
   {Rix}}{2013}]{2013MNRAS.429.1887D}
@@ -260,11 +266,11 @@
 
 \bibitem[\protect\citeauthoryear{{Scowcroft}, {Seibert}, {Freedman}, {Beaton},
   {Madore}, {Monson}, {Rich}  \& {Rigby}}{{Scowcroft}
-  et~al.}{2016}]{2016MNRAS.tmp..421S}
+  et~al.}{2016}]{2016MNRAS.459.1170S}
 {Scowcroft} V.,  {Seibert} M.,  {Freedman} W.~L.,  {Beaton} R.~L.,  {Madore}
   B.~F.,  {Monson} A.~J.,  {Rich} J.~A.,   {Rigby} J.~R.,  2016, \mn@doi
   [\mnras] {10.1093/mnras/stw628}, \href
-  {http://adsabs.harvard.edu/abs/2016MNRAS.tmp..421S} {}
+  {http://adsabs.harvard.edu/abs/2016MNRAS.459.1170S} {459, 1170}
 
 \bibitem[\protect\citeauthoryear{{Skrutskie} et~al.,}{{Skrutskie}
   et~al.}{2006}]{2006AJ....131.1163S}
