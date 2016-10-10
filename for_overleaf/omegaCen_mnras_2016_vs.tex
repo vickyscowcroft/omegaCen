@@ -251,7 +251,7 @@ PSF photometry of the tiles was performed using \textsc{daophot} and \textsc{all
 \includegraphics[width=80mm]{../ocen_only_fitting/final_plots/crowding_example_3_118.eps}
 \includegraphics[width=80mm]{../ocen_only_fitting/final_plots/crowding_example_5_264.eps}
 \includegraphics[width=80mm]{../ocen_only_fitting/final_plots/crowding_example_13_366.eps}
-\caption{Three examples of crowded vs. uncrowded RRL, shown in $K_s$, [3.6], and [4.5]. Images are shown at the same color scale per filter with a log stretch.} 
+\caption{Three examples of crowded vs. uncrowded RRL, shown in $K_s$, [3.6], and [4.5]. Images are shown at the same color scale per filter with a log stretch. The RRL are circled.} 
 \label{fig:crowding}
 \end{center}
 \end{figure}
@@ -487,22 +487,27 @@ It has been shown with mid-IR spectra that a significant CO feature sits within 
 \subsection{Metallicity Contribution to the Overall Dispersion}
 \label{sec:dispersions}
 
-We can place an upper limit on the contribution of metallicity to the \ocen PL dispersion using the known variances of the individual components: the observed distribution of \ocen PL residuals $\sigma_{\text{observed}}^2$, the intrinsic PL width $\sigma_{\text{intrinsic}}^2$, and the dispersion induced by photometric error $\sigma_{\text{phot}}^2$. The dispersion contributed by metallicity can therefore be constrained as follows:
+We can place an upper limit on the contribution of astrophysical sources of scatter (e.g. metallicity, mass spread, evolutionary effects) to the observed \ocen PL dispersion using the known variances of the individual components: the observed distribution of \ocen PL residuals $\sigma_{\text{observed}}^2$, the intrinsic PL width $\sigma_{\text{intrinsic}}^2$, and the dispersion induced by photometric error $\sigma_{\text{phot}}^2$. The dispersions contributed by astrophysical sources and by metallicity specifically can therefore be constrained as follows:
 
-\begin{equation}
-\sigma_\text{[Fe/H]} \leq \sqrt{\sigma_{\text{observed}}^2 - \sigma_{\text{intrinsic}}^2 - \sigma_{\text{phot}}^2}
-\end{equation}
+\begin{align}
+\sigma_\text{astro} &\leq \sqrt{\sigma_{\text{observed}}^2 - \sigma_{\text{intrinsic}}^2 - \sigma_{\text{phot}}^2} \\
+\sigma_{\text{[Fe/H]}} &\leq \sigma_\text{astro}
+\end{align}
+
+%Here the scatter contributed by metallicity itself is also less than or equal to the astrophysical scatter; $\sigma_{\text{[Fe/H]}} \leq \sigma_\text{astro}$.
 
 %change vocab to overview paper - sig_astro, sig_meas, sig_int, sig_tot
 %go through rachael's logic
 %HOW ARE WE DEFINING INTRINSIC
+
+\mjdcomment{OKAY how are we doing this? Are we using Reticulum or M4? If M4, do we have updated photometry from Neeley? If Reticulum, there are 3 band-pulsation mode combinations where average photometric error exceeds observed scatter so that's awkward}
 
 Table~\ref{tab:metallicity_sigma} shows the estimated contribution to the dispersion from metallicity $\sigma_{[Fe/H]}$ in each band, alongside the contributions from the photometric uncertainties and intrinsic components \citep[from][for the near-- and mid--IR, respectively]{2015ApJ...808...50M, 2015ApJ...808...11N}. %We note that this procedure is robust despite the inclusion of the metallicity term, $c$, in the near--IR PL relations (Equation~\ref{eqn:marconi_pl} and Table~\ref{tab:pl_table_theo}), as this is a constant term multiplied by a single [Fe/H] applied to each RRL uniformly, while the methodology described in this section studies the differential effects of the varying metallicities in \ocen.
 
 
 \begin{table}
 \centering
-\caption{The standard deviation of the observed spread of the PL residuals $\sigma_{\text{observed}}$ ($\sigma$ in Table~\ref{tab:pl_table}) and its components: $\sigma_{\text{intrinsic}}$, $\sigma_{\text{phot}}$, and $\sigma_{[\text{Fe/H}]}$ for all PL relations. \mjdcomment{NEEDS UPDATING---assuming we're still doing this bit, are we using Neeley stuff or Reticulum? Did Neeley update their photometry in the M4 paper?}}
+\caption{The standard deviation of the observed spread of the PL residuals $\sigma_{\text{observed}}$ ($\sigma$ in Table~\ref{tab:pl_table}) and its components: $\sigma_{\text{intrinsic}}$, $\sigma_{\text{phot}}$, and $\sigma_{[\text{Fe/H}]}$ for all PL relations. \mjdcomment{NEEDS UPDATING, assuming we're still doing this bit}}
 \label{tab:metallicity_sigma}
 \begin{tabular}{lccccr} 
 \hline \hline
@@ -526,7 +531,7 @@ We use these estimates of $\sigma_\text{[Fe/H]}$ to assess the $\gamma$ paramete
 \begin{equation} \label{eqn:gamma}
 \gamma = \dfrac {\Delta \text{mag}} {\Delta [\text{Fe/H}]}\text{ mag dex} ^{-1}\text{,}
 \end{equation}
-similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K, 2009MNRAS.396.1287S}. Here we calculate $\gamma$ in units of mag~dex$^{-1}$ by dividing the standard deviation of the metallicity component of the PL scatter by the standard deviation of the metallicity distribution for both \citep{2006ApJ...640L..43S} and photometric \citep{2000AJ....119.1824R} metallicities; the results for each PL are shown in Table~\ref{tab:gamma}. We use all available metallicity values for each pulsation mode when taking the standard deviation, as we do not have metallicity values for all the stars in our samples, although the metallicity values we do have trace the overall metallicity distributions fairly well (see Figure~\ref{fig:metallicity_hists}).
+similar to $\gamma$ used to quantify the effect of metallicity on the zero-point of the Cepheid PL relation \citep{1998ApJ...498..181K, 2009MNRAS.396.1287S}. Here we calculate $\gamma$ in units of mag~dex$^{-1}$ by dividing the standard deviation of the metallicity component of the PL scatter by the standard deviation of the metallicity distribution % for both \citep{2006ApJ...640L..43S} and photometric \citep{2000AJ....119.1824R} metallicities; the results for each PL are shown in Table~\ref{tab:gamma}. We use all available metallicity values for each pulsation mode when taking the standard deviation, as we do not have metallicity values for all the stars in our samples, although the metallicity values we do have trace the overall metallicity distributions fairly well (see Figure~\ref{fig:metallicity_hists}).
 
 It is important to note that these values presented in Tables~\ref{tab:metallicity_sigma} and \ref{tab:gamma} are upper limits, and as we will show in Sections~\ref{sec:residuals} and~\ref{sec:discussion}, the size of the effect that can be attributed to metallicity effects alone may be much smaller. 
 
@@ -558,7 +563,7 @@ It is important to note that these values presented in Tables~\ref{tab:metallici
 \subsection{PL Residuals and Individual Metallicities}
 \label{sec:residuals}
 
-\ocen provides a second approach to testing for a metallicity effect on the RRL PL relation. The cluster is well studied and many of its RRL have metallicity measurements in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R, 2016arXiv160904916B}. \citet{2016arXiv160904916B} in particular provide several measurements of RRL metallicities, including revisions of metallicities from \citet{2006ApJ...640L..43S} and \citet{2000AJ....119.1824R}, and new estimates based on the residuals of the $I$-band PL relation. Here we choose to use their weighted average of the rescaled \citet{2006ApJ...640L..43S} and \citet{2000AJ....119.1824R} metallicities.
+\ocen provides a second approach to testing for a metallicity effect on the RRL PL relation. The cluster is well studied and many of its RRL have metallicity measurements in the literature \citep[e.g.][]{2006ApJ...640L..43S, 2000AJ....119.1824R, 2016arXiv160904916B}. \citet{2016arXiv160904916B} in particular provide several measurements of RRL metallicities, including revisions of metallicities from \citet{2006ApJ...640L..43S} and \citet{2000AJ....119.1824R} scaled to the homogeneous cluster metallicity scale described in \citet{2009A&A...508..695C}, and new estimates based on the residuals of the $I$-band PL relation. Here we choose to use their weighted average of the rescaled \citet{2006ApJ...640L..43S} and \citet{2000AJ....119.1824R} metallicities to avoid any potential degeneracies caused by using metallicities calculated based on PL residuals.
 
 Theory predicts a linear metallicity term in the PLZ relation in the optical and infrared, $c\times[\text{Fe/H}]$.
 We thus fit a relation of the form
@@ -633,13 +638,13 @@ wavelength and RRL type.}
 \section{Discussion}
 \label{sec:discussion}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=80mm]{../reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf}
-\caption{Spectroscopic vs. photometric measurements of [Fe/H] for RRLs in \ocen.}
-\label{fig:metallicity_comparison}
-\end{center}
-\end{figure}
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=80mm]{../reworked_fitting_code/final_plots/metallicity_comparison_all_clipped.pdf}
+%\caption{Spectroscopic vs. photometric measurements of [Fe/H] for RRLs in \ocen.}
+%\label{fig:metallicity_comparison}
+%\end{center}
+%\end{figure}
 
 % 1. Add discussion of why gamma in 6.1 is big but gamma in 6.2 is small Ñ age/mass spread rather than metallicity effect. Can refer to new plot here too.
 

@@ -6,45 +6,45 @@ Database file #1: omegaCen_mnras_2016_vs.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty institution in 2013wise.rept....1C
-You've used 55 entries,
+You've used 56 entries,
             2881 wiz_defined-function locations,
-            1209 strings with 29155 characters,
-and the built_in function-call counts, 26323 in all, are:
-= -- 2123
-> -- 1909
-< -- 110
-+ -- 842
-- -- 279
-* -- 3386
-:= -- 4063
+            1218 strings with 29453 characters,
+and the built_in function-call counts, 26870 in all, are:
+= -- 2163
+> -- 1959
+< -- 112
++ -- 862
+- -- 289
+* -- 3457
+:= -- 4154
 add.period$ -- 0
-call.type$ -- 55
-change.case$ -- 111
-chr.to.int$ -- 55
-cite$ -- 56
-duplicate$ -- 1293
-empty$ -- 1327
-format.name$ -- 445
-if$ -- 4548
+call.type$ -- 56
+change.case$ -- 113
+chr.to.int$ -- 56
+cite$ -- 57
+duplicate$ -- 1316
+empty$ -- 1349
+format.name$ -- 457
+if$ -- 4640
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 52
-newline$ -- 178
-num.names$ -- 363
-pop$ -- 327
+missing$ -- 53
+newline$ -- 181
+num.names$ -- 371
+pop$ -- 332
 preamble$ -- 1
-purify$ -- 220
+purify$ -- 224
 quote$ -- 0
-skip$ -- 737
+skip$ -- 750
 stack$ -- 0
-substring$ -- 1476
-swap$ -- 674
-text.length$ -- 234
+substring$ -- 1504
+swap$ -- 690
+text.length$ -- 238
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 495
+type$ -- 504
 warning$ -- 1
-while$ -- 397
+while$ -- 405
 width$ -- 0
-write$ -- 565
+write$ -- 575
 (There was 1 warning)
