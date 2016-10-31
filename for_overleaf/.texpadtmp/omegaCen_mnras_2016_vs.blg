@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: /Users/vs/Dropbox/Publications/omegaCen/for_overleaf/.texpadtmp/omegaCen_mnras_2016_vs.aux
+The style file: ../mnras.bst
+Database file #1: ../omegaCen_mnras_2016_vs.bib
+Warning--I didn't find a database entry for "20042004A&A...424.1101K"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty institution in 2013wise.rept....1C
+You've used 56 entries,
+            2881 wiz_defined-function locations,
+            1222 strings with 29660 characters,
+and the built_in function-call counts, 26870 in all, are:
+= -- 2163
+> -- 1959
+< -- 112
++ -- 862
+- -- 289
+* -- 3457
+:= -- 4154
+add.period$ -- 0
+call.type$ -- 56
+change.case$ -- 113
+chr.to.int$ -- 56
+cite$ -- 57
+duplicate$ -- 1316
+empty$ -- 1349
+format.name$ -- 457
+if$ -- 4640
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 53
+newline$ -- 181
+num.names$ -- 371
+pop$ -- 332
+preamble$ -- 1
+purify$ -- 224
+quote$ -- 0
+skip$ -- 750
+stack$ -- 0
+substring$ -- 1504
+swap$ -- 690
+text.length$ -- 238
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 504
+warning$ -- 1
+while$ -- 405
+width$ -- 0
+write$ -- 575
+(There were 2 warnings)
